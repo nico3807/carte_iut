@@ -5,272 +5,168 @@
       "nom": "Carrières Juridiques",
       "categorie": "Administration, gestion, commerce",
       "couleur": "#d62828",
-      "sous_parcours": [
-        "Administration et justice",
-        "Patrimoine et finance",
-        "Entreprises et associations"
-      ]
+      "sous_parcours": []
     },
     {
       "code": "GACO",
       "nom": "Gestion Administrative et Commerciale des Organisations",
       "categorie": "Administration, gestion, commerce",
       "couleur": "#e63946",
-      "sous_parcours": [
-        "Management des fonctions supports",
-        "Management commercial et marketing omnicanal",
-        "Management de l'évènementiel et des loisirs"
-      ]
+      "sous_parcours": []
     },
     {
       "code": "GEA",
       "nom": "Gestion des Entreprises et des Administrations",
       "categorie": "Administration, gestion, commerce",
       "couleur": "#f4722b",
-      "sous_parcours": [
-        "Gestion comptable, fiscale et financière",
-        "Gestion et pilotage des ressources humaines",
-        "Gestion, entrepreneuriat et management d'activités",
-        "Contrôle de gestion et pilotage de la performance"
-      ]
+      "sous_parcours": []
     },
     {
       "code": "MLT",
       "nom": "Management de la Logistique et des Transports",
       "categorie": "Administration, gestion, commerce",
       "couleur": "#f77f00",
-      "sous_parcours": [
-        "Mobilité et supply chain durables",
-        "Management des services de transport et de logistique"
-      ]
+      "sous_parcours": []
     },
     {
       "code": "TC",
       "nom": "Techniques de Commercialisation",
       "categorie": "Administration, gestion, commerce",
       "couleur": "#f4a261",
-      "sous_parcours": [
-        "Marketing digital, e-business et entrepreneuriat",
-        "Marketing et management du point de vente",
-        "Business développement et gestion de la relation client",
-        "Stratégie de marque et événementiel",
-        "Business international : achat et vente"
-      ]
+      "sous_parcours": []
     },
     {
       "code": "CS",
       "nom": "Carrières Sociales",
       "categorie": "Communication et médiation",
       "couleur": "#7209b7",
-      "sous_parcours": [
-        "Animation sociale et socioculturelle",
-        "Assistance sociale",
-        "Éducation spécialisée",
-        "Villes et territoires durables",
-        "Coordination et gestion des établissements et services sanitaires et sociaux"
-      ]
+      "sous_parcours": []
     },
     {
       "code": "INFOCOM",
       "nom": "Information-Communication",
       "categorie": "Communication et médiation",
       "couleur": "#9b5de5",
-      "sous_parcours": [
-        "Communication des organisations",
-        "Journalisme",
-        "Métiers du livre et du patrimoine",
-        "Publicité",
-        "Information numérique dans les organisations"
-      ]
+      "sous_parcours": []
     },
     {
       "code": "MMI",
       "nom": "Métiers du Multimédia et de l'Internet",
       "categorie": "Communication et médiation",
       "couleur": "#c77dff",
-      "sous_parcours": [
-        "Développement web et dispositifs interactifs",
-        "Création numérique",
-        "Stratégie de communication numérique et design d'expérience"
-      ]
+      "sous_parcours": []
     },
     {
       "code": "GEII",
       "nom": "Génie Électrique et Informatique Industrielle",
       "categorie": "Électricité, automatique, informatique",
       "couleur": "#0077b6",
-      "sous_parcours": [
-        "Automatisme et Robotique",
-        "Électricité et Maîtrise de l'Énergie",
-        "Électronique et Systèmes Embarqués"
-      ]
+      "sous_parcours": []
     },
     {
       "code": "INFO",
       "nom": "Informatique",
       "categorie": "Électricité, automatique, informatique",
       "couleur": "#00b4d8",
-      "sous_parcours": [
-        "Réalisation d'applications",
-        "Déploiement d'applications communicantes et sécurisées",
-        "Administration et gestion des données",
-        "Intégration d'applications et management du SI"
-      ]
+      "sous_parcours": []
     },
     {
       "code": "RT",
       "nom": "Réseaux et Télécommunications",
       "categorie": "Électricité, automatique, informatique",
       "couleur": "#48cae4",
-      "sous_parcours": [
-        "Cybersécurité",
-        "Réseaux opérateurs et multimédia",
-        "Internet des Objets et mobilité",
-        "Pilotage et Management des réseaux"
-      ]
+      "sous_parcours": []
     },
     {
       "code": "SD",
       "nom": "Science des Données",
       "categorie": "Électricité, automatique, informatique",
       "couleur": "#0096c7",
-      "sous_parcours": [
-        "Exploration et modélisation statistique",
-        "Visualisation et conception d'outils décisionnels",
-        "Calcul haute performance et simulation"
-      ]
+      "sous_parcours": []
     },
     {
       "code": "GIM",
       "nom": "Génie Industriel et Maintenance",
       "categorie": "Sciences industrielles",
       "couleur": "#2d6a4f",
-      "sous_parcours": [
-        "Ingénierie des systèmes pluritechniques",
-        "Management, méthodes, maintenance innovante"
-      ]
+      "sous_parcours": []
     },
     {
       "code": "GMP",
       "nom": "Génie Mécanique et Productique",
       "categorie": "Sciences industrielles",
       "couleur": "#40916c",
-      "sous_parcours": [
-        "Innovation pour l'industrie",
-        "Conception et production durable",
-        "Management de processus industriels"
-      ]
+      "sous_parcours": []
     },
     {
       "code": "MP",
       "nom": "Mesures Physiques",
       "categorie": "Sciences industrielles",
       "couleur": "#52b788",
-      "sous_parcours": [
-        "Techniques d'instrumentation",
-        "Matériaux et contrôles physico-chimiques",
-        "Mesures et analyses environnementales"
-      ]
+      "sous_parcours": []
     },
     {
       "code": "QLIO",
       "nom": "Qualité, Logistique Industrielle et Organisation",
       "categorie": "Sciences industrielles",
       "couleur": "#386641",
-      "sous_parcours": [
-        "Management de la transformation digitale",
-        "Pilotage de la chaîne logistique globale",
-        "Qualité et pilotage des systèmes de management"
-      ]
+      "sous_parcours": []
     },
     {
       "code": "CHIMIE",
       "nom": "Chimie",
       "categorie": "Sciences industrielles",
       "couleur": "#a7c957",
-      "sous_parcours": [
-        "Analyse, contrôle-qualité, environnement",
-        "Synthèse",
-        "Matériaux et produits formulés"
-      ]
+      "sous_parcours": []
     },
     {
       "code": "GB",
       "nom": "Génie Biologique",
       "categorie": "Sciences industrielles",
       "couleur": "#1b4332",
-      "sous_parcours": [
-        "Agronomie",
-        "Sciences de l'aliment et biotechnologie",
-        "Sciences de l'environnement et écotechnologies",
-        "Biologie médicale et biotechnologie",
-        "Diététique et nutrition"
-      ]
+      "sous_parcours": []
     },
     {
       "code": "GCGP",
       "nom": "Génie Chimique - Génie des Procédés",
       "categorie": "Sciences industrielles",
       "couleur": "#4d7c0f",
-      "sous_parcours": [
-        "Conception des procédés et innovation",
-        "Contrôle, pilotage et optimisation des procédés"
-      ]
+      "sous_parcours": []
     },
     {
       "code": "SGM",
       "nom": "Science et Génie des Matériaux",
       "categorie": "Sciences industrielles",
       "couleur": "#6b4226",
-      "sous_parcours": [
-        "Élaboration des matériaux",
-        "Caractérisation et traitement des matériaux",
-        "Conception et mise en œuvre des matériaux"
-      ]
+      "sous_parcours": []
     },
     {
       "code": "GCCD",
       "nom": "Génie Civil - Construction Durable",
       "categorie": "Construction, énergie, sécurité",
       "couleur": "#8b5e3c",
-      "sous_parcours": [
-        "Travaux bâtiment",
-        "Travaux publics",
-        "Réhabilitation et amélioration des performances environnementales",
-        "Bureaux d'études conception"
-      ]
+      "sous_parcours": []
     },
     {
       "code": "MTEE",
       "nom": "Métiers de la Transition et de l'Efficacité Énergétiques",
       "categorie": "Construction, énergie, sécurité",
       "couleur": "#c9a16a",
-      "sous_parcours": [
-        "Optimisation énergétique pour le bâtiment et l'industrie",
-        "Réalisation des installations énergétiques pour le bâtiment et l'industrie"
-      ]
+      "sous_parcours": []
     },
     {
       "code": "HSE",
       "nom": "Hygiène, Sécurité, Environnement",
       "categorie": "Construction, énergie, sécurité",
       "couleur": "#e9c46a",
-      "sous_parcours": [
-        "Maîtrise des risques professionnels",
-        "Management des systèmes HSE",
-        "Prévention des risques environnementaux"
-      ]
+      "sous_parcours": []
     },
     {
       "code": "PEC",
       "nom": "Packaging, Emballage et Conditionnement",
       "categorie": "Construction, énergie, sécurité",
       "couleur": "#d4a017",
-      "sous_parcours": [
-        "Éco-conception et innovation packaging",
-        "Matériaux et procédés d'emballage",
-        "Management de la qualité packaging"
-      ]
+      "sous_parcours": []
     }
   ],
   "iuts": [
