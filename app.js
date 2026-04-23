@@ -73,8 +73,8 @@ function createMarkers(subset, activeCode = null) {
   const activeSpec = activeCode ? specialites.find(s => s.code === activeCode) : null;
 
   const layers = subset.map(iut => {
-    const color = activeSpec ? activeSpec.couleur : dominantColor(iut.parcours);
-    const label = activeCode ? activeCode : iut.parcours.length;
+    const color = activeSpec ? activeSpec.couleur : dominantColor(iut.specialite);
+    const label = activeCode ? activeCode : iut.specialite.length;
     const icon = L.divIcon({
       className: '',
       html: `<div class="iut-marker" style="background:${color}" data-id="${iut.id}" title="${iut.ville}">
@@ -127,7 +127,7 @@ function popupHTML(iut) {
   return `<div class="popup-city">${iut.ville}</div>
           <div class="popup-sub">${iut.departement_nom} (${iut.departement_numero})</div>
           <div class="popup-sub">${iut.nom_iut}</div>
-          <span class="popup-count">${iut.parcours.length} spécialité${iut.parcours.length > 1 ? 's' : ''}</span>`;
+          <span class="popup-count">${iut.specialite.length} spécialité${iut.specialite.length > 1 ? 's' : ''}</span>`;
 }
 
 /* ── Info Panel ── */
@@ -159,7 +159,7 @@ function highlightMarker(leafletMarker) {
 
 /* ── Render Panel ── */
 function renderPanel(iut) {
-  const grouped = groupByCategory(iut.parcours);
+  const grouped = groupByCategory(iut.specialite);
 
   const catBlocks = Object.entries(grouped).map(([cat, specs]) => {
     const catColor = CATEGORIES[cat]?.color ?? '#457b9d';
@@ -202,7 +202,7 @@ function renderPanel(iut) {
 
     <div class="panel-section">
       <div class="panel-section-title">
-        ${iut.parcours.length} spécialité${iut.parcours.length > 1 ? 's' : ''} BUT proposée${iut.parcours.length > 1 ? 's' : ''}
+        ${iut.specialite.length} spécialité${iut.specialite.length > 1 ? 's' : ''} BUT proposée${iut.specialite.length > 1 ? 's' : ''}
       </div>
       ${catBlocks}
     </div>
@@ -289,7 +289,7 @@ function applyFilters() {
   const search   = norm(document.getElementById('search-input').value.trim());
 
   const filtered = iuts.filter(iut => {
-    if (parcours && !iut.parcours.includes(parcours)) return false;
+    if (parcours && !iut.specialite.includes(parcours)) return false;
     if (search) {
       const hay = norm([iut.ville, iut.departement_nom, iut.universite, iut.nom_iut, iut.region].join(' '));
       if (!hay.includes(search)) return false;

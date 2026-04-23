@@ -180,10 +180,11 @@
       "region": "Hauts-de-France",
       "lat": 49.5647,
       "lng": 3.6243,
-      "parcours": [
+      "specialite": [
         "CJ",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 2,
@@ -195,10 +196,11 @@
       "region": "Hauts-de-France",
       "lat": 49.8464,
       "lng": 3.2878,
-      "parcours": [
+      "specialite": [
         "GCGP",
         "GMP"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 3,
@@ -210,11 +212,12 @@
       "region": "Hauts-de-France",
       "lat": 49.4011,
       "lng": 3.3453,
-      "parcours": [
+      "specialite": [
         "CJ",
         "GEII",
         "QLIO"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 4,
@@ -226,7 +229,7 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "lat": 43.5297,
       "lng": 5.4474,
-      "parcours": [
+      "specialite": [
         "CS",
         "GEA",
         "GMP",
@@ -234,7 +237,8 @@
         "INFOCOM",
         "MLT",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 5,
@@ -246,10 +250,11 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "lat": 43.6767,
       "lng": 4.6279,
-      "parcours": [
+      "specialite": [
         "INFO",
         "MMI"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 6,
@@ -261,10 +266,11 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "lat": 44.0924,
       "lng": 6.2358,
-      "parcours": [
+      "specialite": [
         "GACO",
         "GB"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 7,
@@ -276,9 +282,10 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "lat": 44.5596,
       "lng": 6.0798,
-      "parcours": [
+      "specialite": [
         "GEA"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 8,
@@ -290,9 +297,10 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "lat": 43.1742,
       "lng": 5.6053,
-      "parcours": [
+      "specialite": [
         "HSE"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 9,
@@ -304,9 +312,10 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "lat": 43.3464,
       "lng": 5.4045,
-      "parcours": [
+      "specialite": [
         "GCCD"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 10,
@@ -318,9 +327,10 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "lat": 43.2401,
       "lng": 5.3957,
-      "parcours": [
+      "specialite": [
         "RT"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 11,
@@ -332,7 +342,7 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "lat": 43.3464,
       "lng": 5.4045,
-      "parcours": [
+      "specialite": [
         "CHIMIE",
         "GCGP",
         "GEA",
@@ -340,7 +350,8 @@
         "MP",
         "MTEE",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 12,
@@ -352,9 +363,10 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "lat": 43.6417,
       "lng": 5.0977,
-      "parcours": [
+      "specialite": [
         "GEII"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 13,
@@ -366,14 +378,15 @@
       "region": "Hauts-de-France",
       "lat": 49.8942,
       "lng": 2.2957,
-      "parcours": [
+      "specialite": [
         "GB",
         "GCCD",
         "GEA",
         "GMP",
         "INFO",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 14,
@@ -385,13 +398,14 @@
       "region": "Pays de la Loire",
       "lat": 47.4784,
       "lng": -0.5632,
-      "parcours": [
+      "specialite": [
         "GB",
         "GEA",
         "GEII",
         "GMP",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 15,
@@ -403,10 +417,11 @@
       "region": "Pays de la Loire",
       "lat": 47.0591,
       "lng": -0.8774,
-      "parcours": [
+      "specialite": [
         "CS",
         "GACO"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 16,
@@ -418,13 +433,14 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 45.6499,
       "lng": 0.1561,
-      "parcours": [
+      "specialite": [
         "GEII",
         "GMP",
         "MMI",
         "QLIO",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 17,
@@ -436,7 +452,7 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 45.8992,
       "lng": 6.1294,
-      "parcours": [
+      "specialite": [
         "CS",
         "GEA",
         "GEII",
@@ -446,7 +462,8 @@
         "QLIO",
         "RT",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 18,
@@ -458,12 +475,13 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "lat": 43.9493,
       "lng": 4.8055,
-      "parcours": [
+      "specialite": [
         "GB",
         "PEC",
         "SD",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 19,
@@ -475,10 +493,11 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 43.4823,
       "lng": -1.5167,
-      "parcours": [
+      "specialite": [
         "GIM",
         "INFO"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 20,
@@ -490,10 +509,11 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 43.4929,
       "lng": -1.4748,
-      "parcours": [
+      "specialite": [
         "GEA",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 21,
@@ -505,12 +525,13 @@
       "region": "Bourgogne-Franche-Comté",
       "lat": 47.2378,
       "lng": 6.0241,
-      "parcours": [
+      "specialite": [
         "CHIMIE",
         "GEA",
         "GMP",
         "INFOCOM"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 22,
@@ -522,10 +543,11 @@
       "region": "Bourgogne-Franche-Comté",
       "lat": 47.0931,
       "lng": 5.4919,
-      "parcours": [
+      "specialite": [
         "PEC",
         "SD"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 23,
@@ -537,11 +559,12 @@
       "region": "Bourgogne-Franche-Comté",
       "lat": 47.6221,
       "lng": 6.156,
-      "parcours": [
+      "specialite": [
         "GIM",
         "HSE",
         "MLT"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 24,
@@ -553,14 +576,15 @@
       "region": "Hauts-de-France",
       "lat": 50.5294,
       "lng": 2.64,
-      "parcours": [
+      "specialite": [
         "CHIMIE",
         "GCCD",
         "GEII",
         "GMP",
         "QLIO",
         "RT"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 25,
@@ -572,11 +596,12 @@
       "region": "Occitanie",
       "lat": 43.3441,
       "lng": 3.2161,
-      "parcours": [
+      "specialite": [
         "MMI",
         "RT",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 26,
@@ -588,12 +613,13 @@
       "region": "Occitanie",
       "lat": 43.6363,
       "lng": 1.3828,
-      "parcours": [
+      "specialite": [
         "CS",
         "GIM",
         "INFO",
         "RT"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 27,
@@ -605,12 +631,13 @@
       "region": "Centre-Val de Loire",
       "lat": 47.5861,
       "lng": 1.3359,
-      "parcours": [
+      "specialite": [
         "MMI",
         "MP",
         "RT",
         "SGM"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 28,
@@ -622,12 +649,13 @@
       "region": "Île-de-France",
       "lat": 48.9101,
       "lng": 2.44,
-      "parcours": [
+      "specialite": [
         "CS",
         "GB",
         "GEA",
         "MMI"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 29,
@@ -639,10 +667,11 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 44.2028,
       "lng": 0.6215,
-      "parcours": [
+      "specialite": [
         "GACO",
         "QLIO"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 30,
@@ -654,10 +683,11 @@
       "region": "Polynésie française",
       "lat": -17.5534,
       "lng": -149.6069,
-      "parcours": [
+      "specialite": [
         "GACO",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 31,
@@ -669,11 +699,12 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 44.8378,
       "lng": -0.5792,
-      "parcours": [
+      "specialite": [
         "GEA",
         "MLT",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 32,
@@ -685,7 +716,7 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 44.7775,
       "lng": -0.6298,
-      "parcours": [
+      "specialite": [
         "GCCD",
         "GEII",
         "GMP",
@@ -693,7 +724,8 @@
         "INFO",
         "MP",
         "SGM"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 33,
@@ -705,12 +737,13 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 45.1866,
       "lng": 0.7198,
-      "parcours": [
+      "specialite": [
         "CS",
         "GB",
         "GCGP",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 34,
@@ -722,11 +755,12 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 44.8378,
       "lng": -0.5792,
-      "parcours": [
+      "specialite": [
         "CS",
         "INFOCOM",
         "MMI"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 35,
@@ -738,14 +772,15 @@
       "region": "Centre-Val de Loire",
       "lat": 47.0814,
       "lng": 2.3985,
-      "parcours": [
+      "specialite": [
         "CS",
         "GCCD",
         "GEA",
         "GMP",
         "MP",
         "QLIO"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 36,
@@ -757,12 +792,13 @@
       "region": "Bretagne",
       "lat": 48.3904,
       "lng": -4.4861,
-      "parcours": [
+      "specialite": [
         "GB",
         "GEA",
         "GEII",
         "GMP"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 37,
@@ -774,10 +810,11 @@
       "region": "Bretagne",
       "lat": 48.5771,
       "lng": -3.8295,
-      "parcours": [
+      "specialite": [
         "GACO",
         "GCCD"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 38,
@@ -789,10 +826,11 @@
       "region": "Île-de-France",
       "lat": 48.7947,
       "lng": 2.3317,
-      "parcours": [
+      "specialite": [
         "GEII",
         "GMP"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 39,
@@ -804,9 +842,10 @@
       "region": "Île-de-France",
       "lat": 48.7947,
       "lng": 2.3317,
-      "parcours": [
+      "specialite": [
         "GEII"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 40,
@@ -818,10 +857,11 @@
       "region": "Île-de-France",
       "lat": 48.9472,
       "lng": 2.2467,
-      "parcours": [
+      "specialite": [
         "MLT",
         "QLIO"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 41,
@@ -833,10 +873,11 @@
       "region": "Île-de-France",
       "lat": 49.0379,
       "lng": 2.073,
-      "parcours": [
+      "specialite": [
         "GCCD",
         "GEII"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 42,
@@ -848,10 +889,11 @@
       "region": "Île-de-France",
       "lat": 49.0491,
       "lng": 2.1013,
-      "parcours": [
+      "specialite": [
         "GB",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 43,
@@ -863,12 +905,13 @@
       "region": "Île-de-France",
       "lat": 48.9948,
       "lng": 2.3833,
-      "parcours": [
+      "specialite": [
         "GEII",
         "MMI",
         "MTEE",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 44,
@@ -880,12 +923,13 @@
       "region": "Bourgogne-Franche-Comté",
       "lat": 46.7801,
       "lng": 4.8537,
-      "parcours": [
+      "specialite": [
         "CJ",
         "GIM",
         "MLT",
         "SGM"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 45,
@@ -897,13 +941,14 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 45.6469,
       "lng": 5.8658,
-      "parcours": [
+      "specialite": [
         "GACO",
         "GCCD",
         "MMI",
         "PEC",
         "SGM"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 46,
@@ -915,11 +960,12 @@
       "region": "Centre-Val de Loire",
       "lat": 48.4473,
       "lng": 1.4888,
-      "parcours": [
+      "specialite": [
         "GEII",
         "GIM",
         "MLT"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 47,
@@ -931,14 +977,15 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 45.7444,
       "lng": 3.112,
-      "parcours": [
+      "specialite": [
         "GB",
         "GEA",
         "GIM",
         "INFO",
         "MP",
         "RT"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 48,
@@ -950,11 +997,12 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 44.9271,
       "lng": 2.4418,
-      "parcours": [
+      "specialite": [
         "GB",
         "GEA",
         "SD"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 49,
@@ -966,11 +1014,12 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 45.0435,
       "lng": 3.8853,
-      "parcours": [
+      "specialite": [
         "CHIMIE",
         "INFO",
         "MMI"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 50,
@@ -982,13 +1031,14 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 46.3405,
       "lng": 2.6037,
-      "parcours": [
+      "specialite": [
         "GEII",
         "GMP",
         "MLT",
         "MTEE",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 51,
@@ -1000,9 +1050,10 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 46.5649,
       "lng": 3.333,
-      "parcours": [
+      "specialite": [
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 52,
@@ -1014,10 +1065,11 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 46.1224,
       "lng": 3.4268,
-      "parcours": [
+      "specialite": [
         "INFOCOM",
         "MMI"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 53,
@@ -1029,14 +1081,15 @@
       "region": "Grand Est",
       "lat": 48.0793,
       "lng": 7.3585,
-      "parcours": [
+      "specialite": [
         "CJ",
         "GB",
         "HSE",
         "MTEE",
         "RT",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 54,
@@ -1048,14 +1101,15 @@
       "region": "Corse",
       "lat": 42.3061,
       "lng": 9.1494,
-      "parcours": [
+      "specialite": [
         "GB",
         "GCCD",
         "GEA",
         "HSE",
         "MMI",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 55,
@@ -1067,12 +1121,13 @@
       "region": "Île-de-France",
       "lat": 48.7771,
       "lng": 2.4549,
-      "parcours": [
+      "specialite": [
         "GB",
         "GEII",
         "MP",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 56,
@@ -1084,12 +1139,13 @@
       "region": "Île-de-France",
       "lat": 48.7875,
       "lng": 2.4027,
-      "parcours": [
+      "specialite": [
         "CHIMIE",
         "GEA",
         "INFO",
         "RT"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 57,
@@ -1101,11 +1157,12 @@
       "region": "Bourgogne-Franche-Comté",
       "lat": 47.7981,
       "lng": 3.5671,
-      "parcours": [
+      "specialite": [
         "GCCD",
         "RT",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 58,
@@ -1117,7 +1174,7 @@
       "region": "Bourgogne-Franche-Comté",
       "lat": 47.322,
       "lng": 5.0415,
-      "parcours": [
+      "specialite": [
         "GACO",
         "GB",
         "GEA",
@@ -1125,7 +1182,8 @@
         "INFO",
         "INFOCOM",
         "MMI"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 59,
@@ -1137,9 +1195,10 @@
       "region": "Bourgogne-Franche-Comté",
       "lat": 46.9896,
       "lng": 3.1572,
-      "parcours": [
+      "specialite": [
         "INFO"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 60,
@@ -1151,11 +1210,12 @@
       "region": "Grand Est",
       "lat": 48.1744,
       "lng": 6.4542,
-      "parcours": [
+      "specialite": [
         "GIM",
         "QLIO",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 61,
@@ -1167,14 +1227,15 @@
       "region": "Normandie",
       "lat": 49.0237,
       "lng": 1.1527,
-      "parcours": [
+      "specialite": [
         "CS",
         "GB",
         "GEA",
         "MP",
         "PEC",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 62,
@@ -1186,10 +1247,11 @@
       "region": "Île-de-France",
       "lat": 48.6087,
       "lng": 2.307,
-      "parcours": [
+      "specialite": [
         "GEA",
         "MTEE"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 63,
@@ -1201,14 +1263,15 @@
       "region": "Île-de-France",
       "lat": 48.627,
       "lng": 2.427,
-      "parcours": [
+      "specialite": [
         "GEII",
         "GMP",
         "MLT",
         "QLIO",
         "SGM",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 64,
@@ -1220,9 +1283,10 @@
       "region": "Île-de-France",
       "lat": 48.6885,
       "lng": 2.3696,
-      "parcours": [
+      "specialite": [
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 65,
@@ -1234,11 +1298,12 @@
       "region": "Occitanie",
       "lat": 44.6092,
       "lng": 2.0327,
-      "parcours": [
+      "specialite": [
         "CS",
         "GMP",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 66,
@@ -1250,12 +1315,13 @@
       "region": "Normandie",
       "lat": 48.4316,
       "lng": 0.0667,
-      "parcours": [
+      "specialite": [
         "CS",
         "GMP",
         "MLT",
         "QLIO"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 67,
@@ -1267,13 +1333,14 @@
       "region": "Normandie",
       "lat": 49.1829,
       "lng": -0.3707,
-      "parcours": [
+      "specialite": [
         "GB",
         "GCGP",
         "GEA",
         "MP",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 68,
@@ -1285,11 +1352,12 @@
       "region": "Normandie",
       "lat": 49.1439,
       "lng": -0.3641,
-      "parcours": [
+      "specialite": [
         "INFO",
         "INFOCOM",
         "RT"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 69,
@@ -1301,10 +1369,11 @@
       "region": "Normandie",
       "lat": 49.1445,
       "lng": 0.228,
-      "parcours": [
+      "specialite": [
         "SD",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 70,
@@ -1316,9 +1385,10 @@
       "region": "Normandie",
       "lat": 48.8349,
       "lng": -0.8893,
-      "parcours": [
+      "specialite": [
         "HSE"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 71,
@@ -1330,12 +1400,13 @@
       "region": "Normandie",
       "lat": 49.6437,
       "lng": -1.6228,
-      "parcours": [
+      "specialite": [
         "GEA",
         "GEII",
         "GIM",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 72,
@@ -1347,10 +1418,11 @@
       "region": "Normandie",
       "lat": 49.1146,
       "lng": -1.0887,
-      "parcours": [
+      "specialite": [
         "MMI",
         "MTEE"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 73,
@@ -1362,10 +1434,11 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 45.1885,
       "lng": 5.7245,
-      "parcours": [
+      "specialite": [
         "CHIMIE",
         "MTEE"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 74,
@@ -1377,10 +1450,11 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 45.1885,
       "lng": 5.7245,
-      "parcours": [
+      "specialite": [
         "MMI",
         "MP"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 75,
@@ -1392,12 +1466,13 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 45.168,
       "lng": 5.7624,
-      "parcours": [
+      "specialite": [
         "GCCD",
         "GEII",
         "GMP",
         "RT"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 76,
@@ -1409,7 +1484,7 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 45.1885,
       "lng": 5.7245,
-      "parcours": [
+      "specialite": [
         "CJ",
         "CS",
         "GEA",
@@ -1417,7 +1492,8 @@
         "INFOCOM",
         "SD",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 77,
@@ -1429,9 +1505,10 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 45.5248,
       "lng": 4.8756,
-      "parcours": [
+      "specialite": [
         "GEA"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 78,
@@ -1443,11 +1520,12 @@
       "region": "Grand Est",
       "lat": 48.8148,
       "lng": 7.7908,
-      "parcours": [
+      "specialite": [
         "GEII",
         "MMI",
         "QLIO"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 79,
@@ -1459,11 +1537,12 @@
       "region": "Centre-Val de Loire",
       "lat": 46.8121,
       "lng": 1.6904,
-      "parcours": [
+      "specialite": [
         "GEA",
         "GEII",
         "MLT"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 80,
@@ -1475,10 +1554,11 @@
       "region": "Centre-Val de Loire",
       "lat": 46.9466,
       "lng": 1.9941,
-      "parcours": [
+      "specialite": [
         "MLT",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 81,
@@ -1490,10 +1570,11 @@
       "region": "Guyane",
       "lat": 4.9224,
       "lng": -52.3135,
-      "parcours": [
+      "specialite": [
         "CS",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 82,
@@ -1505,11 +1586,12 @@
       "region": "Guyane",
       "lat": 5.1543,
       "lng": -52.648,
-      "parcours": [
+      "specialite": [
         "GCCD",
         "GEII",
         "RT"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 83,
@@ -1521,12 +1603,13 @@
       "region": "Guadeloupe",
       "lat": 16,
       "lng": -61.7009,
-      "parcours": [
+      "specialite": [
         "CS",
         "GB",
         "GEA",
         "MMI"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 84,
@@ -1538,13 +1621,14 @@
       "region": "Martinique",
       "lat": 14.6109,
       "lng": -61.0986,
-      "parcours": [
+      "specialite": [
         "GEA",
         "HSE",
         "INFO",
         "MLT",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 85,
@@ -1556,7 +1640,7 @@
       "region": "La Réunion",
       "lat": -21.3393,
       "lng": 55.4781,
-      "parcours": [
+      "specialite": [
         "CS",
         "GB",
         "GCCD",
@@ -1564,7 +1648,8 @@
         "HSE",
         "RT",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 86,
@@ -1576,13 +1661,14 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 46.1603,
       "lng": -1.1511,
-      "parcours": [
+      "specialite": [
         "GB",
         "GCCD",
         "INFO",
         "RT",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 87,
@@ -1594,12 +1680,13 @@
       "region": "Pays de la Loire",
       "lat": 46.6709,
       "lng": -1.4269,
-      "parcours": [
+      "specialite": [
         "GB",
         "GEA",
         "INFOCOM",
         "RT"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 88,
@@ -1611,13 +1698,14 @@
       "region": "Bretagne",
       "lat": 48.732,
       "lng": -3.4592,
-      "parcours": [
+      "specialite": [
         "INFO",
         "INFOCOM",
         "MMI",
         "MP",
         "RT"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 89,
@@ -1629,12 +1717,13 @@
       "region": "Pays de la Loire",
       "lat": 48.0721,
       "lng": -0.769,
-      "parcours": [
+      "specialite": [
         "GB",
         "INFO",
         "MMI",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 90,
@@ -1646,12 +1735,13 @@
       "region": "Bourgogne-Franche-Comté",
       "lat": 46.8043,
       "lng": 4.4333,
-      "parcours": [
+      "specialite": [
         "GEII",
         "GMP",
         "MP",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 91,
@@ -1663,7 +1753,7 @@
       "region": "Normandie",
       "lat": 49.4944,
       "lng": 0.1079,
-      "parcours": [
+      "specialite": [
         "CS",
         "GEA",
         "GEII",
@@ -1671,7 +1761,8 @@
         "INFO",
         "MLT",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 92,
@@ -1683,11 +1774,12 @@
       "region": "Normandie",
       "lat": 49.4944,
       "lng": 0.1079,
-      "parcours": [
+      "specialite": [
         "GCCD",
         "HSE",
         "INFOCOM"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 93,
@@ -1699,12 +1791,13 @@
       "region": "Pays de la Loire",
       "lat": 47.996,
       "lng": 0.1966,
-      "parcours": [
+      "specialite": [
         "CHIMIE",
         "GEA",
         "GMP",
         "MP"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 94,
@@ -1716,12 +1809,13 @@
       "region": "Hauts-de-France",
       "lat": 50.4296,
       "lng": 2.8319,
-      "parcours": [
+      "specialite": [
         "GEA",
         "INFO",
         "MMI",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 95,
@@ -1733,11 +1827,12 @@
       "region": "Hauts-de-France",
       "lat": 50.6942,
       "lng": 3.1746,
-      "parcours": [
+      "specialite": [
         "CJ",
         "SD",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 96,
@@ -1749,11 +1844,12 @@
       "region": "Hauts-de-France",
       "lat": 50.7237,
       "lng": 3.1613,
-      "parcours": [
+      "specialite": [
         "CS",
         "INFOCOM",
         "MLT"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 97,
@@ -1765,7 +1861,7 @@
       "region": "Hauts-de-France",
       "lat": 50.6199,
       "lng": 3.1408,
-      "parcours": [
+      "specialite": [
         "CHIMIE",
         "GB",
         "GEA",
@@ -1773,7 +1869,8 @@
         "GMP",
         "INFO",
         "MP"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 98,
@@ -1785,10 +1882,11 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 45.158,
       "lng": 1.5326,
-      "parcours": [
+      "specialite": [
         "GEA",
         "GEII"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 99,
@@ -1800,9 +1898,10 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 45.4069,
       "lng": 2.0456,
-      "parcours": [
+      "specialite": [
         "GCCD"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 100,
@@ -1814,9 +1913,10 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 46.174,
       "lng": 1.8712,
-      "parcours": [
+      "specialite": [
         "CS"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 101,
@@ -1828,7 +1928,7 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 45.834,
       "lng": 1.2633,
-      "parcours": [
+      "specialite": [
         "GB",
         "GEA",
         "GMP",
@@ -1836,7 +1936,8 @@
         "MMI",
         "MP",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 102,
@@ -1848,10 +1949,11 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 45.27,
       "lng": 1.7711,
-      "parcours": [
+      "specialite": [
         "GIM",
         "HSE"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 103,
@@ -1863,9 +1965,10 @@
       "region": "Hauts-de-France",
       "lat": 50.7261,
       "lng": 1.6136,
-      "parcours": [
+      "specialite": [
         "GB"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 104,
@@ -1877,11 +1980,12 @@
       "region": "Hauts-de-France",
       "lat": 50.9513,
       "lng": 1.8587,
-      "parcours": [
+      "specialite": [
         "GEA",
         "GEII",
         "INFO"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 105,
@@ -1893,12 +1997,13 @@
       "region": "Hauts-de-France",
       "lat": 51.0351,
       "lng": 2.3767,
-      "parcours": [
+      "specialite": [
         "GIM",
         "MLT",
         "MTEE",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 106,
@@ -1910,10 +2015,11 @@
       "region": "Hauts-de-France",
       "lat": 50.7428,
       "lng": 2.2501,
-      "parcours": [
+      "specialite": [
         "GACO",
         "GIM"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 107,
@@ -1925,11 +2031,12 @@
       "region": "Grand Est",
       "lat": 49.5143,
       "lng": 5.7716,
-      "parcours": [
+      "specialite": [
         "GEA",
         "GEII",
         "MTEE"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 108,
@@ -1941,12 +2048,13 @@
       "region": "Bretagne",
       "lat": 47.7481,
       "lng": -3.3711,
-      "parcours": [
+      "specialite": [
         "GIM",
         "HSE",
         "MTEE",
         "QLIO"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 109,
@@ -1958,10 +2066,11 @@
       "region": "Bretagne",
       "lat": 48.0666,
       "lng": -2.9765,
-      "parcours": [
+      "specialite": [
         "GACO",
         "GCGP"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 110,
@@ -1973,13 +2082,14 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 46.2053,
       "lng": 5.2286,
-      "parcours": [
+      "specialite": [
         "CJ",
         "GB",
         "GEA",
         "INFO",
         "MTEE"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 111,
@@ -1991,14 +2101,15 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 45.7676,
       "lng": 4.8798,
-      "parcours": [
+      "specialite": [
         "CHIMIE",
         "GB",
         "GCCD",
         "GCGP",
         "GEA",
         "INFO"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 112,
@@ -2010,12 +2121,13 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 45.7676,
       "lng": 4.8798,
-      "parcours": [
+      "specialite": [
         "GEII",
         "GIM",
         "GMP",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 113,
@@ -2027,13 +2139,14 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 45.7337,
       "lng": 4.9127,
-      "parcours": [
+      "specialite": [
         "GEA",
         "HSE",
         "MLT",
         "QLIO",
         "SD"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 114,
@@ -2045,11 +2158,12 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 45.7376,
       "lng": 4.8465,
-      "parcours": [
+      "specialite": [
         "CJ",
         "GACO",
         "INFOCOM"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 115,
@@ -2061,9 +2175,10 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 45.2417,
       "lng": 4.6703,
-      "parcours": [
+      "specialite": [
         "CJ"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 116,
@@ -2075,13 +2190,14 @@
       "region": "Île-de-France",
       "lat": 48.99,
       "lng": 1.7171,
-      "parcours": [
+      "specialite": [
         "GCCD",
         "GEA",
         "GIM",
         "GMP",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 117,
@@ -2093,13 +2209,14 @@
       "region": "Île-de-France",
       "lat": 48.8441,
       "lng": 2.604,
-      "parcours": [
+      "specialite": [
         "GCCD",
         "INFO",
         "MMI",
         "MTEE",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 118,
@@ -2111,11 +2228,12 @@
       "region": "Île-de-France",
       "lat": 48.9598,
       "lng": 2.8831,
-      "parcours": [
+      "specialite": [
         "GEA",
         "MMI",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 119,
@@ -2127,13 +2245,14 @@
       "region": "Grand Est",
       "lat": 49.1196,
       "lng": 6.1757,
-      "parcours": [
+      "specialite": [
         "GEA",
         "GMP",
         "INFO",
         "SD",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 120,
@@ -2145,9 +2264,10 @@
       "region": "Grand Est",
       "lat": 49.1196,
       "lng": 6.1757,
-      "parcours": [
+      "specialite": [
         "MP"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 121,
@@ -2159,7 +2279,7 @@
       "region": "Occitanie",
       "lat": 43.6108,
       "lng": 3.8767,
-      "parcours": [
+      "specialite": [
         "CHIMIE",
         "GB",
         "GEA",
@@ -2167,7 +2287,8 @@
         "INFO",
         "MP",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 122,
@@ -2179,11 +2300,12 @@
       "region": "Occitanie",
       "lat": 43.4034,
       "lng": 3.695,
-      "parcours": [
+      "specialite": [
         "CHIMIE",
         "GEA",
         "INFO"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 123,
@@ -2195,12 +2317,13 @@
       "region": "Île-de-France",
       "lat": 48.8641,
       "lng": 2.445,
-      "parcours": [
+      "specialite": [
         "GACO",
         "INFO",
         "INFOCOM",
         "QLIO"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 124,
@@ -2212,9 +2335,10 @@
       "region": "Grand Est",
       "lat": 49.1877,
       "lng": 6.9025,
-      "parcours": [
+      "specialite": [
         "SGM"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 125,
@@ -2226,9 +2350,10 @@
       "region": "Grand Est",
       "lat": 49.1041,
       "lng": 6.7068,
-      "parcours": [
+      "specialite": [
         "CHIMIE"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 126,
@@ -2240,10 +2365,11 @@
       "region": "Grand Est",
       "lat": 49.1127,
       "lng": 7.0653,
-      "parcours": [
+      "specialite": [
         "GACO",
         "MLT"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 127,
@@ -2255,14 +2381,15 @@
       "region": "Grand Est",
       "lat": 47.7508,
       "lng": 7.3359,
-      "parcours": [
+      "specialite": [
         "GEA",
         "GEII",
         "GMP",
         "MLT",
         "MMI",
         "SGM"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 128,
@@ -2274,9 +2401,10 @@
       "region": "Grand Est",
       "lat": 48.5932,
       "lng": 6.4975,
-      "parcours": [
+      "specialite": [
         "QLIO"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 129,
@@ -2288,14 +2416,15 @@
       "region": "Grand Est",
       "lat": 48.6747,
       "lng": 6.1447,
-      "parcours": [
+      "specialite": [
         "GB",
         "GCCD",
         "GCGP",
         "GEII",
         "GMP",
         "RT"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 130,
@@ -2307,13 +2436,14 @@
       "region": "Grand Est",
       "lat": 48.6921,
       "lng": 6.1844,
-      "parcours": [
+      "specialite": [
         "GEA",
         "INFO",
         "INFOCOM",
         "MMI",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 131,
@@ -2325,13 +2455,14 @@
       "region": "Pays de la Loire",
       "lat": 47.2982,
       "lng": -1.4899,
-      "parcours": [
+      "specialite": [
         "GEII",
         "GMP",
         "MTEE",
         "QLIO",
         "SGM"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 132,
@@ -2343,9 +2474,10 @@
       "region": "Pays de la Loire",
       "lat": 47.7174,
       "lng": -1.3779,
-      "parcours": [
+      "specialite": [
         "GACO"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 133,
@@ -2357,10 +2489,11 @@
       "region": "Pays de la Loire",
       "lat": 47.2184,
       "lng": -1.5536,
-      "parcours": [
+      "specialite": [
         "GEA",
         "INFO"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 134,
@@ -2372,10 +2505,11 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "lat": 43.5513,
       "lng": 7.0128,
-      "parcours": [
+      "specialite": [
         "INFOCOM",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 135,
@@ -2387,9 +2521,10 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "lat": 43.7764,
       "lng": 7.5008,
-      "parcours": [
+      "specialite": [
         "CS"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 136,
@@ -2401,12 +2536,13 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "lat": 43.7102,
       "lng": 7.262,
-      "parcours": [
+      "specialite": [
         "GEA",
         "GEII",
         "INFO",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 137,
@@ -2418,12 +2554,13 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "lat": 43.64,
       "lng": 7.0047,
-      "parcours": [
+      "specialite": [
         "INFO",
         "QLIO",
         "RT",
         "SD"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 138,
@@ -2435,13 +2572,14 @@
       "region": "Occitanie",
       "lat": 43.8367,
       "lng": 4.3601,
-      "parcours": [
+      "specialite": [
         "GCCD",
         "GEA",
         "GEII",
         "GMP",
         "SGM"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 139,
@@ -2453,14 +2591,15 @@
       "region": "Bourgogne-Franche-Comté",
       "lat": 47.6382,
       "lng": 6.863,
-      "parcours": [
+      "specialite": [
         "CS",
         "GCCD",
         "GEII",
         "INFO",
         "MTEE",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 140,
@@ -2472,12 +2611,13 @@
       "region": "Bourgogne-Franche-Comté",
       "lat": 47.5102,
       "lng": 6.7989,
-      "parcours": [
+      "specialite": [
         "GACO",
         "MMI",
         "MP",
         "RT"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 141,
@@ -2489,10 +2629,11 @@
       "region": "Nouvelle-Calédonie",
       "lat": -22.2758,
       "lng": 166.458,
-      "parcours": [
+      "specialite": [
         "GEA",
         "MMI"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 142,
@@ -2504,10 +2645,11 @@
       "region": "Hauts-de-France",
       "lat": 49.4298,
       "lng": 2.0813,
-      "parcours": [
+      "specialite": [
         "GEA",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 143,
@@ -2519,11 +2661,12 @@
       "region": "Hauts-de-France",
       "lat": 49.2592,
       "lng": 2.4844,
-      "parcours": [
+      "specialite": [
         "HSE",
         "MLT",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 144,
@@ -2535,14 +2678,15 @@
       "region": "Centre-Val de Loire",
       "lat": 47.9029,
       "lng": 1.9092,
-      "parcours": [
+      "specialite": [
         "CHIMIE",
         "GEA",
         "GMP",
         "INFO",
         "MTEE",
         "QLIO"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 145,
@@ -2554,11 +2698,12 @@
       "region": "Île-de-France",
       "lat": 48.6858,
       "lng": 2.1376,
-      "parcours": [
+      "specialite": [
         "CHIMIE",
         "INFO",
         "MP"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 146,
@@ -2570,9 +2715,10 @@
       "region": "Île-de-France",
       "lat": 48.8924,
       "lng": 2.3488,
-      "parcours": [
+      "specialite": [
         "MP"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 147,
@@ -2584,14 +2730,15 @@
       "region": "Île-de-France",
       "lat": 48.8637,
       "lng": 2.2769,
-      "parcours": [
+      "specialite": [
         "CS",
         "GEA",
         "INFO",
         "INFOCOM",
         "SD",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 148,
@@ -2603,11 +2750,12 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 43.8945,
       "lng": -0.5002,
-      "parcours": [
+      "specialite": [
         "GB",
         "RT",
         "SGM"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 149,
@@ -2619,10 +2767,11 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 43.2951,
       "lng": -0.3708,
-      "parcours": [
+      "specialite": [
         "MTEE",
         "SD"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 150,
@@ -2634,10 +2783,11 @@
       "region": "Occitanie",
       "lat": 43.212,
       "lng": 2.3534,
-      "parcours": [
+      "specialite": [
         "SD",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 151,
@@ -2649,10 +2799,11 @@
       "region": "Occitanie",
       "lat": 43.1836,
       "lng": 3.004,
-      "parcours": [
+      "specialite": [
         "CJ",
         "GCGP"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 152,
@@ -2664,12 +2815,13 @@
       "region": "Occitanie",
       "lat": 42.6986,
       "lng": 2.8956,
-      "parcours": [
+      "specialite": [
         "GB",
         "GEA",
         "GIM",
         "MLT"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 153,
@@ -2681,11 +2833,12 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 46.8177,
       "lng": 0.5408,
-      "parcours": [
+      "specialite": [
         "MP",
         "RT",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 154,
@@ -2697,11 +2850,12 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 46.3238,
       "lng": -0.4661,
-      "parcours": [
+      "specialite": [
         "GEA",
         "HSE",
         "SD"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 155,
@@ -2713,13 +2867,14 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 46.5802,
       "lng": 0.3404,
-      "parcours": [
+      "specialite": [
         "CHIMIE",
         "GEA",
         "GEII",
         "GMP",
         "MTEE"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 156,
@@ -2731,12 +2886,13 @@
       "region": "Bretagne",
       "lat": 47.9974,
       "lng": -4.0951,
-      "parcours": [
+      "specialite": [
         "GB",
         "GEA",
         "MLT",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 157,
@@ -2748,10 +2904,11 @@
       "region": "Grand Est",
       "lat": 49.2583,
       "lng": 4.0317,
-      "parcours": [
+      "specialite": [
         "GEA",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 158,
@@ -2763,11 +2920,12 @@
       "region": "Grand Est",
       "lat": 48.9571,
       "lng": 4.3653,
-      "parcours": [
+      "specialite": [
         "CS",
         "GIM",
         "RT"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 159,
@@ -2779,11 +2937,12 @@
       "region": "Grand Est",
       "lat": 49.7736,
       "lng": 4.7178,
-      "parcours": [
+      "specialite": [
         "GACO",
         "HSE",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 160,
@@ -2795,7 +2954,7 @@
       "region": "Grand Est",
       "lat": 49.2583,
       "lng": 4.0317,
-      "parcours": [
+      "specialite": [
         "GCCD",
         "GEA",
         "GMP",
@@ -2804,7 +2963,8 @@
         "MP",
         "PEC",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 161,
@@ -2816,14 +2976,15 @@
       "region": "Bretagne",
       "lat": 48.1173,
       "lng": -1.6778,
-      "parcours": [
+      "specialite": [
         "CHIMIE",
         "CS",
         "GCCD",
         "GEA",
         "GEII",
         "GMP"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 162,
@@ -2835,13 +2996,14 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 46.0397,
       "lng": 4.0693,
-      "parcours": [
+      "specialite": [
         "GEA",
         "GIM",
         "QLIO",
         "RT",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 163,
@@ -2853,13 +3015,14 @@
       "region": "Occitanie",
       "lat": 44.351,
       "lng": 2.573,
-      "parcours": [
+      "specialite": [
         "CJ",
         "GEA",
         "INFO",
         "INFOCOM",
         "QLIO"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 164,
@@ -2871,10 +3034,11 @@
       "region": "Normandie",
       "lat": 49.2874,
       "lng": 1.0156,
-      "parcours": [
+      "specialite": [
         "MMI",
         "RT"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 165,
@@ -2886,13 +3050,14 @@
       "region": "Normandie",
       "lat": 49.4647,
       "lng": 1.0984,
-      "parcours": [
+      "specialite": [
         "CHIMIE",
         "GCGP",
         "GEII",
         "MP",
         "MTEE"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 166,
@@ -2904,10 +3069,11 @@
       "region": "Normandie",
       "lat": 49.4432,
       "lng": 1.0993,
-      "parcours": [
+      "specialite": [
         "CJ",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 167,
@@ -2919,11 +3085,12 @@
       "region": "Bretagne",
       "lat": 48.5113,
       "lng": -2.7656,
-      "parcours": [
+      "specialite": [
         "GB",
         "SGM",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 168,
@@ -2935,7 +3102,7 @@
       "region": "Île-de-France",
       "lat": 48.9362,
       "lng": 2.3574,
-      "parcours": [
+      "specialite": [
         "GEA",
         "GIM",
         "GMP",
@@ -2943,7 +3110,8 @@
         "MP",
         "SGM",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 169,
@@ -2955,11 +3123,12 @@
       "region": "Grand Est",
       "lat": 48.2844,
       "lng": 6.9492,
-      "parcours": [
+      "specialite": [
         "GEII",
         "INFO",
         "MMI"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 170,
@@ -2971,7 +3140,7 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 45.4341,
       "lng": 4.3992,
-      "parcours": [
+      "specialite": [
         "GACO",
         "GB",
         "GEA",
@@ -2979,7 +3148,8 @@
         "GMP",
         "MP",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 171,
@@ -2991,12 +3161,13 @@
       "region": "Bretagne",
       "lat": 48.6492,
       "lng": -2.025,
-      "parcours": [
+      "specialite": [
         "CJ",
         "GEA",
         "GIM",
         "RT"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 172,
@@ -3008,14 +3179,15 @@
       "region": "Pays de la Loire",
       "lat": 47.2774,
       "lng": -2.2133,
-      "parcours": [
+      "specialite": [
         "GCCD",
         "GCGP",
         "GIM",
         "MLT",
         "MP",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 173,
@@ -3027,10 +3199,11 @@
       "region": "Île-de-France",
       "lat": 48.7786,
       "lng": 2.2995,
-      "parcours": [
+      "specialite": [
         "GEA",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 174,
@@ -3042,12 +3215,13 @@
       "region": "Grand Est",
       "lat": 48.6095,
       "lng": 7.75,
-      "parcours": [
+      "specialite": [
         "GB",
         "GEA",
         "GIM",
         "MP"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 175,
@@ -3059,9 +3233,10 @@
       "region": "Grand Est",
       "lat": 48.2595,
       "lng": 7.4548,
-      "parcours": [
+      "specialite": [
         "GEA"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 176,
@@ -3073,11 +3248,12 @@
       "region": "Île-de-France",
       "lat": 48.4056,
       "lng": 2.702,
-      "parcours": [
+      "specialite": [
         "GEA",
         "INFO",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 177,
@@ -3089,7 +3265,7 @@
       "region": "Île-de-France",
       "lat": 48.6236,
       "lng": 2.5534,
-      "parcours": [
+      "specialite": [
         "CS",
         "GB",
         "GCCD",
@@ -3099,7 +3275,8 @@
         "INFO",
         "MMI",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 178,
@@ -3111,13 +3288,14 @@
       "region": "Grand Est",
       "lat": 48.5213,
       "lng": 7.7156,
-      "parcours": [
+      "specialite": [
         "CHIMIE",
         "GCCD",
         "INFO",
         "INFOCOM",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 179,
@@ -3129,14 +3307,15 @@
       "region": "Occitanie",
       "lat": 43.2328,
       "lng": 0.0781,
-      "parcours": [
+      "specialite": [
         "GCCD",
         "GEA",
         "GEII",
         "GMP",
         "MMI",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 180,
@@ -3148,12 +3327,13 @@
       "region": "Grand Est",
       "lat": 49.3608,
       "lng": 6.1857,
-      "parcours": [
+      "specialite": [
         "GB",
         "GIM",
         "HSE",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 181,
@@ -3165,9 +3345,10 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "lat": 43.5369,
       "lng": 6.4672,
-      "parcours": [
+      "specialite": [
         "GEA"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 182,
@@ -3179,7 +3360,7 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "lat": 43.1242,
       "lng": 5.928,
-      "parcours": [
+      "specialite": [
         "GB",
         "GEA",
         "GEII",
@@ -3187,7 +3368,8 @@
         "GMP",
         "MMI",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 183,
@@ -3199,11 +3381,12 @@
       "region": "Occitanie",
       "lat": 43.6476,
       "lng": 0.5853,
-      "parcours": [
+      "specialite": [
         "GB",
         "GEA",
         "HSE"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 184,
@@ -3215,13 +3398,14 @@
       "region": "Occitanie",
       "lat": 43.6077,
       "lng": 2.2447,
-      "parcours": [
+      "specialite": [
         "CHIMIE",
         "INFO",
         "MMI",
         "PEC",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 185,
@@ -3233,9 +3417,10 @@
       "region": "Occitanie",
       "lat": 43.6047,
       "lng": 1.4442,
-      "parcours": [
+      "specialite": [
         "GMP"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 186,
@@ -3247,13 +3432,14 @@
       "region": "Occitanie",
       "lat": 43.6047,
       "lng": 1.4442,
-      "parcours": [
+      "specialite": [
         "GEA",
         "GEII",
         "INFOCOM",
         "MP",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 187,
@@ -3265,12 +3451,13 @@
       "region": "Occitanie",
       "lat": 43.6047,
       "lng": 1.4442,
-      "parcours": [
+      "specialite": [
         "GCCD",
         "GCGP",
         "GEA",
         "INFO"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 188,
@@ -3282,14 +3469,15 @@
       "region": "Centre-Val de Loire",
       "lat": 47.3941,
       "lng": 0.6848,
-      "parcours": [
+      "specialite": [
         "CS",
         "GB",
         "GEA",
         "GEII",
         "INFOCOM",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 189,
@@ -3301,11 +3489,12 @@
       "region": "Île-de-France",
       "lat": 48.9598,
       "lng": 2.5615,
-      "parcours": [
+      "specialite": [
         "GEA",
         "GIM",
         "MLT"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 190,
@@ -3317,14 +3506,15 @@
       "region": "Grand Est",
       "lat": 48.2973,
       "lng": 4.0744,
-      "parcours": [
+      "specialite": [
         "CJ",
         "GEA",
         "GEII",
         "GMP",
         "MMI",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 191,
@@ -3336,12 +3526,13 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 44.9334,
       "lng": 4.8924,
-      "parcours": [
+      "specialite": [
         "GEA",
         "INFO",
         "RT",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 192,
@@ -3353,10 +3544,11 @@
       "region": "Hauts-de-France",
       "lat": 50.1763,
       "lng": 3.232,
-      "parcours": [
+      "specialite": [
         "QLIO",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 193,
@@ -3368,10 +3560,11 @@
       "region": "Hauts-de-France",
       "lat": 50.2775,
       "lng": 3.9723,
-      "parcours": [
+      "specialite": [
         "INFO",
         "MP"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 194,
@@ -3383,13 +3576,14 @@
       "region": "Hauts-de-France",
       "lat": 50.3442,
       "lng": 3.522,
-      "parcours": [
+      "specialite": [
         "GEA",
         "GEII",
         "GIM",
         "GMP",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 195,
@@ -3401,12 +3595,13 @@
       "region": "Bretagne",
       "lat": 47.6559,
       "lng": -2.7601,
-      "parcours": [
+      "specialite": [
         "GEA",
         "INFO",
         "SD",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 196,
@@ -3418,11 +3613,12 @@
       "region": "Île-de-France",
       "lat": 48.6461,
       "lng": 1.8294,
-      "parcours": [
+      "specialite": [
         "GACO",
         "GCGP",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 197,
@@ -3434,12 +3630,13 @@
       "region": "Île-de-France",
       "lat": 48.7769,
       "lng": 2.1736,
-      "parcours": [
+      "specialite": [
         "GEII",
         "INFO",
         "MMI",
         "RT"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 198,
@@ -3451,10 +3648,11 @@
       "region": "Île-de-France",
       "lat": 48.8924,
       "lng": 2.2072,
-      "parcours": [
+      "specialite": [
         "GEA",
         "TC"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 199,
@@ -3466,9 +3664,10 @@
       "region": "Île-de-France",
       "lat": 48.8453,
       "lng": 2.2103,
-      "parcours": [
+      "specialite": [
         "INFOCOM"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 200,
@@ -3480,11 +3679,12 @@
       "region": "Île-de-France",
       "lat": 48.8267,
       "lng": 2.1909,
-      "parcours": [
+      "specialite": [
         "GEII",
         "GMP",
         "MTEE"
-      ]
+      ],
+      "parcours": []
     },
     {
       "id": 201,
@@ -3496,14 +3696,15 @@
       "region": "Île-de-France",
       "lat": 48.9536,
       "lng": 2.3442,
-      "parcours": [
+      "specialite": [
         "CJ",
         "GEA",
         "GEII",
         "INFO",
         "RT",
         "SD"
-      ]
+      ],
+      "parcours": []
     }
   ]
 }
