@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carte des IUT de France 2025</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      crossorigin=""
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"
+      crossorigin=""
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"
+      crossorigin=""
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- ── Navigation ── -->
+    <nav id="navbar">
+      <div id="nav-brand">
+        <div class="brand-logo">
+          <span class="brand-iut">ADIUT</span>
+          <span class="brand-france">France</span>
+        </div>
+      </div>
+
+      <div id="nav-filters">
+        <div class="filter-group">
+          <label for="parcours-filter">Spécialité BUT</label>
+          <select id="parcours-filter">
+            <option value="">Toutes les spécialités</option>
+          </select>
+        </div>
+<div class="filter-group search-group">
+          <label for="search-input">Rechercher</label>
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Ville, université…"
+          />
+        </div>
+      </div>
+
+      <div id="nav-right">
+        <div id="stats-badge">
+          <span id="stats-count">0</span>
+          <span class="stats-label">sites</span>
+        </div>
+        <button id="reset-btn" title="Réinitialiser les filtres">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
+            <path d="M3 3v5h5" />
+          </svg>
+          Réinitialiser
+        </button>
+      </div>
+    </nav>
+
+    <!-- ── Map ── -->
+    <div id="app">
+      <div id="map"></div>
+
+      <!-- Info Panel -->
+      <aside id="info-panel" class="panel-hidden">
+        <button id="panel-close" aria-label="Fermer">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+          >
+            <line x1="18" y1="6" x2="6" y2="18" />
+            <line x1="6" y1="6" x2="18" y2="18" />
+          </svg>
+        </button>
+        <div id="panel-content"></div>
+      </aside>
+
+      <!-- Legend -->
+      <div id="legend">
+        <button id="legend-toggle">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <line x1="12" y1="8" x2="12" y2="12" />
+            <line x1="12" y1="16" x2="12.01" y2="16" />
+          </svg>
+          Légende
+          <span id="legend-arrow">▲</span>
+        </button>
+        <div id="legend-body"></div>
+      </div>
+
+      <!-- Map counter -->
+      <div id="map-counter">
+        <span id="visible-count">0</span> site<span id="plural-s"></span>
+        affiché<span id="plural-s2"></span>
+      </div>
+    </div>
+
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      crossorigin=""
+    ></script>
+    <script
+      src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"
+      crossorigin=""
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>

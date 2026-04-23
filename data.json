@@ -1,0 +1,3613 @@
+{
+  "specialites": [
+    {
+      "code": "CJ",
+      "nom": "Carrières Juridiques",
+      "categorie": "Administration, gestion, commerce",
+      "couleur": "#d62828",
+      "sous_parcours": [
+        "Administration et justice",
+        "Patrimoine et finance",
+        "Entreprises et associations"
+      ]
+    },
+    {
+      "code": "GACO",
+      "nom": "Gestion Administrative et Commerciale des Organisations",
+      "categorie": "Administration, gestion, commerce",
+      "couleur": "#e63946",
+      "sous_parcours": [
+        "Management des fonctions supports",
+        "Management commercial et marketing omnicanal",
+        "Management de l'évènementiel et des loisirs"
+      ]
+    },
+    {
+      "code": "GEA",
+      "nom": "Gestion des Entreprises et des Administrations",
+      "categorie": "Administration, gestion, commerce",
+      "couleur": "#f4722b",
+      "sous_parcours": [
+        "Gestion comptable, fiscale et financière",
+        "Gestion et pilotage des ressources humaines",
+        "Gestion, entrepreneuriat et management d'activités",
+        "Contrôle de gestion et pilotage de la performance"
+      ]
+    },
+    {
+      "code": "MLT",
+      "nom": "Management de la Logistique et des Transports",
+      "categorie": "Administration, gestion, commerce",
+      "couleur": "#f77f00",
+      "sous_parcours": [
+        "Mobilité et supply chain durables",
+        "Management des services de transport et de logistique"
+      ]
+    },
+    {
+      "code": "TC",
+      "nom": "Techniques de Commercialisation",
+      "categorie": "Administration, gestion, commerce",
+      "couleur": "#f4a261",
+      "sous_parcours": [
+        "Marketing digital, e-business et entrepreneuriat",
+        "Marketing et management du point de vente",
+        "Business développement et gestion de la relation client",
+        "Stratégie de marque et événementiel",
+        "Business international : achat et vente"
+      ]
+    },
+    {
+      "code": "CS",
+      "nom": "Carrières Sociales",
+      "categorie": "Communication et médiation",
+      "couleur": "#7209b7",
+      "sous_parcours": [
+        "Animation sociale et socioculturelle",
+        "Assistance sociale",
+        "Éducation spécialisée",
+        "Villes et territoires durables",
+        "Coordination et gestion des établissements et services sanitaires et sociaux"
+      ]
+    },
+    {
+      "code": "INFOCOM",
+      "nom": "Information-Communication",
+      "categorie": "Communication et médiation",
+      "couleur": "#9b5de5",
+      "sous_parcours": [
+        "Communication des organisations",
+        "Journalisme",
+        "Métiers du livre et du patrimoine",
+        "Publicité",
+        "Information numérique dans les organisations"
+      ]
+    },
+    {
+      "code": "MMI",
+      "nom": "Métiers du Multimédia et de l'Internet",
+      "categorie": "Communication et médiation",
+      "couleur": "#c77dff",
+      "sous_parcours": [
+        "Développement web et dispositifs interactifs",
+        "Création numérique",
+        "Stratégie de communication numérique et design d'expérience"
+      ]
+    },
+    {
+      "code": "GEII",
+      "nom": "Génie Électrique et Informatique Industrielle",
+      "categorie": "Électricité, automatique, informatique",
+      "couleur": "#0077b6",
+      "sous_parcours": [
+        "Automatisme et Robotique",
+        "Électricité et Maîtrise de l'Énergie",
+        "Électronique et Systèmes Embarqués"
+      ]
+    },
+    {
+      "code": "INFO",
+      "nom": "Informatique",
+      "categorie": "Électricité, automatique, informatique",
+      "couleur": "#00b4d8",
+      "sous_parcours": [
+        "Réalisation d'applications",
+        "Déploiement d'applications communicantes et sécurisées",
+        "Administration et gestion des données",
+        "Intégration d'applications et management du SI"
+      ]
+    },
+    {
+      "code": "RT",
+      "nom": "Réseaux et Télécommunications",
+      "categorie": "Électricité, automatique, informatique",
+      "couleur": "#48cae4",
+      "sous_parcours": [
+        "Cybersécurité",
+        "Réseaux opérateurs et multimédia",
+        "Internet des Objets et mobilité",
+        "Pilotage et Management des réseaux"
+      ]
+    },
+    {
+      "code": "SD",
+      "nom": "Science des Données",
+      "categorie": "Électricité, automatique, informatique",
+      "couleur": "#0096c7",
+      "sous_parcours": [
+        "Exploration et modélisation statistique",
+        "Visualisation et conception d'outils décisionnels",
+        "Calcul haute performance et simulation"
+      ]
+    },
+    {
+      "code": "GIM",
+      "nom": "Génie Industriel et Maintenance",
+      "categorie": "Sciences industrielles",
+      "couleur": "#2d6a4f",
+      "sous_parcours": [
+        "Ingénierie des systèmes pluritechniques",
+        "Management, méthodes, maintenance innovante"
+      ]
+    },
+    {
+      "code": "GMP",
+      "nom": "Génie Mécanique et Productique",
+      "categorie": "Sciences industrielles",
+      "couleur": "#40916c",
+      "sous_parcours": [
+        "Innovation pour l'industrie",
+        "Conception et production durable",
+        "Management de processus industriels"
+      ]
+    },
+    {
+      "code": "MP",
+      "nom": "Mesures Physiques",
+      "categorie": "Sciences industrielles",
+      "couleur": "#52b788",
+      "sous_parcours": [
+        "Techniques d'instrumentation",
+        "Matériaux et contrôles physico-chimiques",
+        "Mesures et analyses environnementales"
+      ]
+    },
+    {
+      "code": "QLIO",
+      "nom": "Qualité, Logistique Industrielle et Organisation",
+      "categorie": "Sciences industrielles",
+      "couleur": "#386641",
+      "sous_parcours": [
+        "Management de la transformation digitale",
+        "Pilotage de la chaîne logistique globale",
+        "Qualité et pilotage des systèmes de management"
+      ]
+    },
+    {
+      "code": "CHIMIE",
+      "nom": "Chimie",
+      "categorie": "Sciences industrielles",
+      "couleur": "#a7c957",
+      "sous_parcours": [
+        "Analyse, contrôle-qualité, environnement",
+        "Synthèse",
+        "Matériaux et produits formulés"
+      ]
+    },
+    {
+      "code": "GB",
+      "nom": "Génie Biologique",
+      "categorie": "Sciences industrielles",
+      "couleur": "#1b4332",
+      "sous_parcours": [
+        "Agronomie",
+        "Sciences de l'aliment et biotechnologie",
+        "Sciences de l'environnement et écotechnologies",
+        "Biologie médicale et biotechnologie",
+        "Diététique et nutrition"
+      ]
+    },
+    {
+      "code": "GCGP",
+      "nom": "Génie Chimique - Génie des Procédés",
+      "categorie": "Sciences industrielles",
+      "couleur": "#4d7c0f",
+      "sous_parcours": [
+        "Conception des procédés et innovation",
+        "Contrôle, pilotage et optimisation des procédés"
+      ]
+    },
+    {
+      "code": "SGM",
+      "nom": "Science et Génie des Matériaux",
+      "categorie": "Sciences industrielles",
+      "couleur": "#6b4226",
+      "sous_parcours": [
+        "Élaboration des matériaux",
+        "Caractérisation et traitement des matériaux",
+        "Conception et mise en œuvre des matériaux"
+      ]
+    },
+    {
+      "code": "GCCD",
+      "nom": "Génie Civil - Construction Durable",
+      "categorie": "Construction, énergie, sécurité",
+      "couleur": "#8b5e3c",
+      "sous_parcours": [
+        "Travaux bâtiment",
+        "Travaux publics",
+        "Réhabilitation et amélioration des performances environnementales",
+        "Bureaux d'études conception"
+      ]
+    },
+    {
+      "code": "MTEE",
+      "nom": "Métiers de la Transition et de l'Efficacité Énergétiques",
+      "categorie": "Construction, énergie, sécurité",
+      "couleur": "#c9a16a",
+      "sous_parcours": [
+        "Optimisation énergétique pour le bâtiment et l'industrie",
+        "Réalisation des installations énergétiques pour le bâtiment et l'industrie"
+      ]
+    },
+    {
+      "code": "HSE",
+      "nom": "Hygiène, Sécurité, Environnement",
+      "categorie": "Construction, énergie, sécurité",
+      "couleur": "#e9c46a",
+      "sous_parcours": [
+        "Maîtrise des risques professionnels",
+        "Management des systèmes HSE",
+        "Prévention des risques environnementaux"
+      ]
+    },
+    {
+      "code": "PEC",
+      "nom": "Packaging, Emballage et Conditionnement",
+      "categorie": "Construction, énergie, sécurité",
+      "couleur": "#d4a017",
+      "sous_parcours": [
+        "Éco-conception et innovation packaging",
+        "Matériaux et procédés d'emballage",
+        "Management de la qualité packaging"
+      ]
+    }
+  ],
+  "iuts": [
+    {
+      "id": 1,
+      "ville": "Laon",
+      "nom_iut": "IUT Aisne - Laon",
+      "universite": "Université de Picardie Jules Verne",
+      "departement_nom": "Aisne",
+      "departement_numero": "02",
+      "region": "Hauts-de-France",
+      "lat": 49.5647,
+      "lng": 3.6243,
+      "parcours": [
+        "CJ",
+        "TC"
+      ]
+    },
+    {
+      "id": 2,
+      "ville": "Saint-Quentin",
+      "nom_iut": "IUT Aisne - Saint-Quentin",
+      "universite": "Université de Picardie Jules Verne",
+      "departement_nom": "Aisne",
+      "departement_numero": "02",
+      "region": "Hauts-de-France",
+      "lat": 49.8464,
+      "lng": 3.2878,
+      "parcours": [
+        "GCGP",
+        "GMP"
+      ]
+    },
+    {
+      "id": 3,
+      "ville": "Cuffies",
+      "nom_iut": "IUT Aisne - Soissons-Cuffies",
+      "universite": "Université de Picardie Jules Verne",
+      "departement_nom": "Aisne",
+      "departement_numero": "02",
+      "region": "Hauts-de-France",
+      "lat": 49.4011,
+      "lng": 3.3453,
+      "parcours": [
+        "CJ",
+        "GEII",
+        "QLIO"
+      ]
+    },
+    {
+      "id": 4,
+      "ville": "Aix-en-Provence",
+      "nom_iut": "IUT Aix-Marseille - Aix-en-Provence",
+      "universite": "Aix-Marseille Université",
+      "departement_nom": "Bouches-du-Rhône",
+      "departement_numero": "13",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "lat": 43.5297,
+      "lng": 5.4474,
+      "parcours": [
+        "CS",
+        "GEA",
+        "GMP",
+        "INFO",
+        "INFOCOM",
+        "MLT",
+        "TC"
+      ]
+    },
+    {
+      "id": 5,
+      "ville": "Arles",
+      "nom_iut": "IUT Aix-Marseille - Arles",
+      "universite": "Aix-Marseille Université",
+      "departement_nom": "Bouches-du-Rhône",
+      "departement_numero": "13",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "lat": 43.6767,
+      "lng": 4.6279,
+      "parcours": [
+        "INFO",
+        "MMI"
+      ]
+    },
+    {
+      "id": 6,
+      "ville": "Digne-les-Bains",
+      "nom_iut": "IUT Aix-Marseille - Digne-les-Bains",
+      "universite": "Aix-Marseille Université",
+      "departement_nom": "Alpes-de-Haute-Provence",
+      "departement_numero": "04",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "lat": 44.0924,
+      "lng": 6.2358,
+      "parcours": [
+        "GACO",
+        "GB"
+      ]
+    },
+    {
+      "id": 7,
+      "ville": "Gap",
+      "nom_iut": "IUT Aix-Marseille - Gap",
+      "universite": "Aix-Marseille Université",
+      "departement_nom": "Hautes-Alpes",
+      "departement_numero": "05",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "lat": 44.5596,
+      "lng": 6.0798,
+      "parcours": [
+        "GEA"
+      ]
+    },
+    {
+      "id": 8,
+      "ville": "La Ciotat",
+      "nom_iut": "IUT Aix-Marseille - La Ciotat",
+      "universite": "Aix-Marseille Université",
+      "departement_nom": "Bouches-du-Rhône",
+      "departement_numero": "13",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "lat": 43.1742,
+      "lng": 5.6053,
+      "parcours": [
+        "HSE"
+      ]
+    },
+    {
+      "id": 9,
+      "ville": "Marseille",
+      "nom_iut": "IUT Aix-Marseille - Marseille Château-Gombert",
+      "universite": "Aix-Marseille Université",
+      "departement_nom": "Bouches-du-Rhône",
+      "departement_numero": "13",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "lat": 43.3464,
+      "lng": 5.4045,
+      "parcours": [
+        "GCCD"
+      ]
+    },
+    {
+      "id": 10,
+      "ville": "Marseille ",
+      "nom_iut": "IUT Aix-Marseille - Marseille Luminy",
+      "universite": "Aix-Marseille Université",
+      "departement_nom": "Bouches-du-Rhône",
+      "departement_numero": "13",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "lat": 43.2401,
+      "lng": 5.3957,
+      "parcours": [
+        "RT"
+      ]
+    },
+    {
+      "id": 11,
+      "ville": "Marseille",
+      "nom_iut": "IUT Aix-Marseille - Marseille St-Jérôme",
+      "universite": "Aix-Marseille Université",
+      "departement_nom": "Bouches-du-Rhône",
+      "departement_numero": "13",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "lat": 43.3464,
+      "lng": 5.4045,
+      "parcours": [
+        "CHIMIE",
+        "GCGP",
+        "GEA",
+        "GEII",
+        "MP",
+        "MTEE",
+        "TC"
+      ]
+    },
+    {
+      "id": 12,
+      "ville": "Salon-de-Provence",
+      "nom_iut": "IUT Aix-Marseille - Salon-de-Provence",
+      "universite": "Aix-Marseille Université",
+      "departement_nom": "Bouches-du-Rhône",
+      "departement_numero": "13",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "lat": 43.6417,
+      "lng": 5.0977,
+      "parcours": [
+        "GEII"
+      ]
+    },
+    {
+      "id": 13,
+      "ville": "Amiens",
+      "nom_iut": "IUT Amiens",
+      "universite": "Université de Picardie Jules Verne",
+      "departement_nom": "Somme",
+      "departement_numero": "80",
+      "region": "Hauts-de-France",
+      "lat": 49.8942,
+      "lng": 2.2957,
+      "parcours": [
+        "GB",
+        "GCCD",
+        "GEA",
+        "GMP",
+        "INFO",
+        "TC"
+      ]
+    },
+    {
+      "id": 14,
+      "ville": "Angers",
+      "nom_iut": "IUT Angers-Cholet - Angers",
+      "universite": "Université d'Angers",
+      "departement_nom": "Maine-et-Loire",
+      "departement_numero": "49",
+      "region": "Pays de la Loire",
+      "lat": 47.4784,
+      "lng": -0.5632,
+      "parcours": [
+        "GB",
+        "GEA",
+        "GEII",
+        "GMP",
+        "TC"
+      ]
+    },
+    {
+      "id": 15,
+      "ville": "Cholet",
+      "nom_iut": "IUT Angers-Cholet - Cholet",
+      "universite": "Université d'Angers",
+      "departement_nom": "Maine-et-Loire",
+      "departement_numero": "49",
+      "region": "Pays de la Loire",
+      "lat": 47.0591,
+      "lng": -0.8774,
+      "parcours": [
+        "CS",
+        "GACO"
+      ]
+    },
+    {
+      "id": 16,
+      "ville": "Angoulême",
+      "nom_iut": "IUT Angoulême",
+      "universite": "Université de Poitiers",
+      "departement_nom": "Charente",
+      "departement_numero": "16",
+      "region": "Nouvelle-Aquitaine",
+      "lat": 45.6499,
+      "lng": 0.1561,
+      "parcours": [
+        "GEII",
+        "GMP",
+        "MMI",
+        "QLIO",
+        "TC"
+      ]
+    },
+    {
+      "id": 17,
+      "ville": "Annecy",
+      "nom_iut": "IUT Annecy",
+      "universite": "Université Savoie Mont Blanc",
+      "departement_nom": "Haute-Savoie",
+      "departement_numero": "74",
+      "region": "Auvergne-Rhône-Alpes",
+      "lat": 45.8992,
+      "lng": 6.1294,
+      "parcours": [
+        "CS",
+        "GEA",
+        "GEII",
+        "GMP",
+        "INFO",
+        "MP",
+        "QLIO",
+        "RT",
+        "TC"
+      ]
+    },
+    {
+      "id": 18,
+      "ville": "Avignon",
+      "nom_iut": "IUT Avignon",
+      "universite": "Université d'Avignon",
+      "departement_nom": "Vaucluse",
+      "departement_numero": "84",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "lat": 43.9493,
+      "lng": 4.8055,
+      "parcours": [
+        "GB",
+        "PEC",
+        "SD",
+        "TC"
+      ]
+    },
+    {
+      "id": 19,
+      "ville": "Anglet",
+      "nom_iut": "IUT Bayonne et Pays Basque - Anglet",
+      "universite": "Université de Pau et des Pays de l'Adour",
+      "departement_nom": "Pyrénées-Atlantiques",
+      "departement_numero": "64",
+      "region": "Nouvelle-Aquitaine",
+      "lat": 43.4823,
+      "lng": -1.5167,
+      "parcours": [
+        "GIM",
+        "INFO"
+      ]
+    },
+    {
+      "id": 20,
+      "ville": "Bayonne",
+      "nom_iut": "IUT Bayonne et Pays Basque - Bayonne",
+      "universite": "Université de Pau et des Pays de l'Adour",
+      "departement_nom": "Pyrénées-Atlantiques",
+      "departement_numero": "64",
+      "region": "Nouvelle-Aquitaine",
+      "lat": 43.4929,
+      "lng": -1.4748,
+      "parcours": [
+        "GEA",
+        "TC"
+      ]
+    },
+    {
+      "id": 21,
+      "ville": "Besançon",
+      "nom_iut": "IUT Besançon-Vesoul - Besançon",
+      "universite": "Université de Franche-Comté",
+      "departement_nom": "Doubs",
+      "departement_numero": "25",
+      "region": "Bourgogne-Franche-Comté",
+      "lat": 47.2378,
+      "lng": 6.0241,
+      "parcours": [
+        "CHIMIE",
+        "GEA",
+        "GMP",
+        "INFOCOM"
+      ]
+    },
+    {
+      "id": 22,
+      "ville": "Dole",
+      "nom_iut": "IUT Besançon-Vesoul - Dole",
+      "universite": "Université de Franche-Comté",
+      "departement_nom": "Jura",
+      "departement_numero": "39",
+      "region": "Bourgogne-Franche-Comté",
+      "lat": 47.0931,
+      "lng": 5.4919,
+      "parcours": [
+        "PEC",
+        "SD"
+      ]
+    },
+    {
+      "id": 23,
+      "ville": "Vesoul",
+      "nom_iut": "IUT Besançon-Vesoul - Vesoul",
+      "universite": "Université de Franche-Comté",
+      "departement_nom": "Haute-Saône",
+      "departement_numero": "70",
+      "region": "Bourgogne-Franche-Comté",
+      "lat": 47.6221,
+      "lng": 6.156,
+      "parcours": [
+        "GIM",
+        "HSE",
+        "MLT"
+      ]
+    },
+    {
+      "id": 24,
+      "ville": "Béthune",
+      "nom_iut": "IUT Béthune",
+      "universite": "Université d'Artois",
+      "departement_nom": "Pas-de-Calais",
+      "departement_numero": "62",
+      "region": "Hauts-de-France",
+      "lat": 50.5294,
+      "lng": 2.64,
+      "parcours": [
+        "CHIMIE",
+        "GCCD",
+        "GEII",
+        "GMP",
+        "QLIO",
+        "RT"
+      ]
+    },
+    {
+      "id": 25,
+      "ville": "Béziers",
+      "nom_iut": "IUT Béziers",
+      "universite": "Université Paul-Valéry Montpellier 3",
+      "departement_nom": "Hérault",
+      "departement_numero": "34",
+      "region": "Occitanie",
+      "lat": 43.3441,
+      "lng": 3.2161,
+      "parcours": [
+        "MMI",
+        "RT",
+        "TC"
+      ]
+    },
+    {
+      "id": 26,
+      "ville": "Blagnac",
+      "nom_iut": "IUT Blagnac",
+      "universite": "Université Toulouse III - Paul Sabatier",
+      "departement_nom": "Haute-Garonne",
+      "departement_numero": "31",
+      "region": "Occitanie",
+      "lat": 43.6363,
+      "lng": 1.3828,
+      "parcours": [
+        "CS",
+        "GIM",
+        "INFO",
+        "RT"
+      ]
+    },
+    {
+      "id": 27,
+      "ville": "Blois",
+      "nom_iut": "IUT Blois",
+      "universite": "Université de Tours",
+      "departement_nom": "Loir-et-Cher",
+      "departement_numero": "41",
+      "region": "Centre-Val de Loire",
+      "lat": 47.5861,
+      "lng": 1.3359,
+      "parcours": [
+        "MMI",
+        "MP",
+        "RT",
+        "SGM"
+      ]
+    },
+    {
+      "id": 28,
+      "ville": "Bobigny",
+      "nom_iut": "IUT Bobigny",
+      "universite": "Université Sorbonne Paris Nord",
+      "departement_nom": "Seine-Saint-Denis",
+      "departement_numero": "93",
+      "region": "Île-de-France",
+      "lat": 48.9101,
+      "lng": 2.44,
+      "parcours": [
+        "CS",
+        "GB",
+        "GEA",
+        "MMI"
+      ]
+    },
+    {
+      "id": 29,
+      "ville": "Agen",
+      "nom_iut": "IUT Bordeaux - Agen",
+      "universite": "Université de Bordeaux",
+      "departement_nom": "Lot-et-Garonne",
+      "departement_numero": "47",
+      "region": "Nouvelle-Aquitaine",
+      "lat": 44.2028,
+      "lng": 0.6215,
+      "parcours": [
+        "GACO",
+        "QLIO"
+      ]
+    },
+    {
+      "id": 30,
+      "ville": "Faaa",
+      "nom_iut": "IUT Bordeaux - Antenne Polynésie Française",
+      "universite": "Université de Bordeaux",
+      "departement_nom": "Polynésie française",
+      "departement_numero": "987",
+      "region": "Polynésie française",
+      "lat": -17.5534,
+      "lng": -149.6069,
+      "parcours": [
+        "GACO",
+        "TC"
+      ]
+    },
+    {
+      "id": 31,
+      "ville": "Bordeaux",
+      "nom_iut": "IUT Bordeaux - Bordeaux-Bastide",
+      "universite": "Université de Bordeaux",
+      "departement_nom": "Gironde",
+      "departement_numero": "33",
+      "region": "Nouvelle-Aquitaine",
+      "lat": 44.8378,
+      "lng": -0.5792,
+      "parcours": [
+        "GEA",
+        "MLT",
+        "TC"
+      ]
+    },
+    {
+      "id": 32,
+      "ville": "Gradignan",
+      "nom_iut": "IUT Bordeaux - Gradignan",
+      "universite": "Université de Bordeaux",
+      "departement_nom": "Gironde",
+      "departement_numero": "33",
+      "region": "Nouvelle-Aquitaine",
+      "lat": 44.7775,
+      "lng": -0.6298,
+      "parcours": [
+        "GCCD",
+        "GEII",
+        "GMP",
+        "HSE",
+        "INFO",
+        "MP",
+        "SGM"
+      ]
+    },
+    {
+      "id": 33,
+      "ville": "Périgueux",
+      "nom_iut": "IUT Bordeaux - Périgueux",
+      "universite": "Université de Bordeaux",
+      "departement_nom": "Dordogne",
+      "departement_numero": "24",
+      "region": "Nouvelle-Aquitaine",
+      "lat": 45.1866,
+      "lng": 0.7198,
+      "parcours": [
+        "CS",
+        "GB",
+        "GCGP",
+        "TC"
+      ]
+    },
+    {
+      "id": 34,
+      "ville": "Bordeaux",
+      "nom_iut": "IUT Bordeaux Montaigne",
+      "universite": "Université Bordeaux Montaigne",
+      "departement_nom": "Gironde",
+      "departement_numero": "33",
+      "region": "Nouvelle-Aquitaine",
+      "lat": 44.8378,
+      "lng": -0.5792,
+      "parcours": [
+        "CS",
+        "INFOCOM",
+        "MMI"
+      ]
+    },
+    {
+      "id": 35,
+      "ville": "Bourges",
+      "nom_iut": "IUT Bourges",
+      "universite": "Université d'Orléans",
+      "departement_nom": "Cher",
+      "departement_numero": "18",
+      "region": "Centre-Val de Loire",
+      "lat": 47.0814,
+      "lng": 2.3985,
+      "parcours": [
+        "CS",
+        "GCCD",
+        "GEA",
+        "GMP",
+        "MP",
+        "QLIO"
+      ]
+    },
+    {
+      "id": 36,
+      "ville": "Brest",
+      "nom_iut": "IUT Brest - Brest",
+      "universite": "Université de Bretagne Occidentale",
+      "departement_nom": "Finistère",
+      "departement_numero": "29",
+      "region": "Bretagne",
+      "lat": 48.3904,
+      "lng": -4.4861,
+      "parcours": [
+        "GB",
+        "GEA",
+        "GEII",
+        "GMP"
+      ]
+    },
+    {
+      "id": 37,
+      "ville": "Morlaix",
+      "nom_iut": "IUT Brest - Morlaix",
+      "universite": "Université de Bretagne Occidentale",
+      "departement_nom": "Finistère",
+      "departement_numero": "29",
+      "region": "Bretagne",
+      "lat": 48.5771,
+      "lng": -3.8295,
+      "parcours": [
+        "GACO",
+        "GCCD"
+      ]
+    },
+    {
+      "id": 38,
+      "ville": "Cachan",
+      "nom_iut": "IUT Cachan",
+      "universite": "Université Paris-Saclay",
+      "departement_nom": "Val-de-Marne",
+      "departement_numero": "94",
+      "region": "Île-de-France",
+      "lat": 48.7947,
+      "lng": 2.3317,
+      "parcours": [
+        "GEII",
+        "GMP"
+      ]
+    },
+    {
+      "id": 39,
+      "ville": "Cachan",
+      "nom_iut": "IUT Cachan Université Paris-Saclay",
+      "universite": "Université Paris-Saclay",
+      "departement_nom": "Val-de-Marne",
+      "departement_numero": "94",
+      "region": "Île-de-France",
+      "lat": 48.7947,
+      "lng": 2.3317,
+      "parcours": [
+        "GEII"
+      ]
+    },
+    {
+      "id": 40,
+      "ville": "Argenteuil",
+      "nom_iut": "IUT Cergy-Pontoise - Argenteuil",
+      "universite": "CY Cergy Paris Université",
+      "departement_nom": "Val-d'Oise",
+      "departement_numero": "95",
+      "region": "Île-de-France",
+      "lat": 48.9472,
+      "lng": 2.2467,
+      "parcours": [
+        "MLT",
+        "QLIO"
+      ]
+    },
+    {
+      "id": 41,
+      "ville": "Cergy",
+      "nom_iut": "IUT Cergy-Pontoise - Neuville",
+      "universite": "CY Cergy Paris Université",
+      "departement_nom": "Val-d'Oise",
+      "departement_numero": "95",
+      "region": "Île-de-France",
+      "lat": 49.0379,
+      "lng": 2.073,
+      "parcours": [
+        "GCCD",
+        "GEII"
+      ]
+    },
+    {
+      "id": 42,
+      "ville": "Pontoise",
+      "nom_iut": "IUT Cergy-Pontoise - Pontoise",
+      "universite": "CY Cergy Paris Université",
+      "departement_nom": "Val-d'Oise",
+      "departement_numero": "95",
+      "region": "Île-de-France",
+      "lat": 49.0491,
+      "lng": 2.1013,
+      "parcours": [
+        "GB",
+        "TC"
+      ]
+    },
+    {
+      "id": 43,
+      "ville": "Sarcelles",
+      "nom_iut": "IUT Cergy-Pontoise - Sarcelles",
+      "universite": "CY Cergy Paris Université",
+      "departement_nom": "Val-d'Oise",
+      "departement_numero": "95",
+      "region": "Île-de-France",
+      "lat": 48.9948,
+      "lng": 2.3833,
+      "parcours": [
+        "GEII",
+        "MMI",
+        "MTEE",
+        "TC"
+      ]
+    },
+    {
+      "id": 44,
+      "ville": "Chalon-sur-Saône",
+      "nom_iut": "IUT Chalon-Sur-Saône",
+      "universite": "Université de Bourgogne",
+      "departement_nom": "Saône-et-Loire",
+      "departement_numero": "71",
+      "region": "Bourgogne-Franche-Comté",
+      "lat": 46.7801,
+      "lng": 4.8537,
+      "parcours": [
+        "CJ",
+        "GIM",
+        "MLT",
+        "SGM"
+      ]
+    },
+    {
+      "id": 45,
+      "ville": "Le Bourget-du-Lac",
+      "nom_iut": "IUT Chambéry",
+      "universite": "Université Savoie Mont Blanc",
+      "departement_nom": "Savoie",
+      "departement_numero": "73",
+      "region": "Auvergne-Rhône-Alpes",
+      "lat": 45.6469,
+      "lng": 5.8658,
+      "parcours": [
+        "GACO",
+        "GCCD",
+        "MMI",
+        "PEC",
+        "SGM"
+      ]
+    },
+    {
+      "id": 46,
+      "ville": "Chartres",
+      "nom_iut": "IUT Chartres",
+      "universite": "Université d'Orléans",
+      "departement_nom": "Eure-et-Loir",
+      "departement_numero": "28",
+      "region": "Centre-Val de Loire",
+      "lat": 48.4473,
+      "lng": 1.4888,
+      "parcours": [
+        "GEII",
+        "GIM",
+        "MLT"
+      ]
+    },
+    {
+      "id": 47,
+      "ville": "Aubière",
+      "nom_iut": "IUT Clermont Auvergne - Aubière",
+      "universite": "Université Clermont Auvergne",
+      "departement_nom": "Puy-de-Dôme",
+      "departement_numero": "63",
+      "region": "Auvergne-Rhône-Alpes",
+      "lat": 45.7444,
+      "lng": 3.112,
+      "parcours": [
+        "GB",
+        "GEA",
+        "GIM",
+        "INFO",
+        "MP",
+        "RT"
+      ]
+    },
+    {
+      "id": 48,
+      "ville": "Aurillac",
+      "nom_iut": "IUT Clermont Auvergne - Aurillac",
+      "universite": "Université Clermont Auvergne",
+      "departement_nom": "Cantal",
+      "departement_numero": "15",
+      "region": "Auvergne-Rhône-Alpes",
+      "lat": 44.9271,
+      "lng": 2.4418,
+      "parcours": [
+        "GB",
+        "GEA",
+        "SD"
+      ]
+    },
+    {
+      "id": 49,
+      "ville": "Le Puy-en-Velay",
+      "nom_iut": "IUT Clermont Auvergne - Le Puy-en-Velay",
+      "universite": "Université Clermont Auvergne",
+      "departement_nom": "Haute-Loire",
+      "departement_numero": "43",
+      "region": "Auvergne-Rhône-Alpes",
+      "lat": 45.0435,
+      "lng": 3.8853,
+      "parcours": [
+        "CHIMIE",
+        "INFO",
+        "MMI"
+      ]
+    },
+    {
+      "id": 50,
+      "ville": "Montluçon",
+      "nom_iut": "IUT Clermont Auvergne - Montluçon",
+      "universite": "Université Clermont Auvergne",
+      "departement_nom": "Allier",
+      "departement_numero": "03",
+      "region": "Auvergne-Rhône-Alpes",
+      "lat": 46.3405,
+      "lng": 2.6037,
+      "parcours": [
+        "GEII",
+        "GMP",
+        "MLT",
+        "MTEE",
+        "TC"
+      ]
+    },
+    {
+      "id": 51,
+      "ville": "Moulins",
+      "nom_iut": "IUT Clermont Auvergne - Moulins",
+      "universite": "Université Clermont Auvergne",
+      "departement_nom": "Allier",
+      "departement_numero": "03",
+      "region": "Auvergne-Rhône-Alpes",
+      "lat": 46.5649,
+      "lng": 3.333,
+      "parcours": [
+        "TC"
+      ]
+    },
+    {
+      "id": 52,
+      "ville": "Vichy",
+      "nom_iut": "IUT Clermont Auvergne - Vichy",
+      "universite": "Université Clermont Auvergne",
+      "departement_nom": "Allier",
+      "departement_numero": "03",
+      "region": "Auvergne-Rhône-Alpes",
+      "lat": 46.1224,
+      "lng": 3.4268,
+      "parcours": [
+        "INFOCOM",
+        "MMI"
+      ]
+    },
+    {
+      "id": 53,
+      "ville": "Colmar",
+      "nom_iut": "IUT Colmar",
+      "universite": "Université de Haute-Alsace",
+      "departement_nom": "Haut-Rhin",
+      "departement_numero": "68",
+      "region": "Grand Est",
+      "lat": 48.0793,
+      "lng": 7.3585,
+      "parcours": [
+        "CJ",
+        "GB",
+        "HSE",
+        "MTEE",
+        "RT",
+        "TC"
+      ]
+    },
+    {
+      "id": 54,
+      "ville": "Corte",
+      "nom_iut": "IUT Corte",
+      "universite": "Université de Corse Pasquale Paoli",
+      "departement_nom": "Haute-Corse",
+      "departement_numero": "2B",
+      "region": "Corse",
+      "lat": 42.3061,
+      "lng": 9.1494,
+      "parcours": [
+        "GB",
+        "GCCD",
+        "GEA",
+        "HSE",
+        "MMI",
+        "TC"
+      ]
+    },
+    {
+      "id": 55,
+      "ville": "Créteil",
+      "nom_iut": "IUT Créteil-Vitry - Créteil",
+      "universite": "Université Paris-Est Créteil",
+      "departement_nom": "Val-de-Marne",
+      "departement_numero": "94",
+      "region": "Île-de-France",
+      "lat": 48.7771,
+      "lng": 2.4549,
+      "parcours": [
+        "GB",
+        "GEII",
+        "MP",
+        "TC"
+      ]
+    },
+    {
+      "id": 56,
+      "ville": "Vitry-sur-Seine",
+      "nom_iut": "IUT Créteil-Vitry - Vitry",
+      "universite": "Université Paris-Est Créteil",
+      "departement_nom": "Val-de-Marne",
+      "departement_numero": "94",
+      "region": "Île-de-France",
+      "lat": 48.7875,
+      "lng": 2.4027,
+      "parcours": [
+        "CHIMIE",
+        "GEA",
+        "INFO",
+        "RT"
+      ]
+    },
+    {
+      "id": 57,
+      "ville": "Auxerre",
+      "nom_iut": "IUT Dijon-Auxerre - Auxerre",
+      "universite": "Université de Bourgogne",
+      "departement_nom": "Yonne",
+      "departement_numero": "89",
+      "region": "Bourgogne-Franche-Comté",
+      "lat": 47.7981,
+      "lng": 3.5671,
+      "parcours": [
+        "GCCD",
+        "RT",
+        "TC"
+      ]
+    },
+    {
+      "id": 58,
+      "ville": "Dijon",
+      "nom_iut": "IUT Dijon-Auxerre - Dijon",
+      "universite": "Université de Bourgogne",
+      "departement_nom": "Côte-d'Or",
+      "departement_numero": "21",
+      "region": "Bourgogne-Franche-Comté",
+      "lat": 47.322,
+      "lng": 5.0415,
+      "parcours": [
+        "GACO",
+        "GB",
+        "GEA",
+        "GMP",
+        "INFO",
+        "INFOCOM",
+        "MMI"
+      ]
+    },
+    {
+      "id": 59,
+      "ville": "Nevers",
+      "nom_iut": "IUT Dijon-Auxerre - Nevers",
+      "universite": "Université de Bourgogne",
+      "departement_nom": "Nièvre",
+      "departement_numero": "58",
+      "region": "Bourgogne-Franche-Comté",
+      "lat": 46.9896,
+      "lng": 3.1572,
+      "parcours": [
+        "INFO"
+      ]
+    },
+    {
+      "id": 60,
+      "ville": "Epinal",
+      "nom_iut": "IUT Epinal-Hubert Curien",
+      "universite": "Université Epinal-Hubert Curien",
+      "departement_nom": "Vosges",
+      "departement_numero": "88",
+      "region": "Grand Est",
+      "lat": 48.1744,
+      "lng": 6.4542,
+      "parcours": [
+        "GIM",
+        "QLIO",
+        "TC"
+      ]
+    },
+    {
+      "id": 61,
+      "ville": "Evreux",
+      "nom_iut": "IUT Evreux",
+      "universite": "Université de Rouen Normandie",
+      "departement_nom": "Eure",
+      "departement_numero": "27",
+      "region": "Normandie",
+      "lat": 49.0237,
+      "lng": 1.1527,
+      "parcours": [
+        "CS",
+        "GB",
+        "GEA",
+        "MP",
+        "PEC",
+        "TC"
+      ]
+    },
+    {
+      "id": 62,
+      "ville": "Brétigny-sur-Orge",
+      "nom_iut": "IUT Evry Val d'Essonne - Brétigny-sur-Orge",
+      "universite": "Université Paris-Saclay",
+      "departement_nom": "Essonne",
+      "departement_numero": "91",
+      "region": "Île-de-France",
+      "lat": 48.6087,
+      "lng": 2.307,
+      "parcours": [
+        "GEA",
+        "MTEE"
+      ]
+    },
+    {
+      "id": 63,
+      "ville": "Evry-Courcouronnes",
+      "nom_iut": "IUT Evry Val d'Essonne - Evry",
+      "universite": "Université Paris-Saclay",
+      "departement_nom": "Essonne",
+      "departement_numero": "91",
+      "region": "Île-de-France",
+      "lat": 48.627,
+      "lng": 2.427,
+      "parcours": [
+        "GEII",
+        "GMP",
+        "MLT",
+        "QLIO",
+        "SGM",
+        "TC"
+      ]
+    },
+    {
+      "id": 64,
+      "ville": "Juvisy-sur-Orge",
+      "nom_iut": "IUT Evry Val d'Essonne - Juvisy-sur-Orge",
+      "universite": "Université Paris-Saclay",
+      "departement_nom": "Essonne",
+      "departement_numero": "91",
+      "region": "Île-de-France",
+      "lat": 48.6885,
+      "lng": 2.3696,
+      "parcours": [
+        "TC"
+      ]
+    },
+    {
+      "id": 65,
+      "ville": "Figeac",
+      "nom_iut": "IUT Figeac",
+      "universite": "Université Toulouse III - Paul Sabatier",
+      "departement_nom": "Lot",
+      "departement_numero": "46",
+      "region": "Occitanie",
+      "lat": 44.6092,
+      "lng": 2.0327,
+      "parcours": [
+        "CS",
+        "GMP",
+        "TC"
+      ]
+    },
+    {
+      "id": 66,
+      "ville": "Damigny",
+      "nom_iut": "IUT Grand Ouest Normandie - Pôle d'Alençon",
+      "universite": "Université de Caen Normandie",
+      "departement_nom": "Orne",
+      "departement_numero": "61",
+      "region": "Normandie",
+      "lat": 48.4316,
+      "lng": 0.0667,
+      "parcours": [
+        "CS",
+        "GMP",
+        "MLT",
+        "QLIO"
+      ]
+    },
+    {
+      "id": 67,
+      "ville": "Caen",
+      "nom_iut": "IUT Grand Ouest Normandie - Pôle de Caen - Caen",
+      "universite": "Université de Caen Normandie",
+      "departement_nom": "Calvados",
+      "departement_numero": "14",
+      "region": "Normandie",
+      "lat": 49.1829,
+      "lng": -0.3707,
+      "parcours": [
+        "GB",
+        "GCGP",
+        "GEA",
+        "MP",
+        "TC"
+      ]
+    },
+    {
+      "id": 68,
+      "ville": "Ifs",
+      "nom_iut": "IUT Grand Ouest Normandie - Pôle de Caen - Ifs",
+      "universite": "Université de Caen Normandie",
+      "departement_nom": "Calvados",
+      "departement_numero": "14",
+      "region": "Normandie",
+      "lat": 49.1439,
+      "lng": -0.3641,
+      "parcours": [
+        "INFO",
+        "INFOCOM",
+        "RT"
+      ]
+    },
+    {
+      "id": 69,
+      "ville": "Lisieux",
+      "nom_iut": "IUT Grand Ouest Normandie - Pôle de Caen - Lisieux",
+      "universite": "Université de Caen Normandie",
+      "departement_nom": "Calvados",
+      "departement_numero": "14",
+      "region": "Normandie",
+      "lat": 49.1445,
+      "lng": 0.228,
+      "parcours": [
+        "SD",
+        "TC"
+      ]
+    },
+    {
+      "id": 70,
+      "ville": "Vire Normandie",
+      "nom_iut": "IUT Grand Ouest Normandie - Pôle de Caen - Vire",
+      "universite": "Université de Caen Normandie",
+      "departement_nom": "Calvados",
+      "departement_numero": "14",
+      "region": "Normandie",
+      "lat": 48.8349,
+      "lng": -0.8893,
+      "parcours": [
+        "HSE"
+      ]
+    },
+    {
+      "id": 71,
+      "ville": "Cherbourg-en-Cotentin",
+      "nom_iut": "IUT Grand Ouest Normandie - Pôle de Cherbourg - Cherbourg-en-Cotentin",
+      "universite": "Université de Caen Normandie",
+      "departement_nom": "Manche",
+      "departement_numero": "50",
+      "region": "Normandie",
+      "lat": 49.6437,
+      "lng": -1.6228,
+      "parcours": [
+        "GEA",
+        "GEII",
+        "GIM",
+        "TC"
+      ]
+    },
+    {
+      "id": 72,
+      "ville": "Saint-Lô",
+      "nom_iut": "IUT Grand Ouest Normandie - Pôle de Cherbourg - Saint-Lô",
+      "universite": "Université de Caen Normandie",
+      "departement_nom": "Manche",
+      "departement_numero": "50",
+      "region": "Normandie",
+      "lat": 49.1146,
+      "lng": -1.0887,
+      "parcours": [
+        "MMI",
+        "MTEE"
+      ]
+    },
+    {
+      "id": 73,
+      "ville": "Grenoble",
+      "nom_iut": "IUT Grenoble 1 - Grenoble Gambetta",
+      "universite": "Université Grenoble Alpes",
+      "departement_nom": "Isère",
+      "departement_numero": "38",
+      "region": "Auvergne-Rhône-Alpes",
+      "lat": 45.1885,
+      "lng": 5.7245,
+      "parcours": [
+        "CHIMIE",
+        "MTEE"
+      ]
+    },
+    {
+      "id": 74,
+      "ville": "Grenoble",
+      "nom_iut": "IUT Grenoble 1 - Grenoble Polygone",
+      "universite": "Université Grenoble Alpes",
+      "departement_nom": "Isère",
+      "departement_numero": "38",
+      "region": "Auvergne-Rhône-Alpes",
+      "lat": 45.1885,
+      "lng": 5.7245,
+      "parcours": [
+        "MMI",
+        "MP"
+      ]
+    },
+    {
+      "id": 75,
+      "ville": "Saint-Martin-d'Hères",
+      "nom_iut": "IUT Grenoble 1 - Saint-Martin-d'Hères",
+      "universite": "Université Grenoble Alpes",
+      "departement_nom": "Isère",
+      "departement_numero": "38",
+      "region": "Auvergne-Rhône-Alpes",
+      "lat": 45.168,
+      "lng": 5.7624,
+      "parcours": [
+        "GCCD",
+        "GEII",
+        "GMP",
+        "RT"
+      ]
+    },
+    {
+      "id": 76,
+      "ville": "Grenoble",
+      "nom_iut": "IUT Grenoble 2 - Grenoble",
+      "universite": "Université Grenoble Alpes",
+      "departement_nom": "Isère",
+      "departement_numero": "38",
+      "region": "Auvergne-Rhône-Alpes",
+      "lat": 45.1885,
+      "lng": 5.7245,
+      "parcours": [
+        "CJ",
+        "CS",
+        "GEA",
+        "INFO",
+        "INFOCOM",
+        "SD",
+        "TC"
+      ]
+    },
+    {
+      "id": 77,
+      "ville": "Vienne",
+      "nom_iut": "IUT Grenoble 2 - Vienne",
+      "universite": "Université Grenoble Alpes",
+      "departement_nom": "Isère",
+      "departement_numero": "38",
+      "region": "Auvergne-Rhône-Alpes",
+      "lat": 45.5248,
+      "lng": 4.8756,
+      "parcours": [
+        "GEA"
+      ]
+    },
+    {
+      "id": 78,
+      "ville": "Haguenau",
+      "nom_iut": "IUT Haguenau",
+      "universite": "Université de Strasbourg",
+      "departement_nom": "Bas-Rhin",
+      "departement_numero": "67",
+      "region": "Grand Est",
+      "lat": 48.8148,
+      "lng": 7.7908,
+      "parcours": [
+        "GEII",
+        "MMI",
+        "QLIO"
+      ]
+    },
+    {
+      "id": 79,
+      "ville": "Châteauroux",
+      "nom_iut": "IUT Indre - Châteauroux",
+      "universite": "Université de Tours",
+      "departement_nom": "Indre",
+      "departement_numero": "36",
+      "region": "Centre-Val de Loire",
+      "lat": 46.8121,
+      "lng": 1.6904,
+      "parcours": [
+        "GEA",
+        "GEII",
+        "MLT"
+      ]
+    },
+    {
+      "id": 80,
+      "ville": "Issoudun",
+      "nom_iut": "IUT Indre - Issoudun",
+      "universite": "Université de Tours",
+      "departement_nom": "Indre",
+      "departement_numero": "36",
+      "region": "Centre-Val de Loire",
+      "lat": 46.9466,
+      "lng": 1.9941,
+      "parcours": [
+        "MLT",
+        "TC"
+      ]
+    },
+    {
+      "id": 81,
+      "ville": "Cayenne",
+      "nom_iut": "IUT Kourou - Cayenne",
+      "universite": "Université de Guyane",
+      "departement_nom": "Guyane",
+      "departement_numero": "973",
+      "region": "Guyane",
+      "lat": 4.9224,
+      "lng": -52.3135,
+      "parcours": [
+        "CS",
+        "TC"
+      ]
+    },
+    {
+      "id": 82,
+      "ville": "Kourou",
+      "nom_iut": "IUT Kourou - Kourou",
+      "universite": "Université de Guyane",
+      "departement_nom": "Guyane",
+      "departement_numero": "973",
+      "region": "Guyane",
+      "lat": 5.1543,
+      "lng": -52.648,
+      "parcours": [
+        "GCCD",
+        "GEII",
+        "RT"
+      ]
+    },
+    {
+      "id": 83,
+      "ville": "Saint-Claude",
+      "nom_iut": "IUT La Guadeloupe",
+      "universite": "Université des Antilles",
+      "departement_nom": "Guadeloupe",
+      "departement_numero": "971",
+      "region": "Guadeloupe",
+      "lat": 16,
+      "lng": -61.7009,
+      "parcours": [
+        "CS",
+        "GB",
+        "GEA",
+        "MMI"
+      ]
+    },
+    {
+      "id": 84,
+      "ville": "Schoelcher",
+      "nom_iut": "IUT La Martinique",
+      "universite": "Université des Antilles",
+      "departement_nom": "Martinique",
+      "departement_numero": "972",
+      "region": "Martinique",
+      "lat": 14.6109,
+      "lng": -61.0986,
+      "parcours": [
+        "GEA",
+        "HSE",
+        "INFO",
+        "MLT",
+        "TC"
+      ]
+    },
+    {
+      "id": 85,
+      "ville": "Saint-Pierre",
+      "nom_iut": "IUT La Réunion",
+      "universite": "Université de La Réunion",
+      "departement_nom": "La Réunion",
+      "departement_numero": "974",
+      "region": "La Réunion",
+      "lat": -21.3393,
+      "lng": 55.4781,
+      "parcours": [
+        "CS",
+        "GB",
+        "GCCD",
+        "GEA",
+        "HSE",
+        "RT",
+        "TC"
+      ]
+    },
+    {
+      "id": 86,
+      "ville": "La Rochelle",
+      "nom_iut": "IUT La Rochelle",
+      "universite": "Université de La Rochelle",
+      "departement_nom": "Charente-Maritime",
+      "departement_numero": "17",
+      "region": "Nouvelle-Aquitaine",
+      "lat": 46.1603,
+      "lng": -1.1511,
+      "parcours": [
+        "GB",
+        "GCCD",
+        "INFO",
+        "RT",
+        "TC"
+      ]
+    },
+    {
+      "id": 87,
+      "ville": "La Roche-sur-Yon",
+      "nom_iut": "IUT La Roche-sur-Yon",
+      "universite": "Nantes Université",
+      "departement_nom": "Vendée",
+      "departement_numero": "85",
+      "region": "Pays de la Loire",
+      "lat": 46.6709,
+      "lng": -1.4269,
+      "parcours": [
+        "GB",
+        "GEA",
+        "INFOCOM",
+        "RT"
+      ]
+    },
+    {
+      "id": 88,
+      "ville": "Lannion",
+      "nom_iut": "IUT Lannion",
+      "universite": "Université de Rennes",
+      "departement_nom": "Côtes-d'Armor",
+      "departement_numero": "22",
+      "region": "Bretagne",
+      "lat": 48.732,
+      "lng": -3.4592,
+      "parcours": [
+        "INFO",
+        "INFOCOM",
+        "MMI",
+        "MP",
+        "RT"
+      ]
+    },
+    {
+      "id": 89,
+      "ville": "Laval",
+      "nom_iut": "IUT Laval",
+      "universite": "Le Mans Université",
+      "departement_nom": "Mayenne",
+      "departement_numero": "53",
+      "region": "Pays de la Loire",
+      "lat": 48.0721,
+      "lng": -0.769,
+      "parcours": [
+        "GB",
+        "INFO",
+        "MMI",
+        "TC"
+      ]
+    },
+    {
+      "id": 90,
+      "ville": "Le Creusot",
+      "nom_iut": "IUT Le Creusot",
+      "universite": "Université de Bourgogne",
+      "departement_nom": "Saône-et-Loire",
+      "departement_numero": "71",
+      "region": "Bourgogne-Franche-Comté",
+      "lat": 46.8043,
+      "lng": 4.4333,
+      "parcours": [
+        "GEII",
+        "GMP",
+        "MP",
+        "TC"
+      ]
+    },
+    {
+      "id": 91,
+      "ville": "Le Havre",
+      "nom_iut": "IUT Le Havre - Caucriauville",
+      "universite": "Université Le Havre Normandie",
+      "departement_nom": "Seine-Maritime",
+      "departement_numero": "76",
+      "region": "Normandie",
+      "lat": 49.4944,
+      "lng": 0.1079,
+      "parcours": [
+        "CS",
+        "GEA",
+        "GEII",
+        "GMP",
+        "INFO",
+        "MLT",
+        "TC"
+      ]
+    },
+    {
+      "id": 92,
+      "ville": "Le Havre",
+      "nom_iut": "IUT Le Havre - Frissard",
+      "universite": "Université Le Havre Normandie",
+      "departement_nom": "Seine-Maritime",
+      "departement_numero": "76",
+      "region": "Normandie",
+      "lat": 49.4944,
+      "lng": 0.1079,
+      "parcours": [
+        "GCCD",
+        "HSE",
+        "INFOCOM"
+      ]
+    },
+    {
+      "id": 93,
+      "ville": "Le Mans",
+      "nom_iut": "IUT Le Mans",
+      "universite": "Le Mans Université",
+      "departement_nom": "Sarthe",
+      "departement_numero": "72",
+      "region": "Pays de la Loire",
+      "lat": 47.996,
+      "lng": 0.1966,
+      "parcours": [
+        "CHIMIE",
+        "GEA",
+        "GMP",
+        "MP"
+      ]
+    },
+    {
+      "id": 94,
+      "ville": "Lens",
+      "nom_iut": "IUT Lens",
+      "universite": "Université d'Artois",
+      "departement_nom": "Pas-de-Calais",
+      "departement_numero": "62",
+      "region": "Hauts-de-France",
+      "lat": 50.4296,
+      "lng": 2.8319,
+      "parcours": [
+        "GEA",
+        "INFO",
+        "MMI",
+        "TC"
+      ]
+    },
+    {
+      "id": 95,
+      "ville": "Roubaix",
+      "nom_iut": "IUT Lille - Roubaix",
+      "universite": "Université de Lille",
+      "departement_nom": "Nord",
+      "departement_numero": "59",
+      "region": "Hauts-de-France",
+      "lat": 50.6942,
+      "lng": 3.1746,
+      "parcours": [
+        "CJ",
+        "SD",
+        "TC"
+      ]
+    },
+    {
+      "id": 96,
+      "ville": "Tourcoing",
+      "nom_iut": "IUT Lille - Tourcoing",
+      "universite": "Université de Lille",
+      "departement_nom": "Nord",
+      "departement_numero": "59",
+      "region": "Hauts-de-France",
+      "lat": 50.7237,
+      "lng": 3.1613,
+      "parcours": [
+        "CS",
+        "INFOCOM",
+        "MLT"
+      ]
+    },
+    {
+      "id": 97,
+      "ville": "Villeneuve-d'Ascq",
+      "nom_iut": "IUT Lille - Villeneuve-d'Ascq",
+      "universite": "Université de Lille",
+      "departement_nom": "Nord",
+      "departement_numero": "59",
+      "region": "Hauts-de-France",
+      "lat": 50.6199,
+      "lng": 3.1408,
+      "parcours": [
+        "CHIMIE",
+        "GB",
+        "GEA",
+        "GEII",
+        "GMP",
+        "INFO",
+        "MP"
+      ]
+    },
+    {
+      "id": 98,
+      "ville": "Brive-la-Gaillarde",
+      "nom_iut": "IUT Limousin - Brive-la-Gaillarde",
+      "universite": "Université de Limoges",
+      "departement_nom": "Corrèze",
+      "departement_numero": "19",
+      "region": "Nouvelle-Aquitaine",
+      "lat": 45.158,
+      "lng": 1.5326,
+      "parcours": [
+        "GEA",
+        "GEII"
+      ]
+    },
+    {
+      "id": 99,
+      "ville": "Egletons",
+      "nom_iut": "IUT Limousin - Egletons",
+      "universite": "Université de Limoges",
+      "departement_nom": "Corrèze",
+      "departement_numero": "19",
+      "region": "Nouvelle-Aquitaine",
+      "lat": 45.4069,
+      "lng": 2.0456,
+      "parcours": [
+        "GCCD"
+      ]
+    },
+    {
+      "id": 100,
+      "ville": "Guéret",
+      "nom_iut": "IUT Limousin - Guéret",
+      "universite": "Université de Limoges",
+      "departement_nom": "Creuse",
+      "departement_numero": "23",
+      "region": "Nouvelle-Aquitaine",
+      "lat": 46.174,
+      "lng": 1.8712,
+      "parcours": [
+        "CS"
+      ]
+    },
+    {
+      "id": 101,
+      "ville": "Limoges",
+      "nom_iut": "IUT Limousin - Limoges",
+      "universite": "Université de Limoges",
+      "departement_nom": "Haute-Vienne",
+      "departement_numero": "87",
+      "region": "Nouvelle-Aquitaine",
+      "lat": 45.834,
+      "lng": 1.2633,
+      "parcours": [
+        "GB",
+        "GEA",
+        "GMP",
+        "INFO",
+        "MMI",
+        "MP",
+        "TC"
+      ]
+    },
+    {
+      "id": 102,
+      "ville": "Tulle",
+      "nom_iut": "IUT Limousin - Tulle",
+      "universite": "Université de Limoges",
+      "departement_nom": "Corrèze",
+      "departement_numero": "19",
+      "region": "Nouvelle-Aquitaine",
+      "lat": 45.27,
+      "lng": 1.7711,
+      "parcours": [
+        "GIM",
+        "HSE"
+      ]
+    },
+    {
+      "id": 103,
+      "ville": "Boulogne-sur-Mer",
+      "nom_iut": "IUT Littoral Côte d'Opale - Boulogne-sur-Mer",
+      "universite": "Université du Littoral Côte d'Opale",
+      "departement_nom": "Pas-de-Calais",
+      "departement_numero": "62",
+      "region": "Hauts-de-France",
+      "lat": 50.7261,
+      "lng": 1.6136,
+      "parcours": [
+        "GB"
+      ]
+    },
+    {
+      "id": 104,
+      "ville": "Calais",
+      "nom_iut": "IUT Littoral Côte d'Opale - Calais",
+      "universite": "Université du Littoral Côte d'Opale",
+      "departement_nom": "Pas-de-Calais",
+      "departement_numero": "62",
+      "region": "Hauts-de-France",
+      "lat": 50.9513,
+      "lng": 1.8587,
+      "parcours": [
+        "GEA",
+        "GEII",
+        "INFO"
+      ]
+    },
+    {
+      "id": 105,
+      "ville": "Dunkerque",
+      "nom_iut": "IUT Littoral Côte d'Opale - Dunkerque",
+      "universite": "Université du Littoral Côte d'Opale",
+      "departement_nom": "Nord",
+      "departement_numero": "59",
+      "region": "Hauts-de-France",
+      "lat": 51.0351,
+      "lng": 2.3767,
+      "parcours": [
+        "GIM",
+        "MLT",
+        "MTEE",
+        "TC"
+      ]
+    },
+    {
+      "id": 106,
+      "ville": "Longuenesse",
+      "nom_iut": "IUT Littoral Côte d'Opale - Saint-Omer",
+      "universite": "Université du Littoral Côte d'Opale",
+      "departement_nom": "Pas-de-Calais",
+      "departement_numero": "62",
+      "region": "Hauts-de-France",
+      "lat": 50.7428,
+      "lng": 2.2501,
+      "parcours": [
+        "GACO",
+        "GIM"
+      ]
+    },
+    {
+      "id": 107,
+      "ville": "Longwy",
+      "nom_iut": "IUT Longwy - Cosnes-et-Romain",
+      "universite": "Université de Lorraine",
+      "departement_nom": "Meurthe-et-Moselle",
+      "departement_numero": "54",
+      "region": "Grand Est",
+      "lat": 49.5143,
+      "lng": 5.7716,
+      "parcours": [
+        "GEA",
+        "GEII",
+        "MTEE"
+      ]
+    },
+    {
+      "id": 108,
+      "ville": "Lorient",
+      "nom_iut": "IUT Lorient-Pontivy - Lorient",
+      "universite": "Université Bretagne Sud",
+      "departement_nom": "Morbihan",
+      "departement_numero": "56",
+      "region": "Bretagne",
+      "lat": 47.7481,
+      "lng": -3.3711,
+      "parcours": [
+        "GIM",
+        "HSE",
+        "MTEE",
+        "QLIO"
+      ]
+    },
+    {
+      "id": 109,
+      "ville": "Pontivy",
+      "nom_iut": "IUT Lorient-Pontivy - Pontivy",
+      "universite": "Université Bretagne Sud",
+      "departement_nom": "Morbihan",
+      "departement_numero": "56",
+      "region": "Bretagne",
+      "lat": 48.0666,
+      "lng": -2.9765,
+      "parcours": [
+        "GACO",
+        "GCGP"
+      ]
+    },
+    {
+      "id": 110,
+      "ville": "Bourg-en-Bresse",
+      "nom_iut": "IUT Lyon 1 - Bourg-en-Bresse",
+      "universite": "Université Claude Bernard Lyon 1",
+      "departement_nom": "Ain",
+      "departement_numero": "01",
+      "region": "Auvergne-Rhône-Alpes",
+      "lat": 46.2053,
+      "lng": 5.2286,
+      "parcours": [
+        "CJ",
+        "GB",
+        "GEA",
+        "INFO",
+        "MTEE"
+      ]
+    },
+    {
+      "id": 111,
+      "ville": "Villeurbanne",
+      "nom_iut": "IUT Lyon 1 - Villeurbanne Doua",
+      "universite": "Université Claude Bernard Lyon 1",
+      "departement_nom": "Rhône",
+      "departement_numero": "69",
+      "region": "Auvergne-Rhône-Alpes",
+      "lat": 45.7676,
+      "lng": 4.8798,
+      "parcours": [
+        "CHIMIE",
+        "GB",
+        "GCCD",
+        "GCGP",
+        "GEA",
+        "INFO"
+      ]
+    },
+    {
+      "id": 112,
+      "ville": "Villeurbanne",
+      "nom_iut": "IUT Lyon 1 - Villeurbanne Gratte-Ciel",
+      "universite": "Université Claude Bernard Lyon 1",
+      "departement_nom": "Rhône",
+      "departement_numero": "69",
+      "region": "Auvergne-Rhône-Alpes",
+      "lat": 45.7676,
+      "lng": 4.8798,
+      "parcours": [
+        "GEII",
+        "GIM",
+        "GMP",
+        "TC"
+      ]
+    },
+    {
+      "id": 113,
+      "ville": "Bron",
+      "nom_iut": "IUT Lyon 2 Lumière",
+      "universite": "Université Lumière Lyon 2",
+      "departement_nom": "Rhône",
+      "departement_numero": "69",
+      "region": "Auvergne-Rhône-Alpes",
+      "lat": 45.7337,
+      "lng": 4.9127,
+      "parcours": [
+        "GEA",
+        "HSE",
+        "MLT",
+        "QLIO",
+        "SD"
+      ]
+    },
+    {
+      "id": 114,
+      "ville": "Lyon",
+      "nom_iut": "IUT Lyon 3",
+      "universite": "Université Jean Moulin Lyon 3",
+      "departement_nom": "Rhône",
+      "departement_numero": "69",
+      "region": "Auvergne-Rhône-Alpes",
+      "lat": 45.7376,
+      "lng": 4.8465,
+      "parcours": [
+        "CJ",
+        "GACO",
+        "INFOCOM"
+      ]
+    },
+    {
+      "id": 115,
+      "ville": "Annonay",
+      "nom_iut": "IUT Lyon 3 - Campus Saint-Denis",
+      "universite": "Université Jean Moulin Lyon 3",
+      "departement_nom": "Ardèche",
+      "departement_numero": "07",
+      "region": "Auvergne-Rhône-Alpes",
+      "lat": 45.2417,
+      "lng": 4.6703,
+      "parcours": [
+        "CJ"
+      ]
+    },
+    {
+      "id": 116,
+      "ville": "Mantes-la-Jolie",
+      "nom_iut": "IUT Mantes-en-Yvelines",
+      "universite": "CY Cergy Paris Université",
+      "departement_nom": "Yvelines",
+      "departement_numero": "78",
+      "region": "Île-de-France",
+      "lat": 48.99,
+      "lng": 1.7171,
+      "parcours": [
+        "GCCD",
+        "GEA",
+        "GIM",
+        "GMP",
+        "TC"
+      ]
+    },
+    {
+      "id": 117,
+      "ville": "Champs-sur-Marne",
+      "nom_iut": "IUT Marne-la-Vallée - Champs-sur-Marne",
+      "universite": "Université Gustave Eiffel",
+      "departement_nom": "Seine-et-Marne",
+      "departement_numero": "77",
+      "region": "Île-de-France",
+      "lat": 48.8441,
+      "lng": 2.604,
+      "parcours": [
+        "GCCD",
+        "INFO",
+        "MMI",
+        "MTEE",
+        "TC"
+      ]
+    },
+    {
+      "id": 118,
+      "ville": "Meaux",
+      "nom_iut": "IUT Marne-la-Vallée - Meaux",
+      "universite": "Université Gustave Eiffel",
+      "departement_nom": "Seine-et-Marne",
+      "departement_numero": "77",
+      "region": "Île-de-France",
+      "lat": 48.9598,
+      "lng": 2.8831,
+      "parcours": [
+        "GEA",
+        "MMI",
+        "TC"
+      ]
+    },
+    {
+      "id": 119,
+      "ville": "Metz",
+      "nom_iut": "IUT Metz - Saulcy",
+      "universite": "Université de Lorraine",
+      "departement_nom": "Moselle",
+      "departement_numero": "57",
+      "region": "Grand Est",
+      "lat": 49.1196,
+      "lng": 6.1757,
+      "parcours": [
+        "GEA",
+        "GMP",
+        "INFO",
+        "SD",
+        "TC"
+      ]
+    },
+    {
+      "id": 120,
+      "ville": "Metz",
+      "nom_iut": "IUT Metz - Technopole",
+      "universite": "Université de Lorraine",
+      "departement_nom": "Moselle",
+      "departement_numero": "57",
+      "region": "Grand Est",
+      "lat": 49.1196,
+      "lng": 6.1757,
+      "parcours": [
+        "MP"
+      ]
+    },
+    {
+      "id": 121,
+      "ville": "Montpellier",
+      "nom_iut": "IUT Montpellier-Sète - Montpellier",
+      "universite": "Université de Montpellier",
+      "departement_nom": "Hérault",
+      "departement_numero": "34",
+      "region": "Occitanie",
+      "lat": 43.6108,
+      "lng": 3.8767,
+      "parcours": [
+        "CHIMIE",
+        "GB",
+        "GEA",
+        "GEII",
+        "INFO",
+        "MP",
+        "TC"
+      ]
+    },
+    {
+      "id": 122,
+      "ville": "Sète",
+      "nom_iut": "IUT Montpellier-Sète - Sète",
+      "universite": "Université de Montpellier",
+      "departement_nom": "Hérault",
+      "departement_numero": "34",
+      "region": "Occitanie",
+      "lat": 43.4034,
+      "lng": 3.695,
+      "parcours": [
+        "CHIMIE",
+        "GEA",
+        "INFO"
+      ]
+    },
+    {
+      "id": 123,
+      "ville": "Montreuil",
+      "nom_iut": "IUT Montreuil",
+      "universite": "Université Sorbonne Paris Nord",
+      "departement_nom": "Seine-Saint-Denis",
+      "departement_numero": "93",
+      "region": "Île-de-France",
+      "lat": 48.8641,
+      "lng": 2.445,
+      "parcours": [
+        "GACO",
+        "INFO",
+        "INFOCOM",
+        "QLIO"
+      ]
+    },
+    {
+      "id": 124,
+      "ville": "Forbach",
+      "nom_iut": "IUT Moselle-Est - Forbach",
+      "universite": "Université de Lorraine",
+      "departement_nom": "Moselle",
+      "departement_numero": "57",
+      "region": "Grand Est",
+      "lat": 49.1877,
+      "lng": 6.9025,
+      "parcours": [
+        "SGM"
+      ]
+    },
+    {
+      "id": 125,
+      "ville": "Saint-Avold",
+      "nom_iut": "IUT Moselle-Est - Saint-Avold",
+      "universite": "Université de Lorraine",
+      "departement_nom": "Moselle",
+      "departement_numero": "57",
+      "region": "Grand Est",
+      "lat": 49.1041,
+      "lng": 6.7068,
+      "parcours": [
+        "CHIMIE"
+      ]
+    },
+    {
+      "id": 126,
+      "ville": "Sarreguemines",
+      "nom_iut": "IUT Moselle-Est - Sarreguemines",
+      "universite": "Université de Lorraine",
+      "departement_nom": "Moselle",
+      "departement_numero": "57",
+      "region": "Grand Est",
+      "lat": 49.1127,
+      "lng": 7.0653,
+      "parcours": [
+        "GACO",
+        "MLT"
+      ]
+    },
+    {
+      "id": 127,
+      "ville": "Mulhouse",
+      "nom_iut": "IUT Mulhouse",
+      "universite": "Université de Haute-Alsace",
+      "departement_nom": "Haut-Rhin",
+      "departement_numero": "68",
+      "region": "Grand Est",
+      "lat": 47.7508,
+      "lng": 7.3359,
+      "parcours": [
+        "GEA",
+        "GEII",
+        "GMP",
+        "MLT",
+        "MMI",
+        "SGM"
+      ]
+    },
+    {
+      "id": 128,
+      "ville": "Lunéville",
+      "nom_iut": "IUT Nancy-Brabois - Lunéville",
+      "universite": "Université de Lorraine",
+      "departement_nom": "Meurthe-et-Moselle",
+      "departement_numero": "54",
+      "region": "Grand Est",
+      "lat": 48.5932,
+      "lng": 6.4975,
+      "parcours": [
+        "QLIO"
+      ]
+    },
+    {
+      "id": 129,
+      "ville": "Villers-lès-Nancy",
+      "nom_iut": "IUT Nancy-Brabois - Villers-lès-Nancy",
+      "universite": "Université de Lorraine",
+      "departement_nom": "Meurthe-et-Moselle",
+      "departement_numero": "54",
+      "region": "Grand Est",
+      "lat": 48.6747,
+      "lng": 6.1447,
+      "parcours": [
+        "GB",
+        "GCCD",
+        "GCGP",
+        "GEII",
+        "GMP",
+        "RT"
+      ]
+    },
+    {
+      "id": 130,
+      "ville": "Nancy",
+      "nom_iut": "IUT Nancy-Charlemagne",
+      "universite": "Université Nancy-Charlemagne",
+      "departement_nom": "Meurthe-et-Moselle",
+      "departement_numero": "54",
+      "region": "Grand Est",
+      "lat": 48.6921,
+      "lng": 6.1844,
+      "parcours": [
+        "GEA",
+        "INFO",
+        "INFOCOM",
+        "MMI",
+        "TC"
+      ]
+    },
+    {
+      "id": 131,
+      "ville": "Carquefou",
+      "nom_iut": "IUT Nantes - Carquefou",
+      "universite": "Nantes Université",
+      "departement_nom": "Loire-Atlantique",
+      "departement_numero": "44",
+      "region": "Pays de la Loire",
+      "lat": 47.2982,
+      "lng": -1.4899,
+      "parcours": [
+        "GEII",
+        "GMP",
+        "MTEE",
+        "QLIO",
+        "SGM"
+      ]
+    },
+    {
+      "id": 132,
+      "ville": "Châteaubriant",
+      "nom_iut": "IUT Nantes - Châteaubriant",
+      "universite": "Nantes Université",
+      "departement_nom": "Loire-Atlantique",
+      "departement_numero": "44",
+      "region": "Pays de la Loire",
+      "lat": 47.7174,
+      "lng": -1.3779,
+      "parcours": [
+        "GACO"
+      ]
+    },
+    {
+      "id": 133,
+      "ville": "Nantes",
+      "nom_iut": "IUT Nantes - Joffre",
+      "universite": "Nantes Université",
+      "departement_nom": "Loire-Atlantique",
+      "departement_numero": "44",
+      "region": "Pays de la Loire",
+      "lat": 47.2184,
+      "lng": -1.5536,
+      "parcours": [
+        "GEA",
+        "INFO"
+      ]
+    },
+    {
+      "id": 134,
+      "ville": "Cannes",
+      "nom_iut": "IUT Nice Côte d'Azur - Cannes",
+      "universite": "Université Côte d'Azur",
+      "departement_nom": "Alpes-Maritimes",
+      "departement_numero": "06",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "lat": 43.5513,
+      "lng": 7.0128,
+      "parcours": [
+        "INFOCOM",
+        "TC"
+      ]
+    },
+    {
+      "id": 135,
+      "ville": "Menton",
+      "nom_iut": "IUT Nice Côte d'Azur - Menton",
+      "universite": "Université Côte d'Azur",
+      "departement_nom": "Alpes-Maritimes",
+      "departement_numero": "06",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "lat": 43.7764,
+      "lng": 7.5008,
+      "parcours": [
+        "CS"
+      ]
+    },
+    {
+      "id": 136,
+      "ville": "Nice",
+      "nom_iut": "IUT Nice Côte d'Azur - Nice",
+      "universite": "Université Côte d'Azur",
+      "departement_nom": "Alpes-Maritimes",
+      "departement_numero": "06",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "lat": 43.7102,
+      "lng": 7.262,
+      "parcours": [
+        "GEA",
+        "GEII",
+        "INFO",
+        "TC"
+      ]
+    },
+    {
+      "id": 137,
+      "ville": "Valbonne",
+      "nom_iut": "IUT Nice Côte d'Azur - Valbonne",
+      "universite": "Université Côte d'Azur",
+      "departement_nom": "Alpes-Maritimes",
+      "departement_numero": "06",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "lat": 43.64,
+      "lng": 7.0047,
+      "parcours": [
+        "INFO",
+        "QLIO",
+        "RT",
+        "SD"
+      ]
+    },
+    {
+      "id": 138,
+      "ville": "Nîmes",
+      "nom_iut": "IUT Nîmes",
+      "universite": "Université de Nîmes",
+      "departement_nom": "Gard",
+      "departement_numero": "30",
+      "region": "Occitanie",
+      "lat": 43.8367,
+      "lng": 4.3601,
+      "parcours": [
+        "GCCD",
+        "GEA",
+        "GEII",
+        "GMP",
+        "SGM"
+      ]
+    },
+    {
+      "id": 139,
+      "ville": "Belfort",
+      "nom_iut": "IUT Nord Franche-Comté - Belfort",
+      "universite": "Université de Franche-Comté",
+      "departement_nom": "Territoire de Belfort",
+      "departement_numero": "90",
+      "region": "Bourgogne-Franche-Comté",
+      "lat": 47.6382,
+      "lng": 6.863,
+      "parcours": [
+        "CS",
+        "GCCD",
+        "GEII",
+        "INFO",
+        "MTEE",
+        "TC"
+      ]
+    },
+    {
+      "id": 140,
+      "ville": "Montbéliard",
+      "nom_iut": "IUT Nord Franche-Comté - Montbéliard",
+      "universite": "Université de Franche-Comté",
+      "departement_nom": "Doubs",
+      "departement_numero": "25",
+      "region": "Bourgogne-Franche-Comté",
+      "lat": 47.5102,
+      "lng": 6.7989,
+      "parcours": [
+        "GACO",
+        "MMI",
+        "MP",
+        "RT"
+      ]
+    },
+    {
+      "id": 141,
+      "ville": "Nouméa",
+      "nom_iut": "IUT Nouvelle-Calédonie",
+      "universite": "Université de la Nouvelle-Calédonie",
+      "departement_nom": "Nouvelle-Calédonie",
+      "departement_numero": "988",
+      "region": "Nouvelle-Calédonie",
+      "lat": -22.2758,
+      "lng": 166.458,
+      "parcours": [
+        "GEA",
+        "MMI"
+      ]
+    },
+    {
+      "id": 142,
+      "ville": "Beauvais",
+      "nom_iut": "IUT Oise - Beauvais",
+      "universite": "Université de Picardie Jules Verne",
+      "departement_nom": "Oise",
+      "departement_numero": "60",
+      "region": "Hauts-de-France",
+      "lat": 49.4298,
+      "lng": 2.0813,
+      "parcours": [
+        "GEA",
+        "TC"
+      ]
+    },
+    {
+      "id": 143,
+      "ville": "Creil",
+      "nom_iut": "IUT Oise - Creil",
+      "universite": "Université de Picardie Jules Verne",
+      "departement_nom": "Oise",
+      "departement_numero": "60",
+      "region": "Hauts-de-France",
+      "lat": 49.2592,
+      "lng": 2.4844,
+      "parcours": [
+        "HSE",
+        "MLT",
+        "TC"
+      ]
+    },
+    {
+      "id": 144,
+      "ville": "Orléans",
+      "nom_iut": "IUT Orléans",
+      "universite": "Université d'Orléans",
+      "departement_nom": "Loiret",
+      "departement_numero": "45",
+      "region": "Centre-Val de Loire",
+      "lat": 47.9029,
+      "lng": 1.9092,
+      "parcours": [
+        "CHIMIE",
+        "GEA",
+        "GMP",
+        "INFO",
+        "MTEE",
+        "QLIO"
+      ]
+    },
+    {
+      "id": 145,
+      "ville": "Gif-sur-Yvette",
+      "nom_iut": "IUT Orsay",
+      "universite": "Université Paris-Saclay",
+      "departement_nom": "Essonne",
+      "departement_numero": "91",
+      "region": "Île-de-France",
+      "lat": 48.6858,
+      "lng": 2.1376,
+      "parcours": [
+        "CHIMIE",
+        "INFO",
+        "MP"
+      ]
+    },
+    {
+      "id": 146,
+      "ville": "Paris",
+      "nom_iut": "IUT Paris Pajol",
+      "universite": "Université Sorbonne Paris Nord",
+      "departement_nom": "Paris",
+      "departement_numero": "75",
+      "region": "Île-de-France",
+      "lat": 48.8924,
+      "lng": 2.3488,
+      "parcours": [
+        "MP"
+      ]
+    },
+    {
+      "id": 147,
+      "ville": "Paris",
+      "nom_iut": "IUT Paris Rives de Seine",
+      "universite": "Université Paris Cité",
+      "departement_nom": "Paris",
+      "departement_numero": "75",
+      "region": "Île-de-France",
+      "lat": 48.8637,
+      "lng": 2.2769,
+      "parcours": [
+        "CS",
+        "GEA",
+        "INFO",
+        "INFOCOM",
+        "SD",
+        "TC"
+      ]
+    },
+    {
+      "id": 148,
+      "ville": "Mont-de-Marsan",
+      "nom_iut": "IUT Pays de l'Adour - Mont-de-Marsan",
+      "universite": "Université de Pau et des Pays de l'Adour",
+      "departement_nom": "Landes",
+      "departement_numero": "40",
+      "region": "Nouvelle-Aquitaine",
+      "lat": 43.8945,
+      "lng": -0.5002,
+      "parcours": [
+        "GB",
+        "RT",
+        "SGM"
+      ]
+    },
+    {
+      "id": 149,
+      "ville": "Pau",
+      "nom_iut": "IUT Pays de l'Adour - Pau",
+      "universite": "Université de Pau et des Pays de l'Adour",
+      "departement_nom": "Pyrénées-Atlantiques",
+      "departement_numero": "64",
+      "region": "Nouvelle-Aquitaine",
+      "lat": 43.2951,
+      "lng": -0.3708,
+      "parcours": [
+        "MTEE",
+        "SD"
+      ]
+    },
+    {
+      "id": 150,
+      "ville": "Carcassonne",
+      "nom_iut": "IUT Perpignan - Carcassonne",
+      "universite": "Université de Perpignan Via Domitia",
+      "departement_nom": "Aude",
+      "departement_numero": "11",
+      "region": "Occitanie",
+      "lat": 43.212,
+      "lng": 2.3534,
+      "parcours": [
+        "SD",
+        "TC"
+      ]
+    },
+    {
+      "id": 151,
+      "ville": "Narbonne",
+      "nom_iut": "IUT Perpignan - Narbonne",
+      "universite": "Université de Perpignan Via Domitia",
+      "departement_nom": "Aude",
+      "departement_numero": "11",
+      "region": "Occitanie",
+      "lat": 43.1836,
+      "lng": 3.004,
+      "parcours": [
+        "CJ",
+        "GCGP"
+      ]
+    },
+    {
+      "id": 152,
+      "ville": "Perpignan",
+      "nom_iut": "IUT Perpignan - Perpignan",
+      "universite": "Université de Perpignan Via Domitia",
+      "departement_nom": "Pyrénées-Orientales",
+      "departement_numero": "66",
+      "region": "Occitanie",
+      "lat": 42.6986,
+      "lng": 2.8956,
+      "parcours": [
+        "GB",
+        "GEA",
+        "GIM",
+        "MLT"
+      ]
+    },
+    {
+      "id": 153,
+      "ville": "Châtellerault",
+      "nom_iut": "IUT Poitiers-Niort-Châtellerault - Châtellerault",
+      "universite": "Université de Poitiers",
+      "departement_nom": "Vienne",
+      "departement_numero": "86",
+      "region": "Nouvelle-Aquitaine",
+      "lat": 46.8177,
+      "lng": 0.5408,
+      "parcours": [
+        "MP",
+        "RT",
+        "TC"
+      ]
+    },
+    {
+      "id": 154,
+      "ville": "Niort",
+      "nom_iut": "IUT Poitiers-Niort-Châtellerault - Niort",
+      "universite": "Université de Poitiers",
+      "departement_nom": "Deux-Sèvres",
+      "departement_numero": "79",
+      "region": "Nouvelle-Aquitaine",
+      "lat": 46.3238,
+      "lng": -0.4661,
+      "parcours": [
+        "GEA",
+        "HSE",
+        "SD"
+      ]
+    },
+    {
+      "id": 155,
+      "ville": "Poitiers",
+      "nom_iut": "IUT Poitiers-Niort-Châtellerault - Poitiers",
+      "universite": "Université de Poitiers",
+      "departement_nom": "Vienne",
+      "departement_numero": "86",
+      "region": "Nouvelle-Aquitaine",
+      "lat": 46.5802,
+      "lng": 0.3404,
+      "parcours": [
+        "CHIMIE",
+        "GEA",
+        "GEII",
+        "GMP",
+        "MTEE"
+      ]
+    },
+    {
+      "id": 156,
+      "ville": "Quimper",
+      "nom_iut": "IUT Quimper",
+      "universite": "Université de Bretagne Occidentale",
+      "departement_nom": "Finistère",
+      "departement_numero": "29",
+      "region": "Bretagne",
+      "lat": 47.9974,
+      "lng": -4.0951,
+      "parcours": [
+        "GB",
+        "GEA",
+        "MLT",
+        "TC"
+      ]
+    },
+    {
+      "id": 157,
+      "ville": "Reims",
+      "nom_iut": "IUT Reims",
+      "universite": "Université de Reims Champagne-Ardenne",
+      "departement_nom": "Marne",
+      "departement_numero": "51",
+      "region": "Grand Est",
+      "lat": 49.2583,
+      "lng": 4.0317,
+      "parcours": [
+        "GEA",
+        "TC"
+      ]
+    },
+    {
+      "id": 158,
+      "ville": "Châlons-en-Champagne",
+      "nom_iut": "IUT Reims-Châlons-Charleville - Châlons-en-Champagne",
+      "universite": "Université de Reims Champagne-Ardenne",
+      "departement_nom": "Marne",
+      "departement_numero": "51",
+      "region": "Grand Est",
+      "lat": 48.9571,
+      "lng": 4.3653,
+      "parcours": [
+        "CS",
+        "GIM",
+        "RT"
+      ]
+    },
+    {
+      "id": 159,
+      "ville": "Charleville-Mézières",
+      "nom_iut": "IUT Reims-Châlons-Charleville - Charleville-Mézières",
+      "universite": "Université de Reims Champagne-Ardenne",
+      "departement_nom": "Ardennes",
+      "departement_numero": "08",
+      "region": "Grand Est",
+      "lat": 49.7736,
+      "lng": 4.7178,
+      "parcours": [
+        "GACO",
+        "HSE",
+        "TC"
+      ]
+    },
+    {
+      "id": 160,
+      "ville": "Reims",
+      "nom_iut": "IUT Reims-Châlons-Charleville - Reims",
+      "universite": "Université de Reims Champagne-Ardenne",
+      "departement_nom": "Marne",
+      "departement_numero": "51",
+      "region": "Grand Est",
+      "lat": 49.2583,
+      "lng": 4.0317,
+      "parcours": [
+        "GCCD",
+        "GEA",
+        "GMP",
+        "INFO",
+        "MLT",
+        "MP",
+        "PEC",
+        "TC"
+      ]
+    },
+    {
+      "id": 161,
+      "ville": "Rennes",
+      "nom_iut": "IUT Rennes",
+      "universite": "Université de Rennes",
+      "departement_nom": "Ille-et-Vilaine",
+      "departement_numero": "35",
+      "region": "Bretagne",
+      "lat": 48.1173,
+      "lng": -1.6778,
+      "parcours": [
+        "CHIMIE",
+        "CS",
+        "GCCD",
+        "GEA",
+        "GEII",
+        "GMP"
+      ]
+    },
+    {
+      "id": 162,
+      "ville": "Roanne",
+      "nom_iut": "IUT Roanne",
+      "universite": "Université Jean Monnet Saint-Étienne",
+      "departement_nom": "Loire",
+      "departement_numero": "42",
+      "region": "Auvergne-Rhône-Alpes",
+      "lat": 46.0397,
+      "lng": 4.0693,
+      "parcours": [
+        "GEA",
+        "GIM",
+        "QLIO",
+        "RT",
+        "TC"
+      ]
+    },
+    {
+      "id": 163,
+      "ville": "Rodez",
+      "nom_iut": "IUT Rodez",
+      "universite": "Université Toulouse III - Paul Sabatier",
+      "departement_nom": "Aveyron",
+      "departement_numero": "12",
+      "region": "Occitanie",
+      "lat": 44.351,
+      "lng": 2.573,
+      "parcours": [
+        "CJ",
+        "GEA",
+        "INFO",
+        "INFOCOM",
+        "QLIO"
+      ]
+    },
+    {
+      "id": 164,
+      "ville": "Elbeuf",
+      "nom_iut": "IUT Rouen - Elbeuf",
+      "universite": "Université de Rouen Normandie",
+      "departement_nom": "Seine-Maritime",
+      "departement_numero": "76",
+      "region": "Normandie",
+      "lat": 49.2874,
+      "lng": 1.0156,
+      "parcours": [
+        "MMI",
+        "RT"
+      ]
+    },
+    {
+      "id": 165,
+      "ville": "Mont-Saint-Aignan",
+      "nom_iut": "IUT Rouen - Mont-Saint-Aignan",
+      "universite": "Université de Rouen Normandie",
+      "departement_nom": "Seine-Maritime",
+      "departement_numero": "76",
+      "region": "Normandie",
+      "lat": 49.4647,
+      "lng": 1.0984,
+      "parcours": [
+        "CHIMIE",
+        "GCGP",
+        "GEII",
+        "MP",
+        "MTEE"
+      ]
+    },
+    {
+      "id": 166,
+      "ville": "Rouen",
+      "nom_iut": "IUT Rouen - Rouen",
+      "universite": "Université de Rouen Normandie",
+      "departement_nom": "Seine-Maritime",
+      "departement_numero": "76",
+      "region": "Normandie",
+      "lat": 49.4432,
+      "lng": 1.0993,
+      "parcours": [
+        "CJ",
+        "TC"
+      ]
+    },
+    {
+      "id": 167,
+      "ville": "Saint-Brieuc",
+      "nom_iut": "IUT Saint-Brieuc",
+      "universite": "Université de Rennes",
+      "departement_nom": "Côtes-d'Armor",
+      "departement_numero": "22",
+      "region": "Bretagne",
+      "lat": 48.5113,
+      "lng": -2.7656,
+      "parcours": [
+        "GB",
+        "SGM",
+        "TC"
+      ]
+    },
+    {
+      "id": 168,
+      "ville": "Saint-Denis",
+      "nom_iut": "IUT Saint-Denis",
+      "universite": "Université Sorbonne Paris Nord",
+      "departement_nom": "Seine-Saint-Denis",
+      "departement_numero": "93",
+      "region": "Île-de-France",
+      "lat": 48.9362,
+      "lng": 2.3574,
+      "parcours": [
+        "GEA",
+        "GIM",
+        "GMP",
+        "HSE",
+        "MP",
+        "SGM",
+        "TC"
+      ]
+    },
+    {
+      "id": 169,
+      "ville": "Saint-Dié-des-Vosges",
+      "nom_iut": "IUT Saint-Dié-des-Vosges",
+      "universite": "Université de Lorraine",
+      "departement_nom": "Vosges",
+      "departement_numero": "88",
+      "region": "Grand Est",
+      "lat": 48.2844,
+      "lng": 6.9492,
+      "parcours": [
+        "GEII",
+        "INFO",
+        "MMI"
+      ]
+    },
+    {
+      "id": 170,
+      "ville": "Saint-Etienne",
+      "nom_iut": "IUT Saint-Etienne",
+      "universite": "Université Jean Monnet Saint-Étienne",
+      "departement_nom": "Loire",
+      "departement_numero": "42",
+      "region": "Auvergne-Rhône-Alpes",
+      "lat": 45.4341,
+      "lng": 4.3992,
+      "parcours": [
+        "GACO",
+        "GB",
+        "GEA",
+        "GEII",
+        "GMP",
+        "MP",
+        "TC"
+      ]
+    },
+    {
+      "id": 171,
+      "ville": "Saint-Malo",
+      "nom_iut": "IUT Saint-Malo",
+      "universite": "Université de Rennes",
+      "departement_nom": "Ille-et-Vilaine",
+      "departement_numero": "35",
+      "region": "Bretagne",
+      "lat": 48.6492,
+      "lng": -2.025,
+      "parcours": [
+        "CJ",
+        "GEA",
+        "GIM",
+        "RT"
+      ]
+    },
+    {
+      "id": 172,
+      "ville": "Saint-Nazaire",
+      "nom_iut": "IUT Saint-Nazaire",
+      "universite": "Nantes Université",
+      "departement_nom": "Loire-Atlantique",
+      "departement_numero": "44",
+      "region": "Pays de la Loire",
+      "lat": 47.2774,
+      "lng": -2.2133,
+      "parcours": [
+        "GCCD",
+        "GCGP",
+        "GIM",
+        "MLT",
+        "MP",
+        "TC"
+      ]
+    },
+    {
+      "id": 173,
+      "ville": "Sceaux",
+      "nom_iut": "IUT Sceaux",
+      "universite": "Université Paris-Saclay",
+      "departement_nom": "Hauts-de-Seine",
+      "departement_numero": "92",
+      "region": "Île-de-France",
+      "lat": 48.7786,
+      "lng": 2.2995,
+      "parcours": [
+        "GEA",
+        "TC"
+      ]
+    },
+    {
+      "id": 174,
+      "ville": "Schiltigheim",
+      "nom_iut": "IUT Schiltigheim - Schiltigheim",
+      "universite": "Université de Strasbourg",
+      "departement_nom": "Bas-Rhin",
+      "departement_numero": "67",
+      "region": "Grand Est",
+      "lat": 48.6095,
+      "lng": 7.75,
+      "parcours": [
+        "GB",
+        "GEA",
+        "GIM",
+        "MP"
+      ]
+    },
+    {
+      "id": 175,
+      "ville": "Sélestat",
+      "nom_iut": "IUT Schiltigheim - Sélestat",
+      "universite": "Université de Strasbourg",
+      "departement_nom": "Bas-Rhin",
+      "departement_numero": "67",
+      "region": "Grand Est",
+      "lat": 48.2595,
+      "lng": 7.4548,
+      "parcours": [
+        "GEA"
+      ]
+    },
+    {
+      "id": 176,
+      "ville": "Fontainebleau",
+      "nom_iut": "IUT Sénart-Fontainebleau - Fontainebleau",
+      "universite": "Université Gustave Eiffel",
+      "departement_nom": "Seine-et-Marne",
+      "departement_numero": "77",
+      "region": "Île-de-France",
+      "lat": 48.4056,
+      "lng": 2.702,
+      "parcours": [
+        "GEA",
+        "INFO",
+        "TC"
+      ]
+    },
+    {
+      "id": 177,
+      "ville": "Lieusaint",
+      "nom_iut": "IUT Sénart-Fontainebleau - Sénart",
+      "universite": "Université Sénart-Fontainebleau - Sénart",
+      "departement_nom": "Seine-et-Marne",
+      "departement_numero": "77",
+      "region": "Île-de-France",
+      "lat": 48.6236,
+      "lng": 2.5534,
+      "parcours": [
+        "CS",
+        "GB",
+        "GCCD",
+        "GEA",
+        "GEII",
+        "GIM",
+        "INFO",
+        "MMI",
+        "TC"
+      ]
+    },
+    {
+      "id": 178,
+      "ville": "Illkirch-Graffenstaden",
+      "nom_iut": "IUT Strasbourg Sud-Robert Schuman",
+      "universite": "Université de Strasbourg",
+      "departement_nom": "Bas-Rhin",
+      "departement_numero": "67",
+      "region": "Grand Est",
+      "lat": 48.5213,
+      "lng": 7.7156,
+      "parcours": [
+        "CHIMIE",
+        "GCCD",
+        "INFO",
+        "INFOCOM",
+        "TC"
+      ]
+    },
+    {
+      "id": 179,
+      "ville": "Tarbes",
+      "nom_iut": "IUT Tarbes",
+      "universite": "Université de Pau et des Pays de l'Adour",
+      "departement_nom": "Hautes-Pyrénées",
+      "departement_numero": "65",
+      "region": "Occitanie",
+      "lat": 43.2328,
+      "lng": 0.0781,
+      "parcours": [
+        "GCCD",
+        "GEA",
+        "GEII",
+        "GMP",
+        "MMI",
+        "TC"
+      ]
+    },
+    {
+      "id": 180,
+      "ville": "Yutz",
+      "nom_iut": "IUT Thionville-Yutz",
+      "universite": "Université Thionville-Yutz",
+      "departement_nom": "Moselle",
+      "departement_numero": "57",
+      "region": "Grand Est",
+      "lat": 49.3608,
+      "lng": 6.1857,
+      "parcours": [
+        "GB",
+        "GIM",
+        "HSE",
+        "TC"
+      ]
+    },
+    {
+      "id": 181,
+      "ville": "Draguignan",
+      "nom_iut": "IUT Toulon - Draguignan",
+      "universite": "Université de Toulon",
+      "departement_nom": "Var",
+      "departement_numero": "83",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "lat": 43.5369,
+      "lng": 6.4672,
+      "parcours": [
+        "GEA"
+      ]
+    },
+    {
+      "id": 182,
+      "ville": "Toulon",
+      "nom_iut": "IUT Toulon - La Garde",
+      "universite": "Université de Toulon",
+      "departement_nom": "Var",
+      "departement_numero": "83",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "lat": 43.1242,
+      "lng": 5.928,
+      "parcours": [
+        "GB",
+        "GEA",
+        "GEII",
+        "GIM",
+        "GMP",
+        "MMI",
+        "TC"
+      ]
+    },
+    {
+      "id": 183,
+      "ville": "Auch",
+      "nom_iut": "IUT Toulouse A - Auch",
+      "universite": "Université Toulouse III - Paul Sabatier",
+      "departement_nom": "Gers",
+      "departement_numero": "32",
+      "region": "Occitanie",
+      "lat": 43.6476,
+      "lng": 0.5853,
+      "parcours": [
+        "GB",
+        "GEA",
+        "HSE"
+      ]
+    },
+    {
+      "id": 184,
+      "ville": "Castres",
+      "nom_iut": "IUT Toulouse A - Castres",
+      "universite": "Université Toulouse III - Paul Sabatier",
+      "departement_nom": "Tarn",
+      "departement_numero": "81",
+      "region": "Occitanie",
+      "lat": 43.6077,
+      "lng": 2.2447,
+      "parcours": [
+        "CHIMIE",
+        "INFO",
+        "MMI",
+        "PEC",
+        "TC"
+      ]
+    },
+    {
+      "id": 185,
+      "ville": "Toulouse",
+      "nom_iut": "IUT Toulouse A - Montaudran",
+      "universite": "Université Toulouse III - Paul Sabatier",
+      "departement_nom": "Haute-Garonne",
+      "departement_numero": "31",
+      "region": "Occitanie",
+      "lat": 43.6047,
+      "lng": 1.4442,
+      "parcours": [
+        "GMP"
+      ]
+    },
+    {
+      "id": 186,
+      "ville": "Toulouse",
+      "nom_iut": "IUT Toulouse A - Ponsan",
+      "universite": "Université Toulouse III - Paul Sabatier",
+      "departement_nom": "Haute-Garonne",
+      "departement_numero": "31",
+      "region": "Occitanie",
+      "lat": 43.6047,
+      "lng": 1.4442,
+      "parcours": [
+        "GEA",
+        "GEII",
+        "INFOCOM",
+        "MP",
+        "TC"
+      ]
+    },
+    {
+      "id": 187,
+      "ville": "Toulouse",
+      "nom_iut": "IUT Toulouse A - Rangueil",
+      "universite": "Université Toulouse III - Paul Sabatier",
+      "departement_nom": "Haute-Garonne",
+      "departement_numero": "31",
+      "region": "Occitanie",
+      "lat": 43.6047,
+      "lng": 1.4442,
+      "parcours": [
+        "GCCD",
+        "GCGP",
+        "GEA",
+        "INFO"
+      ]
+    },
+    {
+      "id": 188,
+      "ville": "Tours",
+      "nom_iut": "IUT Tours",
+      "universite": "Université de Tours",
+      "departement_nom": "Indre-et-Loire",
+      "departement_numero": "37",
+      "region": "Centre-Val de Loire",
+      "lat": 47.3941,
+      "lng": 0.6848,
+      "parcours": [
+        "CS",
+        "GB",
+        "GEA",
+        "GEII",
+        "INFOCOM",
+        "TC"
+      ]
+    },
+    {
+      "id": 189,
+      "ville": "Tremblay-en-France",
+      "nom_iut": "IUT Tremblay-en-France",
+      "universite": "Université Tremblay-en-France",
+      "departement_nom": "Seine-Saint-Denis",
+      "departement_numero": "93",
+      "region": "Île-de-France",
+      "lat": 48.9598,
+      "lng": 2.5615,
+      "parcours": [
+        "GEA",
+        "GIM",
+        "MLT"
+      ]
+    },
+    {
+      "id": 190,
+      "ville": "Troyes",
+      "nom_iut": "IUT Troyes",
+      "universite": "Université de Reims Champagne-Ardenne",
+      "departement_nom": "Aube",
+      "departement_numero": "10",
+      "region": "Grand Est",
+      "lat": 48.2973,
+      "lng": 4.0744,
+      "parcours": [
+        "CJ",
+        "GEA",
+        "GEII",
+        "GMP",
+        "MMI",
+        "TC"
+      ]
+    },
+    {
+      "id": 191,
+      "ville": "Valence",
+      "nom_iut": "IUT Valence",
+      "universite": "Université Grenoble Alpes",
+      "departement_nom": "Drôme",
+      "departement_numero": "26",
+      "region": "Auvergne-Rhône-Alpes",
+      "lat": 44.9334,
+      "lng": 4.8924,
+      "parcours": [
+        "GEA",
+        "INFO",
+        "RT",
+        "TC"
+      ]
+    },
+    {
+      "id": 192,
+      "ville": "Cambrai",
+      "nom_iut": "IUT Valenciennes - Cambrai",
+      "universite": "Université Polytechnique Hauts-de-France",
+      "departement_nom": "Nord",
+      "departement_numero": "59",
+      "region": "Hauts-de-France",
+      "lat": 50.1763,
+      "lng": 3.232,
+      "parcours": [
+        "QLIO",
+        "TC"
+      ]
+    },
+    {
+      "id": 193,
+      "ville": "Maubeuge",
+      "nom_iut": "IUT Valenciennes - Maubeuge",
+      "universite": "Université Polytechnique Hauts-de-France",
+      "departement_nom": "Nord",
+      "departement_numero": "59",
+      "region": "Hauts-de-France",
+      "lat": 50.2775,
+      "lng": 3.9723,
+      "parcours": [
+        "INFO",
+        "MP"
+      ]
+    },
+    {
+      "id": 194,
+      "ville": "Aulnoy-lez-Valenciennes",
+      "nom_iut": "IUT Valenciennes - Valenciennes",
+      "universite": "Université Polytechnique Hauts-de-France",
+      "departement_nom": "Nord",
+      "departement_numero": "59",
+      "region": "Hauts-de-France",
+      "lat": 50.3442,
+      "lng": 3.522,
+      "parcours": [
+        "GEA",
+        "GEII",
+        "GIM",
+        "GMP",
+        "TC"
+      ]
+    },
+    {
+      "id": 195,
+      "ville": "Vannes",
+      "nom_iut": "IUT Vannes",
+      "universite": "Université Bretagne Sud",
+      "departement_nom": "Morbihan",
+      "departement_numero": "56",
+      "region": "Bretagne",
+      "lat": 47.6559,
+      "lng": -2.7601,
+      "parcours": [
+        "GEA",
+        "INFO",
+        "SD",
+        "TC"
+      ]
+    },
+    {
+      "id": 196,
+      "ville": "Rambouillet",
+      "nom_iut": "IUT Vélizy - Rambouillet",
+      "universite": "Université de Versailles Saint-Quentin-en-Yvelines",
+      "departement_nom": "Yvelines",
+      "departement_numero": "78",
+      "region": "Île-de-France",
+      "lat": 48.6461,
+      "lng": 1.8294,
+      "parcours": [
+        "GACO",
+        "GCGP",
+        "TC"
+      ]
+    },
+    {
+      "id": 197,
+      "ville": "Vélizy-Villacoublay",
+      "nom_iut": "IUT Vélizy - Vélizy",
+      "universite": "Université de Versailles Saint-Quentin-en-Yvelines",
+      "departement_nom": "Yvelines",
+      "departement_numero": "78",
+      "region": "Île-de-France",
+      "lat": 48.7769,
+      "lng": 2.1736,
+      "parcours": [
+        "GEII",
+        "INFO",
+        "MMI",
+        "RT"
+      ]
+    },
+    {
+      "id": 198,
+      "ville": "Nanterre",
+      "nom_iut": "IUT Ville d'Avray - Nanterre",
+      "universite": "Université Paris Nanterre",
+      "departement_nom": "Hauts-de-Seine",
+      "departement_numero": "92",
+      "region": "Île-de-France",
+      "lat": 48.8924,
+      "lng": 2.2072,
+      "parcours": [
+        "GEA",
+        "TC"
+      ]
+    },
+    {
+      "id": 199,
+      "ville": "Saint-Cloud",
+      "nom_iut": "IUT Ville d'Avray - Saint-Cloud",
+      "universite": "Université Paris Nanterre",
+      "departement_nom": "Hauts-de-Seine",
+      "departement_numero": "92",
+      "region": "Île-de-France",
+      "lat": 48.8453,
+      "lng": 2.2103,
+      "parcours": [
+        "INFOCOM"
+      ]
+    },
+    {
+      "id": 200,
+      "ville": "Ville-d'Avray",
+      "nom_iut": "IUT Ville d'Avray - Ville d'Avray",
+      "universite": "Université Paris Nanterre",
+      "departement_nom": "Hauts-de-Seine",
+      "departement_numero": "92",
+      "region": "Île-de-France",
+      "lat": 48.8267,
+      "lng": 2.1909,
+      "parcours": [
+        "GEII",
+        "GMP",
+        "MTEE"
+      ]
+    },
+    {
+      "id": 201,
+      "ville": "Villetaneuse",
+      "nom_iut": "IUT Villetaneuse",
+      "universite": "Université Sorbonne Paris Nord",
+      "departement_nom": "Seine-Saint-Denis",
+      "departement_numero": "93",
+      "region": "Île-de-France",
+      "lat": 48.9536,
+      "lng": 2.3442,
+      "parcours": [
+        "CJ",
+        "GEA",
+        "GEII",
+        "INFO",
+        "RT",
+        "SD"
+      ]
+    }
+  ]
+}
