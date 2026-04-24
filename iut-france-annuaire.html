@@ -384,6 +384,25 @@
   }
   .but-tag-link:hover { transform: translateY(-1px); filter: brightness(1.12); }
 
+  .iut-link-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 4px;
+    padding: 3px 9px;
+    background: var(--navy);
+    color: var(--white);
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background var(--transition), transform 0.15s;
+  }
+  .iut-link-tag:hover {
+    background: var(--blue);
+    transform: translateY(-1px);
+  }
+
   /* ── CARD VIEW ── */
   .cards-grid {
     display: grid;
@@ -1114,7 +1133,7 @@ function renderTable(data) {
     <tr>
       <td class="iut-name-cell">
         <strong>${d.nom}</strong>
-        <a href="${d.url}" target="_blank" rel="noopener">↗ iut.fr</a>
+        <a href="${d.url}" target="_blank" rel="noopener" class="iut-link-tag">↗ Lien vers l'IUT</a>
       </td>
       <td><span class="ville-tag">${d.ville}</span></td>
       <td>${renderBadge(d.region)}</td>
@@ -1145,7 +1164,7 @@ function renderCards(data) {
       <div class="card-but-list">${renderButTags(d.but, filterBut)}</div>
       <div style="margin-top:.8rem; display:flex; justify-content:space-between; align-items:center">
         <span style="font-size:.7rem; color:var(--gray-400)">${d.but.length} spécialité${d.but.length>1?'s':''} BUT</span>
-        <a href="${d.url}" target="_blank" rel="noopener" style="font-size:.72rem; color:var(--blue); text-decoration:none;">↗ iut.fr</a>
+        <a href="${d.url}" target="_blank" rel="noopener" class="iut-link-tag">↗ Lien vers l'IUT</a>
       </div>
     </div>`;
   }).join('');
