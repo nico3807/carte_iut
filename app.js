@@ -241,10 +241,8 @@ function renderPanel(iut) {
     <div class="panel-section">
       <div class="panel-section-title">Université</div>
       <div class="panel-uni-name">${iut.universite}</div>
-      <div class="panel-iut-name">
-        ${iut.nom_iut}
-        <a href="${iutPageUrl(iut.nom_iut)}" target="_blank" rel="noopener" class="ext-link">↗ iut.fr</a>
-      </div>
+      <div class="panel-iut-name">${iut.nom_iut}</div>
+      <a href="${iutPageUrl(iut.nom_iut)}" target="_blank" rel="noopener" class="iut-link-tag">↗ Lien vers l'IUT</a>
     </div>
 
     <div class="panel-section">
