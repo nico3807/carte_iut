@@ -12,6 +12,47 @@ const MARKER_COLORS = Object.fromEntries(
   Object.entries(CATEGORIES).map(([k, v]) => [k, v.color])
 );
 
+/* ── URLs iut.fr par spécialité BUT ── */
+const BUT_URLS = {
+  'CHIMIE':   'https://www.iut.fr/les-but/chimie/',
+  'CJ':       'https://www.iut.fr/les-but/carrieres-juridiques/',
+  'CS':       'https://www.iut.fr/les-but/carrieres-sociales/',
+  'GB':       'https://www.iut.fr/les-but/genie-biologique/',
+  'GCCD':     'https://www.iut.fr/les-but/genie-civil-construction-durable/',
+  'GCGP':     'https://www.iut.fr/les-but/genie-chimique-genie-des-procedes/',
+  'GEII':     'https://www.iut.fr/les-but/genie-electrique-et-informatique-industrielle/',
+  'GIM':      'https://www.iut.fr/les-but/genie-industriel-et-maintenance/',
+  'GMP':      'https://www.iut.fr/les-but/genie-mecanique-et-productique/',
+  'GACO':     'https://www.iut.fr/les-but/gestion-administrative-et-commerciale-des-organisations/',
+  'GEA':      'https://www.iut.fr/les-but/gestion-des-entreprises-et-des-administrations/',
+  'HSE':      'https://www.iut.fr/les-but/hygiene-securite-environnement/',
+  'INFOCOM':  'https://www.iut.fr/les-but/information-communication/',
+  'INFO':     'https://www.iut.fr/les-but/informatique/',
+  'MLT':      'https://www.iut.fr/les-but/management-de-la-logistique-et-des-transports/',
+  'MP':       'https://www.iut.fr/les-but/mesures-physiques/',
+  'MMI':      'https://www.iut.fr/les-but/metiers-du-multimedia-et-de-l-internet/',
+  'PEC':      'https://www.iut.fr/les-but/packaging-emballage-et-conditionnement/',
+  'QLIO':     'https://www.iut.fr/les-but/qualite-logistique-industrielle-et-organisation/',
+  'RT':       'https://www.iut.fr/les-but/reseaux-et-telecommunications/',
+  'SGM':      'https://www.iut.fr/les-but/science-et-genie-des-materiaux/',
+  'SD':       'https://www.iut.fr/les-but/science-des-donnees/',
+  'TC':       'https://www.iut.fr/les-but/techniques-de-commercialisation/',
+  'MTEE':     'https://www.iut.fr/les-but/metiers-de-la-transition-et-de-l-efficacite-energetiques/',
+};
+
+/* ── Génère l'URL iut.fr d'un IUT à partir de son nom ── */
+function iutPageUrl(nomIut) {
+  const slug = nomIut
+    .replace(/ [-–].+$/, '')
+    .normalize('NFD').replace(/[̀-ͯ]/g, '')
+    .toLowerCase()
+    .replace(/^iut\s+/i, '')
+    .replace(/^(d[e']?|l[ae']?|les?)\s+/i, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+  return `https://www.iut.fr/iut/iut-${slug}/`;
+}
+
 let map, clusterGroup, allMarkers = [], specialites = [], iuts = [];
 let activeMarkerEl = null;
 
@@ -172,9 +213,12 @@ function renderPanel(iut) {
       const sp = s.sous_parcours && s.sous_parcours.length
         ? `<ul style="margin:2px 0 4px 18px;font-size:10.5px;color:#64748b">${s.sous_parcours.map(p=>`<li>${p}</li>`).join('')}</ul>`
         : '';
+      const butLink = BUT_URLS[s.code]
+        ? `<a href="${BUT_URLS[s.code]}" target="_blank" rel="noopener" class="ext-link" title="BUT ${s.code} sur iut.fr">↗</a>`
+        : '';
       return `<div class="legend-item" style="margin-bottom:2px">
          <span class="legend-dot" style="background:${s.couleur}"></span>
-         <span><strong>${s.code}</strong> — ${s.nom}</span>
+         <span><strong>${s.code}</strong> — ${s.nom} ${butLink}</span>
        </div>${sp}`;
     }).join('');
 
@@ -197,7 +241,10 @@ function renderPanel(iut) {
     <div class="panel-section">
       <div class="panel-section-title">Université</div>
       <div class="panel-uni-name">${iut.universite}</div>
-      <div class="panel-iut-name">${iut.nom_iut}</div>
+      <div class="panel-iut-name">
+        ${iut.nom_iut}
+        <a href="${iutPageUrl(iut.nom_iut)}" target="_blank" rel="noopener" class="ext-link">↗ iut.fr</a>
+      </div>
     </div>
 
     <div class="panel-section">
