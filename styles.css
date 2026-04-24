@@ -191,6 +191,31 @@ html, body {
   letter-spacing: 0.4px;
 }
 
+#annuaire-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(69,123,157,0.15);
+  border: 1px solid rgba(69,123,157,0.35);
+  color: var(--blue);
+  border-radius: var(--radius-sm);
+  padding: 6px 14px;
+  font-size: 13px;
+  font-family: inherit;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all var(--transition);
+}
+
+#annuaire-btn svg { width: 15px; height: 15px; }
+
+#annuaire-btn:hover {
+  background: rgba(69,123,157,0.28);
+  border-color: var(--blue);
+  color: var(--white);
+}
+
 #reset-btn {
   display: flex;
   align-items: center;

@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Annuaire des IUT de France — Tableau Comparatif</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --navy:        #0f1c2e;
+    --navy-mid:    #1d3557;
+    --blue:        #457b9d;
+    --accent:      #e63946;
+    --accent-soft: #ff6b78;
+    --white:       #ffffff;
+    --gray-50:     #f8fafc;
+    --gray-100:    #f1f5f9;
+    --gray-200:    #e2e8f0;
+    --gray-400:    #94a3b8;
+    --gray-600:    #475569;
+    --gray-800:    #1e293b;
+    --radius:      10px;
+    --radius-sm:   6px;
+    --shadow:      0 4px 24px rgba(15,28,46,0.18);
+    --shadow-sm:   0 2px 8px rgba(15,28,46,0.12);
+    --transition:  0.25s ease;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 14px;
+    background: var(--gray-100);
+    color: var(--gray-800);
+    min-height: 100vh;
+  }
+
+  /* ── SCROLLBAR ── */
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--gray-200); border-radius: 3px; }
+
+  /* ── HEADER ── */
+  header {
+    background: var(--navy);
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+  }
+  header::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: repeating-linear-gradient(
+      -55deg,
+      transparent, transparent 40px,
+      rgba(255,255,255,0.02) 40px, rgba(255,255,255,0.02) 41px
+    );
+  }
+  .header-inner {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 2rem 2rem 1.8rem;
+    display: flex;
+    align-items: flex-end;
+    gap: 2rem;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .header-title-block { flex: 1; min-width: 280px; }
+  .brand-logo {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 0.7rem;
+  }
+  .brand-iut {
+    background: var(--accent);
+    color: var(--white);
+    font-weight: 700;
+    font-size: 15px;
+    padding: 3px 8px;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+  }
+  .brand-france {
+    color: var(--white);
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .header-eyebrow {
+    font-size: 0.68rem;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--gray-400);
+    margin-bottom: 0.5rem;
+  }
+  header h1 {
+    font-size: clamp(1.5rem, 3vw, 2.4rem);
+    font-weight: 700;
+    color: var(--white);
+    line-height: 1.15;
+  }
+  header h1 span { color: var(--accent); }
+  .header-sub {
+    font-size: 0.82rem;
+    color: rgba(255,255,255,0.5);
+    margin-top: 0.5rem;
+  }
+  .header-stats {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+  .stat-box {
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: var(--radius-sm);
+    padding: 0.6rem 1rem;
+    text-align: center;
+    min-width: 56px;
+  }
+  .stat-box .val {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--accent-soft);
+    line-height: 1;
+  }
+  .stat-box .lbl {
+    font-size: 0.62rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--gray-400);
+    margin-top: 0.2rem;
+  }
+
+  /* ── TOOLBAR ── */
+  .toolbar {
+    background: var(--navy-mid);
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.25);
+  }
+  .toolbar-inner {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0.75rem 2rem;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+  .search-wrap {
+    position: relative;
+    flex: 1;
+    min-width: 180px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  .search-wrap > svg {
+    position: absolute; left: 0.65rem; bottom: 0.52rem;
+    color: var(--gray-400);
+    pointer-events: none;
+  }
+  .search-wrap > label {
+    color: var(--gray-400);
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+  }
+  input[type="search"] {
+    width: 100%;
+    padding: 6px 10px 6px 2.1rem;
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: var(--radius-sm);
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: var(--white);
+    outline: none;
+    transition: border-color var(--transition), background var(--transition);
+  }
+  input[type="search"]::placeholder { color: var(--gray-400); }
+  input[type="search"]:focus {
+    border-color: var(--blue);
+    background: rgba(255,255,255,0.1);
+  }
+
+  .filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    min-width: 0;
+  }
+  .filter-group label {
+    color: var(--gray-400);
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    white-space: nowrap;
+  }
+  select {
+    padding: 6px 28px 6px 10px;
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: var(--radius-sm);
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: var(--white);
+    cursor: pointer;
+    outline: none;
+    min-width: 160px;
+    transition: border-color var(--transition), background var(--transition);
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%2394a3b8' d='M8 10L3 5h10z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    background-size: 12px;
+  }
+  select option { background: var(--navy-mid); color: var(--white); }
+  select:focus {
+    border-color: var(--blue);
+    background-color: rgba(255,255,255,0.1);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%2394a3b8' d='M8 10L3 5h10z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    background-size: 12px;
+  }
+
+  .view-toggle {
+    display: flex;
+    gap: 4px;
+    margin-left: auto;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: var(--radius-sm);
+    padding: 3px;
+    align-self: flex-end;
+  }
+  .view-btn {
+    padding: 5px 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background: transparent;
+    color: var(--gray-400);
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+  }
+  .view-btn.active { background: var(--navy); color: var(--white); }
+  .view-btn:hover:not(.active) { color: var(--white); }
+
+  .result-count {
+    font-size: 12px;
+    color: var(--gray-400);
+    padding: 4px 10px;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 20px;
+    white-space: nowrap;
+    align-self: flex-end;
+  }
+  .result-count strong { color: var(--white); font-weight: 600; }
+
+  /* ── MAIN CONTENT ── */
+  .main { max-width: 1600px; margin: 0 auto; padding: 1.5rem 2rem 3rem; }
+
+  /* ── TABLE VIEW ── */
+  .table-wrap {
+    background: var(--white);
+    border-radius: var(--radius);
+    border: 1px solid var(--gray-200);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+  }
+  table { width: 100%; border-collapse: collapse; }
+  thead tr { background: var(--navy); }
+  thead th {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.7);
+    padding: 0.85rem 1rem;
+    text-align: left;
+    white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+    transition: color 0.15s;
+  }
+  thead th:hover { color: var(--accent-soft); }
+  thead th.sorted { color: var(--accent-soft); }
+  thead th .sort-arrow { margin-left: 0.3em; opacity: 0.6; }
+
+  tbody tr {
+    border-bottom: 1px solid var(--gray-100);
+    transition: background 0.15s;
+  }
+  tbody tr:last-child { border-bottom: none; }
+  tbody tr:hover { background: var(--gray-50); }
+
+  td {
+    padding: 0.75rem 1rem;
+    font-size: 13px;
+    vertical-align: middle;
+  }
+
+  .iut-name-cell strong {
+    display: block;
+    font-weight: 600;
+    color: var(--navy);
+    line-height: 1.3;
+  }
+  .iut-name-cell a {
+    color: var(--blue);
+    text-decoration: none;
+    font-size: 11px;
+  }
+  .iut-name-cell a:hover { text-decoration: underline; }
+
+  .ville-tag {
+    display: inline-block;
+    background: var(--gray-100);
+    border: 1px solid var(--gray-200);
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    color: var(--gray-600);
+  }
+
+  .region-badge {
+    display: inline-block;
+    font-size: 0.68rem;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 20px;
+    white-space: nowrap;
+  }
+
+  .sites-num {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--blue);
+    text-align: center;
+  }
+
+  .but-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  .but-tag {
+    font-size: 0.62rem;
+    font-weight: 600;
+    padding: 2px 6px;
+    border-radius: 4px;
+    background: var(--gray-100);
+    color: var(--navy-mid);
+    white-space: nowrap;
+    border: 1px solid var(--gray-200);
+  }
+  .but-tag.highlight {
+    background: var(--accent);
+    color: var(--white);
+    border-color: var(--accent);
+  }
+
+  /* ── CARD VIEW ── */
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+  .card {
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius);
+    padding: 1.2rem 1.3rem;
+    box-shadow: var(--shadow-sm);
+    transition: all 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+  .card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: var(--blue);
+  }
+  .card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow);
+    border-color: var(--blue);
+  }
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.7rem;
+    gap: 0.5rem;
+  }
+  .card-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--navy);
+    line-height: 1.3;
+    flex: 1;
+  }
+  .card-sites {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--blue);
+    min-width: 2rem;
+    text-align: right;
+    line-height: 1;
+  }
+  .card-sites-lbl { font-size: 0.58rem; color: var(--gray-400); font-weight: 400; }
+  .card-meta {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.8rem;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .card-ville {
+    font-size: 0.76rem;
+    color: var(--gray-600);
+  }
+  .card-ville::before { content: '📍 '; }
+  .card-but-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+
+  /* ── NO RESULTS ── */
+  .no-results {
+    text-align: center;
+    padding: 4rem 2rem;
+    color: var(--gray-400);
+  }
+  .no-results svg { margin-bottom: 1rem; opacity: 0.3; }
+  .no-results h3 { font-size: 1rem; margin-bottom: 0.5rem; color: var(--gray-600); }
+
+  /* ── NAV LINK BUTTON ── */
+  .nav-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(69,123,157,0.15);
+    border: 1px solid rgba(69,123,157,0.35);
+    color: var(--blue);
+    border-radius: var(--radius-sm);
+    padding: 6px 14px;
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all var(--transition);
+    flex-shrink: 0;
+    align-self: flex-end;
+  }
+  .nav-btn svg { width: 15px; height: 15px; flex-shrink: 0; }
+  .nav-btn:hover {
+    background: rgba(69,123,157,0.28);
+    border-color: var(--blue);
+    color: var(--white);
+  }
+
+  /* ── REGION COLOR MAP ── */
+  .r-ara  { background: #e8f4ec; color: #1a6b3a; }
+  .r-bfc  { background: #f4f0e8; color: #7a5a10; }
+  .r-bre  { background: #e8edf8; color: #1a3a8a; }
+  .r-cvl  { background: #f0e8f4; color: #5a1a8a; }
+  .r-cor  { background: #f8ece8; color: #8a2a1a; }
+  .r-gest { background: #e8f4f8; color: #1a5a7a; }
+  .r-gdl  { background: #f8f0e8; color: #8a5a1a; }
+  .r-guy  { background: #e8f8ec; color: #1a7a3a; }
+  .r-hdf  { background: #ece8f8; color: #3a1a8a; }
+  .r-idf  { background: #fff0e8; color: #8a3a1a; }
+  .r-reu  { background: #e8f8f8; color: #1a7a7a; }
+  .r-mar  { background: #f8e8f0; color: #8a1a5a; }
+  .r-nor  { background: #e8ece8; color: #3a5a3a; }
+  .r-naq  { background: #f8f4e8; color: #7a6a1a; }
+  .r-occ  { background: #ffe8e8; color: #8a1a1a; }
+  .r-pdl  { background: #e8f0f8; color: #1a4a7a; }
+  .r-pac  { background: #ffe8f4; color: #8a1a4a; }
+
+  @media (max-width: 900px) {
+    .header-inner { padding: 1.5rem 1rem 1rem; }
+    .toolbar-inner { padding: 0.75rem 1rem; gap: 6px; }
+    .main { padding: 1rem 1rem 2rem; }
+    table { font-size: 0.78rem; }
+    td, thead th { padding: 0.6rem 0.6rem; }
+    .cards-grid { grid-template-columns: 1fr; }
+    .filter-group label { display: none; }
+    select { min-width: 120px; }
+  }
+
+  @media (max-width: 600px) {
+    .search-wrap { max-width: 100%; }
+    .view-toggle { margin-left: 0; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="header-title-block">
+      <div class="brand-logo">
+        <span class="brand-iut">ADIUT</span>
+        <span class="brand-france">France</span>
+      </div>
+      <div class="header-eyebrow">Réseau national — Source : ADIUT / iut.fr</div>
+      <h1>Annuaire des <span>IUT</span> de France</h1>
+      <p class="header-sub">Tableau comparatif interactif • BUT 2024–2026 • Filtres région &amp; spécialité</p>
+    </div>
+    <div class="header-stats">
+      <div class="stat-box"><div class="val" id="stat-iuts">0</div><div class="lbl">IUT</div></div>
+      <div class="stat-box"><div class="val" id="stat-sites">0</div><div class="lbl">Sites</div></div>
+      <div class="stat-box"><div class="val">24</div><div class="lbl">Spécialités BUT</div></div>
+      <div class="stat-box"><div class="val">13</div><div class="lbl">Régions</div></div>
+    </div>
+  </div>
+</header>
+
+<div class="toolbar">
+  <div class="toolbar-inner">
+    <a href="index.html" class="nav-btn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="10" r="3"/><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+      </svg>
+      Carte
+    </a>
+    <div class="search-wrap">
+      <label for="search">Rechercher</label>
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="search" id="search" placeholder="IUT, ville…">
+    </div>
+    <div class="filter-group">
+      <label>Région</label>
+      <select id="filter-region"><option value="">Toutes les régions</option></select>
+    </div>
+    <div class="filter-group">
+      <label>Spécialité BUT</label>
+      <select id="filter-but"><option value="">Toutes les spécialités</option></select>
+    </div>
+    <div class="filter-group">
+      <label>Trier par</label>
+      <select id="sort-select">
+        <option value="nom">Nom IUT</option>
+        <option value="region">Région</option>
+        <option value="sites-desc">Sites (décroissant)</option>
+        <option value="sites-asc">Sites (croissant)</option>
+        <option value="nbBut-desc">Nb spécialités (décroissant)</option>
+      </select>
+    </div>
+    <span class="result-count" id="result-count"></span>
+    <div class="view-toggle">
+      <button class="view-btn active" id="btn-table" title="Vue tableau">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="3" y1="15" x2="21" y2="15"/><line x1="9" y1="3" x2="9" y2="21"/></svg>
+      </button>
+      <button class="view-btn" id="btn-cards" title="Vue cartes">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="main">
+  <div id="table-view">
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th data-col="nom">IUT <span class="sort-arrow">↕</span></th>
+            <th data-col="ville">Ville principale <span class="sort-arrow">↕</span></th>
+            <th data-col="region">Région <span class="sort-arrow">↕</span></th>
+            <th data-col="sites" style="text-align:center">Sites <span class="sort-arrow">↕</span></th>
+            <th data-col="but">Spécialités BUT</th>
+            <th data-col="nbBut" style="text-align:center">Nb <span class="sort-arrow">↕</span></th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+    </div>
+  </div>
+  <div id="cards-view" style="display:none">
+    <div class="cards-grid" id="cards-body"></div>
+  </div>
+  <div id="no-results" class="no-results" style="display:none">
+    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    <h3>Aucun résultat</h3>
+    <p>Essayez d'élargir vos critères de recherche.</p>
+  </div>
+</div>
+
+<script>
+// ────────────────────────────────────────────────────────────────────────────
+// DONNÉES — Source : ADIUT/iut.fr annuaire + données publiques BUT 2024-2026
+// ────────────────────────────────────────────────────────────────────────────
+
+const REGIONS = {
+  "ARA": { label: "Auvergne-Rhône-Alpes", cls: "r-ara" },
+  "BFC": { label: "Bourgogne-Franche-Comté", cls: "r-bfc" },
+  "BRE": { label: "Bretagne", cls: "r-bre" },
+  "CVL": { label: "Centre-Val de Loire", cls: "r-cvl" },
+  "COR": { label: "Corse", cls: "r-cor" },
+  "GES": { label: "Grand Est", cls: "r-gest" },
+  "GUA": { label: "Guadeloupe", cls: "r-gdl" },
+  "GUY": { label: "Guyane", cls: "r-guy" },
+  "HDF": { label: "Hauts-de-France", cls: "r-hdf" },
+  "IDF": { label: "Île-de-France", cls: "r-idf" },
+  "REU": { label: "La Réunion", cls: "r-reu" },
+  "MAR": { label: "Martinique", cls: "r-mar" },
+  "NOR": { label: "Normandie", cls: "r-nor" },
+  "NAQ": { label: "Nouvelle-Aquitaine", cls: "r-naq" },
+  "OCC": { label: "Occitanie", cls: "r-occ" },
+  "PDL": { label: "Pays de la Loire", cls: "r-pdl" },
+  "PAC": { label: "Provence-Alpes-Côte d'Azur", cls: "r-pac" },
+};
+
+// Abréviations des 24 spécialités BUT
+const BUT_LABELS = {
+  "Chimie":    "Chimie",
+  "CJ":        "Carrières Juridiques",
+  "CS":        "Carrières Sociales",
+  "GB":        "Génie Biologique",
+  "GCCD":      "Génie Civil",
+  "GCGP":      "Génie Chimique-Procédés",
+  "GEII":      "Génie Élec. & Info. Ind.",
+  "GIM":       "Génie Ind. & Maintenance",
+  "GMP":       "Génie Méca. & Productique",
+  "GACO":      "Gest. Admin. & Comm.",
+  "GEA":       "Gest. Entreprises & Adm.",
+  "HSE":       "Hygiène Sécu. Environ.",
+  "Infocom":   "Information-Communication",
+  "Info":      "Informatique",
+  "LPF":       "Logistique & Pilotage Flux",
+  "MP":        "Mesures Physiques",
+  "MMI":       "Métiers Multimédia & Internet",
+  "PEC":       "Packaging & Emballage",
+  "QLIO":      "Qualité, Log. Ind. & Org.",
+  "RT":        "Réseaux & Télécoms",
+  "SGM":       "Sciences & Génie Matériaux",
+  "STA":       "Sciences Techno. Aliments",
+  "STID":      "Statistique Info. Décis.",
+  "TC":        "Techniques Commercialisation",
+};
+
+const IUT_DATA = [
+  // ── PACA ──────────────────────────────────────────────────────────────
+  { nom:"IUT d'Aix-Marseille", ville:"Aix-en-Provence / Marseille", region:"PAC", sites:9,
+    but:["Chimie","GCGP","GB","GEII","GMP","GIM","Info","RT","TC","GEA","CS","MP","HSE","MMI","GCCD","QLIO","SGM"],
+    url:"https://www.iut.fr/iut/iut-aix-marseille/" },
+  { nom:"IUT d'Avignon", ville:"Avignon", region:"PAC", sites:1,
+    but:["GB","GEA","TC","Info","GCCD","Infocom"],
+    url:"https://www.iut.fr/iut/iut-univ-avignon/" },
+  { nom:"IUT Nice Côte d'Azur", ville:"Nice", region:"PAC", sites:3,
+    but:["GEII","GMP","Info","TC","GEA","RT","Infocom","GCCD"],
+    url:"https://www.iut.fr/iut/iut-nice-cote-dazur/" },
+  { nom:"IUT de Toulon", ville:"Toulon", region:"PAC", sites:2,
+    but:["GEII","GEA","TC","Info","Infocom","GB","RT","GCCD"],
+    url:"https://www.iut.fr/iut/iut-toulon/" },
+
+  // ── AuRA ──────────────────────────────────────────────────────────────
+  { nom:"IUT d'Annecy", ville:"Annecy", region:"ARA", sites:1,
+    but:["GEII","GMP","GB","RT","Info","TC"],
+    url:"https://www.iut.fr/iut/iut-annecy/" },
+  { nom:"IUT de Chambéry", ville:"Le Bourget-du-Lac", region:"ARA", sites:1,
+    but:["GB","GEII","GMP","Info","TC","RT"],
+    url:"https://www.iut.fr/iut/iut-chambery/" },
+  { nom:"IUT Clermont Auvergne", ville:"Aubière (+ 5 antennes)", region:"ARA", sites:6,
+    but:["GB","GEII","GMP","Info","TC","GEA","CS","Chimie","GCCD","RT","GCGP","QLIO","MP"],
+    url:"https://www.iut.fr/iut/iut-clermont-auvergne/" },
+  { nom:"IUT de Grenoble I", ville:"Saint-Martin-d'Hères", region:"ARA", sites:3,
+    but:["GCGP","GB","GEII","GMP","GIM","Info","RT","Chimie","MP","SGM"],
+    url:"https://www.iut.fr/iut/iut-grenoble-i/" },
+  { nom:"IUT de Grenoble II", ville:"Grenoble", region:"ARA", sites:4,
+    but:["Infocom","STID","GEA","TC","CS","CJ"],
+    url:"https://www.iut.fr/iut/iut-grenoble-ii/" },
+  { nom:"IUT Lyon 1", ville:"Villeurbanne / Bourg-en-Bresse", region:"ARA", sites:4,
+    but:["Chimie","GEII","GMP","GCGP","GB","Info","RT","MP","SGM","PEC"],
+    url:"https://www.iut.fr/iut/iut-lyon-1/" },
+  { nom:"IUT Lyon 2 Lumière", ville:"Bron", region:"ARA", sites:1,
+    but:["TC","CS","Infocom","GEA","STID"],
+    url:"https://www.iut.fr/iut/iut-lyon-2-lumiere/" },
+  { nom:"IUT Lyon 3 Jean Moulin", ville:"Lyon", region:"ARA", sites:1,
+    but:["CJ","GEA","TC"],
+    url:"https://www.iut.fr/iut/iut-lyon-3-jean-moulin/" },
+  { nom:"IUT de Roanne", ville:"Roanne", region:"ARA", sites:1,
+    but:["GEII","GEA","TC","Info","GIM"],
+    url:"https://www.iut.fr/iut/iut-roanne/" },
+  { nom:"IUT de Saint-Étienne", ville:"Saint-Étienne", region:"ARA", sites:1,
+    but:["GEII","GIM","GMP","Info","RT","TC","HSE","CS"],
+    url:"https://www.iut.fr/iut/iut-saint-etienne/" },
+  { nom:"IUT de Valence", ville:"Valence", region:"ARA", sites:1,
+    but:["GEII","GEA","Info","TC"],
+    url:"https://www.iut.fr/iut/iut-valence/" },
+
+  // ── BFC ──────────────────────────────────────────────────────────────
+  { nom:"IUT de Besançon-Vesoul-Dole", ville:"Besançon / Vesoul / Dole", region:"BFC", sites:3,
+    but:["Chimie","GEII","GMP","GIM","Info","MP","TC","GEA","GCCD","RT","GCGP"],
+    url:"https://www.iut.fr/iut/iut-besanon-vesoul-dole/" },
+  { nom:"IUT de Chalon-sur-Saône", ville:"Chalon-sur-Saône", region:"BFC", sites:1,
+    but:["GEII","GIM","TC","GEA"],
+    url:"https://www.iut.fr/iut/iut-chalon-sur-saone/" },
+  { nom:"IUT Dijon-Auxerre-Nevers", ville:"Dijon / Auxerre / Nevers", region:"BFC", sites:4,
+    but:["GCGP","GB","GEII","GMP","GIM","Info","TC","GEA","RT","MP","QLIO","SGM"],
+    url:"https://www.iut.fr/iut/iut-de-dijon-auxerre/" },
+  { nom:"IUT du Creusot", ville:"Le Creusot", region:"BFC", sites:2,
+    but:["GEII","GIM","GMP","TC","Info"],
+    url:"https://www.iut.fr/iut/iut-le-creusot/" },
+
+  // ── BRE ──────────────────────────────────────────────────────────────
+  { nom:"IUT de Brest-Morlaix", ville:"Brest / Morlaix", region:"BRE", sites:2,
+    but:["GEII","GMP","GIM","Info","TC","GEA","GCCD","RT","CS"],
+    url:"https://www.iut.fr/iut/iut-brest-morlaix/" },
+  { nom:"IUT de Lannion", ville:"Lannion", region:"BRE", sites:1,
+    but:["Info","RT","MMI"],
+    url:"https://www.iut.fr/iut/iut-lannion/" },
+  { nom:"IUT de Lorient-Pontivy", ville:"Lorient / Pontivy", region:"BRE", sites:2,
+    but:["GEII","GIM","Info","TC","GEA","QLIO"],
+    url:"https://www.iut.fr/iut/iut-lorient/" },
+  { nom:"IUT de Quimper", ville:"Quimper", region:"BRE", sites:1,
+    but:["GEA","TC","Info","GEII","GCCD"],
+    url:"https://www.iut.fr/iut/iut-quimper/" },
+  { nom:"IUT de Rennes", ville:"Rennes", region:"BRE", sites:2,
+    but:["GEII","GMP","GB","Info","TC","GEA","GCCD","RT","CS"],
+    url:"https://www.iut.fr/iut/iut-rennes/" },
+  { nom:"IUT de Saint-Brieuc", ville:"Saint-Brieuc", region:"BRE", sites:1,
+    but:["CS","TC","GEA","Info","GB"],
+    url:"https://www.iut.fr/iut/iut-saint-brieuc/" },
+  { nom:"IUT de Vannes", ville:"Vannes", region:"BRE", sites:1,
+    but:["Info","TC","GEA","GEII","RT"],
+    url:"https://www.iut.fr/iut/iut-vannes/" },
+
+  // ── CVL ──────────────────────────────────────────────────────────────
+  { nom:"IUT de Blois", ville:"Blois", region:"CVL", sites:1,
+    but:["GEII","GEA","TC","Info","MMI"],
+    url:"https://www.iut.fr/iut/iut-blois/" },
+  { nom:"IUT de Bourges", ville:"Bourges", region:"CVL", sites:1,
+    but:["GEII","GMP","Chimie","TC","Info","GCCD"],
+    url:"https://www.iut.fr/iut/iut-bourges/" },
+  { nom:"IUT de Chartres", ville:"Chartres", region:"CVL", sites:1,
+    but:["GEA","TC","GCCD","MMI","Info"],
+    url:"https://www.iut.fr/iut/iut-chartres/" },
+  { nom:"IUT de l'Indre", ville:"Châteauroux / Issoudun", region:"CVL", sites:2,
+    but:["GEII","TC","GEA","Info","GMP"],
+    url:"https://www.iut.fr/iut/iut-indre/" },
+  { nom:"IUT d'Orléans", ville:"Orléans", region:"CVL", sites:1,
+    but:["GB","GEII","GMP","Info","TC","GEA","GCCD","RT","Chimie"],
+    url:"https://www.iut.fr/iut/iut-orleans/" },
+  { nom:"IUT de Tours", ville:"Tours", region:"CVL", sites:1,
+    but:["GEII","GEA","TC","Info","GCCD","GB","GCGP","CS"],
+    url:"https://www.iut.fr/iut/iut-tours/" },
+
+  // ── CORSE ──────────────────────────────────────────────────────────────
+  { nom:"IUT de Corte", ville:"Corte", region:"COR", sites:1,
+    but:["GEA","Info","GEII","TC"],
+    url:"https://www.iut.fr/iut/iut-corte/" },
+
+  // ── GRAND EST ──────────────────────────────────────────────────────────
+  { nom:"IUT de Colmar", ville:"Colmar", region:"GES", sites:2,
+    but:["GEII","GMP","GB","GEA","TC","Chimie","GCGP"],
+    url:"https://www.iut.fr/iut/iut-colmar/" },
+  { nom:"IUT d'Épinal Hubert Curien", ville:"Épinal", region:"GES", sites:1,
+    but:["GEII","GIM","GMP","Info","TC","GB"],
+    url:"https://www.iut.fr/iut/iut-epinal-hubert-curien/" },
+  { nom:"IUT de Haguenau", ville:"Haguenau", region:"GES", sites:1,
+    but:["GEII","Info","TC","GEA","RT"],
+    url:"https://www.iut.fr/iut/iut-haguenau/" },
+  { nom:"IUT Henri Poincaré de Longwy", ville:"Cosnes-et-Romain", region:"GES", sites:1,
+    but:["GEII","GIM","GEA","Info"],
+    url:"https://www.iut.fr/iut/iut-de-longwy-henri-poincar/" },
+  { nom:"IUT de Metz", ville:"Metz", region:"GES", sites:2,
+    but:["GCGP","GEII","GMP","GB","Info","TC","GEA","RT","MP","Chimie"],
+    url:"https://www.iut.fr/iut/iut-metz/" },
+  { nom:"IUT Nancy-Brabois", ville:"Vandœuvre-lès-Nancy", region:"GES", sites:2,
+    but:["GMP","GEII","GB","Info","TC","GEA","RT","CS","MP","Chimie","GIM"],
+    url:"https://www.iut.fr/iut/iut-nancy-brabois/" },
+  { nom:"IUT Nancy-Charlemagne", ville:"Nancy", region:"GES", sites:1,
+    but:["Infocom","STID","GEA","CJ","TC","CS"],
+    url:"https://www.iut.fr/iut/iut-nancy-charlemagne/" },
+  { nom:"IUT de Reims-Châlons-Charleville", ville:"Reims / Châlons / Charleville", region:"GES", sites:3,
+    but:["GCGP","GB","GEII","GMP","Info","TC","GEA","SGM","GCCD","Chimie","CS"],
+    url:"https://www.iut.fr/iut/iut-reims-chalons-charleville/" },
+  { nom:"IUT de Saint-Dié-des-Vosges", ville:"Saint-Dié-des-Vosges", region:"GES", sites:1,
+    but:["Info","GEA","TC"],
+    url:"https://www.iut.fr/iut/iut-saint-die-des-vosges/" },
+  { nom:"IUT de Strasbourg", ville:"Strasbourg", region:"GES", sites:3,
+    but:["Chimie","GEII","GMP","GB","Info","TC","GEA","RT","MP","GCGP","GCCD","HSE","QLIO"],
+    url:"https://www.iut.fr/iut/iut-strasbourg/" },
+  { nom:"IUT de Troyes", ville:"Troyes", region:"GES", sites:1,
+    but:["GEII","GIM","GMP","Info","TC","GEA","RT","HSE"],
+    url:"https://www.iut.fr/iut/iut-troyes/" },
+
+  // ── GUADELOUPE ──────────────────────────────────────────────────────────
+  { nom:"IUT de Guadeloupe", ville:"Saint-Claude", region:"GUA", sites:1,
+    but:["TC","GEA","Info","GB","GEII","GCCD","CS"],
+    url:"https://www.iut.fr/iut/iut-guadeloupe/" },
+
+  // ── GUYANE ──────────────────────────────────────────────────────────────
+  { nom:"IUT de Kourou", ville:"Kourou / Cayenne", region:"GUY", sites:2,
+    but:["GCCD","GEA","TC","Info","GEII"],
+    url:"https://www.iut.fr/iut/iut-kourou/" },
+
+  // ── HDF ──────────────────────────────────────────────────────────────
+  { nom:"IUT de l'Aisne", ville:"Laon / Saint-Quentin / Soissons", region:"HDF", sites:3,
+    but:["GEA","TC","GACO","Info","HSE","GEII"],
+    url:"https://www.iut.fr/iut/iut-aisne/" },
+  { nom:"IUT d'Amiens", ville:"Amiens", region:"HDF", sites:1,
+    but:["GB","GEII","GMP","GIM","Info","TC","GCCD","QLIO"],
+    url:"https://www.iut.fr/iut/iut-amiens/" },
+  { nom:"IUT de Béthune", ville:"Béthune", region:"HDF", sites:1,
+    but:["GEII","GMP","GIM","Chimie","HSE","TC","GCGP"],
+    url:"https://www.iut.fr/iut/iut-bthune/" },
+  { nom:"IUT de Lens", ville:"Lens", region:"HDF", sites:1,
+    but:["GEII","GMP","GIM","TC","Info","GCCD"],
+    url:"https://www.iut.fr/iut/iut-lens/" },
+  { nom:"IUT de Lille", ville:"Villeneuve-d'Ascq / Roubaix / Tourcoing", region:"HDF", sites:4,
+    but:["Chimie","GEII","GMP","GIM","Info","TC","GEA","CJ","RT","STID","HSE","GCCD","Infocom","QLIO"],
+    url:"https://www.iut.fr/iut/iut-lille/" },
+  { nom:"IUT du Littoral Côte d'Opale", ville:"Calais / Boulogne / Dunkerque", region:"HDF", sites:4,
+    but:["GEII","GMP","GB","TC","GEA","Info","Chimie","GCCD","GCGP","HSE"],
+    url:"https://www.iut.fr/iut/iut-littoral-cote-dopale/" },
+  { nom:"IUT de Valenciennes", ville:"Valenciennes", region:"HDF", sites:1,
+    but:["GEII","GIM","GMP","TC","Info","GCCD","RT"],
+    url:"https://www.iut.fr/iut/iut-valenciennes/" },
+
+  // ── IDF ──────────────────────────────────────────────────────────────
+  { nom:"IUT de Bobigny", ville:"Bobigny", region:"IDF", sites:1,
+    but:["CS","GB","GEA","GEII"],
+    url:"https://www.iut.fr/iut/iut-bobigny/" },
+  { nom:"IUT de Cachan", ville:"Cachan", region:"IDF", sites:1,
+    but:["GEII","GMP","MP","CS","SGM"],
+    url:"https://www.iut.fr/iut/iut-cachan/" },
+  { nom:"IUT de Cergy-Pontoise", ville:"Cergy / Argenteuil / Sarcelles", region:"IDF", sites:4,
+    but:["GEII","Info","GEA","TC","CS","MMI","GCCD","RT"],
+    url:"https://www.iut.fr/iut/iut-cergy-pontoise/" },
+  { nom:"IUT de Créteil-Vitry", ville:"Créteil / Vitry-sur-Seine", region:"IDF", sites:2,
+    but:["GEII","GMP","GB","GEA","Info","CS","TC","STID"],
+    url:"https://www.iut.fr/iut/iut-creteil-vitry/" },
+  { nom:"IUT d'Évry Val d'Essonne", ville:"Évry / Juvisy / Brétigny", region:"IDF", sites:3,
+    but:["Info","GEII","GEA","TC","QLIO","CS","Infocom"],
+    url:"https://www.iut.fr/iut/iut-evry-val-dessonne/" },
+  { nom:"IUT de Mantes-en-Yvelines", ville:"Mantes-la-Jolie", region:"IDF", sites:1,
+    but:["GEII","GEA","TC","Info"],
+    url:"https://www.iut.fr/iut/iut-mantes-en-yvelines/" },
+  { nom:"IUT de Marne-la-Vallée", ville:"Champs-sur-Marne / Meaux", region:"IDF", sites:2,
+    but:["GCCD","GEII","Info","GEA","TC","MMI","Infocom"],
+    url:"https://www.iut.fr/iut/iut-marne-la-valle/" },
+  { nom:"IUT de Montreuil", ville:"Montreuil", region:"IDF", sites:1,
+    but:["GACO","Infocom","Info","QLIO","TC","GEA"],
+    url:"https://www.iut.fr/iut/iut-montreuil/" },
+  { nom:"IUT d'Orsay", ville:"Orsay", region:"IDF", sites:1,
+    but:["Chimie","GEII","Info","MP","STID","GB","RT"],
+    url:"https://www.iut.fr/iut/iut-orsay/" },
+  { nom:"IUT Paris – Rives de Seine", ville:"Paris", region:"IDF", sites:2,
+    but:["Infocom","Info","STID","TC","GEA","CS","MMI","RT"],
+    url:"https://www.iut.fr/iut/iut-paris-rives-de-seine/" },
+  { nom:"IUT de Sceaux", ville:"Sceaux", region:"IDF", sites:1,
+    but:["GEA","TC","GACO","CJ","Infocom"],
+    url:"https://www.iut.fr/iut/iut-sceaux/" },
+  { nom:"IUT de Sénart-Fontainebleau", ville:"Sénart / Fontainebleau", region:"IDF", sites:2,
+    but:["GEII","Info","GEA","TC","MMI","CS"],
+    url:"https://www.iut.fr/iut/iut-senart-fontainebleau/" },
+  { nom:"IUT de Saint-Denis", ville:"Saint-Denis", region:"IDF", sites:2,
+    but:["GEII","GIM","GMP","MP","CS","HSE","TC","GEA","SGM"],
+    url:"https://www.iut.fr/iut/iut-saint-denis/" },
+  { nom:"IUT de Tremblay", ville:"Tremblay-en-France", region:"IDF", sites:1,
+    but:["GEII","GIM","GEA","LPF"],
+    url:"https://www.iut.fr/iut/iut-tremblay/" },
+  { nom:"IUT de Vélizy", ville:"Vélizy-Villacoublay", region:"IDF", sites:1,
+    but:["GEII","GMP","Info","TC","RT"],
+    url:"https://www.iut.fr/iut/iut-velizy/" },
+  { nom:"IUT de Ville-d'Avray–Saint-Cloud", ville:"Ville-d'Avray", region:"IDF", sites:1,
+    but:["GEII","GMP","GCCD","TC","Info"],
+    url:"https://www.iut.fr/iut/iut-ville-davray-saint-cloud/" },
+  { nom:"IUT de Villetaneuse", ville:"Villetaneuse", region:"IDF", sites:1,
+    but:["Infocom","Info","TC","GEA","CJ","RT","CS"],
+    url:"https://www.iut.fr/iut/iut-villetaneuse/" },
+
+  // ── LA RÉUNION ──────────────────────────────────────────────────────────
+  { nom:"IUT de La Réunion", ville:"Saint-Pierre", region:"REU", sites:1,
+    but:["GB","GEII","Info","GEA","TC","CS","GCCD","RT"],
+    url:"https://www.iut.fr/iut/iut-saint-pierre-la-reunion/" },
+
+  // ── MARTINIQUE ──────────────────────────────────────────────────────────
+  { nom:"IUT de Martinique", ville:"Schoelcher", region:"MAR", sites:1,
+    but:["TC","GEA","CS","Info","GCCD"],
+    url:"https://www.iut.fr/iut/iut-martinique/" },
+
+  // ── NORMANDIE ──────────────────────────────────────────────────────────
+  { nom:"IUT d'Évreux", ville:"Évreux", region:"NOR", sites:1,
+    but:["GEA","TC","MMI","Infocom"],
+    url:"https://www.iut.fr/iut/iut-evreux/" },
+  { nom:"IUT Grand Ouest Normandie", ville:"Caen / Cherbourg / Alençon / Saint-Lô", region:"NOR", sites:7,
+    but:["GCCD","GEII","GMP","GIM","Info","TC","GEA","CS","MMI","RT","GB","QLIO","Infocom"],
+    url:"https://www.iut.fr/iut/iut-grand-ouest-normandie/" },
+  { nom:"IUT du Havre", ville:"Le Havre", region:"NOR", sites:2,
+    but:["GCCD","GEII","TC","GEA","Info","QLIO","LPF","RT"],
+    url:"https://www.iut.fr/iut/iut-du-havre/" },
+  { nom:"IUT de Rouen Normandie", ville:"Rouen", region:"NOR", sites:3,
+    but:["Chimie","GEII","GMP","GIM","Info","TC","GEA","CS","GCCD","CJ","QLIO","SGM","RT"],
+    url:"https://www.iut.fr/iut/iut-rouen/" },
+
+  // ── NOUVELLE-AQUITAINE ────────────────────────────────────────────────
+  { nom:"IUT d'Angoulême", ville:"Angoulême", region:"NAQ", sites:1,
+    but:["MMI","TC","GEA","Info"],
+    url:"https://www.iut.fr/iut/iut-angouleme/" },
+  { nom:"IUT de Bayonne et du Pays Basque", ville:"Bayonne / Anglet", region:"NAQ", sites:2,
+    but:["GEII","GMP","TC","GEA","Info","GCCD","MMI"],
+    url:"https://www.iut.fr/iut/iut-bayonne-pays-basque/" },
+  { nom:"IUT de Bordeaux", ville:"Bordeaux / Agen / Périgueux", region:"NAQ", sites:4,
+    but:["GEII","GMP","GIM","GCCD","GB","TC","GEA","Chimie","QLIO","HSE","Info","LPF","RT"],
+    url:"https://www.iut.fr/iut/iut-bordeaux/" },
+  { nom:"IUT Bordeaux Montaigne", ville:"Bordeaux", region:"NAQ", sites:1,
+    but:["Infocom","GEA","CS","TC","STID"],
+    url:"https://www.iut.fr/iut/iut-bordeaux-montaigne/" },
+  { nom:"IUT de La Rochelle", ville:"La Rochelle", region:"NAQ", sites:1,
+    but:["GB","GCCD","GEA","TC","Info","HSE","QLIO"],
+    url:"https://www.iut.fr/iut/iut-la-rochelle/" },
+  { nom:"IUT du Limousin", ville:"Limoges / Brive / Guéret / Tulle / Égletons", region:"NAQ", sites:5,
+    but:["GEII","GMP","GIM","Info","TC","GEA","RT","GCCD","GB","HSE"],
+    url:"https://www.iut.fr/iut/iut-limousin/" },
+  { nom:"IUT de Pau et des Pays de l'Adour", ville:"Pau", region:"NAQ", sites:2,
+    but:["GCGP","GEII","GEA","Info","TC","GB","Chimie"],
+    url:"https://www.iut.fr/iut/iut-pau-pays-adour/" },
+  { nom:"IUT de Poitiers", ville:"Poitiers / Châtellerault / Niort", region:"NAQ", sites:3,
+    but:["GEII","GMP","GIM","Info","TC","GEA","GCCD","Chimie","GB","RT","QLIO","MMI"],
+    url:"https://www.iut.fr/iut/iut-poitiers/" },
+
+  // ── OCCITANIE ──────────────────────────────────────────────────────────
+  { nom:"IUT de Béziers", ville:"Béziers", region:"OCC", sites:1,
+    but:["MMI","Info","GEA","TC","RT"],
+    url:"https://www.iut.fr/iut/iut-beziers/" },
+  { nom:"IUT de Blagnac", ville:"Blagnac", region:"OCC", sites:1,
+    but:["Info","TC","MMI","GEII","GACO"],
+    url:"https://www.iut.fr/iut/iut-blagnac/" },
+  { nom:"IUT de Figeac", ville:"Figeac", region:"OCC", sites:1,
+    but:["Info","GEA","TC","GEII"],
+    url:"https://www.iut.fr/iut/iut-figeac/" },
+  { nom:"IUT de Montpellier-Sète", ville:"Montpellier / Sète", region:"OCC", sites:3,
+    but:["Chimie","GEII","GMP","Info","GEA","TC","STID","GCCD","RT","GB"],
+    url:"https://www.iut.fr/iut/iut-montpellier/" },
+  { nom:"IUT de Nîmes", ville:"Nîmes", region:"OCC", sites:1,
+    but:["GEII","GEA","TC","Info","GB","GCCD"],
+    url:"https://www.iut.fr/iut/iut-nimes/" },
+  { nom:"IUT de Perpignan", ville:"Perpignan", region:"OCC", sites:1,
+    but:["GEII","GEA","TC","Info","GB","GCCD"],
+    url:"https://www.iut.fr/iut/iut-perpignan/" },
+  { nom:"IUT de Rodez", ville:"Rodez", region:"OCC", sites:1,
+    but:["Info","GEA","TC","GEII","MMI"],
+    url:"https://www.iut.fr/iut/iut-rodez/" },
+  { nom:"IUT de Tarbes", ville:"Tarbes", region:"OCC", sites:1,
+    but:["GEII","GMP","GIM","TC","Info","GCCD"],
+    url:"https://www.iut.fr/iut/iut-tarbes/" },
+  { nom:"IUT de Toulouse", ville:"Toulouse", region:"OCC", sites:2,
+    but:["Chimie","GEII","GMP","GB","Info","TC","GEA","GCGP","RT","HSE","MP","QLIO","SGM"],
+    url:"https://www.iut.fr/iut/iut-toulouse/" },
+
+  // ── PAYS DE LA LOIRE ──────────────────────────────────────────────────
+  { nom:"IUT Angers-Cholet", ville:"Angers / Cholet", region:"PDL", sites:3,
+    but:["GB","GEII","GMP","GIM","Info","TC","GEA","QLIO","STA"],
+    url:"https://www.iut.fr/iut/iut-dangers-cholet/" },
+  { nom:"IUT de La Roche-sur-Yon", ville:"La Roche-sur-Yon", region:"PDL", sites:1,
+    but:["Info","GEA","TC","MMI","CS"],
+    url:"https://www.iut.fr/iut/iut-la-roche-sur-yon/" },
+  { nom:"IUT de Laval", ville:"Laval", region:"PDL", sites:1,
+    but:["GEII","GMP","TC","Info","GEA"],
+    url:"https://www.iut.fr/iut/iut-de-laval/" },
+  { nom:"IUT du Mans", ville:"Le Mans", region:"PDL", sites:1,
+    but:["GEII","GMP","Info","TC","GEA","RT","GCCD"],
+    url:"https://www.iut.fr/iut/iut-le-mans/" },
+  { nom:"IUT de Nantes", ville:"Nantes", region:"PDL", sites:2,
+    but:["Chimie","GEII","GMP","GCGP","Info","TC","GEA","GB","RT","SGM","MP"],
+    url:"https://www.iut.fr/iut/iut-nantes/" },
+  { nom:"IUT de Saint-Nazaire", ville:"Saint-Nazaire", region:"PDL", sites:1,
+    but:["GEII","GCCD","GEA","Info","TC","RT"],
+    url:"https://www.iut.fr/iut/iut-saint-nazaire/" },
+];
+
+// ────────────────────────────────────────────────────────────────────────────
+// INIT
+// ────────────────────────────────────────────────────────────────────────────
+let currentView = 'table';
+let filterRegion = '';
+let filterBut = '';
+let filterSearch = '';
+let sortKey = 'nom';
+
+// Total stats
+const totalSites = IUT_DATA.reduce((s,d)=>s+d.sites,0);
+document.getElementById('stat-iuts').textContent = IUT_DATA.length;
+document.getElementById('stat-sites').textContent = totalSites;
+
+// Populate region filter
+const regionSel = document.getElementById('filter-region');
+Object.entries(REGIONS).sort((a,b)=>a[1].label.localeCompare(b[1].label)).forEach(([k,v])=>{
+  const o = document.createElement('option');
+  o.value = k; o.textContent = v.label;
+  regionSel.appendChild(o);
+});
+
+// Populate BUT filter
+const butSel = document.getElementById('filter-but');
+Object.entries(BUT_LABELS).sort((a,b)=>a[1].localeCompare(b[1])).forEach(([k,v])=>{
+  const o = document.createElement('option');
+  o.value = k; o.textContent = `${k} — ${v}`;
+  butSel.appendChild(o);
+});
+
+// ────────────────────────────────────────────────────────────────────────────
+// FILTER + SORT
+// ────────────────────────────────────────────────────────────────────────────
+function getFiltered() {
+  let data = [...IUT_DATA];
+  if (filterRegion) data = data.filter(d=>d.region===filterRegion);
+  if (filterBut)    data = data.filter(d=>d.but.includes(filterBut));
+  if (filterSearch) {
+    const q = filterSearch.toLowerCase();
+    data = data.filter(d=>
+      d.nom.toLowerCase().includes(q) ||
+      d.ville.toLowerCase().includes(q) ||
+      REGIONS[d.region].label.toLowerCase().includes(q) ||
+      d.but.some(b=>(BUT_LABELS[b]||b).toLowerCase().includes(q))
+    );
+  }
+  const sk = sortKey;
+  data.sort((a,b)=>{
+    if (sk==='nom')         return a.nom.localeCompare(b.nom);
+    if (sk==='region')      return REGIONS[a.region].label.localeCompare(REGIONS[b.region].label);
+    if (sk==='sites-desc')  return b.sites-a.sites;
+    if (sk==='sites-asc')   return a.sites-b.sites;
+    if (sk==='nbBut-desc')  return b.but.length-a.but.length;
+    return 0;
+  });
+  return data;
+}
+
+// ────────────────────────────────────────────────────────────────────────────
+// RENDER
+// ────────────────────────────────────────────────────────────────────────────
+function renderBadge(regionKey) {
+  const r = REGIONS[regionKey];
+  return `<span class="region-badge ${r.cls}">${r.label}</span>`;
+}
+
+function renderButTags(butList, highlight='') {
+  return butList.map(b=>{
+    const lbl = b;
+    const title = BUT_LABELS[b]||b;
+    const cls = b===highlight ? ' highlight' : '';
+    return `<span class="but-tag${cls}" title="${title}">${lbl}</span>`;
+  }).join('');
+}
+
+function renderTable(data) {
+  const tbody = document.getElementById('table-body');
+  tbody.innerHTML = data.map(d=>`
+    <tr>
+      <td class="iut-name-cell">
+        <strong>${d.nom}</strong>
+        <a href="${d.url}" target="_blank" rel="noopener">↗ iut.fr</a>
+      </td>
+      <td><span class="ville-tag">${d.ville}</span></td>
+      <td>${renderBadge(d.region)}</td>
+      <td><div class="sites-num">${d.sites}</div></td>
+      <td><div class="but-tags">${renderButTags(d.but, filterBut)}</div></td>
+      <td style="text-align:center; font-weight:600; color:var(--gray-400)">${d.but.length}</td>
+    </tr>
+  `).join('');
+}
+
+function renderCards(data) {
+  const grid = document.getElementById('cards-body');
+  grid.innerHTML = data.map(d=>{
+    const r = REGIONS[d.region];
+    return `
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">${d.nom}</div>
+        <div style="text-align:right">
+          <div class="card-sites">${d.sites}</div>
+          <div class="card-sites-lbl">${d.sites>1?'sites':'site'}</div>
+        </div>
+      </div>
+      <div class="card-meta">
+        <span class="card-ville">${d.ville}</span>
+        <span class="region-badge ${r.cls}">${r.label}</span>
+      </div>
+      <div class="card-but-list">${renderButTags(d.but, filterBut)}</div>
+      <div style="margin-top:.8rem; display:flex; justify-content:space-between; align-items:center">
+        <span style="font-size:.7rem; color:var(--gray-400)">${d.but.length} spécialité${d.but.length>1?'s':''} BUT</span>
+        <a href="${d.url}" target="_blank" rel="noopener" style="font-size:.72rem; color:var(--blue); text-decoration:none;">↗ iut.fr</a>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function render() {
+  const data = getFiltered();
+  const count = data.length;
+  document.getElementById('result-count').innerHTML = `<strong>${count}</strong> IUT`;
+  const noRes = document.getElementById('no-results');
+  const tableV = document.getElementById('table-view');
+  const cardsV = document.getElementById('cards-view');
+  if (count===0) {
+    noRes.style.display=''; tableV.style.display='none'; cardsV.style.display='none';
+    return;
+  }
+  noRes.style.display='none';
+  if (currentView==='table') { tableV.style.display=''; cardsV.style.display='none'; renderTable(data); }
+  else { tableV.style.display='none'; cardsV.style.display=''; renderCards(data); }
+}
+
+// ────────────────────────────────────────────────────────────────────────────
+// EVENTS
+// ────────────────────────────────────────────────────────────────────────────
+document.getElementById('search').addEventListener('input',e=>{filterSearch=e.target.value;render();});
+document.getElementById('filter-region').addEventListener('change',e=>{filterRegion=e.target.value;render();});
+document.getElementById('filter-but').addEventListener('change',e=>{filterBut=e.target.value;render();});
+document.getElementById('sort-select').addEventListener('change',e=>{sortKey=e.target.value;render();});
+
+document.getElementById('btn-table').addEventListener('click',()=>{
+  currentView='table';
+  document.getElementById('btn-table').classList.add('active');
+  document.getElementById('btn-cards').classList.remove('active');
+  render();
+});
+document.getElementById('btn-cards').addEventListener('click',()=>{
+  currentView='cards';
+  document.getElementById('btn-cards').classList.add('active');
+  document.getElementById('btn-table').classList.remove('active');
+  render();
+});
+
+// Initial render
+render();
+</script>
+</body>
+</html>
