@@ -65,6 +65,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   createMarkers(iuts);
   updateCounter(iuts.length);
   bindUIEvents();
+  handleUrlParams();
 });
 
 /* ── Map init ── */
@@ -401,6 +402,23 @@ function bindUIEvents() {
 
   document.getElementById('legend-toggle').addEventListener('click', () => {
     document.getElementById('legend').classList.toggle('collapsed');
+  });
+}
+
+/* ── Lien entrant depuis l'annuaire ── */
+function handleUrlParams() {
+  const iutParam = new URLSearchParams(window.location.search).get('iut');
+  if (!iutParam) return;
+
+  const matches = allMarkers.filter(({ iut }) =>
+    iut.nom_iut === iutParam || iut.nom_iut.startsWith(iutParam + ' - ')
+  );
+  if (matches.length === 0) return;
+
+  const { marker, iut: target } = matches[0];
+  clusterGroup.zoomToShowLayer(marker, () => {
+    openPanel(target);
+    highlightMarker(marker);
   });
 }
 

@@ -668,13 +668,15 @@ html, body {
   #panel-close {
     width: 44px;
     height: 44px;
-    top: 10px;
-    right: auto;
-    left: 10px;
+    top: auto;
+    right: 16px;
+    bottom: 16px;
+    left: auto;
     background: var(--navy);
     color: var(--white);
     z-index: 10;
     touch-action: manipulation;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.35);
   }
   #panel-close svg { width: 20px; height: 20px; }
   #panel-close:hover { background: var(--navy-mid); color: var(--white); }
