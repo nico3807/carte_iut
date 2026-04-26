@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="72" fill="#1b1c26"/>
+  <rect x="0" y="0" width="512" height="512" rx="72" fill="#1b1c26"/>
+  <!-- Map pin -->
+  <path d="M256 108 C196 108 148 156 148 216 C148 296 256 408 256 408 C256 408 364 296 364 216 C364 156 316 108 256 108Z" fill="#009cde"/>
+  <circle cx="256" cy="212" r="48" fill="#1b1c26"/>
+  <!-- IUT inside pin -->
+  <text x="256" y="228" font-family="Arial Black,Arial" font-weight="900" font-size="32" fill="#009cde" text-anchor="middle" letter-spacing="1">IUT</text>
+  <!-- Brand bar -->
+  <rect x="72" y="432" width="120" height="44" rx="6" fill="#fc4b4e"/>
+  <text x="132" y="462" font-family="Arial Black,Arial" font-weight="900" font-size="28" fill="white" text-anchor="middle" letter-spacing="1">IUT</text>
+  <text x="290" y="462" font-family="Arial,sans-serif" font-weight="700" font-size="28" fill="white" text-anchor="middle">France</text>
+</svg>
