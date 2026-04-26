@@ -669,7 +669,8 @@ html, body {
     width: 44px;
     height: 44px;
     top: 10px;
-    right: 10px;
+    right: auto;
+    left: 10px;
     background: var(--navy);
     color: var(--white);
     z-index: 10;
