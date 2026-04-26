@@ -114,7 +114,7 @@ function createMarkers(subset, activeCode = null) {
   const activeSpec = activeCode ? specialites.find(s => s.code === activeCode) : null;
 
   const layers = subset.map(iut => {
-    const color = activeSpec ? activeSpec.couleur : dominantColor(iut.specialite);
+    const color = '#009cde';
     const label = activeCode ? activeCode : iut.specialite.length;
     const icon = L.divIcon({
       className: '',

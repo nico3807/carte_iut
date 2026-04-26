@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
@@ -6,33 +6,33 @@
 <title>Annuaire des IUT de France — Tableau Comparatif</title>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&family=Arvo:wght@700&display=swap" rel="stylesheet" />
 <style>
   :root {
-    --navy:        #0f1c2e;
-    --navy-mid:    #1d3557;
-    --blue:        #457b9d;
-    --accent:      #e63946;
-    --accent-soft: #ff6b78;
+    --navy:        #1b1c26;
+    --navy-mid:    #2a2b3d;
+    --blue:        #009cde;
+    --accent:      #fc4b4e;
+    --accent-soft: #ff7275;
     --white:       #ffffff;
-    --gray-50:     #f8fafc;
-    --gray-100:    #f1f5f9;
-    --gray-200:    #e2e8f0;
-    --gray-400:    #94a3b8;
-    --gray-600:    #475569;
-    --gray-800:    #1e293b;
-    --radius:      10px;
-    --radius-sm:   6px;
-    --shadow:      0 4px 24px rgba(15,28,46,0.18);
-    --shadow-sm:   0 2px 8px rgba(15,28,46,0.12);
+    --gray-50:     #fcfcfd;
+    --gray-100:    #f4f4f6;
+    --gray-200:    #e8e8ec;
+    --gray-400:    #90929d;
+    --gray-600:    #4f5260;
+    --gray-800:    #1b1c26;
+    --radius:      4px;
+    --radius-sm:   2px;
+    --shadow:      0 4px 24px rgba(27,28,38,0.18);
+    --shadow-sm:   0 2px 8px rgba(27,28,38,0.12);
     --transition:  0.25s ease;
   }
 
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   body {
-    font-family: 'Inter', system-ui, sans-serif;
-    font-size: 14px;
+    font-family: 'Barlow', system-ui, sans-serif;
+    font-size: 15px;
     background: var(--gray-100);
     color: var(--gray-800);
     min-height: 100vh;
@@ -81,15 +81,17 @@
   .brand-iut {
     background: var(--accent);
     color: var(--white);
+    font-family: 'Arvo', serif;
     font-weight: 700;
     font-size: 15px;
     padding: 3px 8px;
-    border-radius: 5px;
+    border-radius: 2px;
     letter-spacing: 0.5px;
   }
   .brand-france {
     color: var(--white);
-    font-weight: 600;
+    font-family: 'Arvo', serif;
+    font-weight: 700;
     font-size: 16px;
   }
   .header-eyebrow {
@@ -101,6 +103,7 @@
     margin-bottom: 0.5rem;
   }
   header h1 {
+    font-family: 'Arvo', serif;
     font-size: clamp(1.5rem, 3vw, 2.4rem);
     font-weight: 700;
     color: var(--white);
@@ -324,12 +327,12 @@
     color: var(--navy);
     line-height: 1.3;
   }
-  .iut-name-cell a {
+  .iut-name-cell a:not(.iut-link-tag) {
     color: var(--blue);
     text-decoration: none;
     font-size: 11px;
   }
-  .iut-name-cell a:hover { text-decoration: underline; }
+  .iut-name-cell a:not(.iut-link-tag):hover { text-decoration: underline; }
 
   .ville-tag {
     display: inline-block;
@@ -389,17 +392,17 @@
     align-items: center;
     gap: 5px;
     margin-top: 4px;
-    padding: 3px 9px;
-    background: var(--navy);
+    padding: 3px 12px;
+    background: var(--blue);
     color: var(--white);
-    border-radius: 20px;
+    border-radius: 500px;
     font-size: 11px;
     font-weight: 600;
     text-decoration: none;
     transition: background var(--transition), transform 0.15s;
   }
   .iut-link-tag:hover {
-    background: var(--blue);
+    background: var(--navy);
     transform: translateY(-1px);
   }
 
@@ -655,15 +658,15 @@ const BUT_URLS = {
   'GEA':      'https://www.iut.fr/les-but/gestion-des-entreprises-et-des-administrations/',
   'HSE':      'https://www.iut.fr/les-but/hygiene-securite-environnement/',
   'INFOCOM':  'https://www.iut.fr/les-but/information-communication/',
-  'Info':     'https://www.iut.fr/les-but/informatique/',
-  'LPF':      'https://www.iut.fr/les-but/management-de-la-logistique-et-des-transports/',
+  'INFO':     'https://www.iut.fr/les-but/informatique/',
+  'MLT':      'https://www.iut.fr/les-but/management-de-la-logistique-et-des-transports/',
   'MP':       'https://www.iut.fr/les-but/mesures-physiques/',
   'MMI':      'https://www.iut.fr/les-but/metiers-du-multimedia-et-de-l-internet/',
   'PEC':      'https://www.iut.fr/les-but/packaging-emballage-et-conditionnement/',
   'QLIO':     'https://www.iut.fr/les-but/qualite-logistique-industrielle-et-organisation/',
   'RT':       'https://www.iut.fr/les-but/reseaux-et-telecommunications/',
   'SGM':      'https://www.iut.fr/les-but/science-et-genie-des-materiaux/',
-  'STID':     'https://www.iut.fr/les-but/science-des-donnees/',
+  'SD':       'https://www.iut.fr/les-but/science-des-donnees/',
   'TC':       'https://www.iut.fr/les-but/techniques-de-commercialisation/',
   'MTEE':     'https://www.iut.fr/les-but/metiers-de-la-transition-et-de-l-efficacite-energetiques/',
 };
@@ -690,7 +693,7 @@ const REGIONS = {
 
 // Abréviations des 24 spécialités BUT
 const BUT_LABELS = {
-  "Chimie":    "Chimie",
+  "CHIMIE":    "Chimie",
   "CJ":        "Carrières Juridiques",
   "CS":        "Carrières Sociales",
   "GB":        "Génie Biologique",
@@ -702,352 +705,82 @@ const BUT_LABELS = {
   "GACO":      "Gest. Admin. & Comm.",
   "GEA":       "Gest. Entreprises & Adm.",
   "HSE":       "Hygiène Sécu. Environ.",
-  "Infocom":   "Information-Communication",
-  "Info":      "Informatique",
-  "LPF":       "Logistique & Pilotage Flux",
+  "INFOCOM":   "Information-Communication",
+  "INFO":      "Informatique",
+  "MLT":       "Logistique & Transports",
   "MP":        "Mesures Physiques",
   "MMI":       "Métiers Multimédia & Internet",
+  "MTEE":      "Trans. Énergétique",
   "PEC":       "Packaging & Emballage",
   "QLIO":      "Qualité, Log. Ind. & Org.",
   "RT":        "Réseaux & Télécoms",
+  "SD":        "Science des Données",
   "SGM":       "Sciences & Génie Matériaux",
-  "STA":       "Sciences Techno. Aliments",
-  "STID":      "Statistique Info. Décis.",
   "TC":        "Techniques Commercialisation",
 };
 
-const IUT_DATA = [
-  // ── PACA ──────────────────────────────────────────────────────────────
-  { nom:"IUT d'Aix-Marseille", ville:"Aix-en-Provence / Marseille", region:"PAC", sites:9,
-    but:["Chimie","GCGP","GB","GEII","GMP","GIM","Info","RT","TC","GEA","CS","MP","HSE","MMI","GCCD","QLIO","SGM"],
-    url:"https://www.iut.fr/iut/iut-aix-marseille/" },
-  { nom:"IUT d'Avignon", ville:"Avignon", region:"PAC", sites:1,
-    but:["GB","GEA","TC","Info","GCCD","Infocom"],
-    url:"https://www.iut.fr/iut/iut-univ-avignon/" },
-  { nom:"IUT Nice Côte d'Azur", ville:"Nice", region:"PAC", sites:3,
-    but:["GEII","GMP","Info","TC","GEA","RT","Infocom","GCCD"],
-    url:"https://www.iut.fr/iut/iut-nice-cote-dazur/" },
-  { nom:"IUT de Toulon", ville:"Toulon", region:"PAC", sites:2,
-    but:["GEII","GEA","TC","Info","Infocom","GB","RT","GCCD"],
-    url:"https://www.iut.fr/iut/iut-toulon/" },
+const REGION_CODES = {
+  "Auvergne-Rhône-Alpes":       "ARA",
+  "Bourgogne-Franche-Comté":    "BFC",
+  "Bretagne":                    "BRE",
+  "Centre-Val de Loire":         "CVL",
+  "Corse":                       "COR",
+  "Grand Est":                   "GES",
+  "Guadeloupe":                  "GUA",
+  "Guyane":                      "GUY",
+  "Hauts-de-France":             "HDF",
+  "Île-de-France":               "IDF",
+  "La Réunion":                  "REU",
+  "Martinique":                  "MAR",
+  "Normandie":                   "NOR",
+  "Nouvelle-Aquitaine":          "NAQ",
+  "Occitanie":                   "OCC",
+  "Pays de la Loire":            "PDL",
+  "Provence-Alpes-Côte d'Azur": "PAC",
+};
 
-  // ── AuRA ──────────────────────────────────────────────────────────────
-  { nom:"IUT d'Annecy", ville:"Annecy", region:"ARA", sites:1,
-    but:["GEII","GMP","GB","RT","Info","TC"],
-    url:"https://www.iut.fr/iut/iut-annecy/" },
-  { nom:"IUT de Chambéry", ville:"Le Bourget-du-Lac", region:"ARA", sites:1,
-    but:["GB","GEII","GMP","Info","TC","RT"],
-    url:"https://www.iut.fr/iut/iut-chambery/" },
-  { nom:"IUT Clermont Auvergne", ville:"Aubière (+ 5 antennes)", region:"ARA", sites:6,
-    but:["GB","GEII","GMP","Info","TC","GEA","CS","Chimie","GCCD","RT","GCGP","QLIO","MP"],
-    url:"https://www.iut.fr/iut/iut-clermont-auvergne/" },
-  { nom:"IUT de Grenoble I", ville:"Saint-Martin-d'Hères", region:"ARA", sites:3,
-    but:["GCGP","GB","GEII","GMP","GIM","Info","RT","Chimie","MP","SGM"],
-    url:"https://www.iut.fr/iut/iut-grenoble-i/" },
-  { nom:"IUT de Grenoble II", ville:"Grenoble", region:"ARA", sites:4,
-    but:["Infocom","STID","GEA","TC","CS","CJ"],
-    url:"https://www.iut.fr/iut/iut-grenoble-ii/" },
-  { nom:"IUT Lyon 1", ville:"Villeurbanne / Bourg-en-Bresse", region:"ARA", sites:4,
-    but:["Chimie","GEII","GMP","GCGP","GB","Info","RT","MP","SGM","PEC"],
-    url:"https://www.iut.fr/iut/iut-lyon-1/" },
-  { nom:"IUT Lyon 2 Lumière", ville:"Bron", region:"ARA", sites:1,
-    but:["TC","CS","Infocom","GEA","STID"],
-    url:"https://www.iut.fr/iut/iut-lyon-2-lumiere/" },
-  { nom:"IUT Lyon 3 Jean Moulin", ville:"Lyon", region:"ARA", sites:1,
-    but:["CJ","GEA","TC"],
-    url:"https://www.iut.fr/iut/iut-lyon-3-jean-moulin/" },
-  { nom:"IUT de Roanne", ville:"Roanne", region:"ARA", sites:1,
-    but:["GEII","GEA","TC","Info","GIM"],
-    url:"https://www.iut.fr/iut/iut-roanne/" },
-  { nom:"IUT de Saint-Étienne", ville:"Saint-Étienne", region:"ARA", sites:1,
-    but:["GEII","GIM","GMP","Info","RT","TC","HSE","CS"],
-    url:"https://www.iut.fr/iut/iut-saint-etienne/" },
-  { nom:"IUT de Valence", ville:"Valence", region:"ARA", sites:1,
-    but:["GEII","GEA","Info","TC"],
-    url:"https://www.iut.fr/iut/iut-valence/" },
+function iutPageUrl(nomIut) {
+  const slug = nomIut
+    .replace(/ [-–].+$/, '')
+    .normalize('NFD').replace(/[̀-ͯ]/g, '')
+    .toLowerCase()
+    .replace(/^iut\s+/i, '')
+    .replace(/^(d[e']?|l[ae']?|les?)\s+/i, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+  return `https://www.iut.fr/iut/iut-${slug}/`;
+}
 
-  // ── BFC ──────────────────────────────────────────────────────────────
-  { nom:"IUT de Besançon-Vesoul-Dole", ville:"Besançon / Vesoul / Dole", region:"BFC", sites:3,
-    but:["Chimie","GEII","GMP","GIM","Info","MP","TC","GEA","GCCD","RT","GCGP"],
-    url:"https://www.iut.fr/iut/iut-besanon-vesoul-dole/" },
-  { nom:"IUT de Chalon-sur-Saône", ville:"Chalon-sur-Saône", region:"BFC", sites:1,
-    but:["GEII","GIM","TC","GEA"],
-    url:"https://www.iut.fr/iut/iut-chalon-sur-saone/" },
-  { nom:"IUT Dijon-Auxerre-Nevers", ville:"Dijon / Auxerre / Nevers", region:"BFC", sites:4,
-    but:["GCGP","GB","GEII","GMP","GIM","Info","TC","GEA","RT","MP","QLIO","SGM"],
-    url:"https://www.iut.fr/iut/iut-de-dijon-auxerre/" },
-  { nom:"IUT du Creusot", ville:"Le Creusot", region:"BFC", sites:2,
-    but:["GEII","GIM","GMP","TC","Info"],
-    url:"https://www.iut.fr/iut/iut-le-creusot/" },
+function transformData(iuts) {
+  const groups = {};
+  for (const site of iuts) {
+    const base = site.nom_iut.split(' - ')[0];
+    if (!groups[base]) {
+      groups[base] = {
+        nom: base,
+        villes: new Set(),
+        region: REGION_CODES[site.region] || 'IDF',
+        sites: 0,
+        but: new Set(),
+        url: iutPageUrl(base),
+      };
+    }
+    const g = groups[base];
+    g.villes.add(site.ville);
+    g.sites++;
+    for (const s of site.specialite) g.but.add(s);
+  }
+  return Object.values(groups).map(g => ({
+    nom: g.nom,
+    ville: [...g.villes].join(' / '),
+    region: g.region,
+    sites: g.sites,
+    but: [...g.but],
+    url: g.url,
+  }));
+}
 
-  // ── BRE ──────────────────────────────────────────────────────────────
-  { nom:"IUT de Brest-Morlaix", ville:"Brest / Morlaix", region:"BRE", sites:2,
-    but:["GEII","GMP","GIM","Info","TC","GEA","GCCD","RT","CS"],
-    url:"https://www.iut.fr/iut/iut-brest-morlaix/" },
-  { nom:"IUT de Lannion", ville:"Lannion", region:"BRE", sites:1,
-    but:["Info","RT","MMI"],
-    url:"https://www.iut.fr/iut/iut-lannion/" },
-  { nom:"IUT de Lorient-Pontivy", ville:"Lorient / Pontivy", region:"BRE", sites:2,
-    but:["GEII","GIM","Info","TC","GEA","QLIO"],
-    url:"https://www.iut.fr/iut/iut-lorient/" },
-  { nom:"IUT de Quimper", ville:"Quimper", region:"BRE", sites:1,
-    but:["GEA","TC","Info","GEII","GCCD"],
-    url:"https://www.iut.fr/iut/iut-quimper/" },
-  { nom:"IUT de Rennes", ville:"Rennes", region:"BRE", sites:2,
-    but:["GEII","GMP","GB","Info","TC","GEA","GCCD","RT","CS"],
-    url:"https://www.iut.fr/iut/iut-rennes/" },
-  { nom:"IUT de Saint-Brieuc", ville:"Saint-Brieuc", region:"BRE", sites:1,
-    but:["CS","TC","GEA","Info","GB"],
-    url:"https://www.iut.fr/iut/iut-saint-brieuc/" },
-  { nom:"IUT de Vannes", ville:"Vannes", region:"BRE", sites:1,
-    but:["Info","TC","GEA","GEII","RT"],
-    url:"https://www.iut.fr/iut/iut-vannes/" },
-
-  // ── CVL ──────────────────────────────────────────────────────────────
-  { nom:"IUT de Blois", ville:"Blois", region:"CVL", sites:1,
-    but:["GEII","GEA","TC","Info","MMI"],
-    url:"https://www.iut.fr/iut/iut-blois/" },
-  { nom:"IUT de Bourges", ville:"Bourges", region:"CVL", sites:1,
-    but:["GEII","GMP","Chimie","TC","Info","GCCD"],
-    url:"https://www.iut.fr/iut/iut-bourges/" },
-  { nom:"IUT de Chartres", ville:"Chartres", region:"CVL", sites:1,
-    but:["GEA","TC","GCCD","MMI","Info"],
-    url:"https://www.iut.fr/iut/iut-chartres/" },
-  { nom:"IUT de l'Indre", ville:"Châteauroux / Issoudun", region:"CVL", sites:2,
-    but:["GEII","TC","GEA","Info","GMP"],
-    url:"https://www.iut.fr/iut/iut-indre/" },
-  { nom:"IUT d'Orléans", ville:"Orléans", region:"CVL", sites:1,
-    but:["GB","GEII","GMP","Info","TC","GEA","GCCD","RT","Chimie"],
-    url:"https://www.iut.fr/iut/iut-orleans/" },
-  { nom:"IUT de Tours", ville:"Tours", region:"CVL", sites:1,
-    but:["GEII","GEA","TC","Info","GCCD","GB","GCGP","CS"],
-    url:"https://www.iut.fr/iut/iut-tours/" },
-
-  // ── CORSE ──────────────────────────────────────────────────────────────
-  { nom:"IUT de Corte", ville:"Corte", region:"COR", sites:1,
-    but:["GEA","Info","GEII","TC"],
-    url:"https://www.iut.fr/iut/iut-corte/" },
-
-  // ── GRAND EST ──────────────────────────────────────────────────────────
-  { nom:"IUT de Colmar", ville:"Colmar", region:"GES", sites:2,
-    but:["GEII","GMP","GB","GEA","TC","Chimie","GCGP"],
-    url:"https://www.iut.fr/iut/iut-colmar/" },
-  { nom:"IUT d'Épinal Hubert Curien", ville:"Épinal", region:"GES", sites:1,
-    but:["GEII","GIM","GMP","Info","TC","GB"],
-    url:"https://www.iut.fr/iut/iut-epinal-hubert-curien/" },
-  { nom:"IUT de Haguenau", ville:"Haguenau", region:"GES", sites:1,
-    but:["GEII","Info","TC","GEA","RT"],
-    url:"https://www.iut.fr/iut/iut-haguenau/" },
-  { nom:"IUT Henri Poincaré de Longwy", ville:"Cosnes-et-Romain", region:"GES", sites:1,
-    but:["GEII","GIM","GEA","Info"],
-    url:"https://www.iut.fr/iut/iut-de-longwy-henri-poincar/" },
-  { nom:"IUT de Metz", ville:"Metz", region:"GES", sites:2,
-    but:["GCGP","GEII","GMP","GB","Info","TC","GEA","RT","MP","Chimie"],
-    url:"https://www.iut.fr/iut/iut-metz/" },
-  { nom:"IUT Nancy-Brabois", ville:"Vandœuvre-lès-Nancy", region:"GES", sites:2,
-    but:["GMP","GEII","GB","Info","TC","GEA","RT","CS","MP","Chimie","GIM"],
-    url:"https://www.iut.fr/iut/iut-nancy-brabois/" },
-  { nom:"IUT Nancy-Charlemagne", ville:"Nancy", region:"GES", sites:1,
-    but:["Infocom","STID","GEA","CJ","TC","CS"],
-    url:"https://www.iut.fr/iut/iut-nancy-charlemagne/" },
-  { nom:"IUT de Reims-Châlons-Charleville", ville:"Reims / Châlons / Charleville", region:"GES", sites:3,
-    but:["GCGP","GB","GEII","GMP","Info","TC","GEA","SGM","GCCD","Chimie","CS"],
-    url:"https://www.iut.fr/iut/iut-reims-chalons-charleville/" },
-  { nom:"IUT de Saint-Dié-des-Vosges", ville:"Saint-Dié-des-Vosges", region:"GES", sites:1,
-    but:["Info","GEA","TC"],
-    url:"https://www.iut.fr/iut/iut-saint-die-des-vosges/" },
-  { nom:"IUT de Strasbourg", ville:"Strasbourg", region:"GES", sites:3,
-    but:["Chimie","GEII","GMP","GB","Info","TC","GEA","RT","MP","GCGP","GCCD","HSE","QLIO"],
-    url:"https://www.iut.fr/iut/iut-strasbourg/" },
-  { nom:"IUT de Troyes", ville:"Troyes", region:"GES", sites:1,
-    but:["GEII","GIM","GMP","Info","TC","GEA","RT","HSE"],
-    url:"https://www.iut.fr/iut/iut-troyes/" },
-
-  // ── GUADELOUPE ──────────────────────────────────────────────────────────
-  { nom:"IUT de Guadeloupe", ville:"Saint-Claude", region:"GUA", sites:1,
-    but:["TC","GEA","Info","GB","GEII","GCCD","CS"],
-    url:"https://www.iut.fr/iut/iut-guadeloupe/" },
-
-  // ── GUYANE ──────────────────────────────────────────────────────────────
-  { nom:"IUT de Kourou", ville:"Kourou / Cayenne", region:"GUY", sites:2,
-    but:["GCCD","GEA","TC","Info","GEII"],
-    url:"https://www.iut.fr/iut/iut-kourou/" },
-
-  // ── HDF ──────────────────────────────────────────────────────────────
-  { nom:"IUT de l'Aisne", ville:"Laon / Saint-Quentin / Soissons", region:"HDF", sites:3,
-    but:["GEA","TC","GACO","Info","HSE","GEII"],
-    url:"https://www.iut.fr/iut/iut-aisne/" },
-  { nom:"IUT d'Amiens", ville:"Amiens", region:"HDF", sites:1,
-    but:["GB","GEII","GMP","GIM","Info","TC","GCCD","QLIO"],
-    url:"https://www.iut.fr/iut/iut-amiens/" },
-  { nom:"IUT de Béthune", ville:"Béthune", region:"HDF", sites:1,
-    but:["GEII","GMP","GIM","Chimie","HSE","TC","GCGP"],
-    url:"https://www.iut.fr/iut/iut-bthune/" },
-  { nom:"IUT de Lens", ville:"Lens", region:"HDF", sites:1,
-    but:["GEII","GMP","GIM","TC","Info","GCCD"],
-    url:"https://www.iut.fr/iut/iut-lens/" },
-  { nom:"IUT de Lille", ville:"Villeneuve-d'Ascq / Roubaix / Tourcoing", region:"HDF", sites:4,
-    but:["Chimie","GEII","GMP","GIM","Info","TC","GEA","CJ","RT","STID","HSE","GCCD","Infocom","QLIO"],
-    url:"https://www.iut.fr/iut/iut-lille/" },
-  { nom:"IUT du Littoral Côte d'Opale", ville:"Calais / Boulogne / Dunkerque", region:"HDF", sites:4,
-    but:["GEII","GMP","GB","TC","GEA","Info","Chimie","GCCD","GCGP","HSE"],
-    url:"https://www.iut.fr/iut/iut-littoral-cote-dopale/" },
-  { nom:"IUT de Valenciennes", ville:"Valenciennes", region:"HDF", sites:1,
-    but:["GEII","GIM","GMP","TC","Info","GCCD","RT"],
-    url:"https://www.iut.fr/iut/iut-valenciennes/" },
-
-  // ── IDF ──────────────────────────────────────────────────────────────
-  { nom:"IUT de Bobigny", ville:"Bobigny", region:"IDF", sites:1,
-    but:["CS","GB","GEA","GEII"],
-    url:"https://www.iut.fr/iut/iut-bobigny/" },
-  { nom:"IUT de Cachan", ville:"Cachan", region:"IDF", sites:1,
-    but:["GEII","GMP","MP","CS","SGM"],
-    url:"https://www.iut.fr/iut/iut-cachan/" },
-  { nom:"IUT de Cergy-Pontoise", ville:"Cergy / Argenteuil / Sarcelles", region:"IDF", sites:4,
-    but:["GEII","Info","GEA","TC","CS","MMI","GCCD","RT"],
-    url:"https://www.iut.fr/iut/iut-cergy-pontoise/" },
-  { nom:"IUT de Créteil-Vitry", ville:"Créteil / Vitry-sur-Seine", region:"IDF", sites:2,
-    but:["GEII","GMP","GB","GEA","Info","CS","TC","STID"],
-    url:"https://www.iut.fr/iut/iut-creteil-vitry/" },
-  { nom:"IUT d'Évry Val d'Essonne", ville:"Évry / Juvisy / Brétigny", region:"IDF", sites:3,
-    but:["Info","GEII","GEA","TC","QLIO","CS","Infocom"],
-    url:"https://www.iut.fr/iut/iut-evry-val-dessonne/" },
-  { nom:"IUT de Mantes-en-Yvelines", ville:"Mantes-la-Jolie", region:"IDF", sites:1,
-    but:["GEII","GEA","TC","Info"],
-    url:"https://www.iut.fr/iut/iut-mantes-en-yvelines/" },
-  { nom:"IUT de Marne-la-Vallée", ville:"Champs-sur-Marne / Meaux", region:"IDF", sites:2,
-    but:["GCCD","GEII","Info","GEA","TC","MMI","Infocom"],
-    url:"https://www.iut.fr/iut/iut-marne-la-valle/" },
-  { nom:"IUT de Montreuil", ville:"Montreuil", region:"IDF", sites:1,
-    but:["GACO","Infocom","Info","QLIO","TC","GEA"],
-    url:"https://www.iut.fr/iut/iut-montreuil/" },
-  { nom:"IUT d'Orsay", ville:"Orsay", region:"IDF", sites:1,
-    but:["Chimie","GEII","Info","MP","STID","GB","RT"],
-    url:"https://www.iut.fr/iut/iut-orsay/" },
-  { nom:"IUT Paris – Rives de Seine", ville:"Paris", region:"IDF", sites:2,
-    but:["Infocom","Info","STID","TC","GEA","CS","MMI","RT"],
-    url:"https://www.iut.fr/iut/iut-paris-rives-de-seine/" },
-  { nom:"IUT de Sceaux", ville:"Sceaux", region:"IDF", sites:1,
-    but:["GEA","TC","GACO","CJ","Infocom"],
-    url:"https://www.iut.fr/iut/iut-sceaux/" },
-  { nom:"IUT de Sénart-Fontainebleau", ville:"Sénart / Fontainebleau", region:"IDF", sites:2,
-    but:["GEII","Info","GEA","TC","MMI","CS"],
-    url:"https://www.iut.fr/iut/iut-senart-fontainebleau/" },
-  { nom:"IUT de Saint-Denis", ville:"Saint-Denis", region:"IDF", sites:2,
-    but:["GEII","GIM","GMP","MP","CS","HSE","TC","GEA","SGM"],
-    url:"https://www.iut.fr/iut/iut-saint-denis/" },
-  { nom:"IUT de Tremblay", ville:"Tremblay-en-France", region:"IDF", sites:1,
-    but:["GEII","GIM","GEA","LPF"],
-    url:"https://www.iut.fr/iut/iut-tremblay/" },
-  { nom:"IUT de Vélizy", ville:"Vélizy-Villacoublay", region:"IDF", sites:1,
-    but:["GEII","GMP","Info","TC","RT"],
-    url:"https://www.iut.fr/iut/iut-velizy/" },
-  { nom:"IUT de Ville-d'Avray–Saint-Cloud", ville:"Ville-d'Avray", region:"IDF", sites:1,
-    but:["GEII","GMP","GCCD","TC","Info"],
-    url:"https://www.iut.fr/iut/iut-ville-davray-saint-cloud/" },
-  { nom:"IUT de Villetaneuse", ville:"Villetaneuse", region:"IDF", sites:1,
-    but:["Infocom","Info","TC","GEA","CJ","RT","CS"],
-    url:"https://www.iut.fr/iut/iut-villetaneuse/" },
-
-  // ── LA RÉUNION ──────────────────────────────────────────────────────────
-  { nom:"IUT de La Réunion", ville:"Saint-Pierre", region:"REU", sites:1,
-    but:["GB","GEII","Info","GEA","TC","CS","GCCD","RT"],
-    url:"https://www.iut.fr/iut/iut-saint-pierre-la-reunion/" },
-
-  // ── MARTINIQUE ──────────────────────────────────────────────────────────
-  { nom:"IUT de Martinique", ville:"Schoelcher", region:"MAR", sites:1,
-    but:["TC","GEA","CS","Info","GCCD"],
-    url:"https://www.iut.fr/iut/iut-martinique/" },
-
-  // ── NORMANDIE ──────────────────────────────────────────────────────────
-  { nom:"IUT d'Évreux", ville:"Évreux", region:"NOR", sites:1,
-    but:["GEA","TC","MMI","Infocom"],
-    url:"https://www.iut.fr/iut/iut-evreux/" },
-  { nom:"IUT Grand Ouest Normandie", ville:"Caen / Cherbourg / Alençon / Saint-Lô", region:"NOR", sites:7,
-    but:["GCCD","GEII","GMP","GIM","Info","TC","GEA","CS","MMI","RT","GB","QLIO","Infocom"],
-    url:"https://www.iut.fr/iut/iut-grand-ouest-normandie/" },
-  { nom:"IUT du Havre", ville:"Le Havre", region:"NOR", sites:2,
-    but:["GCCD","GEII","TC","GEA","Info","QLIO","LPF","RT"],
-    url:"https://www.iut.fr/iut/iut-du-havre/" },
-  { nom:"IUT de Rouen Normandie", ville:"Rouen", region:"NOR", sites:3,
-    but:["Chimie","GEII","GMP","GIM","Info","TC","GEA","CS","GCCD","CJ","QLIO","SGM","RT"],
-    url:"https://www.iut.fr/iut/iut-rouen/" },
-
-  // ── NOUVELLE-AQUITAINE ────────────────────────────────────────────────
-  { nom:"IUT d'Angoulême", ville:"Angoulême", region:"NAQ", sites:1,
-    but:["MMI","TC","GEA","Info"],
-    url:"https://www.iut.fr/iut/iut-angouleme/" },
-  { nom:"IUT de Bayonne et du Pays Basque", ville:"Bayonne / Anglet", region:"NAQ", sites:2,
-    but:["GEII","GMP","TC","GEA","Info","GCCD","MMI"],
-    url:"https://www.iut.fr/iut/iut-bayonne-pays-basque/" },
-  { nom:"IUT de Bordeaux", ville:"Bordeaux / Agen / Périgueux", region:"NAQ", sites:4,
-    but:["GEII","GMP","GIM","GCCD","GB","TC","GEA","Chimie","QLIO","HSE","Info","LPF","RT"],
-    url:"https://www.iut.fr/iut/iut-bordeaux/" },
-  { nom:"IUT Bordeaux Montaigne", ville:"Bordeaux", region:"NAQ", sites:1,
-    but:["Infocom","GEA","CS","TC","STID"],
-    url:"https://www.iut.fr/iut/iut-bordeaux-montaigne/" },
-  { nom:"IUT de La Rochelle", ville:"La Rochelle", region:"NAQ", sites:1,
-    but:["GB","GCCD","GEA","TC","Info","HSE","QLIO"],
-    url:"https://www.iut.fr/iut/iut-la-rochelle/" },
-  { nom:"IUT du Limousin", ville:"Limoges / Brive / Guéret / Tulle / Égletons", region:"NAQ", sites:5,
-    but:["GEII","GMP","GIM","Info","TC","GEA","RT","GCCD","GB","HSE"],
-    url:"https://www.iut.fr/iut/iut-limousin/" },
-  { nom:"IUT de Pau et des Pays de l'Adour", ville:"Pau", region:"NAQ", sites:2,
-    but:["GCGP","GEII","GEA","Info","TC","GB","Chimie"],
-    url:"https://www.iut.fr/iut/iut-pau-pays-adour/" },
-  { nom:"IUT de Poitiers", ville:"Poitiers / Châtellerault / Niort", region:"NAQ", sites:3,
-    but:["GEII","GMP","GIM","Info","TC","GEA","GCCD","Chimie","GB","RT","QLIO","MMI"],
-    url:"https://www.iut.fr/iut/iut-poitiers/" },
-
-  // ── OCCITANIE ──────────────────────────────────────────────────────────
-  { nom:"IUT de Béziers", ville:"Béziers", region:"OCC", sites:1,
-    but:["MMI","Info","GEA","TC","RT"],
-    url:"https://www.iut.fr/iut/iut-beziers/" },
-  { nom:"IUT de Blagnac", ville:"Blagnac", region:"OCC", sites:1,
-    but:["Info","TC","MMI","GEII","GACO"],
-    url:"https://www.iut.fr/iut/iut-blagnac/" },
-  { nom:"IUT de Figeac", ville:"Figeac", region:"OCC", sites:1,
-    but:["Info","GEA","TC","GEII"],
-    url:"https://www.iut.fr/iut/iut-figeac/" },
-  { nom:"IUT de Montpellier-Sète", ville:"Montpellier / Sète", region:"OCC", sites:3,
-    but:["Chimie","GEII","GMP","Info","GEA","TC","STID","GCCD","RT","GB"],
-    url:"https://www.iut.fr/iut/iut-montpellier/" },
-  { nom:"IUT de Nîmes", ville:"Nîmes", region:"OCC", sites:1,
-    but:["GEII","GEA","TC","Info","GB","GCCD"],
-    url:"https://www.iut.fr/iut/iut-nimes/" },
-  { nom:"IUT de Perpignan", ville:"Perpignan", region:"OCC", sites:1,
-    but:["GEII","GEA","TC","Info","GB","GCCD"],
-    url:"https://www.iut.fr/iut/iut-perpignan/" },
-  { nom:"IUT de Rodez", ville:"Rodez", region:"OCC", sites:1,
-    but:["Info","GEA","TC","GEII","MMI"],
-    url:"https://www.iut.fr/iut/iut-rodez/" },
-  { nom:"IUT de Tarbes", ville:"Tarbes", region:"OCC", sites:1,
-    but:["GEII","GMP","GIM","TC","Info","GCCD"],
-    url:"https://www.iut.fr/iut/iut-tarbes/" },
-  { nom:"IUT de Toulouse", ville:"Toulouse", region:"OCC", sites:2,
-    but:["Chimie","GEII","GMP","GB","Info","TC","GEA","GCGP","RT","HSE","MP","QLIO","SGM"],
-    url:"https://www.iut.fr/iut/iut-toulouse/" },
-
-  // ── PAYS DE LA LOIRE ──────────────────────────────────────────────────
-  { nom:"IUT Angers-Cholet", ville:"Angers / Cholet", region:"PDL", sites:3,
-    but:["GB","GEII","GMP","GIM","Info","TC","GEA","QLIO","STA"],
-    url:"https://www.iut.fr/iut/iut-dangers-cholet/" },
-  { nom:"IUT de La Roche-sur-Yon", ville:"La Roche-sur-Yon", region:"PDL", sites:1,
-    but:["Info","GEA","TC","MMI","CS"],
-    url:"https://www.iut.fr/iut/iut-la-roche-sur-yon/" },
-  { nom:"IUT de Laval", ville:"Laval", region:"PDL", sites:1,
-    but:["GEII","GMP","TC","Info","GEA"],
-    url:"https://www.iut.fr/iut/iut-de-laval/" },
-  { nom:"IUT du Mans", ville:"Le Mans", region:"PDL", sites:1,
-    but:["GEII","GMP","Info","TC","GEA","RT","GCCD"],
-    url:"https://www.iut.fr/iut/iut-le-mans/" },
-  { nom:"IUT de Nantes", ville:"Nantes", region:"PDL", sites:2,
-    but:["Chimie","GEII","GMP","GCGP","Info","TC","GEA","GB","RT","SGM","MP"],
-    url:"https://www.iut.fr/iut/iut-nantes/" },
-  { nom:"IUT de Saint-Nazaire", ville:"Saint-Nazaire", region:"PDL", sites:1,
-    but:["GEII","GCCD","GEA","Info","TC","RT"],
-    url:"https://www.iut.fr/iut/iut-saint-nazaire/" },
-];
+let IUT_DATA = [];
 
 // ────────────────────────────────────────────────────────────────────────────
 // INIT
@@ -1058,26 +791,33 @@ let filterBut = '';
 let filterSearch = '';
 let sortKey = 'nom';
 
-// Total stats
-const totalSites = IUT_DATA.reduce((s,d)=>s+d.sites,0);
-document.getElementById('stat-iuts').textContent = IUT_DATA.length;
-document.getElementById('stat-sites').textContent = totalSites;
+(async () => {
+  const json = await fetch('data.json').then(r => r.json());
+  IUT_DATA = transformData(json.iuts);
 
-// Populate region filter
-const regionSel = document.getElementById('filter-region');
-Object.entries(REGIONS).sort((a,b)=>a[1].label.localeCompare(b[1].label)).forEach(([k,v])=>{
-  const o = document.createElement('option');
-  o.value = k; o.textContent = v.label;
-  regionSel.appendChild(o);
-});
+  // Total stats
+  const totalSites = IUT_DATA.reduce((s,d)=>s+d.sites,0);
+  document.getElementById('stat-iuts').textContent = IUT_DATA.length;
+  document.getElementById('stat-sites').textContent = totalSites;
 
-// Populate BUT filter
-const butSel = document.getElementById('filter-but');
-Object.entries(BUT_LABELS).sort((a,b)=>a[1].localeCompare(b[1])).forEach(([k,v])=>{
-  const o = document.createElement('option');
-  o.value = k; o.textContent = `${k} — ${v}`;
-  butSel.appendChild(o);
-});
+  // Populate region filter
+  const regionSel = document.getElementById('filter-region');
+  Object.entries(REGIONS).sort((a,b)=>a[1].label.localeCompare(b[1].label)).forEach(([k,v])=>{
+    const o = document.createElement('option');
+    o.value = k; o.textContent = v.label;
+    regionSel.appendChild(o);
+  });
+
+  // Populate BUT filter
+  const butSel = document.getElementById('filter-but');
+  Object.entries(BUT_LABELS).sort((a,b)=>a[1].localeCompare(b[1])).forEach(([k,v])=>{
+    const o = document.createElement('option');
+    o.value = k; o.textContent = `${k} — ${v}`;
+    butSel.appendChild(o);
+  });
+
+  render();
+})();
 
 // ────────────────────────────────────────────────────────────────────────────
 // FILTER + SORT
@@ -1207,8 +947,6 @@ document.getElementById('btn-cards').addEventListener('click',()=>{
   render();
 });
 
-// Initial render
-render();
 </script>
 </body>
 </html>
