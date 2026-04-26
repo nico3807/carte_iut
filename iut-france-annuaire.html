@@ -537,12 +537,34 @@
     td, thead th { padding: 0.6rem 0.6rem; }
     .cards-grid { grid-template-columns: 1fr; }
     .filter-group label { display: none; }
-    select { min-width: 120px; }
+    select { min-width: 110px; }
+  }
+
+  @media (max-width: 768px) {
+    #table-view { display: none !important; }
+    #cards-view { display: block !important; }
+    .view-toggle { display: none; }
+    .cards-grid { grid-template-columns: 1fr; }
+    .header-stats { gap: 0.6rem; }
+    .stat-box { padding: 0.5rem 0.8rem; }
+    .stat-box .val { font-size: 1.3rem; }
   }
 
   @media (max-width: 600px) {
-    .search-wrap { max-width: 100%; }
-    .view-toggle { margin-left: 0; }
+    .search-wrap { max-width: 100%; flex: 1; }
+    .view-toggle { display: none; }
+    .result-count { display: none; }
+    .toolbar-inner { gap: 6px; }
+    select { min-width: 0; flex: 1; }
+    header h1 { font-size: 1.4rem; }
+    .header-stats { flex-wrap: wrap; gap: 0.5rem; }
+    .stat-box { flex: 1; min-width: 56px; }
+  }
+
+  @media (max-width: 400px) {
+    .toolbar-inner { flex-direction: column; align-items: stretch; }
+    .filter-group, .search-wrap { width: 100%; max-width: none; }
+    select { width: 100%; }
   }
 </style>
 </head>
@@ -785,7 +807,8 @@ let IUT_DATA = [];
 // ────────────────────────────────────────────────────────────────────────────
 // INIT
 // ────────────────────────────────────────────────────────────────────────────
-let currentView = 'table';
+function isMobile() { return window.innerWidth <= 768; }
+let currentView = isMobile() ? 'cards' : 'table';
 let filterRegion = '';
 let filterBut = '';
 let filterSearch = '';
@@ -816,6 +839,10 @@ let sortKey = 'nom';
     butSel.appendChild(o);
   });
 
+  if (isMobile()) {
+    document.getElementById('btn-cards').classList.add('active');
+    document.getElementById('btn-table').classList.remove('active');
+  }
   render();
 })();
 
@@ -945,6 +972,15 @@ document.getElementById('btn-cards').addEventListener('click',()=>{
   document.getElementById('btn-cards').classList.add('active');
   document.getElementById('btn-table').classList.remove('active');
   render();
+});
+
+window.addEventListener('resize', () => {
+  if (isMobile() && currentView !== 'cards') {
+    currentView = 'cards';
+    document.getElementById('btn-cards').classList.add('active');
+    document.getElementById('btn-table').classList.remove('active');
+    render();
+  }
 });
 
 </script>

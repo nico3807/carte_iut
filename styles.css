@@ -635,21 +635,34 @@ html, body {
 @media (max-width: 900px) {
   #nav-filters { gap: 6px; }
   .filter-group label { display: none; }
+  .brand-year { display: none; }
 }
 
 @media (max-width: 680px) {
-  :root { --nav-h: 110px; --panel-w: 100vw; }
+  :root { --nav-h: 100px; --panel-w: 100vw; }
   #navbar {
     flex-wrap: wrap;
     height: auto;
-    padding: 10px 12px;
-    gap: 8px;
+    padding: 8px 12px;
+    gap: 6px;
   }
+  #nav-brand { flex: 1; }
   #nav-filters {
+    order: 3;
     width: 100%;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    gap: 6px;
   }
-  .filter-group { flex: 1; min-width: 120px; }
-  #nav-right { width: 100%; justify-content: flex-end; }
-  #legend { width: calc(100vw - 32px); }
+  .filter-group { flex: 1; min-width: 0; }
+  .search-group { max-width: none; }
+  #stats-badge { display: none; }
+  #legend { left: 12px; right: 12px; width: auto; bottom: 12px; }
+  #map-counter { bottom: 12px; right: 12px; }
+}
+
+@media (max-width: 420px) {
+  :root { --nav-h: 134px; }
+  #nav-filters { flex-direction: column; }
+  .filter-group select,
+  .filter-group input { font-size: 12px; }
 }
