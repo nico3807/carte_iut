@@ -42,7 +42,10 @@
     font-size: 15px;
     background: var(--gray-100);
     color: var(--gray-800);
-    min-height: 100vh;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
   }
 
   /* ── SCROLLBAR ── */
@@ -169,20 +172,19 @@
   .view-btn:hover:not(.active) { color: var(--navy); }
 
   /* ── MAIN CONTENT ── */
-  .main { max-width: 1600px; margin: 0 auto; padding: 1.5rem 2rem 3rem; }
+  .main { flex: 1; min-height: 0; overflow-y: auto; width: 100%; max-width: 1600px; margin: 0 auto; padding: 0 2rem 3rem; }
 
   /* ── TABLE VIEW ── */
   .table-wrap {
     background: var(--white);
     border-radius: var(--radius);
     border: 1px solid var(--gray-200);
-    overflow-y: auto;
-    max-height: calc(100vh - 62px - 3rem);
+    overflow: visible;
     box-shadow: var(--shadow-sm);
   }
   table { width: 100%; border-collapse: collapse; }
   thead tr { background: var(--navy); }
-  thead th { position: sticky; top: 0; z-index: 5; }
+  thead th { position: sticky; top: 0; z-index: 5; background: var(--navy); }
   thead th {
     font-size: 0.7rem;
     font-weight: 600;
