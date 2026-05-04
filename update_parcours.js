@@ -7,7 +7,7 @@ function norm(s) {
   return s
     .normalize('NFD')
     .replace(/[̀-ͯ]/g, '')                       // supprime diacritiques
-    .replace(/[‘’ʼ´`]/g, ''') // normalise apostrophes -> '
+    .replace(/[‘’ʼ´`]/g, "\x27") // normalise apostrophes -> U+0027
     .replace(/[–—−]/g, '-')                  // normalise tirets -> -
     .replace(/\s*-\s*/g, '-')
     .replace(/\s*&\s*/g, ' et ')
