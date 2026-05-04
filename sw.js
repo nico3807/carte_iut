@@ -1,4 +1,4 @@
-const CACHE = 'iut-france-v1';
+const CACHE = 'iut-france-v2';
 
 const PRECACHE = [
   './index.html',

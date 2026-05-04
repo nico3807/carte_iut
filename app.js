@@ -53,7 +53,7 @@ function iutPageUrl(nomIut) {
   return `https://www.iut.fr/iut/iut-${slug}/`;
 }
 
-let map, clusterGroup, allMarkers = [], specialites = [], iuts = [];
+let map, clusterGroup, allMarkers = [], specialites = [], iuts = [], intituleParcours = {};
 let activeMarkerEl = null;
 
 /* ── Bootstrap ── */
@@ -101,8 +101,9 @@ function initMap() {
 async function loadData() {
   const res = await fetch('data.json');
   const json = await res.json();
-  specialites = json.specialites;
-  iuts = json.iuts;
+  specialites     = json.specialites;
+  iuts            = json.iuts;
+  intituleParcours = json.intitule_parcours || {};
 }
 
 /* ── Create Markers ── */
@@ -211,16 +212,24 @@ function renderPanel(iut) {
        </span>`
     ).join('');
     const items = specs.map(s => {
-      const sp = s.sous_parcours && s.sous_parcours.length
-        ? `<ul style="margin:2px 0 4px 18px;font-size:10.5px;color:#64748b">${s.sous_parcours.map(p=>`<li>${p}</li>`).join('')}</ul>`
-        : '';
       const butLink = BUT_URLS[s.code]
         ? `<a href="${BUT_URLS[s.code]}" target="_blank" rel="noopener" class="ext-link" title="BUT ${s.code} sur iut.fr">↗</a>`
+        : '';
+      const codes = iut.parcours?.[s.code] ?? [];
+      const parcoursRows = codes.map(code => {
+        const def = intituleParcours[code]?.definition ?? code;
+        return `<div class="parcours-row">
+          <span class="parcours-code" style="border-color:${s.couleur};color:${s.couleur}">${code}</span>
+          <span class="parcours-def">${def}</span>
+        </div>`;
+      }).join('');
+      const parcoursBlock = codes.length
+        ? `<div class="parcours-inline">${parcoursRows}</div>`
         : '';
       return `<div class="legend-item" style="margin-bottom:2px">
          <span class="legend-dot" style="background:${s.couleur}"></span>
          <span><strong>${s.code}</strong> — ${s.nom} ${butLink}</span>
-       </div>${sp}`;
+       </div>${parcoursBlock}`;
     }).join('');
 
     return `<div class="cat-group">
@@ -252,8 +261,10 @@ function renderPanel(iut) {
       </div>
       ${catBlocks}
     </div>
+
   `;
 }
+
 
 function groupByCategory(codes) {
   const result = {};

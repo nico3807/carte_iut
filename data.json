@@ -184,7 +184,12 @@
         "CJ",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "CJ": [
+          "AJ",
+          "EA"
+        ]
+      }
     },
     {
       "id": 2,
@@ -200,7 +205,12 @@
         "GCGP",
         "GMP"
       ],
-      "parcours": []
+      "parcours": {
+        "GCGP": [
+          "CPOP",
+          "CMOB"
+        ]
+      }
     },
     {
       "id": 3,
@@ -217,7 +227,20 @@
         "GEII",
         "QLIO"
       ],
-      "parcours": []
+      "parcours": {
+        "CJ": [
+          "EA",
+          "PF"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ]
+      }
     },
     {
       "id": 4,
@@ -238,7 +261,37 @@
         "MLT",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH",
+          "CG2P"
+        ],
+        "TC": [
+          "Les 5 parcours"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "CS": [
+          "VTD"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED",
+          "IAMSI"
+        ],
+        "GMP": [
+          "CAI",
+          "CPD",
+          "IPI",
+          "MPI",
+          "SNRV"
+        ]
+      }
     },
     {
       "id": 5,
@@ -254,7 +307,19 @@
         "INFO",
         "MMI"
       ],
-      "parcours": []
+      "parcours": {
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED",
+          "IAMSI"
+        ]
+      }
     },
     {
       "id": 6,
@@ -270,7 +335,17 @@
         "GACO",
         "GB"
       ],
-      "parcours": []
+      "parcours": {
+        "GACO": [
+          "MDFS",
+          "MCMO",
+          "MRPE"
+        ],
+        "GB": [
+          "AGRO",
+          "SEE"
+        ]
+      }
     },
     {
       "id": 7,
@@ -285,7 +360,7 @@
       "specialite": [
         "GEA"
       ],
-      "parcours": []
+      "parcours": {}
     },
     {
       "id": 8,
@@ -300,7 +375,11 @@
       "specialite": [
         "HSE"
       ],
-      "parcours": []
+      "parcours": {
+        "HSE": [
+          "SDMR"
+        ]
+      }
     },
     {
       "id": 9,
@@ -315,7 +394,14 @@
       "specialite": [
         "GCCD"
       ],
-      "parcours": []
+      "parcours": {
+        "GCCD": [
+          "TB",
+          "TP",
+          "REHAB",
+          "BEC"
+        ]
+      }
     },
     {
       "id": 10,
@@ -330,7 +416,14 @@
       "specialite": [
         "RT"
       ],
-      "parcours": []
+      "parcours": {
+        "RT": [
+          "CYBER",
+          "DEVCLOUD",
+          "IOM",
+          "ROM"
+        ]
+      }
     },
     {
       "id": 11,
@@ -351,7 +444,40 @@
         "MTEE",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH",
+          "CG2P"
+        ],
+        "TC": [
+          "Les 5 parcours"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "MP": [
+          "TI",
+          "MCPC",
+          "MAE"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "SYN"
+        ],
+        "GCGP": [
+          "CPOP",
+          "CMOB"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL",
+          "EXPLOIT"
+        ]
+      }
     },
     {
       "id": 12,
@@ -366,7 +492,13 @@
       "specialite": [
         "GEII"
       ],
-      "parcours": []
+      "parcours": {
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ]
+      }
     },
     {
       "id": 13,
@@ -386,7 +518,53 @@
         "INFO",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "SME"
+        ],
+        "MMI": [
+          "DEV",
+          "STRAT"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED"
+        ],
+        "GMP": [
+          "CAI",
+          "IPI",
+          "MPI"
+        ],
+        "GB": [
+          "AGRO",
+          "BMB",
+          "SAB"
+        ],
+        "GCCD": [
+          "TB",
+          "TP",
+          "REHAB",
+          "BEC"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "EXPLOIT",
+          "MANÉ"
+        ]
+      }
     },
     {
       "id": 14,
@@ -405,7 +583,35 @@
         "GMP",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "SME"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "GMP": [
+          "CAI",
+          "SNRV"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "GB": [
+          "BMB",
+          "SAB"
+        ]
+      }
     },
     {
       "id": 15,
@@ -421,7 +627,20 @@
         "CS",
         "GACO"
       ],
-      "parcours": []
+      "parcours": {
+        "GACO": [
+          "MDFS",
+          "MCMO"
+        ],
+        "CS": [
+          "ASS",
+          "ASSC"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ]
+      }
     },
     {
       "id": 16,
@@ -440,7 +659,27 @@
         "QLIO",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "TC": [
+          "MDEE",
+          "BDMRC"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "GMP": [
+          "CAI",
+          "IPI",
+          "MPI"
+        ]
+      }
     },
     {
       "id": 17,
@@ -463,7 +702,56 @@
         "RT",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "CG2P"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME"
+        ],
+        "CS": [
+          "CGE3S"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "RT": [
+          "CYBER",
+          "DEVCLOUD",
+          "IOM"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS"
+        ],
+        "GMP": [
+          "CAI",
+          "CPD",
+          "MPI"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "MP": [
+          "TI",
+          "MCPC",
+          "MAE"
+        ],
+        "GCCD": [
+          "TB",
+          "TP",
+          "REHAB",
+          "BEC"
+        ]
+      }
     },
     {
       "id": 18,
@@ -481,7 +769,16 @@
         "SD",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "SD": [
+          "EMS",
+          "VCOD"
+        ],
+        "PEC": [
+          "EI",
+          "EHSC"
+        ]
+      }
     },
     {
       "id": 19,
@@ -497,7 +794,16 @@
         "GIM",
         "INFO"
       ],
-      "parcours": []
+      "parcours": {
+        "INFO": [
+          "RACDV",
+          "DACS"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ]
+      }
     },
     {
       "id": 20,
@@ -513,7 +819,17 @@
         "GEA",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA"
+        ],
+        "TC": [
+          "MDEE",
+          "BIAV",
+          "BDMRC"
+        ]
+      }
     },
     {
       "id": 21,
@@ -531,7 +847,34 @@
         "GMP",
         "INFOCOM"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV"
+        ],
+        "INFOCOM": [
+          "CO",
+          "PUB"
+        ],
+        "GMP": [
+          "CAI",
+          "MPI",
+          "SNRV"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "SYN"
+        ],
+        "GB": [
+          "BMB"
+        ]
+      }
     },
     {
       "id": 22,
@@ -547,7 +890,24 @@
         "PEC",
         "SD"
       ],
-      "parcours": []
+      "parcours": {
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV"
+        ],
+        "SD": [
+          "EMS",
+          "VCOD"
+        ],
+        "PEC": [
+          "EI",
+          "EHSC"
+        ],
+        "GB": [
+          "BMB"
+        ]
+      }
     },
     {
       "id": 23,
@@ -564,7 +924,31 @@
         "HSE",
         "MLT"
       ],
-      "parcours": []
+      "parcours": {
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "GB": [
+          "BMB"
+        ],
+        "HSE": [
+          "SDMR"
+        ]
+      }
     },
     {
       "id": 24,
@@ -584,7 +968,29 @@
         "QLIO",
         "RT"
       ],
-      "parcours": []
+      "parcours": {
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "GMP": [
+          "CAI",
+          "MPI",
+          "SNRV"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "SYN",
+          "MPF"
+        ],
+        "GCCD": [
+          "TB",
+          "TP",
+          "REHAB",
+          "BEC"
+        ]
+      }
     },
     {
       "id": 25,
@@ -601,7 +1007,21 @@
         "RT",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "TC": [
+          "MDEE",
+          "BDMRC"
+        ],
+        "MMI": [
+          "CN",
+          "DEV"
+        ],
+        "RT": [
+          "CYBER",
+          "DEVCLOUD",
+          "IOM"
+        ]
+      }
     },
     {
       "id": 26,
@@ -619,7 +1039,20 @@
         "INFO",
         "RT"
       ],
-      "parcours": []
+      "parcours": {
+        "CS": [
+          "CGE3S"
+        ],
+        "RT": [
+          "CYBER",
+          "IOM",
+          "ROM"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ]
+      }
     },
     {
       "id": 27,
@@ -637,7 +1070,21 @@
         "RT",
         "SGM"
       ],
-      "parcours": []
+      "parcours": {
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "RT": [
+          "CYBER",
+          "DEVCLOUD"
+        ],
+        "SGM": [
+          "MIMP",
+          "MCEMP"
+        ]
+      }
     },
     {
       "id": 28,
@@ -655,7 +1102,25 @@
         "GEA",
         "MMI"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GEMA",
+          "GC2F"
+        ],
+        "CS": [
+          "ASSC",
+          "VTD"
+        ],
+        "MMI": [
+          "CN",
+          "STRAT"
+        ],
+        "GB": [
+          "BMB",
+          "DIET",
+          "SAB"
+        ]
+      }
     },
     {
       "id": 29,
@@ -671,7 +1136,16 @@
         "GACO",
         "QLIO"
       ],
-      "parcours": []
+      "parcours": {
+        "GACO": [
+          "MDFS",
+          "MCMO"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ]
+      }
     },
     {
       "id": 30,
@@ -687,7 +1161,15 @@
         "GACO",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME",
+          "MMPV"
+        ]
+      }
     },
     {
       "id": 31,
@@ -704,7 +1186,25 @@
         "MLT",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH",
+          "CG2P"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME",
+          "MMPV"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ]
+      }
     },
     {
       "id": 32,
@@ -725,7 +1225,56 @@
         "MP",
         "SGM"
       ],
-      "parcours": []
+      "parcours": {
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "RT": [
+          "CYBER",
+          "DEVCLOUD",
+          "ROM"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED",
+          "IAMSI"
+        ],
+        "GMP": [
+          "CAI",
+          "CPD",
+          "IPI",
+          "MPI",
+          "SNRV"
+        ],
+        "MP": [
+          "TI",
+          "MCPC",
+          "MAE"
+        ],
+        "SGM": [
+          "MIMP",
+          "MCEMP",
+          "MRVM"
+        ],
+        "GCCD": [
+          "TB",
+          "TP",
+          "REHAB",
+          "BEC"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "EXPLOIT",
+          "MANÉ",
+          "REAL"
+        ],
+        "HSE": [
+          "SDMR"
+        ]
+      }
     },
     {
       "id": 33,
@@ -741,9 +1290,36 @@
         "CS",
         "GB",
         "GCGP",
-        "TC"
+        "TC",
+        "GEA"
       ],
-      "parcours": []
+      "parcours": {
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME",
+          "MMPV"
+        ],
+        "CS": [
+          "ASS",
+          "ASSC",
+          "VTD"
+        ],
+        "GCGP": [
+          "CPOP",
+          "CMOB"
+        ],
+        "GB": [
+          "AGRO",
+          "SAB",
+          "DIET"
+        ],
+        "GEA": [
+          "GC2F",
+          "GEMA"
+        ]
+      }
     },
     {
       "id": 34,
@@ -760,7 +1336,24 @@
         "INFOCOM",
         "MMI"
       ],
-      "parcours": []
+      "parcours": {
+        "CS": [
+          "ASS",
+          "ASSC",
+          "VTD"
+        ],
+        "INFOCOM": [
+          "CO",
+          "INO",
+          "MLP",
+          "PUB"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ]
+      }
     },
     {
       "id": 35,
@@ -780,7 +1373,25 @@
         "MP",
         "QLIO"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC"
+        ],
+        "GMP": [
+          "IPI",
+          "SNRV"
+        ],
+        "GCCD": [
+          "TB",
+          "TP",
+          "REHAB"
+        ]
+      }
     },
     {
       "id": 36,
@@ -798,7 +1409,31 @@
         "GEII",
         "GMP"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "CG2P"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "GMP": [
+          "CAI",
+          "MPI",
+          "SNRV"
+        ],
+        "GB": [
+          "AGRO",
+          "BMB"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "EXPLOIT"
+        ]
+      }
     },
     {
       "id": 37,
@@ -814,7 +1449,23 @@
         "GACO",
         "GCCD"
       ],
-      "parcours": []
+      "parcours": {
+        "GACO": [
+          "MDFS",
+          "MCMO",
+          "MRPE",
+          "MACAST"
+        ],
+        "GCCD": [
+          "TB",
+          "REHAB",
+          "BEC"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "EXPLOIT"
+        ]
+      }
     },
     {
       "id": 38,
@@ -830,7 +1481,20 @@
         "GEII",
         "GMP"
       ],
-      "parcours": []
+      "parcours": {
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "GMP": [
+          "CAI",
+          "CPD",
+          "IPI",
+          "MPI",
+          "SNRV"
+        ]
+      }
     },
     {
       "id": 39,
@@ -845,7 +1509,13 @@
       "specialite": [
         "GEII"
       ],
-      "parcours": []
+      "parcours": {
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ]
+      }
     },
     {
       "id": 40,
@@ -861,7 +1531,12 @@
         "MLT",
         "QLIO"
       ],
-      "parcours": []
+      "parcours": {
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ]
+      }
     },
     {
       "id": 41,
@@ -877,7 +1552,19 @@
         "GCCD",
         "GEII"
       ],
-      "parcours": []
+      "parcours": {
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "GCCD": [
+          "TB",
+          "TP",
+          "REHAB",
+          "BEC"
+        ]
+      }
     },
     {
       "id": 42,
@@ -893,7 +1580,17 @@
         "GB",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV"
+        ],
+        "GB": [
+          "AGRO",
+          "BMB"
+        ]
+      }
     },
     {
       "id": 43,
@@ -911,7 +1608,23 @@
         "MTEE",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ]
+      }
     },
     {
       "id": 44,
@@ -929,7 +1642,25 @@
         "MLT",
         "SGM"
       ],
-      "parcours": []
+      "parcours": {
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "SGM": [
+          "MIMP",
+          "MCEMP",
+          "MRVM"
+        ]
+      }
     },
     {
       "id": 45,
@@ -948,7 +1679,26 @@
         "PEC",
         "SGM"
       ],
-      "parcours": []
+      "parcours": {
+        "GACO": [
+          "MDFS",
+          "MCMO"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "PEC": [
+          "EI",
+          "EHSC"
+        ],
+        "SGM": [
+          "MIMP",
+          "MCEMP",
+          "MRVM"
+        ]
+      }
     },
     {
       "id": 46,
@@ -965,7 +1715,16 @@
         "GIM",
         "MLT"
       ],
-      "parcours": []
+      "parcours": {
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ]
+      }
     },
     {
       "id": 47,
@@ -985,7 +1744,38 @@
         "MP",
         "RT"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH",
+          "CG2P"
+        ],
+        "RT": [
+          "CYBER",
+          "DEVCLOUD",
+          "IOM"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "MP": [
+          "TI",
+          "MCPC",
+          "MAE"
+        ],
+        "GB": [
+          "BMB",
+          "SAB",
+          "SEE"
+        ]
+      }
     },
     {
       "id": 48,
@@ -1002,7 +1792,22 @@
         "GEA",
         "SD"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH",
+          "CG2P"
+        ],
+        "SD": [
+          "EMS",
+          "VCOD"
+        ],
+        "GB": [
+          "AGRO",
+          "BMB"
+        ]
+      }
     },
     {
       "id": 49,
@@ -1019,7 +1824,17 @@
         "INFO",
         "MMI"
       ],
-      "parcours": []
+      "parcours": {
+        "MMI": [
+          "CN",
+          "DEV"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "SYN",
+          "MPF"
+        ]
+      }
     },
     {
       "id": 50,
@@ -1038,7 +1853,31 @@
         "MTEE",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "GMP": [
+          "CAI",
+          "MPI",
+          "SNRV"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ]
+      }
     },
     {
       "id": 51,
@@ -1053,7 +1892,13 @@
       "specialite": [
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV"
+        ]
+      }
     },
     {
       "id": 52,
@@ -1069,7 +1914,19 @@
         "INFOCOM",
         "MMI"
       ],
-      "parcours": []
+      "parcours": {
+        "INFOCOM": [
+          "CO",
+          "INO",
+          "J",
+          "MLP"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ]
+      }
     },
     {
       "id": 53,
@@ -1089,7 +1946,43 @@
         "RT",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "SME"
+        ],
+        "CJ": [
+          "AJ",
+          "EA",
+          "PF"
+        ],
+        "GEII": [
+          "AII",
+          "EME"
+        ],
+        "RT": [
+          "CYBER",
+          "DEVCLOUD",
+          "PILPRO"
+        ],
+        "GB": [
+          "AGRO"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL",
+          "EXPLOIT"
+        ],
+        "HSE": [
+          "SDMR"
+        ]
+      }
     },
     {
       "id": 54,
@@ -1107,9 +2000,23 @@
         "GEA",
         "HSE",
         "MMI",
-        "TC"
+        "TC",
+        "GEII"
       ],
-      "parcours": []
+      "parcours": {
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "GEII": [
+          "AII",
+          "EME"
+        ]
+      }
     },
     {
       "id": 55,
@@ -1127,7 +2034,28 @@
         "MP",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME",
+          "MMPV"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "MP": [
+          "TI",
+          "MCPC"
+        ],
+        "GB": [
+          "BMB",
+          "DIET"
+        ]
+      }
     },
     {
       "id": 56,
@@ -1145,7 +2073,23 @@
         "INFO",
         "RT"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH"
+        ],
+        "RT": [
+          "CYBER",
+          "DEVCLOUD",
+          "ROM"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "SYN",
+          "MPF"
+        ]
+      }
     },
     {
       "id": 57,
@@ -1162,7 +2106,24 @@
         "RT",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME",
+          "MMPV"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "RT": [
+          "CYBER",
+          "IOM"
+        ]
+      }
     },
     {
       "id": 58,
@@ -1183,7 +2144,50 @@
         "INFOCOM",
         "MMI"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH",
+          "CG2P"
+        ],
+        "GACO": [
+          "MDFS",
+          "MCMO",
+          "MRPE"
+        ],
+        "INFOCOM": [
+          "CO",
+          "INO",
+          "PUB"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED",
+          "IAMSI"
+        ],
+        "GMP": [
+          "CAI",
+          "CPD",
+          "MPI"
+        ],
+        "GB": [
+          "AGRO",
+          "BMB",
+          "SAB"
+        ]
+      }
     },
     {
       "id": 59,
@@ -1198,7 +2202,19 @@
       "specialite": [
         "INFO"
       ],
-      "parcours": []
+      "parcours": {
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED",
+          "IAMSI"
+        ]
+      }
     },
     {
       "id": 60,
@@ -1215,7 +2231,16 @@
         "QLIO",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ]
+      }
     },
     {
       "id": 61,
@@ -1235,7 +2260,29 @@
         "PEC",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "MMPV"
+        ],
+        "CS": [
+          "ES"
+        ],
+        "MP": [
+          "TI",
+          "MCPC"
+        ],
+        "PEC": [
+          "EI",
+          "EHSC"
+        ],
+        "GB": [
+          "BMB",
+          "DIET",
+          "SAB"
+        ]
+      }
     },
     {
       "id": 62,
@@ -1251,7 +2298,13 @@
         "GEA",
         "MTEE"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH"
+        ]
+      }
     },
     {
       "id": 63,
@@ -1271,7 +2324,30 @@
         "SGM",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "GMP": [
+          "CAI",
+          "CPD",
+          "MPI"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "SGM": [
+          "MIMP",
+          "MCEMP"
+        ]
+      }
     },
     {
       "id": 64,
@@ -1286,7 +2362,14 @@
       "specialite": [
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME"
+        ]
+      }
     },
     {
       "id": 65,
@@ -1303,7 +2386,21 @@
         "GMP",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "TC": [
+          "MDEE",
+          "BDMRC"
+        ],
+        "CS": [
+          "ASSC",
+          "ES"
+        ],
+        "GMP": [
+          "CAI",
+          "IPI",
+          "MPI"
+        ]
+      }
     },
     {
       "id": 66,
@@ -1319,9 +2416,30 @@
         "CS",
         "GMP",
         "MLT",
-        "QLIO"
+        "QLIO",
+        "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "CS": [
+          "CGE3S"
+        ],
+        "GMP": [
+          "IPI",
+          "MPI"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC"
+        ]
+      }
     },
     {
       "id": 67,
@@ -1340,7 +2458,27 @@
         "MP",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "CG2P"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "SME"
+        ],
+        "MP": [
+          "TI",
+          "MCPC"
+        ],
+        "GB": [
+          "BMB",
+          "SAB",
+          "SEE"
+        ]
+      }
     },
     {
       "id": 68,
@@ -1357,7 +2495,22 @@
         "INFOCOM",
         "RT"
       ],
-      "parcours": []
+      "parcours": {
+        "INFOCOM": [
+          "CO",
+          "PUB"
+        ],
+        "RT": [
+          "CYBER",
+          "DEVCLOUD",
+          "ROM"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED"
+        ]
+      }
     },
     {
       "id": 69,
@@ -1373,7 +2526,12 @@
         "SD",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "SD": [
+          "EMS",
+          "VCOD"
+        ]
+      }
     },
     {
       "id": 70,
@@ -1388,7 +2546,11 @@
       "specialite": [
         "HSE"
       ],
-      "parcours": []
+      "parcours": {
+        "HSE": [
+          "SDMR"
+        ]
+      }
     },
     {
       "id": 71,
@@ -1406,7 +2568,24 @@
         "GIM",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME",
+          "MMPV"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ]
+      }
     },
     {
       "id": 72,
@@ -1422,7 +2601,18 @@
         "MMI",
         "MTEE"
       ],
-      "parcours": []
+      "parcours": {
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "EXPLOIT",
+          "MANÉ"
+        ]
+      }
     },
     {
       "id": 73,
@@ -1438,7 +2628,17 @@
         "CHIMIE",
         "MTEE"
       ],
-      "parcours": []
+      "parcours": {
+        "CHIMIE": [
+          "ACQE",
+          "SYN"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL",
+          "EXPLOIT"
+        ]
+      }
     },
     {
       "id": 74,
@@ -1454,7 +2654,13 @@
         "MMI",
         "MP"
       ],
-      "parcours": []
+      "parcours": {
+        "MP": [
+          "TI",
+          "MCPC",
+          "MAE"
+        ]
+      }
     },
     {
       "id": 75,
@@ -1472,7 +2678,30 @@
         "GMP",
         "RT"
       ],
-      "parcours": []
+      "parcours": {
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "RT": [
+          "CYBER",
+          "DEVCLOUD",
+          "PILPRO"
+        ],
+        "GMP": [
+          "CAI",
+          "IPI",
+          "MPI",
+          "SNRV"
+        ],
+        "GCCD": [
+          "TB",
+          "TP",
+          "REHAB",
+          "BEC"
+        ]
+      }
     },
     {
       "id": 76,
@@ -1493,7 +2722,44 @@
         "SD",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH",
+          "CG2P"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME",
+          "MMPV"
+        ],
+        "CJ": [
+          "AJ",
+          "EA",
+          "PF"
+        ],
+        "CS": [
+          "ASS",
+          "ES"
+        ],
+        "INFOCOM": [
+          "CO",
+          "INO",
+          "MLP"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED"
+        ],
+        "SD": [
+          "EMS",
+          "VCOD"
+        ]
+      }
     },
     {
       "id": 77,
@@ -1508,7 +2774,14 @@
       "specialite": [
         "GEA"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH",
+          "CG2P"
+        ]
+      }
     },
     {
       "id": 78,
@@ -1525,7 +2798,22 @@
         "MMI",
         "QLIO"
       ],
-      "parcours": []
+      "parcours": {
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ]
+      }
     },
     {
       "id": 79,
@@ -1542,7 +2830,12 @@
         "GEII",
         "MLT"
       ],
-      "parcours": []
+      "parcours": {
+        "GEII": [
+          "AII",
+          "EME"
+        ]
+      }
     },
     {
       "id": 80,
@@ -1558,7 +2851,17 @@
         "MLT",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "MMPV"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ]
+      }
     },
     {
       "id": 81,
@@ -1574,7 +2877,7 @@
         "CS",
         "TC"
       ],
-      "parcours": []
+      "parcours": {}
     },
     {
       "id": 82,
@@ -1591,7 +2894,7 @@
         "GEII",
         "RT"
       ],
-      "parcours": []
+      "parcours": {}
     },
     {
       "id": 83,
@@ -1609,7 +2912,7 @@
         "GEA",
         "MMI"
       ],
-      "parcours": []
+      "parcours": {}
     },
     {
       "id": 84,
@@ -1628,7 +2931,11 @@
         "MLT",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "HSE": [
+          "SDMR"
+        ]
+      }
     },
     {
       "id": 85,
@@ -1649,7 +2956,11 @@
         "RT",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "HSE": [
+          "SDMR"
+        ]
+      }
     },
     {
       "id": 86,
@@ -1668,7 +2979,37 @@
         "RT",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV"
+        ],
+        "RT": [
+          "CYBER",
+          "DEVCLOUD",
+          "IOM",
+          "ROM"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED"
+        ],
+        "GB": [
+          "SAB"
+        ],
+        "GCCD": [
+          "TB",
+          "TP",
+          "REHAB",
+          "BEC"
+        ]
+      }
     },
     {
       "id": 87,
@@ -1686,7 +3027,18 @@
         "INFOCOM",
         "RT"
       ],
-      "parcours": []
+      "parcours": {
+        "INFOCOM": [
+          "CO",
+          "INO",
+          "MLP"
+        ],
+        "RT": [
+          "CYBER",
+          "DEVCLOUD",
+          "IOM"
+        ]
+      }
     },
     {
       "id": 88,
@@ -1705,7 +3057,32 @@
         "MP",
         "RT"
       ],
-      "parcours": []
+      "parcours": {
+        "INFOCOM": [
+          "CO",
+          "J"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "RT": [
+          "CYBER",
+          "DEVCLOUD",
+          "IOM"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED"
+        ],
+        "MP": [
+          "TI",
+          "MCPC",
+          "MAE"
+        ]
+      }
     },
     {
       "id": 89,
@@ -1723,7 +3100,26 @@
         "MMI",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "TC": [
+          "MDEE",
+          "BDMRC"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED"
+        ],
+        "GB": [
+          "BMB",
+          "SAB"
+        ]
+      }
     },
     {
       "id": 90,
@@ -1741,7 +3137,16 @@
         "MP",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GMP": [
+          "IPI",
+          "MPI"
+        ],
+        "MP": [
+          "TI",
+          "MCPC"
+        ]
+      }
     },
     {
       "id": 91,
@@ -1762,7 +3167,41 @@
         "MLT",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "CS": [
+          "ASS",
+          "ASSC",
+          "VTD"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS"
+        ],
+        "GMP": [
+          "CAI",
+          "CPD",
+          "MPI"
+        ]
+      }
     },
     {
       "id": 92,
@@ -1779,7 +3218,22 @@
         "HSE",
         "INFOCOM"
       ],
-      "parcours": []
+      "parcours": {
+        "INFOCOM": [
+          "INO",
+          "MLP",
+          "PUB"
+        ],
+        "GCCD": [
+          "TB",
+          "TP",
+          "REHAB",
+          "BEC"
+        ],
+        "HSE": [
+          "SDMR"
+        ]
+      }
     },
     {
       "id": 93,
@@ -1797,7 +3251,21 @@
         "GMP",
         "MP"
       ],
-      "parcours": []
+      "parcours": {
+        "GMP": [
+          "CPD",
+          "IPI",
+          "MPI"
+        ],
+        "MP": [
+          "TI",
+          "MCPC"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "SYN"
+        ]
+      }
     },
     {
       "id": 94,
@@ -1815,7 +3283,28 @@
         "MMI",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "SME"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED"
+        ]
+      }
     },
     {
       "id": 95,
@@ -1832,7 +3321,24 @@
         "SD",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME",
+          "MMPV"
+        ],
+        "CJ": [
+          "AJ",
+          "EA",
+          "PF"
+        ],
+        "SD": [
+          "EMS",
+          "VCOD"
+        ]
+      }
     },
     {
       "id": 96,
@@ -1849,7 +3355,30 @@
         "INFOCOM",
         "MLT"
       ],
-      "parcours": []
+      "parcours": {
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "CS": [
+          "ASS",
+          "ASSC",
+          "ES",
+          "VTD"
+        ],
+        "INFOCOM": [
+          "CO",
+          "INO",
+          "MLP",
+          "PUB",
+          "J"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ]
+      }
     },
     {
       "id": 97,
@@ -1870,7 +3399,48 @@
         "INFO",
         "MP"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH",
+          "CG2P"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED",
+          "IAMSI"
+        ],
+        "GMP": [
+          "CAI",
+          "CPD",
+          "IPI",
+          "MPI",
+          "SNRV"
+        ],
+        "MP": [
+          "TI",
+          "MCPC",
+          "MAE"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "SYN",
+          "MPF"
+        ],
+        "GB": [
+          "BMB",
+          "DIET",
+          "SAB",
+          "SEE"
+        ]
+      }
     },
     {
       "id": 98,
@@ -1886,7 +3456,18 @@
         "GEA",
         "GEII"
       ],
-      "parcours": []
+      "parcours": {
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "RT": [
+          "CYBER",
+          "IOM",
+          "ROM"
+        ]
+      }
     },
     {
       "id": 99,
@@ -1901,7 +3482,14 @@
       "specialite": [
         "GCCD"
       ],
-      "parcours": []
+      "parcours": {
+        "GCCD": [
+          "TB",
+          "TP",
+          "REHAB",
+          "BEC"
+        ]
+      }
     },
     {
       "id": 100,
@@ -1916,7 +3504,11 @@
       "specialite": [
         "CS"
       ],
-      "parcours": []
+      "parcours": {
+        "CS": [
+          "ASSC"
+        ]
+      }
     },
     {
       "id": 101,
@@ -1937,7 +3529,42 @@
         "MP",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "CG2P"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED"
+        ],
+        "GMP": [
+          "CPD",
+          "MPI",
+          "SNRV"
+        ],
+        "MP": [
+          "TI",
+          "MCPC"
+        ],
+        "GB": [
+          "BMB",
+          "SAB",
+          "SEE"
+        ]
+      }
     },
     {
       "id": 102,
@@ -1953,7 +3580,15 @@
         "GIM",
         "HSE"
       ],
-      "parcours": []
+      "parcours": {
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "HSE": [
+          "SDMR"
+        ]
+      }
     },
     {
       "id": 103,
@@ -1968,7 +3603,12 @@
       "specialite": [
         "GB"
       ],
-      "parcours": []
+      "parcours": {
+        "GB": [
+          "SAB",
+          "SEE"
+        ]
+      }
     },
     {
       "id": 104,
@@ -1985,7 +3625,12 @@
         "GEII",
         "INFO"
       ],
-      "parcours": []
+      "parcours": {
+        "GEII": [
+          "AII",
+          "EME"
+        ]
+      }
     },
     {
       "id": 105,
@@ -2003,7 +3648,16 @@
         "MTEE",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "EXPLOIT"
+        ]
+      }
     },
     {
       "id": 106,
@@ -2019,7 +3673,17 @@
         "GACO",
         "GIM"
       ],
-      "parcours": []
+      "parcours": {
+        "GACO": [
+          "MDFS",
+          "MCMO",
+          "MACAST"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ]
+      }
     },
     {
       "id": 107,
@@ -2036,7 +3700,16 @@
         "GEII",
         "MTEE"
       ],
-      "parcours": []
+      "parcours": {
+        "GEII": [
+          "AII",
+          "EME"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "EXPLOIT"
+        ]
+      }
     },
     {
       "id": 108,
@@ -2054,7 +3727,29 @@
         "MTEE",
         "QLIO"
       ],
-      "parcours": []
+      "parcours": {
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL",
+          "EXPLOIT"
+        ],
+        "HSE": [
+          "SDMR"
+        ]
+      }
     },
     {
       "id": 109,
@@ -2070,7 +3765,22 @@
         "GACO",
         "GCGP"
       ],
-      "parcours": []
+      "parcours": {
+        "GACO": [
+          "MDFS",
+          "MCMO",
+          "MRPE"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "GCGP": [
+          "CPOP",
+          "CMOB"
+        ]
+      }
     },
     {
       "id": 110,
@@ -2089,7 +3799,35 @@
         "INFO",
         "MTEE"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH",
+          "CG2P"
+        ],
+        "CJ": [
+          "EA",
+          "PF"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED",
+          "IAMSI"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "EXPLOIT",
+          "MANÉ",
+          "REAL"
+        ]
+      }
     },
     {
       "id": 111,
@@ -2109,7 +3847,42 @@
         "GEA",
         "INFO"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH",
+          "CG2P"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED",
+          "IAMSI"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "SYN",
+          "MPF",
+          "CI"
+        ],
+        "GCGP": [
+          "CPOP",
+          "CMOB",
+          "IPP"
+        ],
+        "GB": [
+          "BMB",
+          "DIET",
+          "SAB"
+        ],
+        "GCCD": [
+          "TB",
+          "TP",
+          "REHAB",
+          "BEC"
+        ]
+      }
     },
     {
       "id": 112,
@@ -2127,7 +3900,31 @@
         "GMP",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME",
+          "MMPV"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "GMP": [
+          "CAI",
+          "CPD",
+          "IPI",
+          "MPI",
+          "SNRV"
+        ]
+      }
     },
     {
       "id": 113,
@@ -2146,7 +3943,23 @@
         "QLIO",
         "SD"
       ],
-      "parcours": []
+      "parcours": {
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "SD": [
+          "EMS",
+          "VCOD"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "HSE": [
+          "SDMR"
+        ]
+      }
     },
     {
       "id": 114,
@@ -2163,7 +3976,23 @@
         "GACO",
         "INFOCOM"
       ],
-      "parcours": []
+      "parcours": {
+        "GACO": [
+          "MDFS",
+          "MCMO",
+          "MRPE",
+          "MACAST"
+        ],
+        "CJ": [
+          "AJ",
+          "EA",
+          "PF"
+        ],
+        "INFOCOM": [
+          "CO",
+          "INO"
+        ]
+      }
     },
     {
       "id": 115,
@@ -2178,7 +4007,12 @@
       "specialite": [
         "CJ"
       ],
-      "parcours": []
+      "parcours": {
+        "CJ": [
+          "EA",
+          "PF"
+        ]
+      }
     },
     {
       "id": 116,
@@ -2197,7 +4031,27 @@
         "GMP",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "TC": [
+          "MDEE",
+          "BDMRC"
+        ],
+        "GEII": [
+          "AII",
+          "EME"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "GMP": [
+          "CPD",
+          "MPI"
+        ],
+        "HSE": [
+          "SDMR"
+        ]
+      }
     },
     {
       "id": 117,
@@ -2216,7 +4070,29 @@
         "MTEE",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "RT": [
+          "CYBER",
+          "IOM",
+          "ROM"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED"
+        ],
+        "GCCD": [
+          "TB",
+          "TP",
+          "REHAB",
+          "BEC"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "EXPLOIT",
+          "MANÉ"
+        ]
+      }
     },
     {
       "id": 118,
@@ -2233,7 +4109,22 @@
         "MMI",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "MMPV"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ]
+      }
     },
     {
       "id": 119,
@@ -2252,7 +4143,37 @@
         "SD",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "SME"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED"
+        ],
+        "SD": [
+          "EMS",
+          "VCOD"
+        ],
+        "GMP": [
+          "CAI",
+          "CPD",
+          "MPI"
+        ]
+      }
     },
     {
       "id": 120,
@@ -2267,7 +4188,17 @@
       "specialite": [
         "MP"
       ],
-      "parcours": []
+      "parcours": {
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "MP": [
+          "TI",
+          "MCPC"
+        ]
+      }
     },
     {
       "id": 121,
@@ -2288,7 +4219,40 @@
         "MP",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED",
+          "IAMSI"
+        ],
+        "MP": [
+          "TI",
+          "MCPC",
+          "MAE"
+        ],
+        "GB": [
+          "BMB",
+          "SAB",
+          "SEE"
+        ]
+      }
     },
     {
       "id": 122,
@@ -2305,7 +4269,24 @@
         "GEA",
         "INFO"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED",
+          "IAMSI"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "SYN",
+          "CI"
+        ]
+      }
     },
     {
       "id": 123,
@@ -2323,7 +4304,17 @@
         "INFOCOM",
         "QLIO"
       ],
-      "parcours": []
+      "parcours": {
+        "GACO": [
+          "MDFS",
+          "MCMO",
+          "MRPE"
+        ],
+        "MMI": [
+          "DEV",
+          "STRAT"
+        ]
+      }
     },
     {
       "id": 124,
@@ -2338,7 +4329,12 @@
       "specialite": [
         "SGM"
       ],
-      "parcours": []
+      "parcours": {
+        "SGM": [
+          "MIMP",
+          "MCEMP"
+        ]
+      }
     },
     {
       "id": 125,
@@ -2353,7 +4349,13 @@
       "specialite": [
         "CHIMIE"
       ],
-      "parcours": []
+      "parcours": {
+        "CHIMIE": [
+          "ACQE",
+          "SYN",
+          "MPF"
+        ]
+      }
     },
     {
       "id": 126,
@@ -2369,7 +4371,16 @@
         "GACO",
         "MLT"
       ],
-      "parcours": []
+      "parcours": {
+        "GACO": [
+          "MDFS",
+          "MCMO"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ]
+      }
     },
     {
       "id": 127,
@@ -2389,7 +4400,31 @@
         "MMI",
         "SGM"
       ],
-      "parcours": []
+      "parcours": {
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "SGM": [
+          "MIMP",
+          "MCEMP",
+          "MRVM"
+        ]
+      }
     },
     {
       "id": 128,
@@ -2404,7 +4439,12 @@
       "specialite": [
         "QLIO"
       ],
-      "parcours": []
+      "parcours": {
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ]
+      }
     },
     {
       "id": 129,
@@ -2424,7 +4464,43 @@
         "GMP",
         "RT"
       ],
-      "parcours": []
+      "parcours": {
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "RT": [
+          "CYBER",
+          "DEVCLOUD",
+          "IOM",
+          "ROM"
+        ],
+        "GMP": [
+          "CAI",
+          "CPD",
+          "IPI",
+          "MPI",
+          "SNRV"
+        ],
+        "GCGP": [
+          "CPOP",
+          "CMOB",
+          "IPP"
+        ],
+        "GB": [
+          "AGRO",
+          "BMB",
+          "SAB",
+          "SEE"
+        ],
+        "GCCD": [
+          "TB",
+          "TP",
+          "REHAB",
+          "BEC"
+        ]
+      }
     },
     {
       "id": 130,
@@ -2443,7 +4519,31 @@
         "MMI",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH",
+          "CG2P"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME",
+          "MMPV"
+        ],
+        "INFOCOM": [
+          "CO",
+          "INO",
+          "MLP",
+          "PUB"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS"
+        ]
+      }
     },
     {
       "id": 131,
@@ -2462,7 +4562,45 @@
         "QLIO",
         "SGM"
       ],
-      "parcours": []
+      "parcours": {
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME",
+          "MMPV"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "GMP": [
+          "CAI",
+          "CPD",
+          "IPI",
+          "MPI",
+          "SNRV"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "SGM": [
+          "MIMP",
+          "MCEMP",
+          "MRVM"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL",
+          "EXPLOIT"
+        ]
+      }
     },
     {
       "id": 132,
@@ -2477,7 +4615,24 @@
       "specialite": [
         "GACO"
       ],
-      "parcours": []
+      "parcours": {
+        "GACO": [
+          "MDFS",
+          "MCMO",
+          "MRPE"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME",
+          "MMPV"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ]
+      }
     },
     {
       "id": 133,
@@ -2493,7 +4648,31 @@
         "GEA",
         "INFO"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH",
+          "CG2P"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME",
+          "MMPV"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED",
+          "IAMSI"
+        ]
+      }
     },
     {
       "id": 134,
@@ -2509,7 +4688,22 @@
         "INFOCOM",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME"
+        ],
+        "INFOCOM": [
+          "CO",
+          "J"
+        ],
+        "MMI": [
+          "CN",
+          "STRAT"
+        ]
+      }
     },
     {
       "id": 135,
@@ -2524,7 +4718,11 @@
       "specialite": [
         "CS"
       ],
-      "parcours": []
+      "parcours": {
+        "CS": [
+          "ES"
+        ]
+      }
     },
     {
       "id": 136,
@@ -2542,7 +4740,29 @@
         "INFO",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED"
+        ]
+      }
     },
     {
       "id": 137,
@@ -2560,7 +4780,26 @@
         "RT",
         "SD"
       ],
-      "parcours": []
+      "parcours": {
+        "RT": [
+          "CYBER",
+          "DEVCLOUD",
+          "IOM"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED"
+        ],
+        "SD": [
+          "EMS",
+          "VCOD"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ]
+      }
     },
     {
       "id": 138,
@@ -2579,7 +4818,38 @@
         "GMP",
         "SGM"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "CG2P"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "GMP": [
+          "CPD",
+          "MPI",
+          "SNRV"
+        ],
+        "SGM": [
+          "MIMP",
+          "MCEMP",
+          "MRVM"
+        ],
+        "GCCD": [
+          "TB",
+          "TP",
+          "REHAB",
+          "BEC"
+        ]
+      }
     },
     {
       "id": 139,
@@ -2599,7 +4869,36 @@
         "MTEE",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "TC": [
+          "MDEE",
+          "BDMRC"
+        ],
+        "CS": [
+          "CGE3S"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED"
+        ],
+        "GCCD": [
+          "TB",
+          "TP",
+          "REHAB",
+          "BEC"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL",
+          "EXPLOIT"
+        ]
+      }
     },
     {
       "id": 140,
@@ -2617,7 +4916,22 @@
         "MP",
         "RT"
       ],
-      "parcours": []
+      "parcours": {
+        "GACO": [
+          "MDFS",
+          "MCMO"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "RT": [
+          "CYBER",
+          "DEVCLOUD",
+          "IOM"
+        ]
+      }
     },
     {
       "id": 141,
@@ -2633,7 +4947,7 @@
         "GEA",
         "MMI"
       ],
-      "parcours": []
+      "parcours": {}
     },
     {
       "id": 142,
@@ -2649,7 +4963,17 @@
         "GEA",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV"
+        ]
+      }
     },
     {
       "id": 143,
@@ -2666,7 +4990,24 @@
         "MLT",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GEII": [
+          "AII",
+          "EME"
+        ],
+        "HSE": [
+          "SDMR"
+        ]
+      }
     },
     {
       "id": 144,
@@ -2686,7 +5027,38 @@
         "MTEE",
         "QLIO"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "CG2P"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "SME"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED",
+          "IAMSI"
+        ],
+        "GMP": [
+          "CAI",
+          "CPD",
+          "MPI"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "SYN",
+          "MPF"
+        ]
+      }
     },
     {
       "id": 145,
@@ -2703,7 +5075,12 @@
         "INFO",
         "MP"
       ],
-      "parcours": []
+      "parcours": {
+        "CHIMIE": [
+          "ACQE",
+          "SYN"
+        ]
+      }
     },
     {
       "id": 146,
@@ -2718,7 +5095,13 @@
       "specialite": [
         "MP"
       ],
-      "parcours": []
+      "parcours": {
+        "MP": [
+          "TI",
+          "MCPC",
+          "MAE"
+        ]
+      }
     },
     {
       "id": 147,
@@ -2738,7 +5121,38 @@
         "SD",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "CG2P"
+        ],
+        "TC": [
+          "MDEE",
+          "BIAV",
+          "BDMRC",
+          "SME"
+        ],
+        "CS": [
+          "ASS",
+          "ASSC"
+        ],
+        "INFOCOM": [
+          "CO",
+          "PUB",
+          "MLP"
+        ],
+        "INFO": [
+          "RACDV",
+          "AGED",
+          "IAMSI",
+          "DACS"
+        ],
+        "SD": [
+          "EMS",
+          "VCOD"
+        ]
+      }
     },
     {
       "id": 148,
@@ -2755,7 +5169,22 @@
         "RT",
         "SGM"
       ],
-      "parcours": []
+      "parcours": {
+        "RT": [
+          "CYBER",
+          "DEVCLOUD",
+          "IOM"
+        ],
+        "SGM": [
+          "MIMP",
+          "MRVM"
+        ],
+        "GB": [
+          "AGRO",
+          "BMB",
+          "SAB"
+        ]
+      }
     },
     {
       "id": 149,
@@ -2771,7 +5200,20 @@
         "MTEE",
         "SD"
       ],
-      "parcours": []
+      "parcours": {
+        "GEII": [
+          "AII",
+          "EME"
+        ],
+        "SD": [
+          "EMS",
+          "VCOD"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "EXPLOIT"
+        ]
+      }
     },
     {
       "id": 150,
@@ -2787,7 +5229,21 @@
         "SD",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV"
+        ],
+        "SD": [
+          "EMS",
+          "VCOD"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "EXPLOIT"
+        ]
+      }
     },
     {
       "id": 151,
@@ -2803,7 +5259,21 @@
         "CJ",
         "GCGP"
       ],
-      "parcours": []
+      "parcours": {
+        "CJ": [
+          "AJ",
+          "EA",
+          "PF"
+        ],
+        "GCGP": [
+          "CPOP",
+          "CMOB"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "EXPLOIT"
+        ]
+      }
     },
     {
       "id": 152,
@@ -2821,7 +5291,25 @@
         "GIM",
         "MLT"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "GB": [
+          "AGRO",
+          "BMB",
+          "SEE"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "EXPLOIT"
+        ]
+      }
     },
     {
       "id": 153,
@@ -2838,7 +5326,22 @@
         "RT",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "SME"
+        ],
+        "RT": [
+          "CYBER",
+          "DEVCLOUD",
+          "IOM"
+        ],
+        "MP": [
+          "TI",
+          "MCPC"
+        ]
+      }
     },
     {
       "id": 154,
@@ -2855,7 +5358,20 @@
         "HSE",
         "SD"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH"
+        ],
+        "SD": [
+          "EMS",
+          "VCOD"
+        ],
+        "HSE": [
+          "SDMR"
+        ]
+      }
     },
     {
       "id": 155,
@@ -2874,7 +5390,32 @@
         "GMP",
         "MTEE"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "GMP": [
+          "CAI",
+          "MPI",
+          "SNRV"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "SYN"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL",
+          "EXPLOIT"
+        ]
+      }
     },
     {
       "id": 156,
@@ -2892,7 +5433,25 @@
         "MLT",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GB": [
+          "AGRO",
+          "SAB"
+        ]
+      }
     },
     {
       "id": 157,
@@ -2908,7 +5467,27 @@
         "GEA",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "EXPLOIT"
+        ]
+      }
     },
     {
       "id": 158,
@@ -2925,7 +5504,31 @@
         "GIM",
         "RT"
       ],
-      "parcours": []
+      "parcours": {
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "RT": [
+          "CYBER",
+          "IOM",
+          "ROM"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "EXPLOIT"
+        ]
+      }
     },
     {
       "id": 159,
@@ -2942,7 +5545,29 @@
         "HSE",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GACO": [
+          "MDFS",
+          "MRPE"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "EXPLOIT"
+        ],
+        "HSE": [
+          "SDMR"
+        ]
+      }
     },
     {
       "id": 160,
@@ -2964,7 +5589,55 @@
         "PEC",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED"
+        ],
+        "GMP": [
+          "CAI",
+          "MPI",
+          "SNRV"
+        ],
+        "MP": [
+          "TI",
+          "MCPC"
+        ],
+        "PEC": [
+          "EI",
+          "EHSC"
+        ],
+        "GCCD": [
+          "TB",
+          "TP",
+          "REHAB",
+          "BEC"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "EXPLOIT"
+        ]
+      }
     },
     {
       "id": 161,
@@ -2984,7 +5657,50 @@
         "GEII",
         "GMP"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH",
+          "CG2P"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME",
+          "MMPV"
+        ],
+        "CS": [
+          "ASSC"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "INFO": [
+          "RACDV",
+          "AGED"
+        ],
+        "GMP": [
+          "CAI",
+          "CPD",
+          "IPI",
+          "MPI",
+          "SNRV"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "SYN"
+        ],
+        "GCCD": [
+          "TB",
+          "TP",
+          "REHAB",
+          "BEC"
+        ]
+      }
     },
     {
       "id": 162,
@@ -3003,7 +5719,29 @@
         "RT",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "MMPV"
+        ],
+        "MMI": [
+          "CN",
+          "STRAT"
+        ],
+        "RT": [
+          "CYBER",
+          "ROM"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ]
+      }
     },
     {
       "id": 163,
@@ -3022,7 +5760,19 @@
         "INFOCOM",
         "QLIO"
       ],
-      "parcours": []
+      "parcours": {
+        "CJ": [
+          "EA",
+          "PF"
+        ],
+        "INFOCOM": [
+          "CO"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS"
+        ]
+      }
     },
     {
       "id": 164,
@@ -3038,7 +5788,42 @@
         "MMI",
         "RT"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH",
+          "CG2P"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "RT": [
+          "CYBER",
+          "DEVCLOUD"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "GMP": [
+          "CAI",
+          "CPD",
+          "IPI",
+          "MPI",
+          "SNRV"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ]
+      }
     },
     {
       "id": 165,
@@ -3057,7 +5842,59 @@
         "MP",
         "MTEE"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH",
+          "CG2P"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "GMP": [
+          "CAI",
+          "CPD",
+          "IPI",
+          "MPI",
+          "SNRV"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "MP": [
+          "TI",
+          "MCPC",
+          "MAE"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "SYN",
+          "CI"
+        ],
+        "GCGP": [
+          "CPOP",
+          "CMOB"
+        ],
+        "GCCD": [
+          "TB",
+          "TP",
+          "REHAB",
+          "BEC"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "EXPLOIT",
+          "MANÉ"
+        ]
+      }
     },
     {
       "id": 166,
@@ -3073,7 +5910,41 @@
         "CJ",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH",
+          "CG2P"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME",
+          "MMPV"
+        ],
+        "CJ": [
+          "AJ",
+          "EA",
+          "PF"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "GMP": [
+          "CAI",
+          "CPD",
+          "IPI",
+          "MPI",
+          "SNRV"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ]
+      }
     },
     {
       "id": 167,
@@ -3090,7 +5961,24 @@
         "SGM",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "MMPV"
+        ],
+        "SGM": [
+          "MIMP",
+          "MCEMP",
+          "MRVM"
+        ],
+        "GB": [
+          "BMB",
+          "SAB",
+          "SEE"
+        ]
+      }
     },
     {
       "id": 168,
@@ -3111,7 +5999,39 @@
         "SGM",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH",
+          "CG2P"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME",
+          "MMPV"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "GMP": [
+          "CAI",
+          "CPD",
+          "IPI",
+          "MPI",
+          "SNRV"
+        ],
+        "SGM": [
+          "MIMP",
+          "MCEMP"
+        ],
+        "HSE": [
+          "SDMR"
+        ]
+      }
     },
     {
       "id": 169,
@@ -3128,7 +6048,18 @@
         "INFO",
         "MMI"
       ],
-      "parcours": []
+      "parcours": {
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "GEII": [
+          "AII",
+          "EME",
+          "ESE"
+        ]
+      }
     },
     {
       "id": 170,
@@ -3149,7 +6080,40 @@
         "MP",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "CG2P"
+        ],
+        "GACO": [
+          "MDFS",
+          "MCMO",
+          "MRPE"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "SME",
+          "BIAV"
+        ],
+        "GEII": [
+          "AII",
+          "EME",
+          "ESE"
+        ],
+        "GMP": [
+          "IPI",
+          "MPI"
+        ],
+        "MP": [
+          "TI",
+          "MCPC"
+        ],
+        "GB": [
+          "BMB"
+        ]
+      }
     },
     {
       "id": 171,
@@ -3167,7 +6131,26 @@
         "GIM",
         "RT"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA"
+        ],
+        "CJ": [
+          "AJ",
+          "EA",
+          "PF"
+        ],
+        "RT": [
+          "CYBER",
+          "DEVCLOUD",
+          "PILPRO"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ]
+      }
     },
     {
       "id": 172,
@@ -3187,7 +6170,32 @@
         "MP",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "MP": [
+          "TI",
+          "MCPC",
+          "MAE"
+        ],
+        "GCGP": [
+          "CPOP",
+          "IPP"
+        ],
+        "GCCD": [
+          "TB",
+          "TP",
+          "REHAB",
+          "BEC"
+        ]
+      }
     },
     {
       "id": 173,
@@ -3203,7 +6211,21 @@
         "GEA",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH",
+          "CG2P"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME",
+          "MMPV"
+        ]
+      }
     },
     {
       "id": 174,
@@ -3221,7 +6243,21 @@
         "GIM",
         "MP"
       ],
-      "parcours": []
+      "parcours": {
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "MP": [
+          "TI",
+          "MCPC",
+          "MAE"
+        ],
+        "GB": [
+          "SAB",
+          "SEE"
+        ]
+      }
     },
     {
       "id": 175,
@@ -3236,7 +6272,7 @@
       "specialite": [
         "GEA"
       ],
-      "parcours": []
+      "parcours": {}
     },
     {
       "id": 176,
@@ -3253,7 +6289,29 @@
         "INFO",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH",
+          "CG2P"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "SME",
+          "MMPV"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL"
+        ]
+      }
     },
     {
       "id": 177,
@@ -3276,7 +6334,50 @@
         "MMI",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH",
+          "CG2P"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "SME",
+          "MMPV"
+        ],
+        "CS": [
+          "ASSC"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "GB": [
+          "DIET",
+          "SEE"
+        ],
+        "GCCD": [
+          "TB",
+          "TP",
+          "BEC"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL"
+        ]
+      }
     },
     {
       "id": 178,
@@ -3295,7 +6396,35 @@
         "INFOCOM",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME",
+          "MMPV"
+        ],
+        "INFOCOM": [
+          "CO",
+          "PUB"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "SYN",
+          "MPF"
+        ],
+        "GCCD": [
+          "TB",
+          "TP",
+          "REHAB",
+          "BEC"
+        ]
+      }
     },
     {
       "id": 179,
@@ -3315,7 +6444,42 @@
         "MMI",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "SME"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "GMP": [
+          "CAI",
+          "IPI",
+          "MPI"
+        ],
+        "GCCD": [
+          "TB",
+          "TP",
+          "REHAB",
+          "BEC"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "EXPLOIT"
+        ]
+      }
     },
     {
       "id": 180,
@@ -3333,7 +6497,15 @@
         "HSE",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "HSE": [
+          "SDMR"
+        ]
+      }
     },
     {
       "id": 181,
@@ -3348,7 +6520,12 @@
       "specialite": [
         "GEA"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA"
+        ]
+      }
     },
     {
       "id": 182,
@@ -3369,7 +6546,40 @@
         "MMI",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "SME"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "GMP": [
+          "CAI",
+          "CPD",
+          "MPI"
+        ],
+        "GB": [
+          "BMB",
+          "SEE"
+        ]
+      }
     },
     {
       "id": 183,
@@ -3386,7 +6596,22 @@
         "GEA",
         "HSE"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH",
+          "CG2P"
+        ],
+        "GB": [
+          "AGRO",
+          "SAB",
+          "SEE"
+        ],
+        "HSE": [
+          "SDMR"
+        ]
+      }
     },
     {
       "id": 184,
@@ -3405,7 +6630,29 @@
         "PEC",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME",
+          "MMPV"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "PEC": [
+          "EI",
+          "EHSC"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "SYN",
+          "MPF"
+        ]
+      }
     },
     {
       "id": 185,
@@ -3420,7 +6667,24 @@
       "specialite": [
         "GMP"
       ],
-      "parcours": []
+      "parcours": {
+        "GMP": [
+          "CAI",
+          "CPD",
+          "IPI",
+          "MPI",
+          "SNRV"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL",
+          "EXPLOIT"
+        ]
+      }
     },
     {
       "id": 186,
@@ -3439,7 +6703,45 @@
         "MP",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH",
+          "CG2P"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME",
+          "MMPV"
+        ],
+        "INFOCOM": [
+          "CO",
+          "INO",
+          "MLP"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "MP": [
+          "TI",
+          "MCPC",
+          "MAE"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL",
+          "EXPLOIT"
+        ]
+      }
     },
     {
       "id": 187,
@@ -3457,7 +6759,40 @@
         "GEA",
         "INFO"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH",
+          "CG2P"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED",
+          "IAMSI"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "GCGP": [
+          "CPOP",
+          "CMOB",
+          "IPP"
+        ],
+        "GCCD": [
+          "TB",
+          "TP",
+          "REHAB",
+          "BEC"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL",
+          "EXPLOIT"
+        ]
+      }
     },
     {
       "id": 188,
@@ -3477,7 +6812,37 @@
         "INFOCOM",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME",
+          "MMPV"
+        ],
+        "CS": [
+          "ASSC"
+        ],
+        "INFOCOM": [
+          "CO",
+          "J"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "GB": [
+          "BMB",
+          "DIET",
+          "SAB"
+        ]
+      }
     },
     {
       "id": 189,
@@ -3494,7 +6859,20 @@
         "GIM",
         "MLT"
       ],
-      "parcours": []
+      "parcours": {
+        "TC": [
+          "BDMRC",
+          "MMPV"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ]
+      }
     },
     {
       "id": 190,
@@ -3514,7 +6892,38 @@
         "MMI",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "MMPV"
+        ],
+        "CJ": [
+          "AJ",
+          "EA",
+          "PF"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "GMP": [
+          "IPI",
+          "MPI",
+          "SNRV"
+        ]
+      }
     },
     {
       "id": 191,
@@ -3532,7 +6941,26 @@
         "RT",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "CG2P"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV"
+        ],
+        "RT": [
+          "CYBER",
+          "DEVCLOUD"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS"
+        ]
+      }
     },
     {
       "id": 192,
@@ -3548,7 +6976,17 @@
         "QLIO",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "MMPV"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL"
+        ]
+      }
     },
     {
       "id": 193,
@@ -3564,7 +7002,20 @@
         "INFO",
         "MP"
       ],
-      "parcours": []
+      "parcours": {
+        "RT": [
+          "CYBER",
+          "IOM"
+        ],
+        "MP": [
+          "TI",
+          "MCPC"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL"
+        ]
+      }
     },
     {
       "id": 194,
@@ -3583,7 +7034,32 @@
         "GMP",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "CG2P"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "MMPV"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "GMP": [
+          "CPD",
+          "MPI",
+          "SNRV"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL"
+        ]
+      }
     },
     {
       "id": 195,
@@ -3601,7 +7077,29 @@
         "SD",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH",
+          "CG2P"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED"
+        ],
+        "SD": [
+          "EMS",
+          "VCOD"
+        ]
+      }
     },
     {
       "id": 196,
@@ -3618,7 +7116,22 @@
         "GCGP",
         "TC"
       ],
-      "parcours": []
+      "parcours": {
+        "GACO": [
+          "MDFS",
+          "MCMO",
+          "MRPE"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV"
+        ],
+        "GCGP": [
+          "CPOP",
+          "CMOB"
+        ]
+      }
     },
     {
       "id": 197,
@@ -3636,7 +7149,24 @@
         "MMI",
         "RT"
       ],
-      "parcours": []
+      "parcours": {
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "RT": [
+          "CYBER",
+          "DEVCLOUD",
+          "IOM",
+          "PILPRO"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED"
+        ]
+      }
     },
     {
       "id": 198,
@@ -3652,7 +7182,7 @@
         "GEA",
         "TC"
       ],
-      "parcours": []
+      "parcours": {}
     },
     {
       "id": 199,
@@ -3667,7 +7197,7 @@
       "specialite": [
         "INFOCOM"
       ],
-      "parcours": []
+      "parcours": {}
     },
     {
       "id": 200,
@@ -3684,7 +7214,23 @@
         "GMP",
         "MTEE"
       ],
-      "parcours": []
+      "parcours": {
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "GMP": [
+          "IPI",
+          "MPI",
+          "SNRV"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL",
+          "EXPLOIT"
+        ]
+      }
     },
     {
       "id": 201,
@@ -3704,7 +7250,367 @@
         "RT",
         "SD"
       ],
-      "parcours": []
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "CG2P"
+        ],
+        "CJ": [
+          "AJ",
+          "EA",
+          "PF"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "RT": [
+          "CYBER",
+          "DEVCLOUD",
+          "IOM",
+          "ROM"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS"
+        ]
+      }
     }
-  ]
+  ],
+  "intitule_parcours": {
+    "AJ": {
+      "specialite": "Carrières Juridiques (CJ)",
+      "definition": "Administration et justice"
+    },
+    "EA": {
+      "specialite": "Carrières Juridiques (CJ)",
+      "definition": "Entreprise et association"
+    },
+    "PF": {
+      "specialite": "Carrières Juridiques (CJ)",
+      "definition": "Patrimoine et finance"
+    },
+    "ASS": {
+      "specialite": "Carrières Sociales (CS)",
+      "definition": "Assistance sociale"
+    },
+    "ASSC": {
+      "specialite": "Carrières Sociales (CS)",
+      "definition": "Animation sociale et socioculturelle"
+    },
+    "CGE3S": {
+      "specialite": "Carrières Sociales (CS)",
+      "definition": "Coordination et gestion des établissements et services sanitaires et sociaux"
+    },
+    "ES": {
+      "specialite": "Carrières Sociales (CS)",
+      "definition": "Éducation spécialisée"
+    },
+    "VTD": {
+      "specialite": "Carrières Sociales (CS)",
+      "definition": "Villes et territoires durables"
+    },
+    "ACQE": {
+      "specialite": "Chimie",
+      "definition": "Analyse, contrôle-qualité, environnement"
+    },
+    "CI": {
+      "specialite": "Chimie",
+      "definition": "Chimie industrielle"
+    },
+    "MPF": {
+      "specialite": "Chimie",
+      "definition": "Matériaux et produits formulés"
+    },
+    "SYN": {
+      "specialite": "Chimie",
+      "definition": "Synthèse"
+    },
+    "AGRO": {
+      "specialite": "Génie Biologique (GB)",
+      "definition": "Agronomie"
+    },
+    "BMB": {
+      "specialite": "Génie Biologique (GB)",
+      "definition": "Biologie médicale et biotechnologie"
+    },
+    "DIET": {
+      "specialite": "Génie Biologique (GB)",
+      "definition": "Diététique et nutrition"
+    },
+    "SAB": {
+      "specialite": "Génie Biologique (GB)",
+      "definition": "Sciences de l'aliment et biotechnologie"
+    },
+    "SEE": {
+      "specialite": "Génie Biologique (GB)",
+      "definition": "Sciences de l'environnement et écotechnologies"
+    },
+    "CMOB": {
+      "specialite": "Génie Chimique - Génie des Procédés (GCGP)",
+      "definition": "Conception et mise en œuvre des bioprocédés"
+    },
+    "CPOP": {
+      "specialite": "Génie Chimique - Génie des Procédés (GCGP)",
+      "definition": "Contrôle, pilotage et optimisation des procédés"
+    },
+    "IPP": {
+      "specialite": "Génie Chimique - Génie des Procédés (GCGP)",
+      "definition": "Innovation par les procédés et les produits"
+    },
+    "BEC": {
+      "specialite": "Génie Civil - Construction Durable (GC-CD)",
+      "definition": "Bureaux d'études conception"
+    },
+    "REHAB": {
+      "specialite": "Génie Civil - Construction Durable (GC-CD)",
+      "definition": "Réhabilitation et amélioration des performances environnementales des bâtiments"
+    },
+    "TB": {
+      "specialite": "Génie Civil - Construction Durable (GC-CD)",
+      "definition": "Travaux Bâtiment"
+    },
+    "TP": {
+      "specialite": "Génie Civil - Construction Durable (GC-CD)",
+      "definition": "Travaux Publics"
+    },
+    "AII": {
+      "specialite": "Génie Électrique et Informatique Industrielle (GEII)",
+      "definition": "Automatisme et informatique industrielle"
+    },
+    "EME": {
+      "specialite": "Génie Électrique et Informatique Industrielle (GEII)",
+      "definition": "Électricité et maîtrise de l'énergie"
+    },
+    "ESE": {
+      "specialite": "Génie Électrique et Informatique Industrielle (GEII)",
+      "definition": "Électronique et systèmes embarqués"
+    },
+    "3MI": {
+      "specialite": "Génie Industriel et Maintenance (GIM)",
+      "definition": "Management, méthodes, maintenance innovante"
+    },
+    "ISP": {
+      "specialite": "Génie Industriel et Maintenance (GIM)",
+      "definition": "Ingénierie des systèmes pluritechniques"
+    },
+    "CAI": {
+      "specialite": "Génie Mécanique et Productique (GMP)",
+      "definition": "Chargé d'affaires industrielles"
+    },
+    "CPD": {
+      "specialite": "Génie Mécanique et Productique (GMP)",
+      "definition": "Conception et production durables"
+    },
+    "IPI": {
+      "specialite": "Génie Mécanique et Productique (GMP)",
+      "definition": "Innovation pour l'industrie (parfois noté INNO)"
+    },
+    "MPI": {
+      "specialite": "Génie Mécanique et Productique (GMP)",
+      "definition": "Management de process industriel"
+    },
+    "SNRV": {
+      "specialite": "Génie Mécanique et Productique (GMP)",
+      "definition": "Simulation numérique et réalité virtuelle"
+    },
+    "MACAST": {
+      "specialite": "Gestion Administrative et Commerciale (GACO)",
+      "definition": "Management des activités culturelles, artistiques, sportives et de tourisme"
+    },
+    "MCMO": {
+      "specialite": "Gestion Administrative et Commerciale (GACO)",
+      "definition": "Management commercial et marketing omnicanal"
+    },
+    "MDFS": {
+      "specialite": "Gestion Administrative et Commerciale (GACO)",
+      "definition": "Management des fonctions supports (parfois noté MFA)"
+    },
+    "MRPE": {
+      "specialite": "Gestion Administrative et Commerciale (GACO)",
+      "definition": "Management responsable de projet et entrepreneuriat"
+    },
+    "CG2P": {
+      "specialite": "Gestion des Entreprises et Administrations (GEA)",
+      "definition": "Contrôle de gestion et pilotage de la performance"
+    },
+    "GC2F": {
+      "specialite": "Gestion des Entreprises et Administrations (GEA)",
+      "definition": "Gestion comptable, fiscale et financière"
+    },
+    "GEMA": {
+      "specialite": "Gestion des Entreprises et Administrations (GEA)",
+      "definition": "Gestion, entrepreneuriat et management d'activités"
+    },
+    "GPRH": {
+      "specialite": "Gestion des Entreprises et Administrations (GEA)",
+      "definition": "Gestion et pilotage des ressources humaines"
+    },
+    "SDMR": {
+      "specialite": "Hygiène, Sécurité, Environnement (HSE)",
+      "definition": "Science du danger et management des risques professionnels, technologiques et environnementaux"
+    },
+    "CO": {
+      "specialite": "Information-Communication (Info-Com)",
+      "definition": "Communication des organisations"
+    },
+    "INO": {
+      "specialite": "Information-Communication (Info-Com)",
+      "definition": "Information numérique dans les organisations"
+    },
+    "J": {
+      "specialite": "Information-Communication (Info-Com)",
+      "definition": "Journalisme"
+    },
+    "MLP": {
+      "specialite": "Information-Communication (Info-Com)",
+      "definition": "Métiers du livre et du patrimoine"
+    },
+    "PUB": {
+      "specialite": "Information-Communication (Info-Com)",
+      "definition": "Publicité"
+    },
+    "AGED": {
+      "specialite": "Informatique (Info)",
+      "definition": "Administration, gestion et exploitation des données"
+    },
+    "DACS": {
+      "specialite": "Informatique (Info)",
+      "definition": "Déploiement d'applications communicantes et sécurisées"
+    },
+    "IAMSI": {
+      "specialite": "Informatique (Info)",
+      "definition": "Intégration d'applications et management du système d'information"
+    },
+    "RACDV": {
+      "specialite": "Informatique (Info)",
+      "definition": "Réalisation d'applications : conception, développement, validation"
+    },
+    "MSCC": {
+      "specialite": "Management de la Logistique et des Transports (MLT)",
+      "definition": "Mobilité et supply chain connectées"
+    },
+    "MSCD": {
+      "specialite": "Management de la Logistique et des Transports (MLT)",
+      "definition": "Mobilité et supply chain durables"
+    },
+    "MAE": {
+      "specialite": "Mesures Physiques (MP)",
+      "definition": "Mesures et analyses environnementales"
+    },
+    "MCPC": {
+      "specialite": "Mesures Physiques (MP)",
+      "definition": "Matériaux et contrôles physico-chimiques"
+    },
+    "TI": {
+      "specialite": "Mesures Physiques (MP)",
+      "definition": "Techniques d'instrumentation"
+    },
+    "EXPLOIT": {
+      "specialite": "Métiers de la Transition et de l'Efficacité Énergétiques (MT2E)",
+      "definition": "Exploitation des installations énergétiques pour le bâtiment et l'industrie"
+    },
+    "MANÉ": {
+      "specialite": "Métiers de la Transition et de l'Efficacité Énergétiques (MT2E)",
+      "definition": "Management de l'énergie pour le bâtiment et l'industrie"
+    },
+    "OPTIM": {
+      "specialite": "Métiers de la Transition et de l'Efficacité Énergétiques (MT2E)",
+      "definition": "Optimisation énergétique pour le bâtiment et l'industrie"
+    },
+    "REAL": {
+      "specialite": "Métiers de la Transition et de l'Efficacité Énergétiques (MT2E)",
+      "definition": "Réalisation des installations énergétiques pour le bâtiment et l'industrie"
+    },
+    "CN": {
+      "specialite": "Métiers du Multimédia et de l’Internet (MMI)",
+      "definition": "Création numérique"
+    },
+    "DEV": {
+      "specialite": "Métiers du Multimédia et de l’Internet (MMI)",
+      "definition": "Développement web et dispositifs interactifs"
+    },
+    "STRAT": {
+      "specialite": "Métiers du Multimédia et de l’Internet (MMI)",
+      "definition": "Stratégie de communication numérique et design d'expérience"
+    },
+    "EHSC": {
+      "specialite": "Packaging, Emballage et Conditionnement (PEC)",
+      "definition": "Éco-conception, homologation, supply chain"
+    },
+    "EI": {
+      "specialite": "Packaging, Emballage et Conditionnement (PEC)",
+      "definition": "Éco-conception et industrialisation"
+    },
+    "MPBS": {
+      "specialite": "Qualité, Logistique Industrielle et Organisation (QLIO)",
+      "definition": "Management de la production de biens et de services"
+    },
+    "QPSMI": {
+      "specialite": "Qualité, Logistique Industrielle et Organisation (QLIO)",
+      "definition": "Qualité et pilotage des systèmes de management intégrés"
+    },
+    "CYBER": {
+      "specialite": "Réseaux et Télécommunications (R&T)",
+      "definition": "Cybersécurité"
+    },
+    "DEVCLOUD": {
+      "specialite": "Réseaux et Télécommunications (R&T)",
+      "definition": "Développement système et cloud"
+    },
+    "IOM": {
+      "specialite": "Réseaux et Télécommunications (R&T)",
+      "definition": "Internet des objets et mobilité"
+    },
+    "PILPRO": {
+      "specialite": "Réseaux et Télécommunications (R&T)",
+      "definition": "Pilotage de projets réseaux"
+    },
+    "ROM": {
+      "specialite": "Réseaux et Télécommunications (R&T)",
+      "definition": "Réseaux opérateurs et multimédia"
+    },
+    "EMS": {
+      "specialite": "Science des Données (SD)",
+      "definition": "Exploration et modélisation statistique"
+    },
+    "VCOD": {
+      "specialite": "Science des Données (SD)",
+      "definition": "Visualisation, conception d'outils décisionnels"
+    },
+    "MCEMP": {
+      "specialite": "Science et Génie des Matériaux (SGM)",
+      "definition": "Métiers de la caractérisation et de l'expertise des matériaux et des produits"
+    },
+    "MIMP": {
+      "specialite": "Science et Génie des Matériaux (SGM)",
+      "definition": "Métiers de l'ingénierie des matériaux et des produits"
+    },
+    "MRVM": {
+      "specialite": "Science et Génie des Matériaux (SGM)",
+      "definition": "Métiers du recyclage et de la valorisation des matériaux"
+    },
+    "BDMRC": {
+      "specialite": "Techniques de Commercialisation (TC)",
+      "definition": "Business développement et management de la relation client"
+    },
+    "BIAV": {
+      "specialite": "Techniques de Commercialisation (TC)",
+      "definition": "Business international : achat et vente"
+    },
+    "MDEE": {
+      "specialite": "Techniques de Commercialisation (TC)",
+      "definition": "Marketing digital, e-business et entrepreneuriat"
+    },
+    "MMPV": {
+      "specialite": "Techniques de Commercialisation (TC)",
+      "definition": "Marketing et management du point de vente"
+    },
+    "SME": {
+      "specialite": "Techniques de Commercialisation (TC)",
+      "definition": "Stratégie de marque et événementiel"
+    }
+  }
 }
