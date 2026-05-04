@@ -1589,7 +1589,9 @@
       "parcours": {
         "GCCD": ["TP", "TB"],
         "GEII": ["EME"],
-        "RT": ["CYBER"]
+        "RT": ["CYBER"],
+        "TC": ["MDEE", "BDMRC"],
+        "CS": ["ASSC"]
       }
     },
     {
