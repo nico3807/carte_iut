@@ -180,9 +180,23 @@
       "region": "Hauts-de-France",
       "lat": 49.5647,
       "lng": 3.6243,
-      "specialite": ["CJ", "TC"],
+      "specialite": [
+        "CJ",
+        "TC"
+      ],
       "parcours": {
-        "CJ": ["AJ", "EA"]
+        "CJ": [
+          "AJ",
+          "PF",
+          "EA"
+        ],
+        "TC": [
+          "BDMRC",
+          "BIAV"
+        ],
+        "GMP": [
+          "SNRV"
+        ]
       }
     },
     {
@@ -195,9 +209,27 @@
       "region": "Hauts-de-France",
       "lat": 49.8464,
       "lng": 3.2878,
-      "specialite": ["GCGP", "GMP"],
+      "specialite": [
+        "GCGP",
+        "GMP"
+      ],
       "parcours": {
-        "GCGP": ["CPOP", "CMOB"]
+        "GCGP": [
+          "CPOP",
+          "CMOB"
+        ],
+        "CJ": [
+          "AJ",
+          "PF",
+          "EA"
+        ],
+        "TC": [
+          "BDMRC",
+          "BIAV"
+        ],
+        "GMP": [
+          "SNRV"
+        ]
       }
     },
     {
@@ -210,11 +242,32 @@
       "region": "Hauts-de-France",
       "lat": 49.4011,
       "lng": 3.3453,
-      "specialite": ["CJ", "GEII", "QLIO"],
+      "specialite": [
+        "CJ",
+        "GEII",
+        "QLIO"
+      ],
       "parcours": {
-        "CJ": ["EA", "PF"],
-        "GEII": ["AII", "ESE"],
-        "QLIO": ["MPBS", "QPSMI"]
+        "CJ": [
+          "AJ",
+          "PF",
+          "EA"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "TC": [
+          "BDMRC",
+          "BIAV"
+        ],
+        "GMP": [
+          "SNRV"
+        ]
       }
     },
     {
@@ -227,14 +280,76 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "lat": 43.5297,
       "lng": 5.4474,
-      "specialite": ["CS", "GEA", "GMP", "INFO", "INFOCOM", "MLT", "TC"],
+      "specialite": [
+        "CS",
+        "GEA",
+        "GMP",
+        "INFO",
+        "INFOCOM",
+        "MLT",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH", "CG2P"],
-        "TC": ["Les 5 parcours"],
-        "MLT": ["MSCC", "MSCD"],
-        "CS": ["VTD"],
-        "INFO": ["RACDV", "DACS", "AGED", "IAMSI"],
-        "GMP": ["CAI", "CPD", "IPI", "MPI", "SNRV"]
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "BIAV",
+          "MMPV"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "CS": [
+          "VTD"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "GMP": [
+          "SNRV",
+          "CPD"
+        ],
+        "INFOCOM": [
+          "MLP",
+          "MLP"
+        ],
+        "MMI": [
+          "CN"
+        ],
+        "GB": [
+          "AGRO"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "GCCD": [
+          "TB"
+        ],
+        "CHIMIE": [
+          "ACQE"
+        ],
+        "GCGP": [
+          "CPOP"
+        ],
+        "GEII": [
+          "ESE"
+        ],
+        "MP": [
+          "MCPC"
+        ],
+        "MTEE": [
+          "EXPLOIT",
+          "OPTIM"
+        ],
+        "RT": [
+          "CYBER"
+        ]
       }
     },
     {
@@ -247,10 +362,71 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "lat": 43.6767,
       "lng": 4.6279,
-      "specialite": ["INFO", "MMI"],
+      "specialite": [
+        "INFO",
+        "MMI"
+      ],
       "parcours": {
-        "MMI": ["CN", "DEV", "STRAT"],
-        "INFO": ["RACDV", "DACS", "AGED", "IAMSI"]
+        "MMI": [
+          "CN"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GMP": [
+          "SNRV",
+          "CPD"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "BIAV",
+          "MMPV"
+        ],
+        "CS": [
+          "VTD"
+        ],
+        "INFOCOM": [
+          "MLP",
+          "MLP"
+        ],
+        "GB": [
+          "AGRO"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "GCCD": [
+          "TB"
+        ],
+        "CHIMIE": [
+          "ACQE"
+        ],
+        "GCGP": [
+          "CPOP"
+        ],
+        "GEII": [
+          "ESE"
+        ],
+        "MP": [
+          "MCPC"
+        ],
+        "MTEE": [
+          "EXPLOIT",
+          "OPTIM"
+        ],
+        "RT": [
+          "CYBER"
+        ]
       }
     },
     {
@@ -263,10 +439,76 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "lat": 44.0924,
       "lng": 6.2358,
-      "specialite": ["GACO", "GB"],
+      "specialite": [
+        "GACO",
+        "GB"
+      ],
       "parcours": {
-        "GACO": ["MDFS", "MCMO", "MRPE"],
-        "GB": ["AGRO", "SEE"]
+        "GACO": [
+          "MDFS",
+          "MCMO",
+          "MRPE"
+        ],
+        "GB": [
+          "AGRO"
+        ],
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GMP": [
+          "SNRV",
+          "CPD"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "BIAV",
+          "MMPV"
+        ],
+        "CS": [
+          "VTD"
+        ],
+        "INFOCOM": [
+          "MLP",
+          "MLP"
+        ],
+        "MMI": [
+          "CN"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "GCCD": [
+          "TB"
+        ],
+        "CHIMIE": [
+          "ACQE"
+        ],
+        "GCGP": [
+          "CPOP"
+        ],
+        "GEII": [
+          "ESE"
+        ],
+        "MP": [
+          "MCPC"
+        ],
+        "MTEE": [
+          "EXPLOIT",
+          "OPTIM"
+        ],
+        "RT": [
+          "CYBER"
+        ]
       }
     },
     {
@@ -279,8 +521,71 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "lat": 44.5596,
       "lng": 6.0798,
-      "specialite": ["GEA"],
-      "parcours": {}
+      "specialite": [
+        "GEA"
+      ],
+      "parcours": {
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GMP": [
+          "SNRV",
+          "CPD"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "BIAV",
+          "MMPV"
+        ],
+        "CS": [
+          "VTD"
+        ],
+        "INFOCOM": [
+          "MLP",
+          "MLP"
+        ],
+        "MMI": [
+          "CN"
+        ],
+        "GB": [
+          "AGRO"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "GCCD": [
+          "TB"
+        ],
+        "CHIMIE": [
+          "ACQE"
+        ],
+        "GCGP": [
+          "CPOP"
+        ],
+        "GEII": [
+          "ESE"
+        ],
+        "MP": [
+          "MCPC"
+        ],
+        "MTEE": [
+          "EXPLOIT",
+          "OPTIM"
+        ],
+        "RT": [
+          "CYBER"
+        ]
+      }
     },
     {
       "id": 8,
@@ -292,9 +597,70 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "lat": 43.1742,
       "lng": 5.6053,
-      "specialite": ["HSE"],
+      "specialite": [
+        "HSE"
+      ],
       "parcours": {
-        "HSE": ["SDMR"]
+        "HSE": [
+          "SDMR"
+        ],
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GMP": [
+          "SNRV",
+          "CPD"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "BIAV",
+          "MMPV"
+        ],
+        "CS": [
+          "VTD"
+        ],
+        "INFOCOM": [
+          "MLP",
+          "MLP"
+        ],
+        "MMI": [
+          "CN"
+        ],
+        "GB": [
+          "AGRO"
+        ],
+        "GCCD": [
+          "TB"
+        ],
+        "CHIMIE": [
+          "ACQE"
+        ],
+        "GCGP": [
+          "CPOP"
+        ],
+        "GEII": [
+          "ESE"
+        ],
+        "MP": [
+          "MCPC"
+        ],
+        "MTEE": [
+          "EXPLOIT",
+          "OPTIM"
+        ],
+        "RT": [
+          "CYBER"
+        ]
       }
     },
     {
@@ -307,9 +673,70 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "lat": 43.3464,
       "lng": 5.4045,
-      "specialite": ["GCCD"],
+      "specialite": [
+        "GCCD"
+      ],
       "parcours": {
-        "GCCD": ["TB", "TP", "REHAB", "BEC"]
+        "GCCD": [
+          "TB"
+        ],
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GMP": [
+          "SNRV",
+          "CPD"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "BIAV",
+          "MMPV"
+        ],
+        "CS": [
+          "VTD"
+        ],
+        "INFOCOM": [
+          "MLP",
+          "MLP"
+        ],
+        "MMI": [
+          "CN"
+        ],
+        "GB": [
+          "AGRO"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "CHIMIE": [
+          "ACQE"
+        ],
+        "GCGP": [
+          "CPOP"
+        ],
+        "GEII": [
+          "ESE"
+        ],
+        "MP": [
+          "MCPC"
+        ],
+        "MTEE": [
+          "EXPLOIT",
+          "OPTIM"
+        ],
+        "RT": [
+          "CYBER"
+        ]
       }
     },
     {
@@ -322,9 +749,70 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "lat": 43.2401,
       "lng": 5.3957,
-      "specialite": ["RT"],
+      "specialite": [
+        "RT"
+      ],
       "parcours": {
-        "RT": ["CYBER", "DEVCLOUD", "IOM", "ROM"]
+        "RT": [
+          "CYBER"
+        ],
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GMP": [
+          "SNRV",
+          "CPD"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "BIAV",
+          "MMPV"
+        ],
+        "CS": [
+          "VTD"
+        ],
+        "INFOCOM": [
+          "MLP",
+          "MLP"
+        ],
+        "MMI": [
+          "CN"
+        ],
+        "GB": [
+          "AGRO"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "GCCD": [
+          "TB"
+        ],
+        "CHIMIE": [
+          "ACQE"
+        ],
+        "GCGP": [
+          "CPOP"
+        ],
+        "GEII": [
+          "ESE"
+        ],
+        "MP": [
+          "MCPC"
+        ],
+        "MTEE": [
+          "EXPLOIT",
+          "OPTIM"
+        ]
       }
     },
     {
@@ -337,15 +825,76 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "lat": 43.3464,
       "lng": 5.4045,
-      "specialite": ["CHIMIE", "GCGP", "GEA", "GEII", "MP", "MTEE", "TC"],
+      "specialite": [
+        "CHIMIE",
+        "GCGP",
+        "GEA",
+        "GEII",
+        "MP",
+        "MTEE",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH", "CG2P"],
-        "TC": ["Les 5 parcours"],
-        "GEII": ["AII", "ESE", "EME"],
-        "MP": ["TI", "MCPC", "MAE"],
-        "CHIMIE": ["ACQE", "SYN"],
-        "GCGP": ["CPOP", "CMOB"],
-        "MTEE": ["OPTIM", "REAL", "EXPLOIT"]
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "BIAV",
+          "MMPV"
+        ],
+        "GEII": [
+          "ESE"
+        ],
+        "MP": [
+          "MCPC"
+        ],
+        "CHIMIE": [
+          "ACQE"
+        ],
+        "GCGP": [
+          "CPOP"
+        ],
+        "MTEE": [
+          "EXPLOIT",
+          "OPTIM"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GMP": [
+          "SNRV",
+          "CPD"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "CS": [
+          "VTD"
+        ],
+        "INFOCOM": [
+          "MLP",
+          "MLP"
+        ],
+        "MMI": [
+          "CN"
+        ],
+        "GB": [
+          "AGRO"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "GCCD": [
+          "TB"
+        ],
+        "RT": [
+          "CYBER"
+        ]
       }
     },
     {
@@ -358,9 +907,70 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "lat": 43.6417,
       "lng": 5.0977,
-      "specialite": ["GEII"],
+      "specialite": [
+        "GEII"
+      ],
       "parcours": {
-        "GEII": ["AII", "ESE", "EME"]
+        "GEII": [
+          "ESE"
+        ],
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GMP": [
+          "SNRV",
+          "CPD"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "BIAV",
+          "MMPV"
+        ],
+        "CS": [
+          "VTD"
+        ],
+        "INFOCOM": [
+          "MLP",
+          "MLP"
+        ],
+        "MMI": [
+          "CN"
+        ],
+        "GB": [
+          "AGRO"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "GCCD": [
+          "TB"
+        ],
+        "CHIMIE": [
+          "ACQE"
+        ],
+        "GCGP": [
+          "CPOP"
+        ],
+        "MP": [
+          "MCPC"
+        ],
+        "MTEE": [
+          "EXPLOIT",
+          "OPTIM"
+        ],
+        "RT": [
+          "CYBER"
+        ]
       }
     },
     {
@@ -373,17 +983,57 @@
       "region": "Hauts-de-France",
       "lat": 49.8942,
       "lng": 2.2957,
-      "specialite": ["GB", "GCCD", "GEA", "GMP", "INFO", "TC"],
+      "specialite": [
+        "GB",
+        "GCCD",
+        "GEA",
+        "GMP",
+        "INFO",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH"],
-        "TC": ["MDEE", "BDMRC", "SME"],
-        "MMI": ["DEV", "STRAT"],
-        "GEII": ["AII", "ESE", "EME"],
-        "INFO": ["RACDV", "DACS", "AGED"],
-        "GMP": ["CAI", "IPI", "MPI"],
-        "GB": ["AGRO", "BMB", "SAB"],
-        "GCCD": ["TB", "TP", "REHAB", "BEC"],
-        "MTEE": ["OPTIM", "EXPLOIT", "MANÉ"]
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "TC": [
+          "MDEE",
+          "BIAV",
+          "BDMRC",
+          "SME"
+        ],
+        "MMI": [
+          "DEV",
+          "STRAT"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "INFO": [
+          "RACDV",
+          "AGED"
+        ],
+        "GMP": [
+          "MPI",
+          "SNRV",
+          "CPD"
+        ],
+        "GB": [
+          "AGRO"
+        ],
+        "GCCD": [
+          "REHAB",
+          "TB",
+          "TP"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "EXPLOIT",
+          "MANÉ"
+        ]
       }
     },
     {
@@ -396,14 +1046,46 @@
       "region": "Pays de la Loire",
       "lat": 47.4784,
       "lng": -0.5632,
-      "specialite": ["GB", "GEA", "GEII", "GMP", "TC"],
+      "specialite": [
+        "GB",
+        "GEA",
+        "GEII",
+        "GMP",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH"],
-        "TC": ["MDEE", "BDMRC", "SME"],
-        "GEII": ["AII", "ESE", "EME"],
-        "GMP": ["CAI", "SNRV"],
-        "QLIO": ["MPBS", "QPSMI"],
-        "GB": ["BMB", "SAB"]
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "SME",
+          "BIAV"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "GMP": [
+          "SNRV"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "GB": [
+          "AGRO",
+          "BMB"
+        ],
+        "CS": [
+          "ASSC"
+        ],
+        "GACO": [
+          "MCMO"
+        ]
       }
     },
     {
@@ -416,11 +1098,43 @@
       "region": "Pays de la Loire",
       "lat": 47.0591,
       "lng": -0.8774,
-      "specialite": ["CS", "GACO"],
+      "specialite": [
+        "CS",
+        "GACO"
+      ],
       "parcours": {
-        "GACO": ["MDFS", "MCMO"],
-        "CS": ["ASS", "ASSC"],
-        "QLIO": ["MPBS", "QPSMI"]
+        "GACO": [
+          "MCMO"
+        ],
+        "CS": [
+          "ASSC"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "GB": [
+          "AGRO",
+          "BMB"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "SME",
+          "BIAV"
+        ],
+        "GMP": [
+          "SNRV"
+        ]
       }
     },
     {
@@ -433,12 +1147,31 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 45.6499,
       "lng": 0.1561,
-      "specialite": ["GEII", "GMP", "MMI", "QLIO", "TC"],
+      "specialite": [
+        "GEII",
+        "GMP",
+        "MMI",
+        "QLIO",
+        "TC"
+      ],
       "parcours": {
-        "TC": ["MDEE", "BDMRC"],
-        "MMI": ["CN", "DEV", "STRAT"],
-        "GEII": ["AII", "ESE", "EME"],
-        "GMP": ["CAI", "IPI", "MPI"]
+        "TC": [
+          "BDMRC",
+          "SME",
+          "BIAV"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "GMP": [
+          "SNRV"
+        ]
       }
     },
     {
@@ -463,16 +1196,54 @@
         "TC"
       ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "CG2P"],
-        "TC": ["MDEE", "BDMRC", "BIAV", "SME"],
-        "CS": ["CGE3S"],
-        "GEII": ["AII", "ESE", "EME"],
-        "RT": ["CYBER", "DEVCLOUD", "IOM"],
-        "INFO": ["RACDV", "DACS"],
-        "GMP": ["CAI", "CPD", "MPI"],
-        "QLIO": ["MPBS", "QPSMI"],
-        "MP": ["TI", "MCPC", "MAE"],
-        "GCCD": ["TB", "TP", "REHAB", "BEC"]
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "CG2P"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME"
+        ],
+        "CS": [
+          "CGE3S"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "RT": [
+          "CYBER",
+          "DEVCLOUD",
+          "IOM"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS"
+        ],
+        "GMP": [
+          "CAI",
+          "CPD",
+          "MPI"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "MP": [
+          "TI",
+          "MCPC",
+          "MAE"
+        ],
+        "GCCD": [
+          "TB",
+          "TP",
+          "REHAB",
+          "BEC"
+        ]
       }
     },
     {
@@ -485,10 +1256,28 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "lat": 43.9493,
       "lng": 4.8055,
-      "specialite": ["GB", "PEC", "SD", "TC"],
+      "specialite": [
+        "GB",
+        "PEC",
+        "SD",
+        "TC"
+      ],
       "parcours": {
-        "SD": ["EMS", "VCOD"],
-        "PEC": ["EI", "EHSC"]
+        "SD": [
+          "EMS",
+          "VCOD"
+        ],
+        "PEC": [
+          "EHSC",
+          "EI"
+        ],
+        "GB": [
+          "AGRO"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE"
+        ]
       }
     },
     {
@@ -501,10 +1290,28 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 43.4823,
       "lng": -1.5167,
-      "specialite": ["GIM", "INFO"],
+      "specialite": [
+        "GIM",
+        "INFO"
+      ],
       "parcours": {
-        "INFO": ["RACDV", "DACS"],
-        "GIM": ["ISP", "3MI"]
+        "INFO": [
+          "RACDV"
+        ],
+        "GIM": [
+          "ISP"
+        ],
+        "GEA": [
+          "GEMA",
+          "GC2F",
+          "GPRH"
+        ],
+        "TC": [
+          "MDEE",
+          "BIAV",
+          "BDMRC",
+          "SME"
+        ]
       }
     },
     {
@@ -517,10 +1324,28 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 43.4929,
       "lng": -1.4748,
-      "specialite": ["GEA", "TC"],
+      "specialite": [
+        "GEA",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA"],
-        "TC": ["MDEE", "BIAV", "BDMRC"]
+        "GEA": [
+          "GEMA",
+          "GC2F",
+          "GPRH"
+        ],
+        "TC": [
+          "MDEE",
+          "BIAV",
+          "BDMRC",
+          "SME"
+        ],
+        "GIM": [
+          "ISP"
+        ],
+        "INFO": [
+          "RACDV"
+        ]
       }
     },
     {
@@ -533,14 +1358,54 @@
       "region": "Bourgogne-Franche-Comté",
       "lat": 47.2378,
       "lng": 6.0241,
-      "specialite": ["CHIMIE", "GEA", "GMP", "INFOCOM"],
+      "specialite": [
+        "CHIMIE",
+        "GEA",
+        "GMP",
+        "INFOCOM"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH"],
-        "TC": ["MDEE", "BDMRC", "BIAV"],
-        "INFOCOM": ["CO", "PUB"],
-        "GMP": ["CAI", "MPI", "SNRV"],
-        "CHIMIE": ["ACQE", "SYN"],
-        "GB": ["BMB"]
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV"
+        ],
+        "INFOCOM": [
+          "CO",
+          "PUB"
+        ],
+        "GMP": [
+          "MPI",
+          "SNRV"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "MPF"
+        ],
+        "GB": [
+          "BMB"
+        ],
+        "GIM": [
+          "3MI"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "PEC": [
+          "EI"
+        ],
+        "SD": [
+          "VCOD"
+        ]
       }
     },
     {
@@ -553,12 +1418,52 @@
       "region": "Bourgogne-Franche-Comté",
       "lat": 47.0931,
       "lng": 5.4919,
-      "specialite": ["PEC", "SD"],
+      "specialite": [
+        "PEC",
+        "SD"
+      ],
       "parcours": {
-        "TC": ["MDEE", "BDMRC", "BIAV"],
-        "SD": ["EMS", "VCOD"],
-        "PEC": ["EI", "EHSC"],
-        "GB": ["BMB"]
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV"
+        ],
+        "SD": [
+          "VCOD"
+        ],
+        "PEC": [
+          "EI"
+        ],
+        "GB": [
+          "BMB"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "MPF"
+        ],
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "GMP": [
+          "MPI",
+          "SNRV"
+        ],
+        "INFOCOM": [
+          "CO",
+          "PUB"
+        ],
+        "GIM": [
+          "3MI"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ]
       }
     },
     {
@@ -571,14 +1476,57 @@
       "region": "Bourgogne-Franche-Comté",
       "lat": 47.6221,
       "lng": 6.156,
-      "specialite": ["GIM", "HSE", "MLT"],
+      "specialite": [
+        "GIM",
+        "HSE",
+        "MLT"
+      ],
       "parcours": {
-        "TC": ["MDEE", "BDMRC", "BIAV"],
-        "MLT": ["MSCC", "MSCD"],
-        "GIM": ["ISP", "3MI"],
-        "QLIO": ["MPBS", "QPSMI"],
-        "GB": ["BMB"],
-        "HSE": ["SDMR"]
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GIM": [
+          "3MI"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "GB": [
+          "BMB"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "MPF"
+        ],
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "GMP": [
+          "MPI",
+          "SNRV"
+        ],
+        "INFOCOM": [
+          "CO",
+          "PUB"
+        ],
+        "PEC": [
+          "EI"
+        ],
+        "SD": [
+          "VCOD"
+        ]
       }
     },
     {
@@ -591,12 +1539,34 @@
       "region": "Hauts-de-France",
       "lat": 50.5294,
       "lng": 2.64,
-      "specialite": ["CHIMIE", "GCCD", "GEII", "GMP", "QLIO", "RT"],
+      "specialite": [
+        "CHIMIE",
+        "GCCD",
+        "GEII",
+        "GMP",
+        "QLIO",
+        "RT"
+      ],
       "parcours": {
-        "GEII": ["AII", "ESE", "EME"],
-        "GMP": ["CAI", "MPI", "SNRV"],
-        "CHIMIE": ["ACQE", "SYN", "MPF"],
-        "GCCD": ["TB", "TP", "REHAB", "BEC"]
+        "GEII": [
+          "AII"
+        ],
+        "GMP": [
+          "MPI"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "CI",
+          "MPF"
+        ],
+        "GCCD": [
+          "TB",
+          "TP"
+        ],
+        "RT": [
+          "CYBER",
+          "ROM"
+        ]
       }
     },
     {
@@ -609,11 +1579,25 @@
       "region": "Occitanie",
       "lat": 43.3441,
       "lng": 3.2161,
-      "specialite": ["MMI", "RT", "TC"],
+      "specialite": [
+        "MMI",
+        "RT",
+        "TC"
+      ],
       "parcours": {
-        "TC": ["MDEE", "BDMRC"],
-        "MMI": ["CN", "DEV"],
-        "RT": ["CYBER", "DEVCLOUD", "IOM"]
+        "TC": [
+          "MDEE",
+          "MMPV",
+          "BIAV"
+        ],
+        "MMI": [
+          "CN",
+          "DEV"
+        ],
+        "RT": [
+          "CYBER",
+          "DEVCLOUD"
+        ]
       }
     },
     {
@@ -626,11 +1610,26 @@
       "region": "Occitanie",
       "lat": 43.6363,
       "lng": 1.3828,
-      "specialite": ["CS", "GIM", "INFO", "RT"],
+      "specialite": [
+        "CS",
+        "GIM",
+        "INFO",
+        "RT"
+      ],
       "parcours": {
-        "CS": ["CGE3S"],
-        "RT": ["CYBER", "IOM", "ROM"],
-        "GIM": ["ISP", "3MI"]
+        "CS": [
+          "CGE3S"
+        ],
+        "RT": [
+          "CYBER"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "INFO": [
+          "RACDV"
+        ]
       }
     },
     {
@@ -643,11 +1642,28 @@
       "region": "Centre-Val de Loire",
       "lat": 47.5861,
       "lng": 1.3359,
-      "specialite": ["MMI", "MP", "RT", "SGM"],
+      "specialite": [
+        "MMI",
+        "MP",
+        "RT",
+        "SGM"
+      ],
       "parcours": {
-        "MMI": ["CN", "DEV", "STRAT"],
-        "RT": ["CYBER", "DEVCLOUD"],
-        "SGM": ["MIMP", "MCEMP"]
+        "MMI": [
+          "DEV"
+        ],
+        "RT": [
+          "IOM",
+          "CYBER"
+        ],
+        "SGM": [
+          "MIMP",
+          "MCEMP"
+        ],
+        "MP": [
+          "MCPC",
+          "TI"
+        ]
       }
     },
     {
@@ -660,12 +1676,29 @@
       "region": "Île-de-France",
       "lat": 48.9101,
       "lng": 2.44,
-      "specialite": ["CS", "GB", "GEA", "MMI"],
+      "specialite": [
+        "CS",
+        "GB",
+        "GEA",
+        "MMI"
+      ],
       "parcours": {
-        "GEA": ["GEMA", "GC2F"],
-        "CS": ["ASSC", "VTD"],
-        "MMI": ["CN", "STRAT"],
-        "GB": ["BMB", "DIET", "SAB"]
+        "GEA": [
+          "GC2F",
+          "CG2P"
+        ],
+        "CS": [
+          "ASS",
+          "ASSC",
+          "VTD"
+        ],
+        "MMI": [
+          "CN",
+          "STRAT"
+        ],
+        "GB": [
+          "BMB"
+        ]
       }
     },
     {
@@ -678,10 +1711,65 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 44.2028,
       "lng": 0.6215,
-      "specialite": ["GACO", "QLIO"],
+      "specialite": [
+        "GACO",
+        "QLIO"
+      ],
       "parcours": {
-        "GACO": ["MDFS", "MCMO"],
-        "QLIO": ["MPBS", "QPSMI"]
+        "GACO": [
+          "MCMO"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "GEA": [
+          "GC2F",
+          "GPRH",
+          "CG2P"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "TC": [
+          "BDMRC",
+          "SME"
+        ],
+        "GCCD": [
+          "TP",
+          "TB",
+          "REHAB"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "GMP": [
+          "CPD",
+          "SNRV"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "MP": [
+          "MCPC",
+          "MAE"
+        ],
+        "CS": [
+          "VTD"
+        ],
+        "GB": [
+          "AGRO",
+          "DIET",
+          "SAB"
+        ],
+        "GCGP": [
+          "CPOP"
+        ]
       }
     },
     {
@@ -694,9 +1782,61 @@
       "region": "Polynésie française",
       "lat": -17.5534,
       "lng": -149.6069,
-      "specialite": ["GACO", "TC"],
+      "specialite": [
+        "GACO",
+        "TC"
+      ],
       "parcours": {
-        "TC": ["MDEE", "BDMRC", "BIAV", "SME", "MMPV"]
+        "TC": [
+          "BDMRC",
+          "SME"
+        ],
+        "GACO": [
+          "MCMO"
+        ],
+        "GEA": [
+          "GC2F",
+          "GPRH",
+          "CG2P"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GCCD": [
+          "TP",
+          "TB",
+          "REHAB"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "GMP": [
+          "CPD",
+          "SNRV"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "MP": [
+          "MCPC",
+          "MAE"
+        ],
+        "CS": [
+          "VTD"
+        ],
+        "GB": [
+          "AGRO",
+          "DIET",
+          "SAB"
+        ],
+        "GCGP": [
+          "CPOP"
+        ]
       }
     },
     {
@@ -709,11 +1849,62 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 44.8378,
       "lng": -0.5792,
-      "specialite": ["GEA", "MLT", "TC"],
+      "specialite": [
+        "GEA",
+        "MLT",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH", "CG2P"],
-        "TC": ["MDEE", "BDMRC", "BIAV", "SME", "MMPV"],
-        "MLT": ["MSCC", "MSCD"]
+        "GEA": [
+          "GC2F",
+          "GPRH",
+          "CG2P"
+        ],
+        "TC": [
+          "BDMRC",
+          "SME"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GACO": [
+          "MCMO"
+        ],
+        "GCCD": [
+          "TP",
+          "TB",
+          "REHAB"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "GMP": [
+          "CPD",
+          "SNRV"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "MP": [
+          "MCPC",
+          "MAE"
+        ],
+        "CS": [
+          "VTD"
+        ],
+        "GB": [
+          "AGRO",
+          "DIET",
+          "SAB"
+        ],
+        "GCGP": [
+          "CPOP"
+        ]
       }
     },
     {
@@ -726,17 +1917,82 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 44.7775,
       "lng": -0.6298,
-      "specialite": ["GCCD", "GEII", "GMP", "HSE", "INFO", "MP", "SGM"],
+      "specialite": [
+        "GCCD",
+        "GEII",
+        "GMP",
+        "HSE",
+        "INFO",
+        "MP",
+        "SGM"
+      ],
       "parcours": {
-        "GEII": ["AII", "ESE", "EME"],
-        "RT": ["CYBER", "DEVCLOUD", "ROM"],
-        "INFO": ["RACDV", "DACS", "AGED", "IAMSI"],
-        "GMP": ["CAI", "CPD", "IPI", "MPI", "SNRV"],
-        "MP": ["TI", "MCPC", "MAE"],
-        "SGM": ["MIMP", "MCEMP", "MRVM"],
-        "GCCD": ["TB", "TP", "REHAB", "BEC"],
-        "MTEE": ["OPTIM", "EXPLOIT", "MANÉ", "REAL"],
-        "HSE": ["SDMR"]
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "RT": [
+          "CYBER",
+          "DEVCLOUD",
+          "ROM"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "GMP": [
+          "CPD",
+          "SNRV"
+        ],
+        "MP": [
+          "MCPC",
+          "MAE"
+        ],
+        "SGM": [
+          "MIMP",
+          "MCEMP",
+          "MRVM"
+        ],
+        "GCCD": [
+          "TP",
+          "TB",
+          "REHAB"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "EXPLOIT",
+          "MANÉ",
+          "REAL"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "GACO": [
+          "MCMO"
+        ],
+        "GEA": [
+          "GC2F",
+          "GPRH",
+          "CG2P"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "TC": [
+          "BDMRC",
+          "SME"
+        ],
+        "CS": [
+          "VTD"
+        ],
+        "GB": [
+          "AGRO",
+          "DIET",
+          "SAB"
+        ],
+        "GCGP": [
+          "CPOP"
+        ]
       }
     },
     {
@@ -749,13 +2005,64 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 45.1866,
       "lng": 0.7198,
-      "specialite": ["CS", "GB", "GCGP", "TC", "GEA"],
+      "specialite": [
+        "CS",
+        "GB",
+        "GCGP",
+        "TC",
+        "GEA"
+      ],
       "parcours": {
-        "TC": ["MDEE", "BDMRC", "BIAV", "SME", "MMPV"],
-        "CS": ["ASS", "ASSC", "VTD"],
-        "GCGP": ["CPOP", "CMOB"],
-        "GB": ["AGRO", "SAB", "DIET"],
-        "GEA": ["GC2F", "GEMA"]
+        "TC": [
+          "BDMRC",
+          "SME"
+        ],
+        "CS": [
+          "VTD"
+        ],
+        "GCGP": [
+          "CPOP"
+        ],
+        "GB": [
+          "AGRO",
+          "DIET",
+          "SAB"
+        ],
+        "GEA": [
+          "GC2F",
+          "GPRH",
+          "CG2P"
+        ],
+        "GACO": [
+          "MCMO"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GCCD": [
+          "TP",
+          "TB",
+          "REHAB"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "GMP": [
+          "CPD",
+          "SNRV"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "MP": [
+          "MCPC",
+          "MAE"
+        ]
       }
     },
     {
@@ -768,11 +2075,73 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 44.8378,
       "lng": -0.5792,
-      "specialite": ["CS", "INFOCOM", "MMI"],
+      "specialite": [
+        "CS",
+        "INFOCOM",
+        "MMI"
+      ],
       "parcours": {
-        "CS": ["ASS", "ASSC", "VTD"],
-        "INFOCOM": ["CO", "INO", "MLP", "PUB"],
-        "MMI": ["CN", "DEV", "STRAT"]
+        "CS": [
+          "VTD"
+        ],
+        "INFOCOM": [
+          "CO",
+          "INO",
+          "MLP",
+          "PUB"
+        ],
+        "MMI": [
+          "STRAT",
+          "CN",
+          "DEV"
+        ],
+        "GACO": [
+          "MCMO"
+        ],
+        "GEA": [
+          "GC2F",
+          "GPRH",
+          "CG2P"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "TC": [
+          "BDMRC",
+          "SME"
+        ],
+        "GCCD": [
+          "TP",
+          "TB",
+          "REHAB"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "GMP": [
+          "CPD",
+          "SNRV"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "MP": [
+          "MCPC",
+          "MAE"
+        ],
+        "GB": [
+          "AGRO",
+          "DIET",
+          "SAB"
+        ],
+        "GCGP": [
+          "CPOP"
+        ]
       }
     },
     {
@@ -785,12 +2154,37 @@
       "region": "Centre-Val de Loire",
       "lat": 47.0814,
       "lng": 2.3985,
-      "specialite": ["CS", "GCCD", "GEA", "GMP", "MP", "QLIO"],
+      "specialite": [
+        "CS",
+        "GCCD",
+        "GEA",
+        "GMP",
+        "MP",
+        "QLIO"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA"],
-        "TC": ["MDEE", "BDMRC"],
-        "GMP": ["IPI", "SNRV"],
-        "GCCD": ["TB", "TP", "REHAB"]
+        "GEA": [
+          "GPRH",
+          "GC2F"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC"
+        ],
+        "GMP": [
+          "SNRV"
+        ],
+        "GCCD": [
+          "REHAB",
+          "TB",
+          "TP"
+        ],
+        "CS": [
+          "VTD"
+        ],
+        "MP": [
+          "MCPC"
+        ]
       }
     },
     {
@@ -803,13 +2197,41 @@
       "region": "Bretagne",
       "lat": 48.3904,
       "lng": -4.4861,
-      "specialite": ["GB", "GEA", "GEII", "GMP"],
+      "specialite": [
+        "GB",
+        "GEA",
+        "GEII",
+        "GMP"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "CG2P"],
-        "GEII": ["AII", "ESE", "EME"],
-        "GMP": ["CAI", "MPI", "SNRV"],
-        "GB": ["AGRO", "BMB"],
-        "MTEE": ["OPTIM", "EXPLOIT"]
+        "GEA": [
+          "GC2F",
+          "CG2P"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "GMP": [
+          "SNRV",
+          "CPD"
+        ],
+        "GB": [
+          "AGRO",
+          "BMB"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "EXPLOIT"
+        ],
+        "GACO": [
+          "MRPE",
+          "MCMO"
+        ],
+        "GCCD": [
+          "TB",
+          "TP"
+        ]
       }
     },
     {
@@ -822,11 +2244,39 @@
       "region": "Bretagne",
       "lat": 48.5771,
       "lng": -3.8295,
-      "specialite": ["GACO", "GCCD"],
+      "specialite": [
+        "GACO",
+        "GCCD"
+      ],
       "parcours": {
-        "GACO": ["MDFS", "MCMO", "MRPE", "MACAST"],
-        "GCCD": ["TB", "REHAB", "BEC"],
-        "MTEE": ["OPTIM", "EXPLOIT"]
+        "GACO": [
+          "MRPE",
+          "MCMO"
+        ],
+        "GCCD": [
+          "TB",
+          "TP"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "EXPLOIT"
+        ],
+        "GEA": [
+          "GC2F",
+          "CG2P"
+        ],
+        "GB": [
+          "AGRO",
+          "BMB"
+        ],
+        "GMP": [
+          "SNRV",
+          "CPD"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ]
       }
     },
     {
@@ -839,10 +2289,19 @@
       "region": "Île-de-France",
       "lat": 48.7947,
       "lng": 2.3317,
-      "specialite": ["GEII", "GMP"],
+      "specialite": [
+        "GEII",
+        "GMP"
+      ],
       "parcours": {
-        "GEII": ["AII", "ESE", "EME"],
-        "GMP": ["CAI", "CPD", "IPI", "MPI", "SNRV"]
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "GMP": [
+          "MPI",
+          "SNRV"
+        ]
       }
     },
     {
@@ -855,9 +2314,18 @@
       "region": "Île-de-France",
       "lat": 48.7947,
       "lng": 2.3317,
-      "specialite": ["GEII"],
+      "specialite": [
+        "GEII"
+      ],
       "parcours": {
-        "GEII": ["AII", "ESE", "EME"]
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "GMP": [
+          "MPI",
+          "SNRV"
+        ]
       }
     },
     {
@@ -870,9 +2338,40 @@
       "region": "Île-de-France",
       "lat": 48.9472,
       "lng": 2.2467,
-      "specialite": ["MLT", "QLIO"],
+      "specialite": [
+        "MLT",
+        "QLIO"
+      ],
       "parcours": {
-        "MLT": ["MSCC", "MSCD"]
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GCCD": [
+          "REHAB",
+          "TB",
+          "TP"
+        ],
+        "GEII": [
+          "ESE"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "BIAV"
+        ],
+        "MTEE": [
+          "EXPLOIT"
+        ],
+        "GB": [
+          "BMB",
+          "SEE"
+        ]
       }
     },
     {
@@ -885,10 +2384,40 @@
       "region": "Île-de-France",
       "lat": 49.0379,
       "lng": 2.073,
-      "specialite": ["GCCD", "GEII"],
+      "specialite": [
+        "GCCD",
+        "GEII"
+      ],
       "parcours": {
-        "GEII": ["AII", "ESE", "EME"],
-        "GCCD": ["TB", "TP", "REHAB", "BEC"]
+        "GEII": [
+          "ESE"
+        ],
+        "GCCD": [
+          "REHAB",
+          "TB",
+          "TP"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "BIAV"
+        ],
+        "MTEE": [
+          "EXPLOIT"
+        ],
+        "GB": [
+          "BMB",
+          "SEE"
+        ]
       }
     },
     {
@@ -901,10 +2430,40 @@
       "region": "Île-de-France",
       "lat": 49.0491,
       "lng": 2.1013,
-      "specialite": ["GB", "TC"],
+      "specialite": [
+        "GB",
+        "TC"
+      ],
       "parcours": {
-        "TC": ["MDEE", "BDMRC", "BIAV"],
-        "GB": ["AGRO", "BMB"]
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "BIAV"
+        ],
+        "GB": [
+          "BMB",
+          "SEE"
+        ],
+        "GCCD": [
+          "REHAB",
+          "TB",
+          "TP"
+        ],
+        "GEII": [
+          "ESE"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "MTEE": [
+          "EXPLOIT"
+        ]
       }
     },
     {
@@ -917,11 +2476,42 @@
       "region": "Île-de-France",
       "lat": 48.9948,
       "lng": 2.3833,
-      "specialite": ["GEII", "MMI", "MTEE", "TC"],
+      "specialite": [
+        "GEII",
+        "MMI",
+        "MTEE",
+        "TC"
+      ],
       "parcours": {
-        "TC": ["MDEE", "BDMRC", "BIAV"],
-        "MMI": ["CN", "DEV", "STRAT"],
-        "GEII": ["AII", "ESE", "EME"]
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "BIAV"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "GEII": [
+          "ESE"
+        ],
+        "GCCD": [
+          "REHAB",
+          "TB",
+          "TP"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "MTEE": [
+          "EXPLOIT"
+        ],
+        "GB": [
+          "BMB",
+          "SEE"
+        ]
       }
     },
     {
@@ -934,12 +2524,30 @@
       "region": "Bourgogne-Franche-Comté",
       "lat": 46.7801,
       "lng": 4.8537,
-      "specialite": ["CJ", "GIM", "MLT", "SGM"],
+      "specialite": [
+        "CJ",
+        "GIM",
+        "MLT",
+        "SGM"
+      ],
       "parcours": {
-        "MLT": ["MSCC", "MSCD"],
-        "GEII": ["AII", "ESE"],
-        "GIM": ["ISP", "3MI"],
-        "SGM": ["MIMP", "MCEMP", "MRVM"]
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "GIM": [
+          "3MI"
+        ],
+        "SGM": [
+          "MCEMP"
+        ],
+        "CJ": [
+          "EA"
+        ]
       }
     },
     {
@@ -952,12 +2560,33 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 45.6469,
       "lng": 5.8658,
-      "specialite": ["GACO", "GCCD", "MMI", "PEC", "SGM"],
+      "specialite": [
+        "GACO",
+        "GCCD",
+        "MMI",
+        "PEC",
+        "SGM"
+      ],
       "parcours": {
-        "GACO": ["MDFS", "MCMO"],
-        "MMI": ["CN", "DEV", "STRAT"],
-        "PEC": ["EI", "EHSC"],
-        "SGM": ["MIMP", "MCEMP", "MRVM"]
+        "GACO": [
+          "MCMO"
+        ],
+        "MMI": [
+          "CN",
+          "DEV"
+        ],
+        "PEC": [
+          "EI"
+        ],
+        "SGM": [
+          "MIMP",
+          "MCEMP",
+          "MRVM"
+        ],
+        "GCCD": [
+          "TP",
+          "TB"
+        ]
       }
     },
     {
@@ -970,10 +2599,23 @@
       "region": "Centre-Val de Loire",
       "lat": 48.4473,
       "lng": 1.4888,
-      "specialite": ["GEII", "GIM", "MLT"],
+      "specialite": [
+        "GEII",
+        "GIM",
+        "MLT"
+      ],
       "parcours": {
-        "MLT": ["MSCC", "MSCD"],
-        "GIM": ["ISP", "3MI"]
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "GEII": [
+          "3MI"
+        ]
       }
     },
     {
@@ -986,14 +2628,72 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 45.7444,
       "lng": 3.112,
-      "specialite": ["GB", "GEA", "GIM", "INFO", "MP", "RT"],
+      "specialite": [
+        "GB",
+        "GEA",
+        "GIM",
+        "INFO",
+        "MP",
+        "RT"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH", "CG2P"],
-        "RT": ["CYBER", "DEVCLOUD", "IOM"],
-        "INFO": ["RACDV", "DACS", "AGED"],
-        "GIM": ["ISP", "3MI"],
-        "MP": ["TI", "MCPC", "MAE"],
-        "GB": ["BMB", "SAB", "SEE"]
+        "GEA": [
+          "GC2F",
+          "GPRH",
+          "GC2F"
+        ],
+        "RT": [
+          "CYBER"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "MP": [
+          "MAE"
+        ],
+        "GB": [
+          "BMB",
+          "DIET",
+          "AGRO"
+        ],
+        "SD": [
+          "EMS",
+          "VCOD"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GMP": [
+          "MPI"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL"
+        ],
+        "TC": [
+          "BDMRC",
+          "MMPV",
+          "SME",
+          "BDMRC",
+          "MDEE",
+          "BIAV"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "MPF"
+        ],
+        "MMI": [
+          "CN",
+          "DEV"
+        ],
+        "INFOCOM": [
+          "J"
+        ]
       }
     },
     {
@@ -1006,11 +2706,69 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 44.9271,
       "lng": 2.4418,
-      "specialite": ["GB", "GEA", "SD"],
+      "specialite": [
+        "GB",
+        "GEA",
+        "SD"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH", "CG2P"],
-        "SD": ["EMS", "VCOD"],
-        "GB": ["AGRO", "BMB"]
+        "GEA": [
+          "GC2F",
+          "GPRH",
+          "GC2F"
+        ],
+        "SD": [
+          "EMS",
+          "VCOD"
+        ],
+        "GB": [
+          "BMB",
+          "DIET",
+          "AGRO"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "MP": [
+          "MAE"
+        ],
+        "RT": [
+          "CYBER"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GMP": [
+          "MPI"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL"
+        ],
+        "TC": [
+          "BDMRC",
+          "MMPV",
+          "SME",
+          "BDMRC",
+          "MDEE",
+          "BIAV"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "MPF"
+        ],
+        "MMI": [
+          "CN",
+          "DEV"
+        ],
+        "INFOCOM": [
+          "J"
+        ]
       }
     },
     {
@@ -1023,10 +2781,69 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 45.0435,
       "lng": 3.8853,
-      "specialite": ["CHIMIE", "INFO", "MMI"],
+      "specialite": [
+        "CHIMIE",
+        "INFO",
+        "MMI"
+      ],
       "parcours": {
-        "MMI": ["CN", "DEV"],
-        "CHIMIE": ["ACQE", "SYN", "MPF"]
+        "MMI": [
+          "CN",
+          "DEV"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "MPF"
+        ],
+        "GEA": [
+          "GC2F",
+          "GPRH",
+          "GC2F"
+        ],
+        "GB": [
+          "BMB",
+          "DIET",
+          "AGRO"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "MP": [
+          "MAE"
+        ],
+        "RT": [
+          "CYBER"
+        ],
+        "SD": [
+          "EMS",
+          "VCOD"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GMP": [
+          "MPI"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL"
+        ],
+        "TC": [
+          "BDMRC",
+          "MMPV",
+          "SME",
+          "BDMRC",
+          "MDEE",
+          "BIAV"
+        ],
+        "INFOCOM": [
+          "J"
+        ]
       }
     },
     {
@@ -1039,13 +2856,80 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 46.3405,
       "lng": 2.6037,
-      "specialite": ["GEII", "GMP", "MLT", "MTEE", "TC"],
+      "specialite": [
+        "GEII",
+        "GMP",
+        "MLT",
+        "MTEE",
+        "TC"
+      ],
       "parcours": {
-        "TC": ["MDEE", "BDMRC", "BIAV"],
-        "MLT": ["MSCC", "MSCD"],
-        "GEII": ["AII", "ESE", "EME"],
-        "GMP": ["CAI", "MPI", "SNRV"],
-        "QLIO": ["MPBS", "QPSMI"]
+        "TC": [
+          "BDMRC",
+          "MMPV",
+          "SME",
+          "BDMRC",
+          "MDEE",
+          "BIAV"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "GMP": [
+          "MPI"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "GEA": [
+          "GC2F",
+          "GPRH",
+          "GC2F"
+        ],
+        "GB": [
+          "BMB",
+          "DIET",
+          "AGRO"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "MP": [
+          "MAE"
+        ],
+        "RT": [
+          "CYBER"
+        ],
+        "SD": [
+          "EMS",
+          "VCOD"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "MPF"
+        ],
+        "MMI": [
+          "CN",
+          "DEV"
+        ],
+        "INFOCOM": [
+          "J"
+        ]
       }
     },
     {
@@ -1058,9 +2942,67 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 46.5649,
       "lng": 3.333,
-      "specialite": ["TC"],
+      "specialite": [
+        "TC"
+      ],
       "parcours": {
-        "TC": ["MDEE", "BDMRC", "BIAV"]
+        "TC": [
+          "BDMRC",
+          "MMPV",
+          "SME",
+          "BDMRC",
+          "MDEE",
+          "BIAV"
+        ],
+        "GEA": [
+          "GC2F",
+          "GPRH",
+          "GC2F"
+        ],
+        "GB": [
+          "BMB",
+          "DIET",
+          "AGRO"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "MP": [
+          "MAE"
+        ],
+        "RT": [
+          "CYBER"
+        ],
+        "SD": [
+          "EMS",
+          "VCOD"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GMP": [
+          "MPI"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "MPF"
+        ],
+        "MMI": [
+          "CN",
+          "DEV"
+        ],
+        "INFOCOM": [
+          "J"
+        ]
       }
     },
     {
@@ -1073,10 +3015,68 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 46.1224,
       "lng": 3.4268,
-      "specialite": ["INFOCOM", "MMI"],
+      "specialite": [
+        "INFOCOM",
+        "MMI"
+      ],
       "parcours": {
-        "INFOCOM": ["CO", "INO", "J", "MLP"],
-        "MMI": ["CN", "DEV", "STRAT"]
+        "INFOCOM": [
+          "J"
+        ],
+        "MMI": [
+          "CN",
+          "DEV"
+        ],
+        "GEA": [
+          "GC2F",
+          "GPRH",
+          "GC2F"
+        ],
+        "GB": [
+          "BMB",
+          "DIET",
+          "AGRO"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "MP": [
+          "MAE"
+        ],
+        "RT": [
+          "CYBER"
+        ],
+        "SD": [
+          "EMS",
+          "VCOD"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GMP": [
+          "MPI"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL"
+        ],
+        "TC": [
+          "BDMRC",
+          "MMPV",
+          "SME",
+          "BDMRC",
+          "MDEE",
+          "BIAV"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "MPF"
+        ]
       }
     },
     {
@@ -1089,16 +3089,48 @@
       "region": "Grand Est",
       "lat": 48.0793,
       "lng": 7.3585,
-      "specialite": ["CJ", "GB", "HSE", "MTEE", "RT", "TC"],
+      "specialite": [
+        "CJ",
+        "GB",
+        "HSE",
+        "MTEE",
+        "RT",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH"],
-        "TC": ["MDEE", "BDMRC", "SME"],
-        "CJ": ["AJ", "EA", "PF"],
-        "GEII": ["AII", "EME"],
-        "RT": ["CYBER", "DEVCLOUD", "PILPRO"],
-        "GB": ["AGRO"],
-        "MTEE": ["OPTIM", "REAL", "EXPLOIT"],
-        "HSE": ["SDMR"]
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV"
+        ],
+        "CJ": [
+          "AJ",
+          "PF",
+          "EA"
+        ],
+        "GEII": [
+          "AII",
+          "EME"
+        ],
+        "RT": [
+          "CYBER",
+          "ROM",
+          "DEVCLOUD"
+        ],
+        "GB": [
+          "AGRO"
+        ],
+        "MTEE": [
+          "OPTIM"
+        ],
+        "HSE": [
+          "SDMR"
+        ]
       }
     },
     {
@@ -1111,14 +3143,37 @@
       "region": "Corse",
       "lat": 42.3061,
       "lng": 9.1494,
-      "specialite": ["GB", "GCCD", "GEA", "HSE", "MMI", "TC", "GEII"],
+      "specialite": [
+        "GB",
+        "GCCD",
+        "GEA",
+        "HSE",
+        "MMI",
+        "TC",
+        "GEII"
+      ],
       "parcours": {
-        "MMI": ["CN", "STRAT"],
-        "HSE": ["SDMR"],
-        "GEII": ["AII", "EME"],
-        "GEA": ["GC2F", "GEMA"],
-        "GCCD": ["BEC"],
-        "GB": ["SEE", "SAB"]
+        "MMI": [
+          "CN",
+          "STRAT"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "GEII": [
+          "AII",
+          "EME"
+        ],
+        "GEA": [
+          "GC2F"
+        ],
+        "GCCD": [
+          "BEC"
+        ],
+        "GB": [
+          "SEE",
+          "SAB"
+        ]
       }
     },
     {
@@ -1131,12 +3186,45 @@
       "region": "Île-de-France",
       "lat": 48.7771,
       "lng": 2.4549,
-      "specialite": ["GB", "GEII", "MP", "TC"],
+      "specialite": [
+        "GB",
+        "GEII",
+        "MP",
+        "TC"
+      ],
       "parcours": {
-        "TC": ["MDEE", "BDMRC", "BIAV", "SME", "MMPV"],
-        "GEII": ["AII", "ESE", "EME"],
-        "MP": ["TI", "MCPC"],
-        "GB": ["BMB", "DIET"]
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV"
+        ],
+        "GEII": [
+          "ESE"
+        ],
+        "MP": [
+          "MCPC",
+          "MAE"
+        ],
+        "GB": [
+          "DIET",
+          "BMB"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "MPF"
+        ],
+        "GEA": [
+          "GC2F",
+          "GPRH"
+        ],
+        "INFO": [
+          "RACDV",
+          "AGED"
+        ],
+        "RT": [
+          "CYBER",
+          "ROM"
+        ]
       }
     },
     {
@@ -1149,11 +3237,45 @@
       "region": "Île-de-France",
       "lat": 48.7875,
       "lng": 2.4027,
-      "specialite": ["CHIMIE", "GEA", "INFO", "RT"],
+      "specialite": [
+        "CHIMIE",
+        "GEA",
+        "INFO",
+        "RT"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH"],
-        "RT": ["CYBER", "DEVCLOUD", "ROM"],
-        "CHIMIE": ["ACQE", "SYN", "MPF"]
+        "GEA": [
+          "GC2F",
+          "GPRH"
+        ],
+        "RT": [
+          "CYBER",
+          "ROM"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "MPF"
+        ],
+        "GB": [
+          "DIET",
+          "BMB"
+        ],
+        "GEII": [
+          "ESE"
+        ],
+        "MP": [
+          "MCPC",
+          "MAE"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV"
+        ],
+        "INFO": [
+          "RACDV",
+          "AGED"
+        ]
       }
     },
     {
@@ -1166,11 +3288,55 @@
       "region": "Bourgogne-Franche-Comté",
       "lat": 47.7981,
       "lng": 3.5671,
-      "specialite": ["GCCD", "RT", "TC"],
+      "specialite": [
+        "GCCD",
+        "RT",
+        "TC"
+      ],
       "parcours": {
-        "TC": ["MDEE", "BDMRC", "BIAV", "SME", "MMPV"],
-        "GEII": ["AII", "ESE", "EME"],
-        "RT": ["CYBER", "IOM"]
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "BIAV"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "RT": [
+          "CYBER"
+        ],
+        "GACO": [
+          "MCMO"
+        ],
+        "GEA": [
+          "GPRH",
+          "GC2F"
+        ],
+        "GB": [
+          "BMB"
+        ],
+        "GMP": [
+          "MPI",
+          "SNRV"
+        ],
+        "INFOCOM": [
+          "CO",
+          "MLP"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "GCCD": [
+          "TB",
+          "TP"
+        ]
       }
     },
     {
@@ -1183,16 +3349,59 @@
       "region": "Bourgogne-Franche-Comté",
       "lat": 47.322,
       "lng": 5.0415,
-      "specialite": ["GACO", "GB", "GEA", "GMP", "INFO", "INFOCOM", "MMI"],
+      "specialite": [
+        "GACO",
+        "GB",
+        "GEA",
+        "GMP",
+        "INFO",
+        "INFOCOM",
+        "MMI"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH", "CG2P"],
-        "GACO": ["MDFS", "MCMO", "MRPE"],
-        "INFOCOM": ["CO", "INO", "PUB"],
-        "MMI": ["CN", "DEV", "STRAT"],
-        "GEII": ["AII", "ESE", "EME"],
-        "INFO": ["RACDV", "DACS", "AGED", "IAMSI"],
-        "GMP": ["CAI", "CPD", "MPI"],
-        "GB": ["AGRO", "BMB", "SAB"]
+        "GEA": [
+          "GPRH",
+          "GC2F"
+        ],
+        "GACO": [
+          "MCMO"
+        ],
+        "INFOCOM": [
+          "CO",
+          "MLP"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "GMP": [
+          "MPI",
+          "SNRV"
+        ],
+        "GB": [
+          "BMB"
+        ],
+        "GCCD": [
+          "TB",
+          "TP"
+        ],
+        "RT": [
+          "CYBER"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "BIAV"
+        ]
       }
     },
     {
@@ -1205,10 +3414,53 @@
       "region": "Bourgogne-Franche-Comté",
       "lat": 46.9896,
       "lng": 3.1572,
-      "specialite": ["INFO"],
+      "specialite": [
+        "INFO"
+      ],
       "parcours": {
-        "GEII": ["AII", "ESE", "EME"],
-        "INFO": ["RACDV", "DACS", "AGED", "IAMSI"]
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "GACO": [
+          "MCMO"
+        ],
+        "GEA": [
+          "GPRH",
+          "GC2F"
+        ],
+        "GB": [
+          "BMB"
+        ],
+        "GMP": [
+          "MPI",
+          "SNRV"
+        ],
+        "INFOCOM": [
+          "CO",
+          "MLP"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "GCCD": [
+          "TB",
+          "TP"
+        ],
+        "RT": [
+          "CYBER"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "BIAV"
+        ]
       }
     },
     {
@@ -1221,10 +3473,25 @@
       "region": "Grand Est",
       "lat": 48.1744,
       "lng": 6.4542,
-      "specialite": ["GIM", "QLIO", "TC"],
+      "specialite": [
+        "GIM",
+        "QLIO",
+        "TC"
+      ],
       "parcours": {
-        "GIM": ["ISP", "3MI"],
-        "QLIO": ["MPBS", "QPSMI"]
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "TC": [
+          "MDEE",
+          "BIAV",
+          "BDMRC"
+        ]
       }
     },
     {
@@ -1237,13 +3504,38 @@
       "region": "Normandie",
       "lat": 49.0237,
       "lng": 1.1527,
-      "specialite": ["CS", "GB", "GEA", "MP", "PEC", "TC"],
+      "specialite": [
+        "CS",
+        "GB",
+        "GEA",
+        "MP",
+        "PEC",
+        "TC"
+      ],
       "parcours": {
-        "TC": ["MDEE", "BDMRC", "MMPV"],
-        "CS": ["ES"],
-        "MP": ["TI", "MCPC"],
-        "PEC": ["EI", "EHSC"],
-        "GB": ["BMB", "DIET", "SAB"]
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "MMPV"
+        ],
+        "CS": [
+          "ES"
+        ],
+        "MP": [
+          "TI",
+          "MCPC"
+        ],
+        "PEC": [
+          "EI"
+        ],
+        "GB": [
+          "BMB",
+          "DIET"
+        ],
+        "GEA": [
+          "GPRH",
+          "GC2F"
+        ]
       }
     },
     {
@@ -1256,9 +3548,16 @@
       "region": "Île-de-France",
       "lat": 48.6087,
       "lng": 2.307,
-      "specialite": ["GEA", "MTEE"],
+      "specialite": [
+        "GEA",
+        "MTEE"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH"]
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH"
+        ]
       }
     },
     {
@@ -1271,13 +3570,37 @@
       "region": "Île-de-France",
       "lat": 48.627,
       "lng": 2.427,
-      "specialite": ["GEII", "GMP", "MLT", "QLIO", "SGM", "TC"],
+      "specialite": [
+        "GEII",
+        "GMP",
+        "MLT",
+        "QLIO",
+        "SGM",
+        "TC"
+      ],
       "parcours": {
-        "MLT": ["MSCC", "MSCD"],
-        "GEII": ["AII", "ESE", "EME"],
-        "GMP": ["CAI", "CPD", "MPI"],
-        "QLIO": ["MPBS", "QPSMI"],
-        "SGM": ["MIMP", "MCEMP"]
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "GMP": [
+          "CAI",
+          "CPD",
+          "MPI"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "SGM": [
+          "MIMP",
+          "MCEMP"
+        ]
       }
     },
     {
@@ -1290,9 +3613,16 @@
       "region": "Île-de-France",
       "lat": 48.6885,
       "lng": 2.3696,
-      "specialite": ["TC"],
+      "specialite": [
+        "TC"
+      ],
       "parcours": {
-        "TC": ["MDEE", "BDMRC", "BIAV", "SME"]
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME"
+        ]
       }
     },
     {
@@ -1305,11 +3635,25 @@
       "region": "Occitanie",
       "lat": 44.6092,
       "lng": 2.0327,
-      "specialite": ["CS", "GMP", "TC"],
+      "specialite": [
+        "CS",
+        "GMP",
+        "TC"
+      ],
       "parcours": {
-        "TC": ["MDEE", "BDMRC"],
-        "CS": ["ASSC", "ES"],
-        "GMP": ["CAI", "IPI", "MPI"]
+        "TC": [
+          "MDEE",
+          "BDMRC"
+        ],
+        "CS": [
+          "ASSC",
+          "ES"
+        ],
+        "GMP": [
+          "CAI",
+          "IPI",
+          "MPI"
+        ]
       }
     },
     {
@@ -1322,13 +3666,72 @@
       "region": "Normandie",
       "lat": 48.4316,
       "lng": 0.0667,
-      "specialite": ["CS", "GMP", "MLT", "QLIO", "TC"],
+      "specialite": [
+        "CS",
+        "GMP",
+        "MLT",
+        "QLIO",
+        "TC"
+      ],
       "parcours": {
-        "MLT": ["MSCC", "MSCD"],
-        "CS": ["CGE3S"],
-        "GMP": ["IPI", "MPI"],
-        "QLIO": ["MPBS", "QPSMI"],
-        "TC": ["MDEE", "BDMRC"]
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "CS": [
+          "CGE3S",
+          "VTD"
+        ],
+        "GMP": [
+          "CPD"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "SME",
+          "MMPV",
+          "BIAV"
+        ],
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "GB": [
+          "BMB"
+        ],
+        "GCGP": [
+          "CPOP"
+        ],
+        "MP": [
+          "MCPC",
+          "MAE"
+        ],
+        "GIM": [
+          "ISP"
+        ],
+        "GEII": [
+          "AII"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL"
+        ],
+        "MMI": [
+          "CN",
+          "DEV"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "SD": [
+          "EMS",
+          "VCOD"
+        ]
       }
     },
     {
@@ -1341,12 +3744,68 @@
       "region": "Normandie",
       "lat": 49.1829,
       "lng": -0.3707,
-      "specialite": ["GB", "GCGP", "GEA", "MP", "TC"],
+      "specialite": [
+        "GB",
+        "GCGP",
+        "GEA",
+        "MP",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "CG2P"],
-        "TC": ["MDEE", "BDMRC", "SME"],
-        "MP": ["TI", "MCPC"],
-        "GB": ["BMB", "SAB", "SEE"]
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "SME",
+          "MMPV",
+          "BIAV"
+        ],
+        "MP": [
+          "MCPC",
+          "MAE"
+        ],
+        "GB": [
+          "BMB"
+        ],
+        "GCGP": [
+          "CPOP"
+        ],
+        "GIM": [
+          "ISP"
+        ],
+        "GEII": [
+          "AII"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL"
+        ],
+        "MMI": [
+          "CN",
+          "DEV"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "CS": [
+          "CGE3S",
+          "VTD"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GMP": [
+          "CPD"
+        ],
+        "SD": [
+          "EMS",
+          "VCOD"
+        ]
       }
     },
     {
@@ -1359,11 +3818,80 @@
       "region": "Normandie",
       "lat": 49.1439,
       "lng": -0.3641,
-      "specialite": ["INFO", "INFOCOM", "RT"],
+      "specialite": [
+        "INFO",
+        "INFOCOM",
+        "RT"
+      ],
       "parcours": {
-        "INFOCOM": ["CO", "PUB"],
-        "RT": ["CYBER", "DEVCLOUD", "ROM"],
-        "INFO": ["RACDV", "DACS", "AGED"]
+        "INFOCOM": [
+          "CO",
+          "PUB"
+        ],
+        "RT": [
+          "CYBER",
+          "DEVCLOUD",
+          "ROM"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED"
+        ],
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "GB": [
+          "BMB"
+        ],
+        "GCGP": [
+          "CPOP"
+        ],
+        "MP": [
+          "MCPC",
+          "MAE"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "SME",
+          "MMPV",
+          "BIAV"
+        ],
+        "GIM": [
+          "ISP"
+        ],
+        "GEII": [
+          "AII"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL"
+        ],
+        "MMI": [
+          "CN",
+          "DEV"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "CS": [
+          "CGE3S",
+          "VTD"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GMP": [
+          "CPD"
+        ],
+        "SD": [
+          "EMS",
+          "VCOD"
+        ]
       }
     },
     {
@@ -1376,9 +3904,65 @@
       "region": "Normandie",
       "lat": 49.1445,
       "lng": 0.228,
-      "specialite": ["SD", "TC"],
+      "specialite": [
+        "SD",
+        "TC"
+      ],
       "parcours": {
-        "SD": ["EMS", "VCOD"]
+        "SD": [
+          "EMS",
+          "VCOD"
+        ],
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "GB": [
+          "BMB"
+        ],
+        "GCGP": [
+          "CPOP"
+        ],
+        "MP": [
+          "MCPC",
+          "MAE"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "SME",
+          "MMPV",
+          "BIAV"
+        ],
+        "GIM": [
+          "ISP"
+        ],
+        "GEII": [
+          "AII"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL"
+        ],
+        "MMI": [
+          "CN",
+          "DEV"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "CS": [
+          "CGE3S",
+          "VTD"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GMP": [
+          "CPD"
+        ]
       }
     },
     {
@@ -1391,9 +3975,64 @@
       "region": "Normandie",
       "lat": 48.8349,
       "lng": -0.8893,
-      "specialite": ["HSE"],
+      "specialite": [
+        "HSE"
+      ],
       "parcours": {
-        "HSE": ["SDMR"]
+        "HSE": [
+          "SDMR"
+        ],
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "GB": [
+          "BMB"
+        ],
+        "GCGP": [
+          "CPOP"
+        ],
+        "MP": [
+          "MCPC",
+          "MAE"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "SME",
+          "MMPV",
+          "BIAV"
+        ],
+        "GIM": [
+          "ISP"
+        ],
+        "GEII": [
+          "AII"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL"
+        ],
+        "MMI": [
+          "CN",
+          "DEV"
+        ],
+        "CS": [
+          "CGE3S",
+          "VTD"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GMP": [
+          "CPD"
+        ],
+        "SD": [
+          "EMS",
+          "VCOD"
+        ]
       }
     },
     {
@@ -1406,11 +4045,67 @@
       "region": "Normandie",
       "lat": 49.6437,
       "lng": -1.6228,
-      "specialite": ["GEA", "GEII", "GIM", "TC"],
+      "specialite": [
+        "GEA",
+        "GEII",
+        "GIM",
+        "TC"
+      ],
       "parcours": {
-        "TC": ["MDEE", "BDMRC", "BIAV", "SME", "MMPV"],
-        "GEII": ["AII", "ESE", "EME"],
-        "GIM": ["ISP", "3MI"]
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "SME",
+          "MMPV",
+          "BIAV"
+        ],
+        "GEII": [
+          "AII"
+        ],
+        "GIM": [
+          "ISP"
+        ],
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "GB": [
+          "BMB"
+        ],
+        "GCGP": [
+          "CPOP"
+        ],
+        "MP": [
+          "MCPC",
+          "MAE"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL"
+        ],
+        "MMI": [
+          "CN",
+          "DEV"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "CS": [
+          "CGE3S",
+          "VTD"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GMP": [
+          "CPD"
+        ],
+        "SD": [
+          "EMS",
+          "VCOD"
+        ]
       }
     },
     {
@@ -1423,10 +4118,65 @@
       "region": "Normandie",
       "lat": 49.1146,
       "lng": -1.0887,
-      "specialite": ["MMI", "MTEE"],
+      "specialite": [
+        "MMI",
+        "MTEE"
+      ],
       "parcours": {
-        "MMI": ["CN", "DEV", "STRAT"],
-        "MTEE": ["OPTIM", "EXPLOIT", "MANÉ"]
+        "MMI": [
+          "CN",
+          "DEV"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL"
+        ],
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "GB": [
+          "BMB"
+        ],
+        "GCGP": [
+          "CPOP"
+        ],
+        "MP": [
+          "MCPC",
+          "MAE"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "SME",
+          "MMPV",
+          "BIAV"
+        ],
+        "GIM": [
+          "ISP"
+        ],
+        "GEII": [
+          "AII"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "CS": [
+          "CGE3S",
+          "VTD"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GMP": [
+          "CPD"
+        ],
+        "SD": [
+          "EMS",
+          "VCOD"
+        ]
       }
     },
     {
@@ -1439,10 +4189,46 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 45.1885,
       "lng": 5.7245,
-      "specialite": ["CHIMIE", "MTEE"],
+      "specialite": [
+        "CHIMIE",
+        "MTEE"
+      ],
       "parcours": {
-        "CHIMIE": ["ACQE", "SYN"],
-        "MTEE": ["OPTIM", "REAL", "EXPLOIT"]
+        "CHIMIE": [
+          "ACQE",
+          "MPF"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL",
+          "EXPLOIT"
+        ],
+        "GCCD": [
+          "BEC",
+          "TB",
+          "TP"
+        ],
+        "GMP": [
+          "SNRV"
+        ],
+        "GEII": [
+          "AII",
+          "EME",
+          "ESE"
+        ],
+        "RT": [
+          "CYBER",
+          "DEVCLOUD"
+        ],
+        "MP": [
+          "MCPC",
+          "TI"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ]
       }
     },
     {
@@ -1455,9 +4241,46 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 45.1885,
       "lng": 5.7245,
-      "specialite": ["MMI", "MP"],
+      "specialite": [
+        "MMI",
+        "MP"
+      ],
       "parcours": {
-        "MP": ["TI", "MCPC", "MAE"]
+        "MP": [
+          "MCPC",
+          "TI"
+        ],
+        "GCCD": [
+          "BEC",
+          "TB",
+          "TP"
+        ],
+        "GMP": [
+          "SNRV"
+        ],
+        "GEII": [
+          "AII",
+          "EME",
+          "ESE"
+        ],
+        "RT": [
+          "CYBER",
+          "DEVCLOUD"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "MPF"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL",
+          "EXPLOIT"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ]
       }
     },
     {
@@ -1470,12 +4293,48 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 45.168,
       "lng": 5.7624,
-      "specialite": ["GCCD", "GEII", "GMP", "RT"],
+      "specialite": [
+        "GCCD",
+        "GEII",
+        "GMP",
+        "RT"
+      ],
       "parcours": {
-        "GEII": ["AII", "ESE", "EME"],
-        "RT": ["CYBER", "DEVCLOUD", "PILPRO"],
-        "GMP": ["CAI", "IPI", "MPI", "SNRV"],
-        "GCCD": ["TB", "TP", "REHAB", "BEC"]
+        "GEII": [
+          "AII",
+          "EME",
+          "ESE"
+        ],
+        "RT": [
+          "CYBER",
+          "DEVCLOUD"
+        ],
+        "GMP": [
+          "SNRV"
+        ],
+        "GCCD": [
+          "BEC",
+          "TB",
+          "TP"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "MPF"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL",
+          "EXPLOIT"
+        ],
+        "MP": [
+          "MCPC",
+          "TI"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ]
       }
     },
     {
@@ -1488,15 +4347,46 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 45.1885,
       "lng": 5.7245,
-      "specialite": ["CJ", "CS", "GEA", "INFO", "INFOCOM", "SD", "TC"],
+      "specialite": [
+        "CJ",
+        "CS",
+        "GEA",
+        "INFO",
+        "INFOCOM",
+        "SD",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH", "CG2P"],
-        "TC": ["MDEE", "BDMRC", "BIAV", "SME", "MMPV"],
-        "CJ": ["AJ", "EA", "PF"],
-        "CS": ["ASS", "ES"],
-        "INFOCOM": ["CO", "INO", "MLP"],
-        "INFO": ["RACDV", "DACS", "AGED"],
-        "SD": ["EMS", "VCOD"]
+        "GEA": [
+          "GC2F"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "BIAV"
+        ],
+        "CJ": [
+          "AJ",
+          "PF",
+          "EA"
+        ],
+        "CS": [
+          "ASSC",
+          "ASS",
+          "ES"
+        ],
+        "INFOCOM": [
+          "CO",
+          "INO",
+          "MLP"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "SD": [
+          "EMS",
+          "VCOD"
+        ]
       }
     },
     {
@@ -1509,9 +4399,40 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 45.5248,
       "lng": 4.8756,
-      "specialite": ["GEA"],
+      "specialite": [
+        "GEA"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH", "CG2P"]
+        "GEA": [
+          "GC2F"
+        ],
+        "CJ": [
+          "AJ",
+          "PF",
+          "EA"
+        ],
+        "CS": [
+          "ASSC",
+          "ASS",
+          "ES"
+        ],
+        "INFOCOM": [
+          "CO",
+          "INO",
+          "MLP"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "BIAV"
+        ],
+        "SD": [
+          "EMS",
+          "VCOD"
+        ]
       }
     },
     {
@@ -1524,11 +4445,25 @@
       "region": "Grand Est",
       "lat": 48.8148,
       "lng": 7.7908,
-      "specialite": ["GEII", "MMI", "QLIO"],
+      "specialite": [
+        "GEII",
+        "MMI",
+        "QLIO"
+      ],
       "parcours": {
-        "MMI": ["CN", "DEV", "STRAT"],
-        "GEII": ["AII", "ESE", "EME"],
-        "QLIO": ["MPBS", "QPSMI"]
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ]
       }
     },
     {
@@ -1541,9 +4476,27 @@
       "region": "Centre-Val de Loire",
       "lat": 46.8121,
       "lng": 1.6904,
-      "specialite": ["GEA", "GEII", "MLT"],
+      "specialite": [
+        "GEA",
+        "GEII",
+        "MLT"
+      ],
       "parcours": {
-        "GEII": ["AII", "EME"]
+        "GEII": [
+          "AII",
+          "EME"
+        ],
+        "GEA": [
+          "GC2F",
+          "GPRH"
+        ],
+        "MLT": [
+          "MSCC"
+        ],
+        "TC": [
+          "BDMRC",
+          "SME"
+        ]
       }
     },
     {
@@ -1556,10 +4509,26 @@
       "region": "Centre-Val de Loire",
       "lat": 46.9466,
       "lng": 1.9941,
-      "specialite": ["MLT", "TC"],
+      "specialite": [
+        "MLT",
+        "TC"
+      ],
       "parcours": {
-        "TC": ["MDEE", "BDMRC", "MMPV"],
-        "MLT": ["MSCC", "MSCD"]
+        "TC": [
+          "BDMRC",
+          "SME"
+        ],
+        "MLT": [
+          "MSCC"
+        ],
+        "GEA": [
+          "GC2F",
+          "GPRH"
+        ],
+        "GEII": [
+          "AII",
+          "EME"
+        ]
       }
     },
     {
@@ -1572,8 +4541,22 @@
       "region": "Guyane",
       "lat": 4.9224,
       "lng": -52.3135,
-      "specialite": ["CS", "TC"],
-      "parcours": {}
+      "specialite": [
+        "CS",
+        "TC"
+      ],
+      "parcours": {
+        "RT": [
+          "CYBER"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC"
+        ],
+        "CS": [
+          "ASSC"
+        ]
+      }
     },
     {
       "id": 82,
@@ -1585,13 +4568,29 @@
       "region": "Guyane",
       "lat": 5.1543,
       "lng": -52.648,
-      "specialite": ["GCCD", "GEII", "RT"],
+      "specialite": [
+        "GCCD",
+        "GEII",
+        "RT"
+      ],
       "parcours": {
-        "GCCD": ["TP", "TB"],
-        "GEII": ["EME"],
-        "RT": ["CYBER"],
-        "TC": ["MDEE", "BDMRC"],
-        "CS": ["ASSC"]
+        "GCCD": [
+          "TP",
+          "TB"
+        ],
+        "GEII": [
+          "EME"
+        ],
+        "RT": [
+          "CYBER"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC"
+        ],
+        "CS": [
+          "ASSC"
+        ]
       }
     },
     {
@@ -1604,7 +4603,12 @@
       "region": "Guadeloupe",
       "lat": 16,
       "lng": -61.7009,
-      "specialite": ["CS", "GB", "GEA", "MMI"],
+      "specialite": [
+        "CS",
+        "GB",
+        "GEA",
+        "MMI"
+      ],
       "parcours": {}
     },
     {
@@ -1617,9 +4621,28 @@
       "region": "Martinique",
       "lat": 14.6109,
       "lng": -61.0986,
-      "specialite": ["GEA", "HSE", "INFO", "MLT", "TC"],
+      "specialite": [
+        "GEA",
+        "HSE",
+        "INFO",
+        "MLT",
+        "TC"
+      ],
       "parcours": {
-        "HSE": ["SDMR"]
+        "HSE": [
+          "SDMR"
+        ],
+        "MLT": [
+          "MSCC"
+        ],
+        "TC": [
+          "MDEE",
+          "MMPV"
+        ],
+        "INFO": [
+          "MDEE",
+          "MMPV"
+        ]
       }
     },
     {
@@ -1632,9 +4655,38 @@
       "region": "La Réunion",
       "lat": -21.3393,
       "lng": 55.4781,
-      "specialite": ["CS", "GB", "GCCD", "GEA", "HSE", "RT", "TC"],
+      "specialite": [
+        "CS",
+        "GB",
+        "GCCD",
+        "GEA",
+        "HSE",
+        "RT",
+        "TC"
+      ],
       "parcours": {
-        "HSE": ["SDMR"]
+        "HSE": [
+          "SDMR"
+        ],
+        "GEA": [
+          "GPRH",
+          "GC2F"
+        ],
+        "GCCD": [
+          "TB"
+        ],
+        "RT": [
+          "CYBER",
+          "ROM"
+        ],
+        "CS": [
+          "ASS",
+          "ES"
+        ],
+        "TC": [
+          "MDEE",
+          "MMPV"
+        ]
       }
     },
     {
@@ -1647,14 +4699,38 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 46.1603,
       "lng": -1.1511,
-      "specialite": ["GB", "GCCD", "INFO", "RT", "TC"],
+      "specialite": [
+        "GB",
+        "GCCD",
+        "INFO",
+        "RT",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA"],
-        "TC": ["MDEE", "BDMRC", "BIAV"],
-        "RT": ["CYBER", "DEVCLOUD", "IOM", "ROM"],
-        "INFO": ["RACDV", "DACS", "AGED"],
-        "GB": ["SAB"],
-        "GCCD": ["TB", "TP", "REHAB", "BEC"]
+        "GEA": [
+          "GC2F",
+          "GEMA"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE"
+        ],
+        "RT": [
+          "CYBER"
+        ],
+        "INFO": [
+          "RACDV",
+          "AGED"
+        ],
+        "GB": [
+          "BMB"
+        ],
+        "GCCD": [
+          "BEC",
+          "REHAB",
+          "TB",
+          "TP"
+        ]
       }
     },
     {
@@ -1667,10 +4743,23 @@
       "region": "Pays de la Loire",
       "lat": 46.6709,
       "lng": -1.4269,
-      "specialite": ["GB", "GEA", "INFOCOM", "RT"],
+      "specialite": [
+        "GB",
+        "GEA",
+        "INFOCOM",
+        "RT"
+      ],
       "parcours": {
-        "INFOCOM": ["CO", "INO", "MLP"],
-        "RT": ["CYBER", "DEVCLOUD", "IOM"]
+        "INFOCOM": [
+          "CO",
+          "MLP"
+        ],
+        "RT": [
+          "CYBER"
+        ],
+        "GEA": [
+          "GC2F"
+        ]
       }
     },
     {
@@ -1683,13 +4772,33 @@
       "region": "Bretagne",
       "lat": 48.732,
       "lng": -3.4592,
-      "specialite": ["INFO", "INFOCOM", "MMI", "MP", "RT"],
+      "specialite": [
+        "INFO",
+        "INFOCOM",
+        "MMI",
+        "MP",
+        "RT"
+      ],
       "parcours": {
-        "INFOCOM": ["CO", "J"],
-        "MMI": ["CN", "DEV", "STRAT"],
-        "RT": ["CYBER", "DEVCLOUD", "IOM"],
-        "INFO": ["RACDV", "DACS", "AGED"],
-        "MP": ["TI", "MCPC", "MAE"]
+        "INFOCOM": [
+          "J",
+          "CO"
+        ],
+        "MMI": [
+          "DEV",
+          "STRAT"
+        ],
+        "RT": [
+          "CYBER",
+          "DEVCLOUD"
+        ],
+        "INFO": [
+          "RACDV",
+          "AGED"
+        ],
+        "MP": [
+          "MCPC"
+        ]
       }
     },
     {
@@ -1702,12 +4811,29 @@
       "region": "Pays de la Loire",
       "lat": 48.0721,
       "lng": -0.769,
-      "specialite": ["GB", "INFO", "MMI", "TC"],
+      "specialite": [
+        "GB",
+        "INFO",
+        "MMI",
+        "TC"
+      ],
       "parcours": {
-        "TC": ["MDEE", "BDMRC"],
-        "MMI": ["CN", "DEV", "STRAT"],
-        "INFO": ["RACDV", "DACS", "AGED"],
-        "GB": ["BMB", "SAB"]
+        "TC": [
+          "MDEE",
+          "BIAV",
+          "MMPV"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "GB": [
+          "BMB"
+        ]
       }
     },
     {
@@ -1720,10 +4846,28 @@
       "region": "Bourgogne-Franche-Comté",
       "lat": 46.8043,
       "lng": 4.4333,
-      "specialite": ["GEII", "GMP", "MP", "TC"],
+      "specialite": [
+        "GEII",
+        "GMP",
+        "MP",
+        "TC"
+      ],
       "parcours": {
-        "GMP": ["IPI", "MPI"],
-        "MP": ["TI", "MCPC"]
+        "GMP": [
+          "IPI",
+          "MPI"
+        ],
+        "MP": [
+          "MCPC"
+        ],
+        "GEII": [
+          "AII"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "SME"
+        ]
       }
     },
     {
@@ -1736,15 +4880,57 @@
       "region": "Normandie",
       "lat": 49.4944,
       "lng": 0.1079,
-      "specialite": ["CS", "GEA", "GEII", "GMP", "INFO", "MLT", "TC"],
+      "specialite": [
+        "CS",
+        "GEA",
+        "GEII",
+        "GMP",
+        "INFO",
+        "MLT",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH"],
-        "TC": ["MDEE", "BDMRC", "BIAV"],
-        "MLT": ["MSCC", "MSCD"],
-        "CS": ["ASS", "ASSC", "VTD"],
-        "GEII": ["AII", "ESE", "EME"],
-        "INFO": ["RACDV", "DACS"],
-        "GMP": ["CAI", "CPD", "MPI"]
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "CS": [
+          "ASSC",
+          "ASS"
+        ],
+        "GEII": [
+          "AII"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "GMP": [
+          "SNRV"
+        ],
+        "GCCD": [
+          "TB",
+          "BEC",
+          "REHAB",
+          "TP"
+        ],
+        "INFOCOM": [
+          "PUB",
+          "MLP",
+          "INO"
+        ],
+        "HSE": [
+          "SDMR"
+        ]
       }
     },
     {
@@ -1757,11 +4943,53 @@
       "region": "Normandie",
       "lat": 49.4944,
       "lng": 0.1079,
-      "specialite": ["GCCD", "HSE", "INFOCOM"],
+      "specialite": [
+        "GCCD",
+        "HSE",
+        "INFOCOM"
+      ],
       "parcours": {
-        "INFOCOM": ["INO", "MLP", "PUB"],
-        "GCCD": ["TB", "TP", "REHAB", "BEC"],
-        "HSE": ["SDMR"]
+        "INFOCOM": [
+          "PUB",
+          "MLP",
+          "INO"
+        ],
+        "GCCD": [
+          "TB",
+          "BEC",
+          "REHAB",
+          "TP"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "CS": [
+          "ASSC",
+          "ASS"
+        ],
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GMP": [
+          "SNRV"
+        ],
+        "GEII": [
+          "AII"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV"
+        ]
       }
     },
     {
@@ -1774,11 +5002,29 @@
       "region": "Pays de la Loire",
       "lat": 47.996,
       "lng": 0.1966,
-      "specialite": ["CHIMIE", "GEA", "GMP", "MP"],
+      "specialite": [
+        "CHIMIE",
+        "GEA",
+        "GMP",
+        "MP"
+      ],
       "parcours": {
-        "GMP": ["CPD", "IPI", "MPI"],
-        "MP": ["TI", "MCPC"],
-        "CHIMIE": ["ACQE", "SYN"]
+        "GMP": [
+          "SNRV"
+        ],
+        "MP": [
+          "MCPC",
+          "MAE"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "MPF",
+          "SYN"
+        ],
+        "GEA": [
+          "GPRH",
+          "GC2F"
+        ]
       }
     },
     {
@@ -1791,12 +5037,33 @@
       "region": "Hauts-de-France",
       "lat": 50.4296,
       "lng": 2.8319,
-      "specialite": ["GEA", "INFO", "MMI", "TC"],
+      "specialite": [
+        "GEA",
+        "INFO",
+        "MMI",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH"],
-        "TC": ["MDEE", "BDMRC", "SME"],
-        "MMI": ["CN", "DEV", "STRAT"],
-        "INFO": ["RACDV", "DACS", "AGED"]
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV",
+          "SME"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "INFO": [
+          "RACDV",
+          "AGED"
+        ]
       }
     },
     {
@@ -1809,11 +5076,44 @@
       "region": "Hauts-de-France",
       "lat": 50.6942,
       "lng": 3.1746,
-      "specialite": ["CJ", "SD", "TC"],
+      "specialite": [
+        "CJ",
+        "SD",
+        "TC"
+      ],
       "parcours": {
-        "TC": ["MDEE", "BDMRC", "BIAV", "SME", "MMPV"],
-        "CJ": ["AJ", "EA", "PF"],
-        "SD": ["EMS", "VCOD"]
+        "TC": [
+          "SME"
+        ],
+        "CJ": [
+          "AJ",
+          "PF"
+        ],
+        "SD": [
+          "EMS"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "MPF"
+        ],
+        "GB": [
+          "DIET"
+        ],
+        "GEII": [
+          "ESE"
+        ],
+        "GMP": [
+          "CPD"
+        ],
+        "MP": [
+          "MAE"
+        ],
+        "CS": [
+          "VTD"
+        ],
+        "INFOCOM": [
+          "CO"
+        ]
       }
     },
     {
@@ -1826,12 +5126,53 @@
       "region": "Hauts-de-France",
       "lat": 50.7237,
       "lng": 3.1613,
-      "specialite": ["CS", "INFOCOM", "MLT"],
+      "specialite": [
+        "CS",
+        "INFOCOM",
+        "MLT"
+      ],
       "parcours": {
-        "MLT": ["MSCC", "MSCD"],
-        "CS": ["ASS", "ASSC", "ES", "VTD"],
-        "INFOCOM": ["CO", "INO", "MLP", "PUB", "J"],
-        "MMI": ["CN", "DEV", "STRAT"]
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "CS": [
+          "VTD"
+        ],
+        "INFOCOM": [
+          "CO"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "MPF"
+        ],
+        "GB": [
+          "DIET"
+        ],
+        "GEII": [
+          "ESE"
+        ],
+        "GMP": [
+          "CPD"
+        ],
+        "MP": [
+          "MAE"
+        ],
+        "CJ": [
+          "AJ",
+          "PF"
+        ],
+        "SD": [
+          "EMS"
+        ],
+        "TC": [
+          "SME"
+        ]
       }
     },
     {
@@ -1844,15 +5185,60 @@
       "region": "Hauts-de-France",
       "lat": 50.6199,
       "lng": 3.1408,
-      "specialite": ["CHIMIE", "GB", "GEA", "GEII", "GMP", "INFO", "MP"],
+      "specialite": [
+        "CHIMIE",
+        "GB",
+        "GEA",
+        "GEII",
+        "GMP",
+        "INFO",
+        "MP"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH", "CG2P"],
-        "GEII": ["AII", "ESE", "EME"],
-        "INFO": ["RACDV", "DACS", "AGED", "IAMSI"],
-        "GMP": ["CAI", "CPD", "IPI", "MPI", "SNRV"],
-        "MP": ["TI", "MCPC", "MAE"],
-        "CHIMIE": ["ACQE", "SYN", "MPF"],
-        "GB": ["BMB", "DIET", "SAB", "SEE"]
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH",
+          "CG2P"
+        ],
+        "GEII": [
+          "ESE"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED",
+          "IAMSI"
+        ],
+        "GMP": [
+          "CPD"
+        ],
+        "MP": [
+          "MAE"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "MPF"
+        ],
+        "GB": [
+          "DIET"
+        ],
+        "CS": [
+          "VTD"
+        ],
+        "INFOCOM": [
+          "CO"
+        ],
+        "CJ": [
+          "AJ",
+          "PF"
+        ],
+        "SD": [
+          "EMS"
+        ],
+        "TC": [
+          "SME"
+        ]
       }
     },
     {
@@ -1865,10 +5251,60 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 45.158,
       "lng": 1.5326,
-      "specialite": ["GEA", "GEII"],
+      "specialite": [
+        "GEA",
+        "GEII"
+      ],
       "parcours": {
-        "GEII": ["AII", "ESE", "EME"],
-        "RT": ["CYBER", "IOM", "ROM"]
+        "GEII": [
+          "ESE"
+        ],
+        "RT": [
+          "CYBER",
+          "IOM",
+          "ROM"
+        ],
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "MMI": [
+          "CN",
+          "DEV"
+        ],
+        "GB": [
+          "BMB"
+        ],
+        "MP": [
+          "MCPC"
+        ],
+        "GMP": [
+          "MPI",
+          "SNRV"
+        ],
+        "GCCD": [
+          "REHAB",
+          "TB",
+          "TP"
+        ],
+        "CS": [
+          "ASSC"
+        ],
+        "GIM": [
+          "ISP"
+        ],
+        "HSE": [
+          "SDMR"
+        ]
       }
     },
     {
@@ -1881,9 +5317,54 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 45.4069,
       "lng": 2.0456,
-      "specialite": ["GCCD"],
+      "specialite": [
+        "GCCD"
+      ],
       "parcours": {
-        "GCCD": ["TB", "TP", "REHAB", "BEC"]
+        "GCCD": [
+          "REHAB",
+          "TB",
+          "TP"
+        ],
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "MMI": [
+          "CN",
+          "DEV"
+        ],
+        "GB": [
+          "BMB"
+        ],
+        "MP": [
+          "MCPC"
+        ],
+        "GMP": [
+          "MPI",
+          "SNRV"
+        ],
+        "GEII": [
+          "ESE"
+        ],
+        "CS": [
+          "ASSC"
+        ],
+        "GIM": [
+          "ISP"
+        ],
+        "HSE": [
+          "SDMR"
+        ]
       }
     },
     {
@@ -1896,9 +5377,54 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 46.174,
       "lng": 1.8712,
-      "specialite": ["CS"],
+      "specialite": [
+        "CS"
+      ],
       "parcours": {
-        "CS": ["ASSC"]
+        "CS": [
+          "ASSC"
+        ],
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "MMI": [
+          "CN",
+          "DEV"
+        ],
+        "GB": [
+          "BMB"
+        ],
+        "MP": [
+          "MCPC"
+        ],
+        "GMP": [
+          "MPI",
+          "SNRV"
+        ],
+        "GEII": [
+          "ESE"
+        ],
+        "GCCD": [
+          "REHAB",
+          "TB",
+          "TP"
+        ],
+        "GIM": [
+          "ISP"
+        ],
+        "HSE": [
+          "SDMR"
+        ]
       }
     },
     {
@@ -1911,15 +5437,60 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 45.834,
       "lng": 1.2633,
-      "specialite": ["GB", "GEA", "GMP", "INFO", "MMI", "MP", "TC"],
+      "specialite": [
+        "GB",
+        "GEA",
+        "GMP",
+        "INFO",
+        "MMI",
+        "MP",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "CG2P"],
-        "TC": ["MDEE", "BDMRC", "BIAV"],
-        "MMI": ["CN", "DEV", "STRAT"],
-        "INFO": ["RACDV", "DACS", "AGED"],
-        "GMP": ["CPD", "MPI", "SNRV"],
-        "MP": ["TI", "MCPC"],
-        "GB": ["BMB", "SAB", "SEE"]
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV"
+        ],
+        "MMI": [
+          "CN",
+          "DEV"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "GMP": [
+          "MPI",
+          "SNRV"
+        ],
+        "MP": [
+          "MCPC"
+        ],
+        "GB": [
+          "BMB"
+        ],
+        "GEII": [
+          "ESE"
+        ],
+        "GCCD": [
+          "REHAB",
+          "TB",
+          "TP"
+        ],
+        "CS": [
+          "ASSC"
+        ],
+        "GIM": [
+          "ISP"
+        ],
+        "HSE": [
+          "SDMR"
+        ]
       }
     },
     {
@@ -1932,10 +5503,55 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 45.27,
       "lng": 1.7711,
-      "specialite": ["GIM", "HSE"],
+      "specialite": [
+        "GIM",
+        "HSE"
+      ],
       "parcours": {
-        "GIM": ["ISP", "3MI"],
-        "HSE": ["SDMR"]
+        "GIM": [
+          "ISP"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "MMI": [
+          "CN",
+          "DEV"
+        ],
+        "GB": [
+          "BMB"
+        ],
+        "MP": [
+          "MCPC"
+        ],
+        "GMP": [
+          "MPI",
+          "SNRV"
+        ],
+        "GEII": [
+          "ESE"
+        ],
+        "GCCD": [
+          "REHAB",
+          "TB",
+          "TP"
+        ],
+        "CS": [
+          "ASSC"
+        ]
       }
     },
     {
@@ -1948,9 +5564,14 @@
       "region": "Hauts-de-France",
       "lat": 50.7261,
       "lng": 1.6136,
-      "specialite": ["GB"],
+      "specialite": [
+        "GB"
+      ],
       "parcours": {
-        "GB": ["SAB", "SEE"]
+        "GB": [
+          "SAB",
+          "SEE"
+        ]
       }
     },
     {
@@ -1963,9 +5584,16 @@
       "region": "Hauts-de-France",
       "lat": 50.9513,
       "lng": 1.8587,
-      "specialite": ["GEA", "GEII", "INFO"],
+      "specialite": [
+        "GEA",
+        "GEII",
+        "INFO"
+      ],
       "parcours": {
-        "GEII": ["AII", "EME"]
+        "GEII": [
+          "AII",
+          "EME"
+        ]
       }
     },
     {
@@ -1978,10 +5606,21 @@
       "region": "Hauts-de-France",
       "lat": 51.0351,
       "lng": 2.3767,
-      "specialite": ["GIM", "MLT", "MTEE", "TC"],
+      "specialite": [
+        "GIM",
+        "MLT",
+        "MTEE",
+        "TC"
+      ],
       "parcours": {
-        "MLT": ["MSCC", "MSCD"],
-        "MTEE": ["OPTIM", "EXPLOIT"]
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "EXPLOIT"
+        ]
       }
     },
     {
@@ -1994,10 +5633,20 @@
       "region": "Hauts-de-France",
       "lat": 50.7428,
       "lng": 2.2501,
-      "specialite": ["GACO", "GIM"],
+      "specialite": [
+        "GACO",
+        "GIM"
+      ],
       "parcours": {
-        "GACO": ["MDFS", "MCMO", "MACAST"],
-        "GIM": ["ISP", "3MI"]
+        "GACO": [
+          "MDFS",
+          "MCMO",
+          "MACAST"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ]
       }
     },
     {
@@ -2010,10 +5659,21 @@
       "region": "Grand Est",
       "lat": 49.5143,
       "lng": 5.7716,
-      "specialite": ["GEA", "GEII", "MTEE"],
+      "specialite": [
+        "GEA",
+        "GEII",
+        "MTEE"
+      ],
       "parcours": {
-        "GEII": ["AII", "EME"],
-        "MTEE": ["OPTIM", "EXPLOIT"]
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "MTEE": [
+          "EXPLOIT",
+          "OPTIM",
+          "REAL"
+        ]
       }
     },
     {
@@ -2026,13 +5686,37 @@
       "region": "Bretagne",
       "lat": 47.7481,
       "lng": -3.3711,
-      "specialite": ["GIM", "HSE", "MTEE", "QLIO"],
+      "specialite": [
+        "GIM",
+        "HSE",
+        "MTEE",
+        "QLIO"
+      ],
       "parcours": {
-        "GEII": ["AII", "ESE", "EME"],
-        "GIM": ["ISP", "3MI"],
-        "QLIO": ["MPBS", "QPSMI"],
-        "MTEE": ["OPTIM", "REAL", "EXPLOIT"],
-        "HSE": ["SDMR"]
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "GACO": [
+          "MDFS",
+          "MCMO"
+        ]
       }
     },
     {
@@ -2045,11 +5729,35 @@
       "region": "Bretagne",
       "lat": 48.0666,
       "lng": -2.9765,
-      "specialite": ["GACO", "GCGP"],
+      "specialite": [
+        "GACO",
+        "GCGP"
+      ],
       "parcours": {
-        "GACO": ["MDFS", "MCMO", "MRPE"],
-        "GEII": ["AII", "ESE", "EME"],
-        "GCGP": ["CPOP", "CMOB"]
+        "GACO": [
+          "MDFS",
+          "MCMO"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "GCGP": [
+          "CPOP",
+          "CMOB"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL"
+        ]
       }
     },
     {
@@ -2062,13 +5770,72 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 46.2053,
       "lng": 5.2286,
-      "specialite": ["CJ", "GB", "GEA", "INFO", "MTEE"],
+      "specialite": [
+        "CJ",
+        "GB",
+        "GEA",
+        "INFO",
+        "MTEE"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH", "CG2P"],
-        "CJ": ["EA", "PF"],
-        "MMI": ["CN", "DEV", "STRAT"],
-        "INFO": ["RACDV", "DACS", "AGED", "IAMSI"],
-        "MTEE": ["OPTIM", "EXPLOIT", "MANÉ", "REAL"]
+        "GEA": [
+          "GC2F",
+          "GPRH"
+        ],
+        "CJ": [
+          "EA",
+          "PF"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "INFO": [
+          "RACDV",
+          "AGED"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL"
+        ],
+        "GB": [
+          "AGRO",
+          "BMB",
+          "DIET"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "CI",
+          "SYN",
+          "MPF"
+        ],
+        "GCGP": [
+          "CPOP"
+        ],
+        "GCCD": [
+          "REHAB",
+          "TB",
+          "TP"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "GIM": [
+          "ISP"
+        ],
+        "GMP": [
+          "CPD",
+          "MPI",
+          "SNRV"
+        ],
+        "TC": [
+          "BDMRC",
+          "BIAV",
+          "MDEE",
+          "SME"
+        ]
       }
     },
     {
@@ -2081,14 +5848,64 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 45.7676,
       "lng": 4.8798,
-      "specialite": ["CHIMIE", "GB", "GCCD", "GCGP", "GEA", "INFO"],
+      "specialite": [
+        "CHIMIE",
+        "GB",
+        "GCCD",
+        "GCGP",
+        "GEA",
+        "INFO"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH", "CG2P"],
-        "INFO": ["RACDV", "DACS", "AGED", "IAMSI"],
-        "CHIMIE": ["ACQE", "SYN", "MPF", "CI"],
-        "GCGP": ["CPOP", "CMOB", "IPP"],
-        "GB": ["BMB", "DIET", "SAB"],
-        "GCCD": ["TB", "TP", "REHAB", "BEC"]
+        "GEA": [
+          "GC2F",
+          "GPRH"
+        ],
+        "INFO": [
+          "RACDV",
+          "AGED"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "CI",
+          "SYN",
+          "MPF"
+        ],
+        "GCGP": [
+          "CPOP"
+        ],
+        "GB": [
+          "AGRO",
+          "BMB",
+          "DIET"
+        ],
+        "GCCD": [
+          "REHAB",
+          "TB",
+          "TP"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "GIM": [
+          "ISP"
+        ],
+        "GMP": [
+          "CPD",
+          "MPI",
+          "SNRV"
+        ],
+        "TC": [
+          "BDMRC",
+          "BIAV",
+          "MDEE",
+          "SME"
+        ]
       }
     },
     {
@@ -2101,12 +5918,62 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 45.7676,
       "lng": 4.8798,
-      "specialite": ["GEII", "GIM", "GMP", "TC"],
+      "specialite": [
+        "GEII",
+        "GIM",
+        "GMP",
+        "TC"
+      ],
       "parcours": {
-        "TC": ["MDEE", "BDMRC", "BIAV", "SME", "MMPV"],
-        "GEII": ["AII", "ESE", "EME"],
-        "GIM": ["ISP", "3MI"],
-        "GMP": ["CAI", "CPD", "IPI", "MPI", "SNRV"]
+        "TC": [
+          "BDMRC",
+          "BIAV",
+          "MDEE",
+          "SME"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "GIM": [
+          "ISP"
+        ],
+        "GMP": [
+          "CPD",
+          "MPI",
+          "SNRV"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL"
+        ],
+        "INFO": [
+          "RACDV",
+          "AGED"
+        ],
+        "GEA": [
+          "GC2F",
+          "GPRH"
+        ],
+        "GB": [
+          "AGRO",
+          "BMB",
+          "DIET"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "CI",
+          "SYN",
+          "MPF"
+        ],
+        "GCGP": [
+          "CPOP"
+        ],
+        "GCCD": [
+          "REHAB",
+          "TB",
+          "TP"
+        ]
       }
     },
     {
@@ -2119,12 +5986,34 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 45.7337,
       "lng": 4.9127,
-      "specialite": ["GEA", "HSE", "MLT", "QLIO", "SD"],
+      "specialite": [
+        "GEA",
+        "HSE",
+        "MLT",
+        "QLIO",
+        "SD"
+      ],
       "parcours": {
-        "MLT": ["MSCC", "MSCD"],
-        "SD": ["EMS", "VCOD"],
-        "QLIO": ["MPBS", "QPSMI"],
-        "HSE": ["SDMR"]
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "SD": [
+          "EMS",
+          "VCOD"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "GEMA"
+        ]
       }
     },
     {
@@ -2137,11 +6026,25 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 45.7376,
       "lng": 4.8465,
-      "specialite": ["CJ", "GACO", "INFOCOM"],
+      "specialite": [
+        "CJ",
+        "GACO",
+        "INFOCOM"
+      ],
       "parcours": {
-        "GACO": ["MDFS", "MCMO", "MRPE", "MACAST"],
-        "CJ": ["AJ", "EA", "PF"],
-        "INFOCOM": ["CO", "INO"]
+        "GACO": [
+          "MCMO",
+          "MACAST"
+        ],
+        "CJ": [
+          "AJ",
+          "PF",
+          "EA"
+        ],
+        "INFOCOM": [
+          "CO",
+          "INO"
+        ]
       }
     },
     {
@@ -2154,9 +6057,19 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 45.2417,
       "lng": 4.6703,
-      "specialite": ["CJ"],
+      "specialite": [
+        "CJ"
+      ],
       "parcours": {
-        "CJ": ["EA", "PF"]
+        "CJ": [
+          "AJ",
+          "PF",
+          "EA"
+        ],
+        "GACO": [
+          "MCMO",
+          "MACAST"
+        ]
       }
     },
     {
@@ -2169,13 +6082,32 @@
       "region": "Île-de-France",
       "lat": 48.99,
       "lng": 1.7171,
-      "specialite": ["GCCD", "GEA", "GIM", "GMP", "TC"],
+      "specialite": [
+        "GCCD",
+        "GEA",
+        "GIM",
+        "GMP",
+        "TC"
+      ],
       "parcours": {
-        "TC": ["MDEE", "BDMRC"],
-        "GEII": ["AII", "EME"],
-        "GIM": ["ISP", "3MI"],
-        "GMP": ["CPD", "MPI"],
-        "HSE": ["SDMR"]
+        "TC": [
+          "MDEE",
+          "BDMRC"
+        ],
+        "GEII": [
+          "AII",
+          "EME"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "GMP": [
+          "SNRV"
+        ],
+        "HSE": [
+          "SDMR"
+        ]
       }
     },
     {
@@ -2188,12 +6120,47 @@
       "region": "Île-de-France",
       "lat": 48.8441,
       "lng": 2.604,
-      "specialite": ["GCCD", "INFO", "MMI", "MTEE", "TC"],
+      "specialite": [
+        "GCCD",
+        "INFO",
+        "MMI",
+        "MTEE",
+        "TC"
+      ],
       "parcours": {
-        "RT": ["CYBER", "IOM", "ROM"],
-        "INFO": ["RACDV", "DACS", "AGED"],
-        "GCCD": ["TB", "TP", "REHAB", "BEC"],
-        "MTEE": ["OPTIM", "EXPLOIT", "MANÉ"]
+        "RT": [
+          "CYBER",
+          "IOM",
+          "ROM"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "GCCD": [
+          "TB",
+          "TP"
+        ],
+        "MTEE": [
+          "EXPLOIT",
+          "OPTIM"
+        ],
+        "MMI": [
+          "CN",
+          "DEV"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV",
+          "SME",
+          "BIAV"
+        ],
+        "GEA": [
+          "GC2F",
+          "CG2P",
+          "GEMA",
+          "GPRH"
+        ]
       }
     },
     {
@@ -2206,11 +6173,40 @@
       "region": "Île-de-France",
       "lat": 48.9598,
       "lng": 2.8831,
-      "specialite": ["GEA", "MMI", "TC"],
+      "specialite": [
+        "GEA",
+        "MMI",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA"],
-        "TC": ["MDEE", "BDMRC", "MMPV"],
-        "MMI": ["CN", "DEV", "STRAT"]
+        "GEA": [
+          "GC2F",
+          "CG2P",
+          "GEMA",
+          "GPRH"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV",
+          "SME",
+          "BIAV"
+        ],
+        "MMI": [
+          "CN",
+          "DEV"
+        ],
+        "GCCD": [
+          "TB",
+          "TP"
+        ],
+        "MTEE": [
+          "EXPLOIT",
+          "OPTIM"
+        ],
+        "INFO": [
+          "RACDV"
+        ]
       }
     },
     {
@@ -2223,14 +6219,48 @@
       "region": "Grand Est",
       "lat": 49.1196,
       "lng": 6.1757,
-      "specialite": ["GEA", "GMP", "INFO", "SD", "TC"],
+      "specialite": [
+        "GEA",
+        "GMP",
+        "INFO",
+        "SD",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH"],
-        "TC": ["MDEE", "BDMRC", "SME"],
-        "GEII": ["AII", "ESE", "EME"],
-        "INFO": ["RACDV", "DACS", "AGED"],
-        "SD": ["EMS", "VCOD"],
-        "GMP": ["CAI", "CPD", "MPI"]
+        "GEA": [
+          "GEMA",
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "TC": [
+          "MDEE",
+          "BIAV",
+          "MMPV",
+          "BDMRC",
+          "SME"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "INFO": [
+          "DACS"
+        ],
+        "SD": [
+          "EMS",
+          "VCOD"
+        ],
+        "GMP": [
+          "SNRV",
+          "CPD"
+        ],
+        "MP": [
+          "TI",
+          "MCPC",
+          "MAE"
+        ]
       }
     },
     {
@@ -2243,10 +6273,44 @@
       "region": "Grand Est",
       "lat": 49.1196,
       "lng": 6.1757,
-      "specialite": ["MP"],
+      "specialite": [
+        "MP"
+      ],
       "parcours": {
-        "GEII": ["AII", "ESE", "EME"],
-        "MP": ["TI", "MCPC"]
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "MP": [
+          "TI",
+          "MCPC",
+          "MAE"
+        ],
+        "GEA": [
+          "GEMA",
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "GMP": [
+          "SNRV",
+          "CPD"
+        ],
+        "INFO": [
+          "DACS"
+        ],
+        "SD": [
+          "EMS",
+          "VCOD"
+        ],
+        "TC": [
+          "MDEE",
+          "BIAV",
+          "MMPV",
+          "BDMRC",
+          "SME"
+        ]
       }
     },
     {
@@ -2259,14 +6323,41 @@
       "region": "Occitanie",
       "lat": 43.6108,
       "lng": 3.8767,
-      "specialite": ["CHIMIE", "GB", "GEA", "GEII", "INFO", "MP", "TC"],
+      "specialite": [
+        "CHIMIE",
+        "GB",
+        "GEA",
+        "GEII",
+        "INFO",
+        "MP",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH"],
-        "TC": ["MDEE", "BDMRC", "BIAV", "SME"],
-        "GEII": ["AII", "ESE", "EME"],
-        "INFO": ["RACDV", "DACS", "AGED", "IAMSI"],
-        "MP": ["TI", "MCPC", "MAE"],
-        "GB": ["BMB", "SAB", "SEE"]
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "BIAV"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "INFO": [
+          "RACDV",
+          "RACDV"
+        ],
+        "MP": [
+          "MCPC"
+        ],
+        "GB": [
+          "BMB",
+          "DIET"
+        ]
       }
     },
     {
@@ -2279,11 +6370,42 @@
       "region": "Occitanie",
       "lat": 43.4034,
       "lng": 3.695,
-      "specialite": ["CHIMIE", "GEA", "INFO"],
+      "specialite": [
+        "CHIMIE",
+        "GEA",
+        "INFO"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH"],
-        "INFO": ["RACDV", "DACS", "AGED", "IAMSI"],
-        "CHIMIE": ["ACQE", "SYN", "CI"]
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH"
+        ],
+        "INFO": [
+          "RACDV",
+          "RACDV"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "SYN",
+          "CI"
+        ],
+        "GB": [
+          "BMB",
+          "DIET"
+        ],
+        "MP": [
+          "MCPC"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "BIAV"
+        ]
       }
     },
     {
@@ -2296,10 +6418,27 @@
       "region": "Île-de-France",
       "lat": 48.8641,
       "lng": 2.445,
-      "specialite": ["GACO", "INFO", "INFOCOM", "QLIO"],
+      "specialite": [
+        "GACO",
+        "INFO",
+        "INFOCOM",
+        "QLIO"
+      ],
       "parcours": {
-        "GACO": ["MDFS", "MCMO", "MRPE"],
-        "MMI": ["DEV", "STRAT"]
+        "GACO": [
+          "MCMO"
+        ],
+        "MMI": [
+          "DEV",
+          "STRAT"
+        ],
+        "INFOCOM": [
+          "CO"
+        ],
+        "INFO": [
+          "RACDV",
+          "AGED"
+        ]
       }
     },
     {
@@ -2312,9 +6451,20 @@
       "region": "Grand Est",
       "lat": 49.1877,
       "lng": 6.9025,
-      "specialite": ["SGM"],
+      "specialite": [
+        "SGM"
+      ],
       "parcours": {
-        "SGM": ["MIMP", "MCEMP"]
+        "SGM": [
+          "MCEMP"
+        ],
+        "GACO": [
+          "MCMO"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ]
       }
     },
     {
@@ -2327,9 +6477,25 @@
       "region": "Grand Est",
       "lat": 49.1041,
       "lng": 6.7068,
-      "specialite": ["CHIMIE"],
+      "specialite": [
+        "CHIMIE"
+      ],
       "parcours": {
-        "CHIMIE": ["ACQE", "SYN", "MPF"]
+        "CHIMIE": [
+          "ACQE",
+          "SYN",
+          "MPF"
+        ],
+        "GACO": [
+          "MCMO"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "SGM": [
+          "MCEMP"
+        ]
       }
     },
     {
@@ -2342,10 +6508,21 @@
       "region": "Grand Est",
       "lat": 49.1127,
       "lng": 7.0653,
-      "specialite": ["GACO", "MLT"],
+      "specialite": [
+        "GACO",
+        "MLT"
+      ],
       "parcours": {
-        "GACO": ["MDFS", "MCMO"],
-        "MLT": ["MSCC", "MSCD"]
+        "GACO": [
+          "MCMO"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "SGM": [
+          "MCEMP"
+        ]
       }
     },
     {
@@ -2358,13 +6535,41 @@
       "region": "Grand Est",
       "lat": 47.7508,
       "lng": 7.3359,
-      "specialite": ["GEA", "GEII", "GMP", "MLT", "MMI", "SGM"],
+      "specialite": [
+        "GEA",
+        "GEII",
+        "GMP",
+        "MLT",
+        "MMI",
+        "SGM"
+      ],
       "parcours": {
-        "MLT": ["MSCC", "MSCD"],
-        "MMI": ["CN", "DEV", "STRAT"],
-        "GEII": ["AII", "ESE", "EME"],
-        "QLIO": ["MPBS", "QPSMI"],
-        "SGM": ["MIMP", "MCEMP", "MRVM"]
+        "MLT": [
+          "MSCD"
+        ],
+        "MMI": [
+          "CN",
+          "DEV"
+        ],
+        "GEII": [
+          "AII"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "SGM": [
+          "MCEMP"
+        ],
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "GMP": [
+          "MPI",
+          "SNRV"
+        ]
       }
     },
     {
@@ -2377,9 +6582,34 @@
       "region": "Grand Est",
       "lat": 48.5932,
       "lng": 6.4975,
-      "specialite": ["QLIO"],
+      "specialite": [
+        "QLIO"
+      ],
       "parcours": {
-        "QLIO": ["MPBS", "QPSMI"]
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "GCGP": [
+          "CPOP"
+        ],
+        "GCCD": [
+          "REHAB",
+          "TB",
+          "TP"
+        ],
+        "GMP": [
+          "MPI",
+          "SNRV"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "RT": [
+          "CYBER",
+          "ROM"
+        ]
       }
     },
     {
@@ -2392,14 +6622,41 @@
       "region": "Grand Est",
       "lat": 48.6747,
       "lng": 6.1447,
-      "specialite": ["GB", "GCCD", "GCGP", "GEII", "GMP", "RT"],
+      "specialite": [
+        "GB",
+        "GCCD",
+        "GCGP",
+        "GEII",
+        "GMP",
+        "RT"
+      ],
       "parcours": {
-        "GEII": ["AII", "ESE", "EME"],
-        "RT": ["CYBER", "DEVCLOUD", "IOM", "ROM"],
-        "GMP": ["CAI", "CPD", "IPI", "MPI", "SNRV"],
-        "GCGP": ["CPOP", "CMOB", "IPP"],
-        "GB": ["AGRO", "BMB", "SAB", "SEE"],
-        "GCCD": ["TB", "TP", "REHAB", "BEC"]
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "RT": [
+          "CYBER",
+          "ROM"
+        ],
+        "GMP": [
+          "MPI",
+          "SNRV"
+        ],
+        "GCGP": [
+          "CPOP"
+        ],
+        "GB": [
+          "AGRO",
+          "BMB",
+          "SAB",
+          "SEE"
+        ],
+        "GCCD": [
+          "REHAB",
+          "TB",
+          "TP"
+        ]
       }
     },
     {
@@ -2412,12 +6669,39 @@
       "region": "Grand Est",
       "lat": 48.6921,
       "lng": 6.1844,
-      "specialite": ["GEA", "INFO", "INFOCOM", "MMI", "TC"],
+      "specialite": [
+        "GEA",
+        "INFO",
+        "INFOCOM",
+        "MMI",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH", "CG2P"],
-        "TC": ["MDEE", "BDMRC", "BIAV", "SME", "MMPV"],
-        "INFOCOM": ["CO", "INO", "MLP", "PUB"],
-        "INFO": ["RACDV", "DACS"]
+        "GEA": [
+          "GPRH",
+          "GC2F"
+        ],
+        "TC": [
+          "BDMRC",
+          "MMPV",
+          "SME",
+          "MDEE",
+          "BIAV"
+        ],
+        "INFOCOM": [
+          "CO",
+          "INO",
+          "MLP",
+          "PUB"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ]
       }
     },
     {
@@ -2430,15 +6714,56 @@
       "region": "Pays de la Loire",
       "lat": 47.2982,
       "lng": -1.4899,
-      "specialite": ["GEII", "GMP", "MTEE", "QLIO", "SGM"],
+      "specialite": [
+        "GEII",
+        "GMP",
+        "MTEE",
+        "QLIO",
+        "SGM"
+      ],
       "parcours": {
-        "TC": ["MDEE", "BDMRC", "BIAV", "SME", "MMPV"],
-        "MLT": ["MSCC", "MSCD"],
-        "GEII": ["AII", "ESE", "EME"],
-        "GMP": ["CAI", "CPD", "IPI", "MPI", "SNRV"],
-        "QLIO": ["MPBS", "QPSMI"],
-        "SGM": ["MIMP", "MCEMP", "MRVM"],
-        "MTEE": ["OPTIM", "REAL", "EXPLOIT"]
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME",
+          "MMPV"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "GMP": [
+          "MPI",
+          "SNRV"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "SGM": [
+          "MCEMP",
+          "MRVM"
+        ],
+        "MTEE": [
+          "OPTIM"
+        ],
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "GACO": [
+          "MRPE",
+          "MACAST"
+        ]
       }
     },
     {
@@ -2451,11 +6776,48 @@
       "region": "Pays de la Loire",
       "lat": 47.7174,
       "lng": -1.3779,
-      "specialite": ["GACO"],
+      "specialite": [
+        "GACO"
+      ],
       "parcours": {
-        "GACO": ["MDFS", "MCMO", "MRPE"],
-        "TC": ["MDEE", "BDMRC", "BIAV", "SME", "MMPV"],
-        "MLT": ["MSCC", "MSCD"]
+        "GACO": [
+          "MRPE",
+          "MACAST"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME",
+          "MMPV"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GMP": [
+          "MPI",
+          "SNRV"
+        ],
+        "MTEE": [
+          "OPTIM"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "SGM": [
+          "MCEMP",
+          "MRVM"
+        ],
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "INFO": [
+          "RACDV"
+        ]
       }
     },
     {
@@ -2468,12 +6830,49 @@
       "region": "Pays de la Loire",
       "lat": 47.2184,
       "lng": -1.5536,
-      "specialite": ["GEA", "INFO"],
+      "specialite": [
+        "GEA",
+        "INFO"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH", "CG2P"],
-        "TC": ["MDEE", "BDMRC", "BIAV", "SME", "MMPV"],
-        "MLT": ["MSCC", "MSCD"],
-        "INFO": ["RACDV", "DACS", "AGED", "IAMSI"]
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME",
+          "MMPV"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "GMP": [
+          "MPI",
+          "SNRV"
+        ],
+        "MTEE": [
+          "OPTIM"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "SGM": [
+          "MCEMP",
+          "MRVM"
+        ],
+        "GACO": [
+          "MRPE",
+          "MACAST"
+        ]
       }
     },
     {
@@ -2486,11 +6885,25 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "lat": 43.5513,
       "lng": 7.0128,
-      "specialite": ["INFOCOM", "TC"],
+      "specialite": [
+        "INFOCOM",
+        "TC"
+      ],
       "parcours": {
-        "TC": ["MDEE", "BDMRC", "BIAV", "SME"],
-        "INFOCOM": ["CO", "J"],
-        "MMI": ["CN", "STRAT"]
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME"
+        ],
+        "INFOCOM": [
+          "CO",
+          "J"
+        ],
+        "MMI": [
+          "CN",
+          "STRAT"
+        ]
       }
     },
     {
@@ -2503,9 +6916,13 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "lat": 43.7764,
       "lng": 7.5008,
-      "specialite": ["CS"],
+      "specialite": [
+        "CS"
+      ],
       "parcours": {
-        "CS": ["ES"]
+        "CS": [
+          "ES"
+        ]
       }
     },
     {
@@ -2518,12 +6935,34 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "lat": 43.7102,
       "lng": 7.262,
-      "specialite": ["GEA", "GEII", "INFO", "TC"],
+      "specialite": [
+        "GEA",
+        "GEII",
+        "INFO",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH"],
-        "TC": ["MDEE", "BDMRC", "BIAV", "SME"],
-        "GEII": ["AII", "ESE", "EME"],
-        "INFO": ["RACDV", "DACS", "AGED"]
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED"
+        ]
       }
     },
     {
@@ -2536,12 +6975,31 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "lat": 43.64,
       "lng": 7.0047,
-      "specialite": ["INFO", "QLIO", "RT", "SD"],
+      "specialite": [
+        "INFO",
+        "QLIO",
+        "RT",
+        "SD"
+      ],
       "parcours": {
-        "RT": ["CYBER", "DEVCLOUD", "IOM"],
-        "INFO": ["RACDV", "DACS", "AGED"],
-        "SD": ["EMS", "VCOD"],
-        "QLIO": ["MPBS", "QPSMI"]
+        "RT": [
+          "CYBER",
+          "DEVCLOUD",
+          "IOM"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED"
+        ],
+        "SD": [
+          "EMS",
+          "VCOD"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ]
       }
     },
     {
@@ -2554,14 +7012,36 @@
       "region": "Occitanie",
       "lat": 43.8367,
       "lng": 4.3601,
-      "specialite": ["GCCD", "GEA", "GEII", "GMP", "SGM"],
+      "specialite": [
+        "GCCD",
+        "GEA",
+        "GEII",
+        "GMP",
+        "SGM"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "CG2P"],
-        "TC": ["MDEE", "BDMRC"],
-        "GEII": ["AII", "ESE", "EME"],
-        "GMP": ["CPD", "MPI", "SNRV"],
-        "SGM": ["MIMP", "MCEMP", "MRVM"],
-        "GCCD": ["TB", "TP", "REHAB", "BEC"]
+        "GEA": [
+          "CG2P"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC"
+        ],
+        "GEII": [
+          "AII"
+        ],
+        "GMP": [
+          "MPI"
+        ],
+        "SGM": [
+          "MRVM",
+          "MCEMP"
+        ],
+        "GCCD": [
+          "REHAB",
+          "TB",
+          "TP"
+        ]
       }
     },
     {
@@ -2574,14 +7054,58 @@
       "region": "Bourgogne-Franche-Comté",
       "lat": 47.6382,
       "lng": 6.863,
-      "specialite": ["CS", "GCCD", "GEII", "INFO", "MTEE", "TC"],
+      "specialite": [
+        "CS",
+        "GCCD",
+        "GEII",
+        "INFO",
+        "MTEE",
+        "TC"
+      ],
       "parcours": {
-        "TC": ["MDEE", "BDMRC"],
-        "CS": ["CGE3S"],
-        "GEII": ["AII", "ESE", "EME"],
-        "INFO": ["RACDV", "DACS", "AGED"],
-        "GCCD": ["TB", "TP", "REHAB", "BEC"],
-        "MTEE": ["OPTIM", "REAL", "EXPLOIT"]
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "BIAV"
+        ],
+        "CS": [
+          "ASSC",
+          "CGE3S",
+          "VTD"
+        ],
+        "GEII": [
+          "ESE"
+        ],
+        "INFO": [
+          "RACDV",
+          "AGED"
+        ],
+        "GCCD": [
+          "REHAB",
+          "TB",
+          "TP"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL",
+          "EXPLOIT"
+        ],
+        "GACO": [
+          "MCMO",
+          "MACAST"
+        ],
+        "MP": [
+          "MCPC"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "RT": [
+          "CYBER",
+          "PILPRO"
+        ]
       }
     },
     {
@@ -2594,11 +7118,51 @@
       "region": "Bourgogne-Franche-Comté",
       "lat": 47.5102,
       "lng": 6.7989,
-      "specialite": ["GACO", "MMI", "MP", "RT"],
+      "specialite": [
+        "GACO",
+        "MMI",
+        "MP",
+        "RT"
+      ],
       "parcours": {
-        "GACO": ["MDFS", "MCMO"],
-        "MMI": ["CN", "DEV", "STRAT"],
-        "RT": ["CYBER", "DEVCLOUD", "IOM"]
+        "GACO": [
+          "MCMO",
+          "MACAST"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "RT": [
+          "CYBER",
+          "PILPRO"
+        ],
+        "CS": [
+          "ASSC",
+          "CGE3S",
+          "VTD"
+        ],
+        "GCCD": [
+          "REHAB",
+          "TB",
+          "TP"
+        ],
+        "GEII": [
+          "ESE"
+        ],
+        "INFO": [
+          "RACDV",
+          "AGED"
+        ],
+        "MP": [
+          "MCPC"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "BIAV"
+        ]
       }
     },
     {
@@ -2611,8 +7175,19 @@
       "region": "Nouvelle-Calédonie",
       "lat": -22.2758,
       "lng": 166.458,
-      "specialite": ["GEA", "MMI"],
-      "parcours": {}
+      "specialite": [
+        "GEA",
+        "MMI"
+      ],
+      "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA"
+        ],
+        "MMI": [
+          "DEV"
+        ]
+      }
     },
     {
       "id": 142,
@@ -2624,10 +7199,21 @@
       "region": "Hauts-de-France",
       "lat": 49.4298,
       "lng": 2.0813,
-      "specialite": ["GEA", "TC"],
+      "specialite": [
+        "GEA",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA"],
-        "TC": ["MDEE", "BDMRC", "BIAV"]
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV"
+        ]
       }
     },
     {
@@ -2640,12 +7226,33 @@
       "region": "Hauts-de-France",
       "lat": 49.2592,
       "lng": 2.4844,
-      "specialite": ["HSE", "MLT", "TC"],
+      "specialite": [
+        "HSE",
+        "MLT",
+        "TC"
+      ],
       "parcours": {
-        "TC": ["MDEE", "BDMRC", "BIAV"],
-        "MLT": ["MSCC", "MSCD"],
-        "GEII": ["AII", "EME"],
-        "HSE": ["SDMR"]
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GEII": [
+          "AII",
+          "EME"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ]
       }
     },
     {
@@ -2658,14 +7265,47 @@
       "region": "Centre-Val de Loire",
       "lat": 47.9029,
       "lng": 1.9092,
-      "specialite": ["CHIMIE", "GEA", "GMP", "INFO", "MTEE", "QLIO"],
+      "specialite": [
+        "CHIMIE",
+        "GEA",
+        "GMP",
+        "INFO",
+        "MTEE",
+        "QLIO"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "CG2P"],
-        "TC": ["MDEE", "BDMRC", "SME"],
-        "INFO": ["RACDV", "DACS", "AGED", "IAMSI"],
-        "GMP": ["CAI", "CPD", "MPI"],
-        "QLIO": ["MPBS", "QPSMI"],
-        "CHIMIE": ["ACQE", "SYN", "MPF"]
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "SME"
+        ],
+        "INFO": [
+          "RACDV",
+          "AGED"
+        ],
+        "GMP": [
+          "MPI",
+          "SNRV"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "CI",
+          "MPF",
+          "SYN"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL"
+        ]
       }
     },
     {
@@ -2678,9 +7318,26 @@
       "region": "Île-de-France",
       "lat": 48.6858,
       "lng": 2.1376,
-      "specialite": ["CHIMIE", "INFO", "MP"],
+      "specialite": [
+        "CHIMIE",
+        "INFO",
+        "MP"
+      ],
       "parcours": {
-        "CHIMIE": ["ACQE", "SYN"]
+        "CHIMIE": [
+          "ACQE",
+          "CI",
+          "SYN",
+          "MPF"
+        ],
+        "INFO": [
+          "RACDV",
+          "AGED"
+        ],
+        "MP": [
+          "MCPC",
+          "MAE"
+        ]
       }
     },
     {
@@ -2693,9 +7350,14 @@
       "region": "Île-de-France",
       "lat": 48.8924,
       "lng": 2.3488,
-      "specialite": ["MP"],
+      "specialite": [
+        "MP"
+      ],
       "parcours": {
-        "MP": ["TI", "MCPC", "MAE"]
+        "MP": [
+          "MCPC",
+          "MAE"
+        ]
       }
     },
     {
@@ -2708,14 +7370,42 @@
       "region": "Île-de-France",
       "lat": 48.8637,
       "lng": 2.2769,
-      "specialite": ["CS", "GEA", "INFO", "INFOCOM", "SD", "TC"],
+      "specialite": [
+        "CS",
+        "GEA",
+        "INFO",
+        "INFOCOM",
+        "SD",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "CG2P"],
-        "TC": ["MDEE", "BIAV", "BDMRC", "SME"],
-        "CS": ["ASS", "ASSC"],
-        "INFOCOM": ["CO", "PUB", "MLP"],
-        "INFO": ["RACDV", "AGED", "IAMSI", "DACS"],
-        "SD": ["EMS", "VCOD"]
+        "GEA": [
+          "GC2F",
+          "CG2P"
+        ],
+        "TC": [
+          "MDEE",
+          "BIAV",
+          "MMPV",
+          "BDMRC"
+        ],
+        "CS": [
+          "ASSC",
+          "ASS",
+          "CGE3S"
+        ],
+        "INFOCOM": [
+          "CO",
+          "MLP",
+          "PUB"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "SD": [
+          "EMS",
+          "VCOD"
+        ]
       }
     },
     {
@@ -2728,11 +7418,26 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 43.8945,
       "lng": -0.5002,
-      "specialite": ["GB", "RT", "SGM"],
+      "specialite": [
+        "GB",
+        "RT",
+        "SGM"
+      ],
       "parcours": {
-        "RT": ["CYBER", "DEVCLOUD", "IOM"],
-        "SGM": ["MIMP", "MRVM"],
-        "GB": ["AGRO", "BMB", "SAB"]
+        "RT": [
+          "CYBER",
+          "DEVCLOUD",
+          "IOM"
+        ],
+        "SGM": [
+          "MIMP",
+          "MRVM"
+        ],
+        "GB": [
+          "AGRO",
+          "BMB",
+          "SAB"
+        ]
       }
     },
     {
@@ -2745,11 +7450,23 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 43.2951,
       "lng": -0.3708,
-      "specialite": ["MTEE", "SD"],
+      "specialite": [
+        "MTEE",
+        "SD"
+      ],
       "parcours": {
-        "GEII": ["AII", "EME"],
-        "SD": ["EMS", "VCOD"],
-        "MTEE": ["OPTIM", "EXPLOIT"]
+        "GEII": [
+          "AII",
+          "EME"
+        ],
+        "SD": [
+          "EMS",
+          "VCOD"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "EXPLOIT"
+        ]
       }
     },
     {
@@ -2762,11 +7479,42 @@
       "region": "Occitanie",
       "lat": 43.212,
       "lng": 2.3534,
-      "specialite": ["SD", "TC"],
+      "specialite": [
+        "SD",
+        "TC"
+      ],
       "parcours": {
-        "TC": ["MDEE", "BDMRC", "BIAV"],
-        "SD": ["EMS", "VCOD"],
-        "MTEE": ["OPTIM", "EXPLOIT"]
+        "TC": [
+          "MDEE",
+          "MMPV"
+        ],
+        "SD": [
+          "EMS",
+          "VCOD"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "EXPLOIT"
+        ],
+        "GEA": [
+          "GPRH",
+          "GC2F"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GB": [
+          "AGRO"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "CJ": [
+          "PF",
+          "EA"
+        ]
       }
     },
     {
@@ -2779,11 +7527,42 @@
       "region": "Occitanie",
       "lat": 43.1836,
       "lng": 3.004,
-      "specialite": ["CJ", "GCGP"],
+      "specialite": [
+        "CJ",
+        "GCGP"
+      ],
       "parcours": {
-        "CJ": ["AJ", "EA", "PF"],
-        "GCGP": ["CPOP", "CMOB"],
-        "MTEE": ["OPTIM", "EXPLOIT"]
+        "CJ": [
+          "PF",
+          "EA"
+        ],
+        "GCGP": [
+          "CPOP",
+          "CMOB"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "EXPLOIT"
+        ],
+        "GEA": [
+          "GPRH",
+          "GC2F"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GB": [
+          "AGRO"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "TC": [
+          "MDEE",
+          "MMPV"
+        ]
       }
     },
     {
@@ -2796,12 +7575,40 @@
       "region": "Occitanie",
       "lat": 42.6986,
       "lng": 2.8956,
-      "specialite": ["GB", "GEA", "GIM", "MLT"],
+      "specialite": [
+        "GB",
+        "GEA",
+        "GIM",
+        "MLT"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA"],
-        "GIM": ["ISP", "3MI"],
-        "GB": ["AGRO", "BMB", "SEE"],
-        "MTEE": ["OPTIM", "EXPLOIT"]
+        "GEA": [
+          "GPRH",
+          "GC2F"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "GB": [
+          "AGRO"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "EXPLOIT"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "CJ": [
+          "PF",
+          "EA"
+        ],
+        "TC": [
+          "MDEE",
+          "MMPV"
+        ]
       }
     },
     {
@@ -2814,11 +7621,45 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 46.8177,
       "lng": 0.5408,
-      "specialite": ["MP", "RT", "TC"],
+      "specialite": [
+        "MP",
+        "RT",
+        "TC"
+      ],
       "parcours": {
-        "TC": ["MDEE", "BDMRC", "SME"],
-        "RT": ["CYBER", "DEVCLOUD", "IOM"],
-        "MP": ["TI", "MCPC"]
+        "TC": [
+          "BDMRC",
+          "MDEE"
+        ],
+        "RT": [
+          "ROM"
+        ],
+        "MP": [
+          "MAE"
+        ],
+        "CHIMIE": [
+          "ACQE"
+        ],
+        "GEII": [
+          "AII"
+        ],
+        "GMP": [
+          "MPI",
+          "SNRV"
+        ],
+        "MTEE": [
+          "OPTIM"
+        ],
+        "GEA": [
+          "GC2F",
+          "GPRH"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "SD": [
+          "EMS"
+        ]
       }
     },
     {
@@ -2831,11 +7672,45 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 46.3238,
       "lng": -0.4661,
-      "specialite": ["GEA", "HSE", "SD"],
+      "specialite": [
+        "GEA",
+        "HSE",
+        "SD"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH"],
-        "SD": ["EMS", "VCOD"],
-        "HSE": ["SDMR"]
+        "GEA": [
+          "GC2F",
+          "GPRH"
+        ],
+        "SD": [
+          "EMS"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "CHIMIE": [
+          "ACQE"
+        ],
+        "GEII": [
+          "AII"
+        ],
+        "GMP": [
+          "MPI",
+          "SNRV"
+        ],
+        "MTEE": [
+          "OPTIM"
+        ],
+        "MP": [
+          "MAE"
+        ],
+        "RT": [
+          "ROM"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE"
+        ]
       }
     },
     {
@@ -2848,13 +7723,47 @@
       "region": "Nouvelle-Aquitaine",
       "lat": 46.5802,
       "lng": 0.3404,
-      "specialite": ["CHIMIE", "GEA", "GEII", "GMP", "MTEE"],
+      "specialite": [
+        "CHIMIE",
+        "GEA",
+        "GEII",
+        "GMP",
+        "MTEE"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH"],
-        "GEII": ["AII", "ESE", "EME"],
-        "GMP": ["CAI", "MPI", "SNRV"],
-        "CHIMIE": ["ACQE", "SYN"],
-        "MTEE": ["OPTIM", "REAL", "EXPLOIT"]
+        "GEA": [
+          "GC2F",
+          "GPRH"
+        ],
+        "GEII": [
+          "AII"
+        ],
+        "GMP": [
+          "MPI",
+          "SNRV"
+        ],
+        "CHIMIE": [
+          "ACQE"
+        ],
+        "MTEE": [
+          "OPTIM"
+        ],
+        "MP": [
+          "MAE"
+        ],
+        "RT": [
+          "ROM"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "SD": [
+          "EMS"
+        ]
       }
     },
     {
@@ -2867,12 +7776,29 @@
       "region": "Bretagne",
       "lat": 47.9974,
       "lng": -4.0951,
-      "specialite": ["GB", "GEA", "MLT", "TC"],
+      "specialite": [
+        "GB",
+        "GEA",
+        "MLT",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA"],
-        "TC": ["MDEE", "BDMRC", "BIAV"],
-        "MLT": ["MSCC", "MSCD"],
-        "GB": ["AGRO", "SAB"]
+        "GEA": [
+          "GPRH",
+          "GC2F"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GB": [
+          "BMB",
+          "SAB"
+        ]
       }
     },
     {
@@ -2885,12 +7811,30 @@
       "region": "Grand Est",
       "lat": 49.2583,
       "lng": 4.0317,
-      "specialite": ["GEA", "TC"],
+      "specialite": [
+        "GEA",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH"],
-        "TC": ["MDEE", "BDMRC", "BIAV"],
-        "GEII": ["AII", "ESE", "EME"],
-        "MTEE": ["OPTIM", "EXPLOIT"]
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "EXPLOIT"
+        ]
       }
     },
     {
@@ -2903,13 +7847,65 @@
       "region": "Grand Est",
       "lat": 48.9571,
       "lng": 4.3653,
-      "specialite": ["CS", "GIM", "RT"],
+      "specialite": [
+        "CS",
+        "GIM",
+        "RT"
+      ],
       "parcours": {
-        "MMI": ["CN", "DEV", "STRAT"],
-        "GEII": ["AII", "ESE", "EME"],
-        "RT": ["CYBER", "IOM", "ROM"],
-        "GIM": ["ISP", "3MI"],
-        "MTEE": ["OPTIM", "EXPLOIT"]
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "RT": [
+          "CYBER",
+          "DEVCLOUD"
+        ],
+        "GIM": [
+          "ISP"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "EXPLOIT"
+        ],
+        "GEA": [
+          "GPRH",
+          "GC2F"
+        ],
+        "MLT": [
+          "MSCD"
+        ],
+        "GCCD": [
+          "REHAB",
+          "TB",
+          "TP"
+        ],
+        "INFO": [
+          "RACDV",
+          "AGED"
+        ],
+        "MP": [
+          "MCPC"
+        ],
+        "PEC": [
+          "EHSC",
+          "EI"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV"
+        ],
+        "CS": [
+          "ASSC",
+          "VTD"
+        ]
       }
     },
     {
@@ -2922,13 +7918,67 @@
       "region": "Grand Est",
       "lat": 49.7736,
       "lng": 4.7178,
-      "specialite": ["GACO", "HSE", "TC"],
+      "specialite": [
+        "GACO",
+        "HSE",
+        "TC"
+      ],
       "parcours": {
-        "GACO": ["MDFS", "MRPE"],
-        "TC": ["MDEE", "BDMRC", "BIAV"],
-        "GEII": ["AII", "ESE", "EME"],
-        "MTEE": ["OPTIM", "EXPLOIT"],
-        "HSE": ["SDMR"]
+        "GACO": [
+          "MDFS",
+          "MRPE"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "EXPLOIT"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "GEA": [
+          "GPRH",
+          "GC2F"
+        ],
+        "MLT": [
+          "MSCD"
+        ],
+        "GCCD": [
+          "REHAB",
+          "TB",
+          "TP"
+        ],
+        "INFO": [
+          "RACDV",
+          "AGED"
+        ],
+        "MP": [
+          "MCPC"
+        ],
+        "PEC": [
+          "EHSC",
+          "EI"
+        ],
+        "CS": [
+          "ASSC",
+          "VTD"
+        ],
+        "GIM": [
+          "ISP"
+        ],
+        "RT": [
+          "CYBER",
+          "DEVCLOUD"
+        ]
       }
     },
     {
@@ -2941,18 +7991,70 @@
       "region": "Grand Est",
       "lat": 49.2583,
       "lng": 4.0317,
-      "specialite": ["GCCD", "GEA", "GMP", "INFO", "MLT", "MP", "PEC", "TC"],
+      "specialite": [
+        "GCCD",
+        "GEA",
+        "GMP",
+        "INFO",
+        "MLT",
+        "MP",
+        "PEC",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH"],
-        "TC": ["MDEE", "BDMRC", "BIAV"],
-        "MLT": ["MSCC", "MSCD"],
-        "GEII": ["AII", "ESE", "EME"],
-        "INFO": ["RACDV", "DACS", "AGED"],
-        "GMP": ["CAI", "MPI", "SNRV"],
-        "MP": ["TI", "MCPC"],
-        "PEC": ["EI", "EHSC"],
-        "GCCD": ["TB", "TP", "REHAB", "BEC"],
-        "MTEE": ["OPTIM", "EXPLOIT"]
+        "GEA": [
+          "GPRH",
+          "GC2F"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV"
+        ],
+        "MLT": [
+          "MSCD"
+        ],
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "INFO": [
+          "RACDV",
+          "AGED"
+        ],
+        "GMP": [
+          "CAI",
+          "MPI",
+          "SNRV"
+        ],
+        "MP": [
+          "MCPC"
+        ],
+        "PEC": [
+          "EHSC",
+          "EI"
+        ],
+        "GCCD": [
+          "REHAB",
+          "TB",
+          "TP"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "EXPLOIT"
+        ],
+        "CS": [
+          "ASSC",
+          "VTD"
+        ],
+        "GIM": [
+          "ISP"
+        ],
+        "RT": [
+          "CYBER",
+          "DEVCLOUD"
+        ]
       }
     },
     {
@@ -2965,16 +8067,54 @@
       "region": "Bretagne",
       "lat": 48.1173,
       "lng": -1.6778,
-      "specialite": ["CHIMIE", "CS", "GCCD", "GEA", "GEII", "GMP"],
+      "specialite": [
+        "CHIMIE",
+        "CS",
+        "GCCD",
+        "GEA",
+        "GEII",
+        "GMP"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH", "CG2P"],
-        "TC": ["MDEE", "BDMRC", "BIAV", "SME", "MMPV"],
-        "CS": ["ASSC"],
-        "GEII": ["AII", "ESE", "EME"],
-        "INFO": ["RACDV", "AGED"],
-        "GMP": ["CAI", "CPD", "IPI", "MPI", "SNRV"],
-        "CHIMIE": ["ACQE", "SYN"],
-        "GCCD": ["TB", "TP", "REHAB", "BEC"]
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH",
+          "CG2P"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME",
+          "MMPV"
+        ],
+        "CS": [
+          "ASSC"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "INFO": [
+          "RACDV",
+          "AGED"
+        ],
+        "GMP": [
+          "MPI",
+          "SNRV",
+          "CPD"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "CI",
+          "SYN"
+        ],
+        "GCCD": [
+          "REHAB",
+          "TB",
+          "TP"
+        ]
       }
     },
     {
@@ -2987,13 +8127,35 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 46.0397,
       "lng": 4.0693,
-      "specialite": ["GEA", "GIM", "QLIO", "RT", "TC"],
+      "specialite": [
+        "GEA",
+        "GIM",
+        "QLIO",
+        "RT",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA"],
-        "TC": ["MDEE", "BDMRC", "MMPV"],
-        "MMI": ["CN", "STRAT"],
-        "RT": ["CYBER", "ROM"],
-        "GIM": ["ISP", "3MI"]
+        "GEA": [
+          "GPRH",
+          "GC2F"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "MMPV"
+        ],
+        "MMI": [
+          "CN",
+          "STRAT"
+        ],
+        "RT": [
+          "CYBER",
+          "ROM"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ]
       }
     },
     {
@@ -3006,11 +8168,27 @@
       "region": "Occitanie",
       "lat": 44.351,
       "lng": 2.573,
-      "specialite": ["CJ", "GEA", "INFO", "INFOCOM", "QLIO"],
+      "specialite": [
+        "CJ",
+        "GEA",
+        "INFO",
+        "INFOCOM",
+        "QLIO"
+      ],
       "parcours": {
-        "CJ": ["EA", "PF"],
-        "INFOCOM": ["CO"],
-        "INFO": ["RACDV", "DACS"]
+        "CJ": [
+          "PF",
+          "EA"
+        ],
+        "INFOCOM": [
+          "CO"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "GEA": [
+          "GC2F"
+        ]
       }
     },
     {
@@ -3023,15 +8201,68 @@
       "region": "Normandie",
       "lat": 49.2874,
       "lng": 1.0156,
-      "specialite": ["MMI", "RT"],
+      "specialite": [
+        "MMI",
+        "RT"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH", "CG2P"],
-        "MMI": ["CN", "DEV", "STRAT"],
-        "RT": ["CYBER", "DEVCLOUD"],
-        "INFO": ["RACDV", "DACS"],
-        "GIM": ["ISP", "3MI"],
-        "GMP": ["CAI", "CPD", "IPI", "MPI", "SNRV"],
-        "QLIO": ["MPBS", "QPSMI"]
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH",
+          "CG2P"
+        ],
+        "MMI": [
+          "CN",
+          "DEV"
+        ],
+        "RT": [
+          "DEVCLOUD"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "GMP": [
+          "CAI",
+          "CPD",
+          "IPI",
+          "MPI",
+          "SNRV"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "SYN"
+        ],
+        "MTEE": [
+          "OPTIM"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "MP": [
+          "MCPC",
+          "MAE"
+        ],
+        "CJ": [
+          "AJ",
+          "PF",
+          "EA"
+        ],
+        "TC": [
+          "BDMRC",
+          "MMPV",
+          "BIAV"
+        ]
       }
     },
     {
@@ -3044,18 +8275,77 @@
       "region": "Normandie",
       "lat": 49.4647,
       "lng": 1.0984,
-      "specialite": ["CHIMIE", "GCGP", "GEII", "MP", "MTEE"],
+      "specialite": [
+        "CHIMIE",
+        "GCGP",
+        "GEII",
+        "MP",
+        "MTEE"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH", "CG2P"],
-        "GEII": ["AII", "ESE", "EME"],
-        "GIM": ["ISP", "3MI"],
-        "GMP": ["CAI", "CPD", "IPI", "MPI", "SNRV"],
-        "QLIO": ["MPBS", "QPSMI"],
-        "MP": ["TI", "MCPC", "MAE"],
-        "CHIMIE": ["ACQE", "SYN", "CI"],
-        "GCGP": ["CPOP", "CMOB"],
-        "GCCD": ["TB", "TP", "REHAB", "BEC"],
-        "MTEE": ["OPTIM", "EXPLOIT", "MANÉ"]
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH",
+          "CG2P"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "GMP": [
+          "CAI",
+          "CPD",
+          "IPI",
+          "MPI",
+          "SNRV"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "MP": [
+          "MCPC",
+          "MAE"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "SYN"
+        ],
+        "GCGP": [
+          "CPOP",
+          "CMOB"
+        ],
+        "GCCD": [
+          "TB",
+          "TP",
+          "REHAB",
+          "BEC"
+        ],
+        "MTEE": [
+          "OPTIM"
+        ],
+        "CJ": [
+          "AJ",
+          "PF",
+          "EA"
+        ],
+        "TC": [
+          "BDMRC",
+          "MMPV",
+          "BIAV"
+        ],
+        "MMI": [
+          "CN",
+          "DEV"
+        ],
+        "RT": [
+          "DEVCLOUD"
+        ]
       }
     },
     {
@@ -3068,14 +8358,64 @@
       "region": "Normandie",
       "lat": 49.4432,
       "lng": 1.0993,
-      "specialite": ["CJ", "TC"],
+      "specialite": [
+        "CJ",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH", "CG2P"],
-        "TC": ["MDEE", "BDMRC", "BIAV", "SME", "MMPV"],
-        "CJ": ["AJ", "EA", "PF"],
-        "GIM": ["ISP", "3MI"],
-        "GMP": ["CAI", "CPD", "IPI", "MPI", "SNRV"],
-        "QLIO": ["MPBS", "QPSMI"]
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "GPRH",
+          "CG2P"
+        ],
+        "TC": [
+          "BDMRC",
+          "MMPV",
+          "BIAV"
+        ],
+        "CJ": [
+          "AJ",
+          "PF",
+          "EA"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "GMP": [
+          "CAI",
+          "CPD",
+          "IPI",
+          "MPI",
+          "SNRV"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "SYN"
+        ],
+        "MTEE": [
+          "OPTIM"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "MP": [
+          "MCPC",
+          "MAE"
+        ],
+        "MMI": [
+          "CN",
+          "DEV"
+        ],
+        "RT": [
+          "DEVCLOUD"
+        ]
       }
     },
     {
@@ -3088,11 +8428,24 @@
       "region": "Bretagne",
       "lat": 48.5113,
       "lng": -2.7656,
-      "specialite": ["GB", "SGM", "TC"],
+      "specialite": [
+        "GB",
+        "SGM",
+        "TC"
+      ],
       "parcours": {
-        "TC": ["MDEE", "BDMRC", "BIAV", "MMPV"],
-        "SGM": ["MIMP", "MCEMP", "MRVM"],
-        "GB": ["BMB", "SAB", "SEE"]
+        "TC": [
+          "MMPV",
+          "BDMRC"
+        ],
+        "SGM": [
+          "MCEMP"
+        ],
+        "GB": [
+          "BMB",
+          "SAB",
+          "SEE"
+        ]
       }
     },
     {
@@ -3105,14 +8458,44 @@
       "region": "Île-de-France",
       "lat": 48.9362,
       "lng": 2.3574,
-      "specialite": ["GEA", "GIM", "GMP", "HSE", "MP", "SGM", "TC"],
+      "specialite": [
+        "GEA",
+        "GIM",
+        "GMP",
+        "HSE",
+        "MP",
+        "SGM",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH", "CG2P"],
-        "TC": ["MDEE", "BDMRC", "BIAV", "SME", "MMPV"],
-        "GIM": ["ISP", "3MI"],
-        "GMP": ["CAI", "CPD", "IPI", "MPI", "SNRV"],
-        "SGM": ["MIMP", "MCEMP"],
-        "HSE": ["SDMR"]
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV",
+          "SME",
+          "BIAV"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "GMP": [
+          "MPI",
+          "SNRV",
+          "CPD"
+        ],
+        "SGM": [
+          "MIMP",
+          "MCEMP"
+        ],
+        "HSE": [
+          "SDMR"
+        ]
       }
     },
     {
@@ -3125,10 +8508,22 @@
       "region": "Grand Est",
       "lat": 48.2844,
       "lng": 6.9492,
-      "specialite": ["GEII", "INFO", "MMI"],
+      "specialite": [
+        "GEII",
+        "INFO",
+        "MMI"
+      ],
       "parcours": {
-        "MMI": ["CN", "DEV", "STRAT"],
-        "GEII": ["AII", "EME", "ESE"]
+        "MMI": [
+          "CN",
+          "DEV"
+        ],
+        "GEII": [
+          "AII"
+        ],
+        "INFO": [
+          "RACDV"
+        ]
       }
     },
     {
@@ -3141,15 +8536,48 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 45.4341,
       "lng": 4.3992,
-      "specialite": ["GACO", "GB", "GEA", "GEII", "GMP", "MP", "TC"],
+      "specialite": [
+        "GACO",
+        "GB",
+        "GEA",
+        "GEII",
+        "GMP",
+        "MP",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "CG2P"],
-        "GACO": ["MDFS", "MCMO", "MRPE"],
-        "TC": ["MDEE", "BDMRC", "SME", "BIAV"],
-        "GEII": ["AII", "EME", "ESE"],
-        "GMP": ["IPI", "MPI"],
-        "MP": ["TI", "MCPC"],
-        "GB": ["BMB"]
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "GACO": [
+          "MDFS",
+          "MCMO",
+          "MRPE"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "MMPV",
+          "BIAV"
+        ],
+        "GEII": [
+          "ESE",
+          "AII"
+        ],
+        "GMP": [
+          "SNRV",
+          "MPI",
+          "CPD"
+        ],
+        "MP": [
+          "MCPC",
+          "MAE"
+        ],
+        "GB": [
+          "BMB"
+        ]
       }
     },
     {
@@ -3162,12 +8590,30 @@
       "region": "Bretagne",
       "lat": 48.6492,
       "lng": -2.025,
-      "specialite": ["CJ", "GEA", "GIM", "RT"],
+      "specialite": [
+        "CJ",
+        "GEA",
+        "GIM",
+        "RT"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA"],
-        "CJ": ["AJ", "EA", "PF"],
-        "RT": ["CYBER", "DEVCLOUD", "PILPRO"],
-        "GIM": ["ISP", "3MI"]
+        "GEA": [
+          "GC2F",
+          "CG2P"
+        ],
+        "CJ": [
+          "AJ",
+          "EA"
+        ],
+        "RT": [
+          "CYBER",
+          "DEVCLOUD",
+          "PILPRO"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ]
       }
     },
     {
@@ -3180,13 +8626,41 @@
       "region": "Pays de la Loire",
       "lat": 47.2774,
       "lng": -2.2133,
-      "specialite": ["GCCD", "GCGP", "GIM", "MLT", "MP", "TC"],
+      "specialite": [
+        "GCCD",
+        "GCGP",
+        "GIM",
+        "MLT",
+        "MP",
+        "TC"
+      ],
       "parcours": {
-        "TC": ["MDEE", "BDMRC", "BIAV"],
-        "GIM": ["ISP", "3MI"],
-        "MP": ["TI", "MCPC", "MAE"],
-        "GCGP": ["CPOP", "IPP"],
-        "GCCD": ["TB", "TP", "REHAB", "BEC"]
+        "TC": [
+          "BDMRC",
+          "BIAV",
+          "MDEE"
+        ],
+        "GIM": [
+          "ISP"
+        ],
+        "MP": [
+          "MCPC",
+          "MAE",
+          "TI"
+        ],
+        "GCGP": [
+          "CPOP"
+        ],
+        "GCCD": [
+          "BEC",
+          "REHAB",
+          "TB",
+          "TP"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ]
       }
     },
     {
@@ -3199,10 +8673,23 @@
       "region": "Île-de-France",
       "lat": 48.7786,
       "lng": 2.2995,
-      "specialite": ["GEA", "TC"],
+      "specialite": [
+        "GEA",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH", "CG2P"],
-        "TC": ["MDEE", "BDMRC", "BIAV", "SME", "MMPV"]
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV",
+          "SME",
+          "BIAV"
+        ]
       }
     },
     {
@@ -3215,11 +8702,26 @@
       "region": "Grand Est",
       "lat": 48.6095,
       "lng": 7.75,
-      "specialite": ["GB", "GEA", "GIM", "MP"],
+      "specialite": [
+        "GB",
+        "GEA",
+        "GIM",
+        "MP"
+      ],
       "parcours": {
-        "GIM": ["ISP", "3MI"],
-        "MP": ["TI", "MCPC", "MAE"],
-        "GB": ["SAB", "SEE"]
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "MP": [
+          "TI",
+          "MCPC",
+          "MAE"
+        ],
+        "GB": [
+          "SAB",
+          "SEE"
+        ]
       }
     },
     {
@@ -3232,7 +8734,9 @@
       "region": "Grand Est",
       "lat": 48.2595,
       "lng": 7.4548,
-      "specialite": ["GEA"],
+      "specialite": [
+        "GEA"
+      ],
       "parcours": {}
     },
     {
@@ -3245,12 +8749,52 @@
       "region": "Île-de-France",
       "lat": 48.4056,
       "lng": 2.702,
-      "specialite": ["GEA", "INFO", "TC"],
+      "specialite": [
+        "GEA",
+        "INFO",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH", "CG2P"],
-        "TC": ["MDEE", "BDMRC", "SME", "MMPV"],
-        "INFO": ["RACDV", "DACS", "AGED"],
-        "MTEE": ["OPTIM", "REAL"]
+        "GEA": [
+          "GPRH",
+          "GC2F"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV",
+          "SME",
+          "BIAV"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL"
+        ],
+        "CS": [
+          "ASSC",
+          "VTD"
+        ],
+        "GB": [
+          "DIET"
+        ],
+        "GCCD": [
+          "REHAB",
+          "TB",
+          "TP"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "MMI": [
+          "CN",
+          "STRAT"
+        ]
       }
     },
     {
@@ -3275,15 +8819,45 @@
         "TC"
       ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH", "CG2P"],
-        "TC": ["MDEE", "BDMRC", "SME", "MMPV"],
-        "CS": ["ASSC"],
-        "MMI": ["CN", "DEV", "STRAT"],
-        "GEII": ["AII", "ESE", "EME"],
-        "GIM": ["ISP", "3MI"],
-        "GB": ["DIET", "SEE"],
-        "GCCD": ["TB", "TP", "BEC"],
-        "MTEE": ["OPTIM", "REAL"]
+        "GEA": [
+          "GPRH",
+          "GC2F"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV",
+          "SME",
+          "BIAV"
+        ],
+        "CS": [
+          "ASSC",
+          "VTD"
+        ],
+        "MMI": [
+          "CN",
+          "STRAT"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "GB": [
+          "DIET"
+        ],
+        "GCCD": [
+          "REHAB",
+          "TB",
+          "TP"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL"
+        ]
       }
     },
     {
@@ -3296,13 +8870,36 @@
       "region": "Grand Est",
       "lat": 48.5213,
       "lng": 7.7156,
-      "specialite": ["CHIMIE", "GCCD", "INFO", "INFOCOM", "TC"],
+      "specialite": [
+        "CHIMIE",
+        "GCCD",
+        "INFO",
+        "INFOCOM",
+        "TC"
+      ],
       "parcours": {
-        "TC": ["MDEE", "BDMRC", "BIAV", "SME", "MMPV"],
-        "INFOCOM": ["CO", "PUB"],
-        "INFO": ["RACDV", "DACS", "AGED"],
-        "CHIMIE": ["ACQE", "SYN", "MPF"],
-        "GCCD": ["TB", "TP", "REHAB", "BEC"]
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "BIAV"
+        ],
+        "INFOCOM": [
+          "CO",
+          "INO",
+          "PUB"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "CI"
+        ],
+        "GCCD": [
+          "REHAB",
+          "TB",
+          "TP"
+        ]
       }
     },
     {
@@ -3315,15 +8912,46 @@
       "region": "Occitanie",
       "lat": 43.2328,
       "lng": 0.0781,
-      "specialite": ["GCCD", "GEA", "GEII", "GMP", "MMI", "TC"],
+      "specialite": [
+        "GCCD",
+        "GEA",
+        "GEII",
+        "GMP",
+        "MMI",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA"],
-        "TC": ["MDEE", "BDMRC", "SME"],
-        "MMI": ["CN", "DEV", "STRAT"],
-        "GEII": ["AII", "ESE", "EME"],
-        "GMP": ["CAI", "IPI", "MPI"],
-        "GCCD": ["TB", "TP", "REHAB", "BEC"],
-        "MTEE": ["OPTIM", "EXPLOIT"]
+        "GEA": [
+          "GC2F",
+          "CG2P",
+          "GPRH"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "BIAV"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "GEII": [
+          "ESE"
+        ],
+        "GMP": [
+          "CPD",
+          "CPD"
+        ],
+        "GCCD": [
+          "REHAB",
+          "TB",
+          "TP"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "EXPLOIT"
+        ]
       }
     },
     {
@@ -3336,10 +8964,28 @@
       "region": "Grand Est",
       "lat": 49.3608,
       "lng": 6.1857,
-      "specialite": ["GB", "GIM", "HSE", "TC"],
+      "specialite": [
+        "GB",
+        "GIM",
+        "HSE",
+        "TC"
+      ],
       "parcours": {
-        "GIM": ["ISP", "3MI"],
-        "HSE": ["SDMR"]
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "GB": [
+          "BMB"
+        ],
+        "TC": [
+          "MDEE",
+          "BIAV",
+          "BDMRC"
+        ]
       }
     },
     {
@@ -3352,9 +8998,41 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "lat": 43.5369,
       "lng": 6.4672,
-      "specialite": ["GEA"],
+      "specialite": [
+        "GEA"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA"]
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "GB": [
+          "BMB",
+          "DIET"
+        ],
+        "GIM": [
+          "ISP"
+        ],
+        "GMP": [
+          "MPI",
+          "SNRV"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV",
+          "SME"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ]
       }
     },
     {
@@ -3367,15 +9045,47 @@
       "region": "Provence-Alpes-Côte d'Azur",
       "lat": 43.1242,
       "lng": 5.928,
-      "specialite": ["GB", "GEA", "GEII", "GIM", "GMP", "MMI", "TC"],
+      "specialite": [
+        "GB",
+        "GEA",
+        "GEII",
+        "GIM",
+        "GMP",
+        "MMI",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA"],
-        "TC": ["MDEE", "BDMRC", "SME"],
-        "MMI": ["CN", "DEV", "STRAT"],
-        "GEII": ["AII", "ESE", "EME"],
-        "GIM": ["ISP", "3MI"],
-        "GMP": ["CAI", "CPD", "MPI"],
-        "GB": ["BMB", "SEE"]
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV",
+          "SME"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "GIM": [
+          "ISP"
+        ],
+        "GMP": [
+          "MPI",
+          "SNRV"
+        ],
+        "GB": [
+          "BMB",
+          "DIET"
+        ]
       }
     },
     {
@@ -3388,11 +9098,62 @@
       "region": "Occitanie",
       "lat": 43.6476,
       "lng": 0.5853,
-      "specialite": ["GB", "GEA", "HSE"],
+      "specialite": [
+        "GB",
+        "GEA",
+        "HSE"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH", "CG2P"],
-        "GB": ["AGRO", "SAB", "SEE"],
-        "HSE": ["SDMR"]
+        "GEA": [
+          "CG2P"
+        ],
+        "GB": [
+          "AGRO"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "INFOCOM": [
+          "CO",
+          "INO",
+          "MLP"
+        ],
+        "MP": [
+          "MCPC"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE"
+        ],
+        "GCGP": [
+          "CPOP"
+        ],
+        "GCCD": [
+          "TB",
+          "TP",
+          "REHAB"
+        ],
+        "INFO": [
+          "RACDV",
+          "AGED"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "SYN",
+          "MPF"
+        ],
+        "MMI": [
+          "DEV",
+          "STRAT",
+          "CN"
+        ],
+        "PEC": [
+          "EHSC"
+        ]
       }
     },
     {
@@ -3405,12 +9166,64 @@
       "region": "Occitanie",
       "lat": 43.6077,
       "lng": 2.2447,
-      "specialite": ["CHIMIE", "INFO", "MMI", "PEC", "TC"],
+      "specialite": [
+        "CHIMIE",
+        "INFO",
+        "MMI",
+        "PEC",
+        "TC"
+      ],
       "parcours": {
-        "TC": ["MDEE", "BDMRC", "BIAV", "SME", "MMPV"],
-        "MMI": ["CN", "DEV", "STRAT"],
-        "PEC": ["EI", "EHSC"],
-        "CHIMIE": ["ACQE", "SYN", "MPF"]
+        "TC": [
+          "BDMRC",
+          "MDEE"
+        ],
+        "MMI": [
+          "DEV",
+          "STRAT",
+          "CN"
+        ],
+        "PEC": [
+          "EHSC"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "SYN",
+          "MPF"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "GEA": [
+          "CG2P"
+        ],
+        "INFOCOM": [
+          "CO",
+          "INO",
+          "MLP"
+        ],
+        "MP": [
+          "MCPC"
+        ],
+        "GCGP": [
+          "CPOP"
+        ],
+        "GCCD": [
+          "TB",
+          "TP",
+          "REHAB"
+        ],
+        "INFO": [
+          "RACDV",
+          "AGED"
+        ],
+        "GB": [
+          "AGRO"
+        ],
+        "HSE": [
+          "SDMR"
+        ]
       }
     },
     {
@@ -3423,11 +9236,76 @@
       "region": "Occitanie",
       "lat": 43.6047,
       "lng": 1.4442,
-      "specialite": ["GMP"],
+      "specialite": [
+        "GMP"
+      ],
       "parcours": {
-        "GMP": ["CAI", "CPD", "IPI", "MPI", "SNRV"],
-        "QLIO": ["MPBS", "QPSMI"],
-        "MTEE": ["OPTIM", "REAL", "EXPLOIT"]
+        "GMP": [
+          "CAI",
+          "CPD",
+          "IPI",
+          "MPI",
+          "SNRV"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL",
+          "EXPLOIT"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "GEA": [
+          "CG2P"
+        ],
+        "INFOCOM": [
+          "CO",
+          "INO",
+          "MLP"
+        ],
+        "MP": [
+          "MCPC"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE"
+        ],
+        "GCGP": [
+          "CPOP"
+        ],
+        "GCCD": [
+          "TB",
+          "TP",
+          "REHAB"
+        ],
+        "INFO": [
+          "RACDV",
+          "AGED"
+        ],
+        "GB": [
+          "AGRO"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "SYN",
+          "MPF"
+        ],
+        "MMI": [
+          "DEV",
+          "STRAT",
+          "CN"
+        ],
+        "PEC": [
+          "EHSC"
+        ]
       }
     },
     {
@@ -3440,15 +9318,73 @@
       "region": "Occitanie",
       "lat": 43.6047,
       "lng": 1.4442,
-      "specialite": ["GEA", "GEII", "INFOCOM", "MP", "TC"],
+      "specialite": [
+        "GEA",
+        "GEII",
+        "INFOCOM",
+        "MP",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH", "CG2P"],
-        "TC": ["MDEE", "BDMRC", "BIAV", "SME", "MMPV"],
-        "INFOCOM": ["CO", "INO", "MLP"],
-        "GEII": ["AII", "ESE", "EME"],
-        "QLIO": ["MPBS", "QPSMI"],
-        "MP": ["TI", "MCPC", "MAE"],
-        "MTEE": ["OPTIM", "REAL", "EXPLOIT"]
+        "GEA": [
+          "CG2P"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE"
+        ],
+        "INFOCOM": [
+          "CO",
+          "INO",
+          "MLP"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "MP": [
+          "MCPC"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL",
+          "EXPLOIT"
+        ],
+        "GCGP": [
+          "CPOP"
+        ],
+        "GCCD": [
+          "TB",
+          "TP",
+          "REHAB"
+        ],
+        "INFO": [
+          "RACDV",
+          "AGED"
+        ],
+        "GB": [
+          "AGRO"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "SYN",
+          "MPF"
+        ],
+        "MMI": [
+          "DEV",
+          "STRAT",
+          "CN"
+        ],
+        "PEC": [
+          "EHSC"
+        ]
       }
     },
     {
@@ -3461,14 +9397,72 @@
       "region": "Occitanie",
       "lat": 43.6047,
       "lng": 1.4442,
-      "specialite": ["GCCD", "GCGP", "GEA", "INFO"],
+      "specialite": [
+        "GCCD",
+        "GCGP",
+        "GEA",
+        "INFO"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH", "CG2P"],
-        "INFO": ["RACDV", "DACS", "AGED", "IAMSI"],
-        "QLIO": ["MPBS", "QPSMI"],
-        "GCGP": ["CPOP", "CMOB", "IPP"],
-        "GCCD": ["TB", "TP", "REHAB", "BEC"],
-        "MTEE": ["OPTIM", "REAL", "EXPLOIT"]
+        "GEA": [
+          "CG2P"
+        ],
+        "INFO": [
+          "RACDV",
+          "AGED"
+        ],
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
+        "GCGP": [
+          "CPOP"
+        ],
+        "GCCD": [
+          "TB",
+          "TP",
+          "REHAB"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL",
+          "EXPLOIT"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "INFOCOM": [
+          "CO",
+          "INO",
+          "MLP"
+        ],
+        "MP": [
+          "MCPC"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE"
+        ],
+        "GB": [
+          "AGRO"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "CHIMIE": [
+          "ACQE",
+          "SYN",
+          "MPF"
+        ],
+        "MMI": [
+          "DEV",
+          "STRAT",
+          "CN"
+        ],
+        "PEC": [
+          "EHSC"
+        ]
       }
     },
     {
@@ -3481,14 +9475,44 @@
       "region": "Centre-Val de Loire",
       "lat": 47.3941,
       "lng": 0.6848,
-      "specialite": ["CS", "GB", "GEA", "GEII", "INFOCOM", "TC"],
+      "specialite": [
+        "CS",
+        "GB",
+        "GEA",
+        "GEII",
+        "INFOCOM",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH"],
-        "TC": ["MDEE", "BDMRC", "BIAV", "SME", "MMPV"],
-        "CS": ["ASSC"],
-        "INFOCOM": ["CO", "J"],
-        "GEII": ["AII", "ESE", "EME"],
-        "GB": ["BMB", "DIET", "SAB"]
+        "GEA": [
+          "GPRH",
+          "GEMA",
+          "GC2F",
+          "CG2P"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV",
+          "SME"
+        ],
+        "CS": [
+          "ASSC"
+        ],
+        "INFOCOM": [
+          "CO",
+          "INO"
+        ],
+        "GEII": [
+          "AII",
+          "EME",
+          "ESE"
+        ],
+        "GB": [
+          "DIET",
+          "BMB",
+          "SEE"
+        ]
       }
     },
     {
@@ -3501,11 +9525,28 @@
       "region": "Île-de-France",
       "lat": 48.9598,
       "lng": 2.5615,
-      "specialite": ["GEA", "GIM", "MLT"],
+      "specialite": [
+        "GEA",
+        "GIM",
+        "MLT"
+      ],
       "parcours": {
-        "TC": ["BDMRC", "MMPV"],
-        "MLT": ["MSCC", "MSCD"],
-        "GIM": ["ISP", "3MI"]
+        "TC": [
+          "BDMRC",
+          "MMPV"
+        ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
+        ],
+        "GEA": [
+          "GC2F",
+          "GPRH"
+        ]
       }
     },
     {
@@ -3518,14 +9559,41 @@
       "region": "Grand Est",
       "lat": 48.2973,
       "lng": 4.0744,
-      "specialite": ["CJ", "GEA", "GEII", "GMP", "MMI", "TC"],
+      "specialite": [
+        "CJ",
+        "GEA",
+        "GEII",
+        "GMP",
+        "MMI",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH"],
-        "TC": ["MDEE", "BDMRC", "MMPV"],
-        "CJ": ["AJ", "EA", "PF"],
-        "MMI": ["CN", "DEV", "STRAT"],
-        "GEII": ["AII", "ESE", "EME"],
-        "GMP": ["IPI", "MPI", "SNRV"]
+        "GEA": [
+          "GPRH",
+          "GC2F"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV",
+          "BIAV"
+        ],
+        "CJ": [
+          "AJ",
+          "EA"
+        ],
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "GMP": [
+          "SNRV"
+        ]
       }
     },
     {
@@ -3538,12 +9606,28 @@
       "region": "Auvergne-Rhône-Alpes",
       "lat": 44.9334,
       "lng": 4.8924,
-      "specialite": ["GEA", "INFO", "RT", "TC"],
+      "specialite": [
+        "GEA",
+        "INFO",
+        "RT",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "CG2P"],
-        "TC": ["MDEE", "BDMRC", "BIAV"],
-        "RT": ["CYBER", "DEVCLOUD"],
-        "INFO": ["RACDV", "DACS"]
+        "GEA": [
+          "GC2F",
+          "CG2P"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "BIAV"
+        ],
+        "RT": [
+          "CYBER"
+        ],
+        "INFO": [
+          "RACDV"
+        ]
       }
     },
     {
@@ -3556,10 +9640,44 @@
       "region": "Hauts-de-France",
       "lat": 50.1763,
       "lng": 3.232,
-      "specialite": ["QLIO", "TC"],
+      "specialite": [
+        "QLIO",
+        "TC"
+      ],
       "parcours": {
-        "TC": ["MDEE", "BDMRC", "MMPV"],
-        "MTEE": ["OPTIM", "REAL"]
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "SME",
+          "BIAV",
+          "SME"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL"
+        ],
+        "GIM": [
+          "3MI"
+        ],
+        "GMP": [
+          "MPI",
+          "CPD"
+        ],
+        "GEII": [
+          "AII"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS"
+        ],
+        "MP": [
+          "MCPC"
+        ],
+        "GEA": [
+          "GC2F",
+          "GPRH",
+          "GEMA"
+        ]
       }
     },
     {
@@ -3572,11 +9690,48 @@
       "region": "Hauts-de-France",
       "lat": 50.2775,
       "lng": 3.9723,
-      "specialite": ["INFO", "MP"],
+      "specialite": [
+        "INFO",
+        "MP"
+      ],
       "parcours": {
-        "RT": ["CYBER", "IOM"],
-        "MP": ["TI", "MCPC"],
-        "MTEE": ["OPTIM", "REAL"]
+        "RT": [
+          "CYBER",
+          "IOM"
+        ],
+        "MP": [
+          "MCPC"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL"
+        ],
+        "GIM": [
+          "3MI"
+        ],
+        "GMP": [
+          "MPI",
+          "CPD"
+        ],
+        "GEII": [
+          "AII"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "SME",
+          "BIAV",
+          "SME"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS"
+        ],
+        "GEA": [
+          "GC2F",
+          "GPRH",
+          "GEMA"
+        ]
       }
     },
     {
@@ -3589,13 +9744,47 @@
       "region": "Hauts-de-France",
       "lat": 50.3442,
       "lng": 3.522,
-      "specialite": ["GEA", "GEII", "GIM", "GMP", "TC"],
+      "specialite": [
+        "GEA",
+        "GEII",
+        "GIM",
+        "GMP",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "CG2P"],
-        "TC": ["MDEE", "BDMRC", "MMPV"],
-        "GEII": ["AII", "ESE", "EME"],
-        "GMP": ["CPD", "MPI", "SNRV"],
-        "MTEE": ["OPTIM", "REAL"]
+        "GEA": [
+          "GC2F",
+          "GPRH",
+          "GEMA"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "SME",
+          "BIAV",
+          "SME"
+        ],
+        "GEII": [
+          "AII"
+        ],
+        "GMP": [
+          "MPI",
+          "CPD"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL"
+        ],
+        "GIM": [
+          "3MI"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS"
+        ],
+        "MP": [
+          "MCPC"
+        ]
       }
     },
     {
@@ -3608,12 +9797,31 @@
       "region": "Bretagne",
       "lat": 47.6559,
       "lng": -2.7601,
-      "specialite": ["GEA", "INFO", "SD", "TC"],
+      "specialite": [
+        "GEA",
+        "INFO",
+        "SD",
+        "TC"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "GPRH", "CG2P"],
-        "TC": ["MDEE", "BDMRC", "BIAV", "SME"],
-        "INFO": ["RACDV", "DACS", "AGED"],
-        "SD": ["EMS", "VCOD"]
+        "GEA": [
+          "GC2F",
+          "CG2P",
+          "GPRH"
+        ],
+        "TC": [
+          "MDEE",
+          "BDMRC",
+          "BIAV",
+          "SME"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "SD": [
+          "EMS",
+          "VCOD"
+        ]
       }
     },
     {
@@ -3626,11 +9834,39 @@
       "region": "Île-de-France",
       "lat": 48.6461,
       "lng": 1.8294,
-      "specialite": ["GACO", "GCGP", "TC"],
+      "specialite": [
+        "GACO",
+        "GCGP",
+        "TC"
+      ],
       "parcours": {
-        "GACO": ["MDFS", "MCMO", "MRPE"],
-        "TC": ["MDEE", "BDMRC", "BIAV"],
-        "GCGP": ["CPOP", "CMOB"]
+        "GACO": [
+          "MRPE",
+          "MACAST"
+        ],
+        "TC": [
+          "BIAV",
+          "SME",
+          "BDMRC"
+        ],
+        "GCGP": [
+          "CPOP",
+          "CMOB"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "MMI": [
+          "CN",
+          "DEV"
+        ],
+        "RT": [
+          "CYBER"
+        ]
       }
     },
     {
@@ -3643,11 +9879,29 @@
       "region": "Île-de-France",
       "lat": 48.7769,
       "lng": 2.1736,
-      "specialite": ["GEII", "INFO", "MMI", "RT"],
+      "specialite": [
+        "GEII",
+        "INFO",
+        "MMI",
+        "RT"
+      ],
       "parcours": {
-        "MMI": ["CN", "DEV", "STRAT"],
-        "RT": ["CYBER", "DEVCLOUD", "IOM", "PILPRO"],
-        "INFO": ["RACDV", "DACS", "AGED"]
+        "MMI": [
+          "CN",
+          "DEV",
+          "STRAT"
+        ],
+        "RT": [
+          "CYBER",
+          "DEVCLOUD",
+          "IOM",
+          "PILPRO"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED"
+        ]
       }
     },
     {
@@ -3660,7 +9914,10 @@
       "region": "Île-de-France",
       "lat": 48.8924,
       "lng": 2.2072,
-      "specialite": ["GEA", "TC"],
+      "specialite": [
+        "GEA",
+        "TC"
+      ],
       "parcours": {}
     },
     {
@@ -3673,7 +9930,9 @@
       "region": "Île-de-France",
       "lat": 48.8453,
       "lng": 2.2103,
-      "specialite": ["INFOCOM"],
+      "specialite": [
+        "INFOCOM"
+      ],
       "parcours": {}
     },
     {
@@ -3686,11 +9945,27 @@
       "region": "Île-de-France",
       "lat": 48.8267,
       "lng": 2.1909,
-      "specialite": ["GEII", "GMP", "MTEE"],
+      "specialite": [
+        "GEII",
+        "GMP",
+        "MTEE"
+      ],
       "parcours": {
-        "GEII": ["AII", "ESE", "EME"],
-        "GMP": ["IPI", "MPI", "SNRV"],
-        "MTEE": ["OPTIM", "REAL", "EXPLOIT"]
+        "GEII": [
+          "AII",
+          "ESE",
+          "EME"
+        ],
+        "GMP": [
+          "IPI",
+          "MPI",
+          "SNRV"
+        ],
+        "MTEE": [
+          "OPTIM",
+          "REAL",
+          "EXPLOIT"
+        ]
       }
     },
     {
@@ -3703,13 +9978,37 @@
       "region": "Île-de-France",
       "lat": 48.9536,
       "lng": 2.3442,
-      "specialite": ["CJ", "GEA", "GEII", "INFO", "RT", "SD"],
+      "specialite": [
+        "CJ",
+        "GEA",
+        "GEII",
+        "INFO",
+        "RT",
+        "SD"
+      ],
       "parcours": {
-        "GEA": ["GC2F", "GEMA", "CG2P"],
-        "CJ": ["AJ", "EA", "PF"],
-        "GEII": ["AII", "ESE", "EME"],
-        "RT": ["CYBER", "DEVCLOUD", "IOM", "ROM"],
-        "INFO": ["RACDV", "DACS"]
+        "GEA": [
+          "GPRH",
+          "GC2F"
+        ],
+        "CJ": [
+          "AJ",
+          "PF",
+          "EA"
+        ],
+        "GEII": [
+          "ESE"
+        ],
+        "RT": [
+          "CYBER",
+          "ROM"
+        ],
+        "INFO": [
+          "RACDV"
+        ],
+        "SD": [
+          "EMS"
+        ]
       }
     }
   ],
