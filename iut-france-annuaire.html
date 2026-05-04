@@ -974,7 +974,7 @@ function renderButTags(butList, highlight='') {
     const url = BUT_URLS[b];
     let tag;
     if (couleur) {
-      const textColor = b === highlight ? '#ffffff' : darken(couleur);
+      const textColor = '#1b1c26';
       const bg = b === highlight ? couleur : couleur + '26';
       const border = couleur;
       tag = `<span class="but-tag" title="${title}" style="background:${bg};border-color:${border};color:${textColor};display:inline-flex;align-items:center;gap:4px">` +

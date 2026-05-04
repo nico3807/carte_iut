@@ -1,0 +1,5371 @@
+[
+  {
+    "nom_iut": "IUT La Rochelle",
+    "specialite": "Génie biologique",
+    "parcours": [
+      "Biologie médicale et biotechnologie",
+      "Sciences de l’aliment et biotechnologie"
+    ]
+  },
+  {
+    "nom_iut": "IUT La Rochelle",
+    "specialite": "Génie civil – Construction durable",
+    "parcours": [
+      "Bureaux d’études Conception (BEC)",
+      "Réhabilitation et amélioration des performances environnementales des bâtiments (RAPEB)",
+      "Travaux bâtiment (BAT)",
+      "Travaux publics (TP)"
+    ]
+  },
+  {
+    "nom_iut": "IUT La Rochelle",
+    "specialite": "Informatique",
+    "parcours": [
+      "Réalisation d’applications : conception, développement, validation",
+      "Administration, gestion et exploitation des données"
+    ]
+  },
+  {
+    "nom_iut": "IUT La Rochelle",
+    "specialite": "Réseaux & télécommunications",
+    "parcours": [
+      "Cybersécurité"
+    ]
+  },
+  {
+    "nom_iut": "IUT La Rochelle",
+    "specialite": "Techniques de commercialisation",
+    "parcours": [
+      "BDMRC : Business Développement et Management de la Relation Client",
+      "MDEE : Marketing Digital et E-Business et Entrepreneuriat",
+      "I : International Business – Achat et Vente"
+    ]
+  },
+  {
+    "nom_iut": "IUT Le Havre",
+    "specialite": "Carrières Sociales",
+    "parcours": [
+      "Animation sociale et socioculturelle",
+      "Assistance sociale"
+    ]
+  },
+  {
+    "nom_iut": "IUT Le Havre",
+    "specialite": "Gestion des Entreprises et des Administrations",
+    "parcours": [
+      "Gestion et pilotage des ressources humaines",
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités",
+      "Contrôle de gestion et pilotage de la performance"
+    ]
+  },
+  {
+    "nom_iut": "IUT Le Havre",
+    "specialite": "Management de la Logistique et des Transports",
+    "parcours": [
+      "Mobilité et Supply Chain Connectées",
+      "Mobilité et Supply Chain Durables"
+    ]
+  },
+  {
+    "nom_iut": "IUT Le Havre",
+    "specialite": "Génie Mécanique et Productique",
+    "parcours": [
+      "Simulation Numérique et Réalité Virtuelle",
+      "Inspection des Sites Industriels",
+      "Machines Tournantes sous Pression"
+    ]
+  },
+  {
+    "nom_iut": "IUT Le Havre",
+    "specialite": "Génie Electrique et Informatique Industrielle",
+    "parcours": [
+      "Automatisme et Informatique industrielle",
+      "Electricité et maîtrise de l’énergie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Le Havre",
+    "specialite": "Informatique",
+    "parcours": [
+      "Réalisation d’applications : conception, développement, validation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Le Havre",
+    "specialite": "Techniques de Commercialisation",
+    "parcours": [
+      "Business développement et management de la relation client (dispositif Business English+)",
+      "Marketing digital, e-business et entrepreneuriat",
+      "Marketing et management du point de vente",
+      "Commercialisation et conception des produits touristiques"
+    ]
+  },
+  {
+    "nom_iut": "IUT Le Havre",
+    "specialite": "Génie Civil-Construction Durable",
+    "parcours": [
+      "Travaux Bâtiment (BAT)",
+      "Bureau d’Etudes Conception (BEC)",
+      "Réhabilitation et Amélioration des Performances Environnementales des Bâtiments (RAPEB)",
+      "Travaux Publics (TP)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Le Havre",
+    "specialite": "Information Communication",
+    "parcours": [
+      "Publicité (Pub)",
+      "Métiers du Livre et du Patrimoine (MLP)",
+      "Information numérique dans les organisations (INO)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Le Havre",
+    "specialite": "Hygiène Sécurité Environnement",
+    "parcours": [
+      "Science du danger et management des risques professionnels, technologiques et environnementaux"
+    ]
+  },
+  {
+    "nom_iut": "IUT Sceaux",
+    "specialite": "Gestion des Entreprises et des Administrations – GEA",
+    "parcours": [
+      "Gestion et pilotage des ressources humaines",
+      "Gestion, entrepreneuriat et management d’activités",
+      "Gestion comptable, fiscale et financière",
+      "Contrôle de gestion et pilotage de la performance"
+    ]
+  },
+  {
+    "nom_iut": "IUT Sceaux",
+    "specialite": "Techniques de Commercialisation – TC",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Marketing digital, e-business et entrepreneuriat",
+      "Marketing et management du point de vente",
+      "Stratégie de marque et événementiel",
+      "Business international : achat et vente"
+    ]
+  },
+  {
+    "nom_iut": "IUT Chambéry",
+    "specialite": "Gestion administrative et commerciale des organisations",
+    "parcours": [
+      "Management commercial et marketing omnicanal",
+      "Management des fonctions supports"
+    ]
+  },
+  {
+    "nom_iut": "IUT Chambéry",
+    "specialite": "Génie civil – Construction durable",
+    "parcours": [
+      "Travaux publics",
+      "Travaux bâtiment"
+    ]
+  },
+  {
+    "nom_iut": "IUT Chambéry",
+    "specialite": "Métiers du Multimédia et de l'Internet",
+    "parcours": [
+      "Création numérique",
+      "Développement web et dispositifs interactifs"
+    ]
+  },
+  {
+    "nom_iut": "IUT Chambéry",
+    "specialite": "Packaging, emballage et conditionnement",
+    "parcours": [
+      "Eco-conception et industrialisation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Pays de l’Adour",
+    "specialite": "Métiers de la Transition et de l'Efficacité Energétiques",
+    "parcours": [
+      "Optimisation énergétique pour le bâtiment et l’industrie",
+      "Réalisation des installations énergétiques pour le bâtiment et l’industrie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Pays de l’Adour",
+    "specialite": "Science des Données",
+    "parcours": [
+      "Exploration et modélisation statistique",
+      "Visualisation, conception d'outils décisionnels"
+    ]
+  },
+  {
+    "nom_iut": "IUT Tours",
+    "specialite": "Carrières sociales",
+    "parcours": [
+      "Animation sociale et socioculturelle"
+    ]
+  },
+  {
+    "nom_iut": "IUT Tours",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion et pilotage des ressources humaines (GPRH)",
+      "Gestion, entrepreneuriat et management d'activités (GEMA)",
+      "Gestion comptable, fiscale et financière (CGPP)",
+      "Contrôle de gestion et pilotage de la performance (CGPP)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Tours",
+    "specialite": "Génie Biologique",
+    "parcours": [
+      "Diététique et nutrition (DN)",
+      "Biologie médicale et biotechnologie (BMB)",
+      "Sciens de l'environnement et écotechnologies (SEE)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Tours",
+    "specialite": "Information-Communication",
+    "parcours": [
+      "Communication des organisations (COM)",
+      "Information numérique dans les organisations (INO)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Tours",
+    "specialite": "Techniques de commercialisation",
+    "parcours": [
+      "Business développement et management de la relation client (BDMRC)",
+      "Marketing digital, e-business et entrepreneuriat (MDEE)",
+      "Marketing et management du point de vente (MMPV)",
+      "Stratégie de marque et événementiel (SME)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Tours",
+    "specialite": "Génie électrique et informatique industrielle (GEII)",
+    "parcours": [
+      "Auromatisme et informatique industrielle (AII)",
+      "Electricité et maîtrise de l'énergie (EME)",
+      "Electronique et systèmes embarqués (ESE)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Villetaneuse",
+    "specialite": "Carrières Juridiques",
+    "parcours": [
+      "Administration et justice",
+      "Patrimoine et finance",
+      "Entreprise et association"
+    ]
+  },
+  {
+    "nom_iut": "IUT Villetaneuse",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion et pilotage des ressources humaines",
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités"
+    ]
+  },
+  {
+    "nom_iut": "IUT Villetaneuse",
+    "specialite": "Génie électrique et informatique industrielle",
+    "parcours": [
+      "Electricité et maîtrise de l’énergie",
+      "Electronique et systèmes embarqués"
+    ]
+  },
+  {
+    "nom_iut": "IUT Villetaneuse",
+    "specialite": "Informatique",
+    "parcours": [
+      "Réalisation d’applications : conception, développement, validation",
+      "Intégration d’applications et management du système d’information"
+    ]
+  },
+  {
+    "nom_iut": "IUT Villetaneuse",
+    "specialite": "Réseaux et télécommunications",
+    "parcours": [
+      "Cybersécurité",
+      "Réseaux Opérateurs et Multimédia"
+    ]
+  },
+  {
+    "nom_iut": "IUT Villetaneuse",
+    "specialite": "Science des Données",
+    "parcours": [
+      "Exploration et modélisation statistique"
+    ]
+  },
+  {
+    "nom_iut": "IUT Vannes",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités",
+      "Contrôle de gestion et pilotage de la performance",
+      "Gestion et pilotage des ressources humaines"
+    ]
+  },
+  {
+    "nom_iut": "IUT Vannes",
+    "specialite": "Informatique",
+    "parcours": [
+      "Réalisation d’applications : conception, développement, validation",
+      "Déploiement d’applications communicantes et sécurisées"
+    ]
+  },
+  {
+    "nom_iut": "IUT Vannes",
+    "specialite": "Science des Données",
+    "parcours": [
+      "Exploration et modélisation statistique",
+      "Visualisation, conception d'outils décisionnels"
+    ]
+  },
+  {
+    "nom_iut": "IUT Valenciennes",
+    "specialite": "Génie industriel et maintenance",
+    "parcours": [
+      "Ingénierie des systèmes pluri-techniques",
+      "Management, méthodes, maintenance innovante"
+    ]
+  },
+  {
+    "nom_iut": "IUT Valenciennes",
+    "specialite": "Génie mécanique et productique",
+    "parcours": [
+      "Chargé d’affaires industrielles",
+      "Innovation pour l’industrie",
+      "Management de process industriel",
+      "Conception et production durables"
+    ]
+  },
+  {
+    "nom_iut": "IUT Valenciennes",
+    "specialite": "Génie électrique et informatique industrielle",
+    "parcours": [
+      "Automatisme et Informatique industrielle",
+      "Electricité et maîtrise de l’énergie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Valenciennes",
+    "specialite": "Qualité, logistique industrielle et organisation",
+    "parcours": [
+      "Organisation et supply chain",
+      "Qualité et management intégré"
+    ]
+  },
+  {
+    "nom_iut": "IUT Valenciennes",
+    "specialite": "Techniques de commercialisation",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Marketing digital, e-business et entrepreneuriat",
+      "Stratégie de marque et événementiel",
+      "Business international : achat et vente",
+      "Stratégie de marque et évènementiel"
+    ]
+  },
+  {
+    "nom_iut": "IUT Valenciennes",
+    "specialite": "Informatique",
+    "parcours": [
+      "Réalisation d’applications : conception, développement, validation",
+      "Déploiement d'applications communicantes et sécurisées"
+    ]
+  },
+  {
+    "nom_iut": "IUT Valenciennes",
+    "specialite": "Mesures physiques",
+    "parcours": [
+      "Matériaux et contrôles physico-chimiques"
+    ]
+  },
+  {
+    "nom_iut": "IUT Valenciennes",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion comptable, fiscale et financière",
+      "Gestion et pilotage des ressources humaines",
+      "Gestion, entrepreneuriat et management d'activités"
+    ]
+  },
+  {
+    "nom_iut": "IUT Vélizy – Rambouillet",
+    "specialite": "Génie électrique et informatique industrielle",
+    "parcours": [
+      "Automatisme et Informatique industrielle",
+      "Electronique et systèmes embarqués"
+    ]
+  },
+  {
+    "nom_iut": "IUT Vélizy – Rambouillet",
+    "specialite": "Informatique",
+    "parcours": [
+      "Réalisation d’applications : conception, développement, validation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Vélizy – Rambouillet",
+    "specialite": "Métiers du Multimédia et de l'Internet",
+    "parcours": [
+      "Création numérique",
+      "Développement web et dispositif interactif"
+    ]
+  },
+  {
+    "nom_iut": "IUT Vélizy – Rambouillet",
+    "specialite": "Réseaux et télécommunications",
+    "parcours": [
+      "Cybersécurité"
+    ]
+  },
+  {
+    "nom_iut": "IUT Vélizy – Rambouillet",
+    "specialite": "Génie Chimique et Génie des Procédés",
+    "parcours": [
+      "Conception des procédés et innovation technologique",
+      "Contrôle qualité, environnement et sécurité des procédés"
+    ]
+  },
+  {
+    "nom_iut": "IUT Vélizy – Rambouillet",
+    "specialite": "Gestion administrative et commerciale des organisations",
+    "parcours": [
+      "Management responsable de projet et entrepreneuriat",
+      "Management des activités culturelles, artistiques, sportives et de tourisme",
+      "Management des fonctions supports"
+    ]
+  },
+  {
+    "nom_iut": "IUT Vélizy – Rambouillet",
+    "specialite": "Techniques de Commercialisation",
+    "parcours": [
+      "Marketing digital, e-commerce et entrepreneuriat",
+      "Business international : achat et vente",
+      "Stratégie de marque et événementiel",
+      "Business Développement et Management de la Relation Client"
+    ]
+  },
+  {
+    "nom_iut": "IUT Ville d’Avray – Saint-Cloud – Nanterre",
+    "specialite": "Génie mécanique et productique",
+    "parcours": [
+      "Innovation pour l’industrie",
+      "Simulation numérique et réalité virtuelle"
+    ]
+  },
+  {
+    "nom_iut": "IUT Ville d’Avray – Saint-Cloud – Nanterre",
+    "specialite": "Métiers de la Transition et de l'Efficacité Energétiques",
+    "parcours": [
+      "Management de l’énergie pour le bâtiment et l’industrie",
+      "Optimisation énergétique pour le bâtiment et l’industrie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Ville d’Avray – Saint-Cloud – Nanterre",
+    "specialite": "Génie électrique et informatique industrielle",
+    "parcours": [
+      "Automatisme et Informatique industrielle",
+      "Electricité et maîtrise de l’énergie",
+      "Electronique et systèmes embarqués"
+    ]
+  },
+  {
+    "nom_iut": "IUT Ville d’Avray – Saint-Cloud – Nanterre",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion et pilotage des ressources humaines",
+      "Gestion comptable, fiscale et financière"
+    ]
+  },
+  {
+    "nom_iut": "IUT Ville d’Avray – Saint-Cloud – Nanterre",
+    "specialite": "Techniques de commercialisation",
+    "parcours": [
+      "Marketing digital, e-business et entrepreneuriat",
+      "Stratégie de marque et événementiel"
+    ]
+  },
+  {
+    "nom_iut": "IUT Valence",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités",
+      "Contrôle de gestion et pilotage de la performance"
+    ]
+  },
+  {
+    "nom_iut": "IUT Valence",
+    "specialite": "Informatique",
+    "parcours": [
+      "Réalisation d’applications : conception, développement, validation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Valence",
+    "specialite": "Réseaux et télécommunications",
+    "parcours": [
+      "Cybersécurité"
+    ]
+  },
+  {
+    "nom_iut": "IUT Valence",
+    "specialite": "Techniques de commercialisation",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Marketing digital, e-business et entrepreneuriat",
+      "Business international : achat et vente"
+    ]
+  },
+  {
+    "nom_iut": "IUT Tremblay-en-France",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion comptable, fiscale et financière",
+      "Gestion et pilotage des ressources humaines",
+      "Gestion, entrepreneuriat et management d’activités"
+    ]
+  },
+  {
+    "nom_iut": "IUT Tremblay-en-France",
+    "specialite": "Management de la Logistique et des Transports",
+    "parcours": [
+      "Mobilité et Supply Chain Connectées",
+      "Mobilité et Supply Chain Durables"
+    ]
+  },
+  {
+    "nom_iut": "IUT Tremblay-en-France",
+    "specialite": "Génie Industriel et Maintenance",
+    "parcours": [
+      "Ingénierie des Systèmes Pluritechniques",
+      "Management, Méthodes et Maintenances innovantes"
+    ]
+  },
+  {
+    "nom_iut": "IUT Toulouse-Auch-Castres",
+    "specialite": "Génie Électrique Informatique Industrielle",
+    "parcours": [
+      "Automatisme et informatique industrielle",
+      "Électronique et systèmes embarqués"
+    ]
+  },
+  {
+    "nom_iut": "IUT Toulouse-Auch-Castres",
+    "specialite": "Gestion des entreprises et des administrations – Campus de Ponsan",
+    "parcours": [
+      "Gestion comptable, fiscale et financière",
+      "Gestion et pilotage des ressources humaines",
+      "Gestion, entrepreneuriat et management d'activités",
+      "Contrôle de gestion et pilotage de la performance"
+    ]
+  },
+  {
+    "nom_iut": "IUT Toulouse-Auch-Castres",
+    "specialite": "Information-Communication",
+    "parcours": [
+      "Communication des organisations",
+      "Information numérique dans les organisations",
+      "Métiers du livre et du patrimoine"
+    ]
+  },
+  {
+    "nom_iut": "IUT Toulouse-Auch-Castres",
+    "specialite": "Mesures physiques",
+    "parcours": [
+      "Matériaux et contrôles physico-chimiques",
+      "Techniques d’instrumentation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Toulouse-Auch-Castres",
+    "specialite": "Techniques de commercialisation – Campus de Ponsan",
+    "parcours": [
+      "Marketing digital, e-business et entrepreneuriat",
+      "Marketing et management du point de vente",
+      "Business développement et management de la relation client"
+    ]
+  },
+  {
+    "nom_iut": "IUT Toulouse-Auch-Castres",
+    "specialite": "Gestion des Entreprises et des Administrations – Campus de Rangueil",
+    "parcours": [
+      "Gestion comptable, fiscale et financière",
+      "Gestion et pilotage des ressources humaines",
+      "Gestion, entrepreneuriat et management d’activités",
+      "Contrôle de gestion et pilotage de la performance"
+    ]
+  },
+  {
+    "nom_iut": "IUT Toulouse-Auch-Castres",
+    "specialite": "BUT Génie Chimique – Génie des Procédés",
+    "parcours": [
+      "Contrôle, pilotage et optimisation des procédés",
+      "Conception des procédés et innovation technologique"
+    ]
+  },
+  {
+    "nom_iut": "IUT Toulouse-Auch-Castres",
+    "specialite": "Génie civil – Construction durable – Campus de Rangueil",
+    "parcours": [
+      "Travaux bâtiment",
+      "Travaux publics",
+      "Réhabilitation et amélioration des performances environnementales des bâtiments",
+      "Bureaux d’études Conception"
+    ]
+  },
+  {
+    "nom_iut": "IUT Toulouse-Auch-Castres",
+    "specialite": "Informatique – Campus de Rangueil",
+    "parcours": [
+      "Réalisation d’applications : conception, développement, validation",
+      "Déploiement d’applications communicantes et sécurisées",
+      "Administration, gestion et exploitation des données"
+    ]
+  },
+  {
+    "nom_iut": "IUT Toulouse-Auch-Castres",
+    "specialite": "Génie Mécanique et Productique",
+    "parcours": [
+      "Innovation pour l'industrie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Toulouse-Auch-Castres",
+    "specialite": "Gestion des entreprises et des administrations – Campus d'Auch",
+    "parcours": [
+      "Gestion, entrepreneuriat et management d’activités",
+      "Contrôle de gestion et pilotage de la performance"
+    ]
+  },
+  {
+    "nom_iut": "IUT Toulouse-Auch-Castres",
+    "specialite": "Génie biologique",
+    "parcours": [
+      "Agronomie",
+      "Sciences de l’aliment et biotechnologie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Toulouse-Auch-Castres",
+    "specialite": "Hygiène, sécurité, environnement",
+    "parcours": [
+      "Science du danger et management des risques professionnels technologiques et environnementaux"
+    ]
+  },
+  {
+    "nom_iut": "IUT Toulouse-Auch-Castres",
+    "specialite": "Chimie",
+    "parcours": [
+      "Analyse, contrôle-qualité, environnement",
+      "Synthèse",
+      "Matériaux et produits formulés"
+    ]
+  },
+  {
+    "nom_iut": "IUT Toulouse-Auch-Castres",
+    "specialite": "Informatique – campus de Castres",
+    "parcours": [
+      "Réalisation d'applications : conception, développement, validation",
+      "Administration, gestion et exploitation des données"
+    ]
+  },
+  {
+    "nom_iut": "IUT Toulouse-Auch-Castres",
+    "specialite": "Métiers du Multimédia et de l'Internet",
+    "parcours": [
+      "Développement web et dispositifs interactifs",
+      "Stratégie de communication numérique et design d'expérience",
+      "Création numérique"
+    ]
+  },
+  {
+    "nom_iut": "IUT Toulouse-Auch-Castres",
+    "specialite": "Packaging, emballage et conditionnement",
+    "parcours": [
+      "Eco-conception homologation supply chain"
+    ]
+  },
+  {
+    "nom_iut": "IUT Toulouse-Auch-Castres",
+    "specialite": "Techniques de Commercialisation – Campus de Castres",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Marketing digital, e-business et entrepreneuriat"
+    ]
+  },
+  {
+    "nom_iut": "IUT Toulon",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion et pilotage des ressources humaines",
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités",
+      "Contrôle de gestion et pilotage de la performance"
+    ]
+  },
+  {
+    "nom_iut": "IUT Toulon",
+    "specialite": "Génie biologique",
+    "parcours": [
+      "Biologie médicale et biotechnologie",
+      "Diététique et nutrition",
+      "Sciences de l’environnement et écotechnologie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Toulon",
+    "specialite": "Génie industriel et maintenance",
+    "parcours": [
+      "Ingénierie des systèmes pluritechniques"
+    ]
+  },
+  {
+    "nom_iut": "IUT Toulon",
+    "specialite": "Génie mécanique et productique",
+    "parcours": [
+      "Innovation pour l’industrie",
+      "Management des process industriel",
+      "Simulation numérique et réalité virtuelle"
+    ]
+  },
+  {
+    "nom_iut": "IUT Toulon",
+    "specialite": "Génie électrique et informatique industrielle",
+    "parcours": [
+      "Automatisme et Informatique industrielle",
+      "Electricité et maîtrise de l’énergie",
+      "Electronique et systèmes embarqués"
+    ]
+  },
+  {
+    "nom_iut": "IUT Toulon",
+    "specialite": "Techniques de commercialisation",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Marketing digital, e-business et entrepreneuriat",
+      "Marketing et management du point de vente",
+      "Stratégie de marque et événementiel"
+    ]
+  },
+  {
+    "nom_iut": "IUT Toulon",
+    "specialite": "Métiers du Multimédia et de l'Internet",
+    "parcours": [
+      "Création numérique",
+      "Développement web et dispositifs interactifs",
+      "Stratégie de communication numérique et design d’expérience"
+    ]
+  },
+  {
+    "nom_iut": "IUT Troyes",
+    "specialite": "Carrières Juridiques",
+    "parcours": [
+      "Administration et justice",
+      "Entreprise et association"
+    ]
+  },
+  {
+    "nom_iut": "IUT Troyes",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion et pilotage des ressources humaines",
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités"
+    ]
+  },
+  {
+    "nom_iut": "IUT Troyes",
+    "specialite": "Génie mécanique et productique",
+    "parcours": [
+      "Innovation pour l’industrie",
+      "Simulation numérique et réalité virtuelle"
+    ]
+  },
+  {
+    "nom_iut": "IUT Troyes",
+    "specialite": "Génie électrique et informatique industrielle",
+    "parcours": [
+      "Automatisme et Informatique industrielle",
+      "Electronique et systèmes embarqués"
+    ]
+  },
+  {
+    "nom_iut": "IUT Troyes",
+    "specialite": "Métiers du Multimédia et de l'Internet",
+    "parcours": [
+      "Création numérique",
+      "Développement web et dispositifs interactifs",
+      "Stratégie de communication numérique et design d’expérience"
+    ]
+  },
+  {
+    "nom_iut": "IUT Troyes",
+    "specialite": "Techniques de commercialisation",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Marketing digital, e-business et entrepreneuriat",
+      "Marketing et management du point de vente",
+      "Business international : achat et vente"
+    ]
+  },
+  {
+    "nom_iut": "IUT La Réunion",
+    "specialite": "Gestion des Entreprises et des Administrations",
+    "parcours": [
+      "Gestion et Pilotage des Ressources Humaines",
+      "Gestion Comptable, Fiscale et Financière",
+      "Gestion, Entrepreneuriat et Management d’Activités"
+    ]
+  },
+  {
+    "nom_iut": "IUT La Réunion",
+    "specialite": "Génie civil – Construction durable",
+    "parcours": [
+      "Bureaux d’études Conception",
+      "Travaux bâtiment"
+    ]
+  },
+  {
+    "nom_iut": "IUT La Réunion",
+    "specialite": "Génie Biologique",
+    "parcours": [
+      "Sciences de l’Aliment et Biotechnologie",
+      "Sciences de l’Environnement et Ecotechnologies",
+      "Management Intégré Qualité Sécurité Environnement"
+    ]
+  },
+  {
+    "nom_iut": "IUT La Réunion",
+    "specialite": "Réseaux et Télécommunications",
+    "parcours": [
+      "Cybersécurité",
+      "Réseaux Opérateurs et Multimédia",
+      "Ingénierie des Systèmes Automatisés"
+    ]
+  },
+  {
+    "nom_iut": "IUT La Réunion",
+    "specialite": "Carrières Sociales",
+    "parcours": [
+      "Assistance sociale",
+      "Education spécialisée"
+    ]
+  },
+  {
+    "nom_iut": "IUT La Réunion",
+    "specialite": "Hygiène, Sécurité, Environnement",
+    "parcours": [
+      "Science du danger et management des risques professionnels technologiques et environnementaux"
+    ]
+  },
+  {
+    "nom_iut": "IUT La Réunion",
+    "specialite": "Techniques de Commercialisation",
+    "parcours": [
+      "Marketing Digital, E-business et Entrepreneuriat",
+      "Marketing et Management du Point de Vente"
+    ]
+  },
+  {
+    "nom_iut": "IUT Strasbourg – Robert Schuman",
+    "specialite": "Chimie",
+    "parcours": [
+      "Analyse, contrôle-qualité, environnement",
+      "Chimie industrielle"
+    ]
+  },
+  {
+    "nom_iut": "IUT Strasbourg – Robert Schuman",
+    "specialite": "Génie civil construction durable",
+    "parcours": [
+      "Bureaux d’études Conception",
+      "Réhabilitation et amélioration des performances environnementales des bâtiments",
+      "Travaux bâtiment",
+      "Travaux publics"
+    ]
+  },
+  {
+    "nom_iut": "IUT Strasbourg – Robert Schuman",
+    "specialite": "Information-Communication",
+    "parcours": [
+      "Communication des organisations",
+      "Information numérique dans les organisations",
+      "Publicité"
+    ]
+  },
+  {
+    "nom_iut": "IUT Strasbourg – Robert Schuman",
+    "specialite": "Informatique",
+    "parcours": [
+      "Réalisation d’applications : conception, développement, validation",
+      "Intégration d’applications et management du système d’information"
+    ]
+  },
+  {
+    "nom_iut": "IUT Strasbourg – Robert Schuman",
+    "specialite": "Techniques de commercialisation",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Marketing digital, e-business et entrepreneuriat",
+      "Business international : achat et vente"
+    ]
+  },
+  {
+    "nom_iut": "IUT Thionville-Yutz",
+    "specialite": "Génie biologique",
+    "parcours": [
+      "Biologie médicale et biotechnologie",
+      "Sciences de l’aliment et biotechnologie",
+      "Sciences de l’environnement et écotechnologie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Thionville-Yutz",
+    "specialite": "Génie industriel et maintenance",
+    "parcours": [
+      "Ingénierie des systèmes pluritechniques",
+      "Management, méthodes, maintenance innovante"
+    ]
+  },
+  {
+    "nom_iut": "IUT Thionville-Yutz",
+    "specialite": "Hygiène, sécurité, environnement",
+    "parcours": [
+      "Science du danger et management des risques professionnels, technologiques et environnementaux"
+    ]
+  },
+  {
+    "nom_iut": "IUT Thionville-Yutz",
+    "specialite": "Techniques de commercialisation",
+    "parcours": [
+      "Marketing digital, e-business et entrepreneuriat",
+      "Business international : achat et vente",
+      "Business développement et management de la relation client"
+    ]
+  },
+  {
+    "nom_iut": "IUT Sénart-Fontainebleau",
+    "specialite": "Carrières sociales",
+    "parcours": [
+      "Animation sociale et socioculturelle",
+      "Villes et territoires durables"
+    ]
+  },
+  {
+    "nom_iut": "IUT Sénart-Fontainebleau",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion et pilotage des ressources humaines",
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités"
+    ]
+  },
+  {
+    "nom_iut": "IUT Sénart-Fontainebleau",
+    "specialite": "Génie biologique",
+    "parcours": [
+      "Diététique et nutrition",
+      "Sciences de l’environnement et écotechnologie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Sénart-Fontainebleau",
+    "specialite": "Génie civil – Construction durable",
+    "parcours": [
+      "Bureaux d’études Conception",
+      "Réhabilitation et amélioration des performances environnementales des bâtiments",
+      "Travaux bâtiment",
+      "Travaux publics"
+    ]
+  },
+  {
+    "nom_iut": "IUT Sénart-Fontainebleau",
+    "specialite": "Génie électrique et informatique industrielle",
+    "parcours": [
+      "Automatisme et Informatique industrielle",
+      "Electricité et maîtrise de l’énergie",
+      "Electronique et systèmes embarqués"
+    ]
+  },
+  {
+    "nom_iut": "IUT Sénart-Fontainebleau",
+    "specialite": "Métiers du Multimédia et de l'Internet",
+    "parcours": [
+      "Création numérique",
+      "Stratégie de communication numérique et design d’expérience"
+    ]
+  },
+  {
+    "nom_iut": "IUT Sénart-Fontainebleau",
+    "specialite": "Techniques de commercialisation",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Marketing digital, e-business et entrepreneuriat",
+      "Marketing et management du point de vente",
+      "Stratégie de marque et événementiel",
+      "Business international : achat et vente"
+    ]
+  },
+  {
+    "nom_iut": "IUT Tarbes",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités",
+      "Contrôle de gestion et pilotage de la performance",
+      "Gestion et Pilotage des Ressources Humaines"
+    ]
+  },
+  {
+    "nom_iut": "IUT Tarbes",
+    "specialite": "Génie Civil Construction Durable",
+    "parcours": [
+      "Réhabilitation et amélioration des performances environnementales des bâtiments",
+      "Travaux bâtiment",
+      "Travaux publics"
+    ]
+  },
+  {
+    "nom_iut": "IUT Tarbes",
+    "specialite": "Génie mécanique et productique",
+    "parcours": [
+      "Innovation pour l’industrie",
+      "Conception et productions durables",
+      "Conception et production durable"
+    ]
+  },
+  {
+    "nom_iut": "IUT Tarbes",
+    "specialite": "Génie électrique et informatique industrielle",
+    "parcours": [
+      "Electricité et maîtrise de l’énergie",
+      "Electronique et systèmes embarqués"
+    ]
+  },
+  {
+    "nom_iut": "IUT Tarbes",
+    "specialite": "Métiers du Multimédia et de l'Internet",
+    "parcours": [
+      "Création numérique",
+      "Développement web et dispositifs interactifs",
+      "Stratégie de communication numérique et design d’expérience"
+    ]
+  },
+  {
+    "nom_iut": "IUT Tarbes",
+    "specialite": "Techniques de commercialisation",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Marketing digital, e-business et entrepreneuriat",
+      "Business international : achat et vente"
+    ]
+  },
+  {
+    "nom_iut": "UT Strasbourg Louis Pasteur",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités"
+    ]
+  },
+  {
+    "nom_iut": "UT Strasbourg Louis Pasteur",
+    "specialite": "Génie biologique",
+    "parcours": [
+      "Sciences de l’aliment et biotechnologie",
+      "Sciences de l’environnement et écotechnologie"
+    ]
+  },
+  {
+    "nom_iut": "UT Strasbourg Louis Pasteur",
+    "specialite": "Génie industriel et maintenance",
+    "parcours": [
+      "Ingénierie des systèmes pluritechniques",
+      "Management, méthodes, maintenance innovante"
+    ]
+  },
+  {
+    "nom_iut": "UT Strasbourg Louis Pasteur",
+    "specialite": "Mesures physiques",
+    "parcours": [
+      "Matériaux et contrôles physico-chimiques",
+      "Techniques d’instrumentation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Saint-Dié",
+    "specialite": "Génie électrique et informatique industrielle",
+    "parcours": [
+      "Automatisme et Informatique industrielle"
+    ]
+  },
+  {
+    "nom_iut": "IUT Saint-Dié",
+    "specialite": "Informatique",
+    "parcours": [
+      "Réalisation d’applications : conception, développement, validation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Saint-Dié",
+    "specialite": "Métiers du Multimédia et de l'Internet",
+    "parcours": [
+      "Création numérique (orientation : audiovisuel ; orientation : communication et design graphique)",
+      "Développement web et dispositifs interactifs"
+    ]
+  },
+  {
+    "nom_iut": "IUT Saint-Malo",
+    "specialite": "Carrières Juridiques",
+    "parcours": [
+      "Administration et Justice",
+      "Entreprise et Association"
+    ]
+  },
+  {
+    "nom_iut": "IUT Saint-Malo",
+    "specialite": "Gestion des Entreprises et des Administrations",
+    "parcours": [
+      "Gestion Comptable Fiscale et Financière",
+      "Contrôle de Gestion et Pilotage de la Performance",
+      "Gestion Entrepreneuriat et Management des Activités"
+    ]
+  },
+  {
+    "nom_iut": "IUT Saint-Malo",
+    "specialite": "Génie Industriel et Maintenance",
+    "parcours": [
+      "Ingénierie des Systèmes Pluritechniques",
+      "Management, Méthodes, Maintenance Innovante"
+    ]
+  },
+  {
+    "nom_iut": "IUT Saint-Malo",
+    "specialite": "Réseaux et Télécommunications",
+    "parcours": [
+      "Cybersécurité",
+      "Développement Système et Cloud",
+      "Pilotage de Projets Réseaux"
+    ]
+  },
+  {
+    "nom_iut": "IUT Saint-Brieuc",
+    "specialite": "Génie biologique",
+    "parcours": [
+      "Sciences de l’aliment et biotechnologie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Saint-Brieuc",
+    "specialite": "Science et génie des matériaux",
+    "parcours": [
+      "Métiers de la caractérisation et de l’expertise des matériaux et des produits",
+      "Métiers de l’ingénierie des matériaux et des produits"
+    ]
+  },
+  {
+    "nom_iut": "IUT Saint-Brieuc",
+    "specialite": "Techniques de Commercialisation",
+    "parcours": [
+      "Marketing et Management du Point de Vente",
+      "Business Développement et Management de la Relation Client"
+    ]
+  },
+  {
+    "nom_iut": "IUT Saint-Denis",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion et pilotage des ressources humaines",
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités",
+      "Contrôle de gestion et pilotage de la performance"
+    ]
+  },
+  {
+    "nom_iut": "IUT Saint-Denis",
+    "specialite": "Génie industriel et maintenance",
+    "parcours": [
+      "Ingénierie des systèmes pluritechniques",
+      "Management, méthodes, maintenance innovante"
+    ]
+  },
+  {
+    "nom_iut": "IUT Saint-Denis",
+    "specialite": "Génie mécanique et productique",
+    "parcours": [
+      "Chargé d’affaires industrielles",
+      "Innovation pour l’industrie",
+      "Management des process industriel",
+      "Simulation numérique et réalité virtuelle",
+      "Conception et production durable"
+    ]
+  },
+  {
+    "nom_iut": "IUT Saint-Denis",
+    "specialite": "Hygiène, sécurité, environnement",
+    "parcours": [
+      "Science du danger et management des risques professionnels technologiques et environnementaux"
+    ]
+  },
+  {
+    "nom_iut": "IUT Saint-Denis",
+    "specialite": "Mesures physiques",
+    "parcours": [
+      "Techniques d’instrumentation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Saint-Denis",
+    "specialite": "Techniques de commercialisation",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Marketing digital, e-business et entrepreneuriat",
+      "Marketing et management du point de vente",
+      "Stratégie de marque et événementiel",
+      "Business international : achat et vente"
+    ]
+  },
+  {
+    "nom_iut": "IUT Saint-Etienne",
+    "specialite": "Gestion administrative et commerciale des organisations",
+    "parcours": [
+      "Management responsable de projet"
+    ]
+  },
+  {
+    "nom_iut": "IUT Saint-Etienne",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion, entrepreneuriat et management d’activités",
+      "Gestion et pilotage des ressources humaines",
+      "Gestion comptable, fiscale et financière",
+      "Contrôle de gestion et pilotage de la performance"
+    ]
+  },
+  {
+    "nom_iut": "IUT Saint-Etienne",
+    "specialite": "Génie biologique",
+    "parcours": [
+      "Sciences de l’environnement et écotechnologie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Saint-Etienne",
+    "specialite": "Génie mécanique et productique",
+    "parcours": [
+      "Simulation numérique et réalité virtuelle",
+      "Management des process industriel",
+      "Conception et production durable"
+    ]
+  },
+  {
+    "nom_iut": "IUT Saint-Etienne",
+    "specialite": "Génie électrique et informatique industrielle",
+    "parcours": [
+      "Electronique et systèmes embarqués",
+      "Automatisme et Informatique industrielle"
+    ]
+  },
+  {
+    "nom_iut": "IUT Saint-Etienne",
+    "specialite": "Mesures physiques",
+    "parcours": [
+      "Techniques d’instrumentation",
+      "Matériaux et contrôles physico-chimiques",
+      "Mesures et analyses environnementales"
+    ]
+  },
+  {
+    "nom_iut": "IUT Saint-Etienne",
+    "specialite": "Techniques de commercialisation",
+    "parcours": [
+      "Marketing digital, e-business et entrepreneuriat",
+      "Business développement et management de la relation client",
+      "Marketing et management du point de vente",
+      "Business international : achat et vente"
+    ]
+  },
+  {
+    "nom_iut": "IUT Saint-Nazaire",
+    "specialite": "Génie Chimique – Génie des Procédés (GCGP)",
+    "parcours": [
+      "Conception des Procédés et Innovation Technologique (CPIT)",
+      "Contrôle, Pilotage et Optimisation des Procédés (CPOP)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Saint-Nazaire",
+    "specialite": "Génie Civil – Construction Durable (GCCD)",
+    "parcours": [
+      "Bureaux d’Études et Conception (BEC)",
+      "Réhabilitation et Amélioration des Performances Environnementales des Bâtiments (RAPEB)",
+      "Travaux Bâtiment (TB)",
+      "Travaux Publics (TP)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Saint-Nazaire",
+    "specialite": "Génie Industriel et Maintenance (GIM)",
+    "parcours": [
+      "Ingénierie des Systèmes Pluritechniques (ISP)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Saint-Nazaire",
+    "specialite": "Management de la Logistique et des Transports (MLT)",
+    "parcours": [
+      "Mobilité et Supply Chain Connectées (MSCC)",
+      "Mobilité et Supply Chain Durables (MSCD)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Saint-Nazaire",
+    "specialite": "Mesures Physiques (MP)",
+    "parcours": [
+      "Matériaux et Contrôles Physico-Chimiques (MCPC)",
+      "Mesures et Analyses Environnementales (MAE)",
+      "Techniques d’Instrumentation (TI)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Saint-Nazaire",
+    "specialite": "Techniques de Commercialisation (TC)",
+    "parcours": [
+      "Business Développement et Management de la Relation Client (BDMRC)",
+      "Business International : Achat et Vente (BIAV)",
+      "Marketing Digital, E-business et Entrepreneuriat (MDEE)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Rouen",
+    "specialite": "Chimie",
+    "parcours": [
+      "Analyse, contrôle-qualité, environnement",
+      "Synthèse"
+    ]
+  },
+  {
+    "nom_iut": "IUT Rouen",
+    "specialite": "Génie Chimique – Génie des Procédés",
+    "parcours": [
+      "Contrôle-Qualité, environnement et sécurité des procédés"
+    ]
+  },
+  {
+    "nom_iut": "IUT Rouen",
+    "specialite": "Métiers de la Transition et de l'Efficacité Energétiques",
+    "parcours": [
+      "Optimisation énergétique pour le bâtiment et l’industrie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Rouen",
+    "specialite": "Génie Electrique et Informatique Industrielle",
+    "parcours": [
+      "Automatisme et Informatique industrielle",
+      "Electronique et systèmes embarqués"
+    ]
+  },
+  {
+    "nom_iut": "IUT Rouen",
+    "specialite": "Mesures Physiques",
+    "parcours": [
+      "Matériaux et contrôles physico-chimiques",
+      "Mesures et analyses environnementales"
+    ]
+  },
+  {
+    "nom_iut": "IUT Rouen",
+    "specialite": "Carrières Juridiques",
+    "parcours": [
+      "Administration et justice",
+      "Patrimoine et finance",
+      "Entreprise et association"
+    ]
+  },
+  {
+    "nom_iut": "IUT Rouen",
+    "specialite": "Techniques de Commercialisation",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Marketing et management du point de vente",
+      "Business international : achat et vente"
+    ]
+  },
+  {
+    "nom_iut": "IUT Rouen",
+    "specialite": "Métiers du Multimédia et de l'Internet",
+    "parcours": [
+      "Création Numérique",
+      "Développement web et dispositifs interactifs"
+    ]
+  },
+  {
+    "nom_iut": "IUT Rouen",
+    "specialite": "Réseaux et Télécommunications",
+    "parcours": [
+      "Développement Système et Cloud"
+    ]
+  },
+  {
+    "nom_iut": "IUT Poitiers-Niort-Châtellerault",
+    "specialite": "Chimie",
+    "parcours": [
+      "Analyse, contrôle-qualité, environnement"
+    ]
+  },
+  {
+    "nom_iut": "IUT Poitiers-Niort-Châtellerault",
+    "specialite": "Génie Electrique et Informatique Industrielle",
+    "parcours": [
+      "Électricité et Maitrîse de l’Énergie",
+      "Automatisme & Informatique Industrielle"
+    ]
+  },
+  {
+    "nom_iut": "IUT Poitiers-Niort-Châtellerault",
+    "specialite": "Génie Mécanique et Productique",
+    "parcours": [
+      "Innovation pour l’industrie",
+      "Management de process industriel",
+      "Simulation numérique & réalité virtuelle"
+    ]
+  },
+  {
+    "nom_iut": "IUT Poitiers-Niort-Châtellerault",
+    "specialite": "Métiers de la Transition et de l'Efficacité Energétiques",
+    "parcours": [
+      "Management de l’énergie pour le bâtiment et l’industrie",
+      "Optimisation énergétique pour le bâtiment et l’industrie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Poitiers-Niort-Châtellerault",
+    "specialite": "Gestion des Entreprises et des Administrations",
+    "parcours": [
+      "Gestion Comptable Fiscale et Financière",
+      "Gestion et Pilotage des Ressources Humaines",
+      "Gestion, Entrepreneuriat et Management d’Activités",
+      "Chargé de clientèle"
+    ]
+  },
+  {
+    "nom_iut": "IUT Poitiers-Niort-Châtellerault",
+    "specialite": "Mesures Physiques",
+    "parcours": [
+      "Mesures et Analyses Environnementales"
+    ]
+  },
+  {
+    "nom_iut": "IUT Poitiers-Niort-Châtellerault",
+    "specialite": "Réseaux et Télécommunicatons",
+    "parcours": [
+      "Réseaux Opérateurs et Multimédia"
+    ]
+  },
+  {
+    "nom_iut": "IUT Poitiers-Niort-Châtellerault",
+    "specialite": "Techniques de Commercialisation",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Marketing digital, e-business et entrepreneuriat"
+    ]
+  },
+  {
+    "nom_iut": "IUT Poitiers-Niort-Châtellerault",
+    "specialite": "Hygiène – Sécurité – Environnement",
+    "parcours": [
+      "Science du danger et management des risques professionnels, technologiques et environnementaux",
+      "Protection Civile et sécurité des Populations"
+    ]
+  },
+  {
+    "nom_iut": "IUT Poitiers-Niort-Châtellerault",
+    "specialite": "Science des Données",
+    "parcours": [
+      "Exploration et modélisation statistique",
+      "Visualisation, conception d’outils décisionnels"
+    ]
+  },
+  {
+    "nom_iut": "IUT Rennes",
+    "specialite": "Chimie",
+    "parcours": [
+      "Analyse, contrôle-qualité, environnement",
+      "Chimie industrielle",
+      "Synthèse"
+    ]
+  },
+  {
+    "nom_iut": "IUT Rennes",
+    "specialite": "Génie civil – Construction durable",
+    "parcours": [
+      "Bureaux d’études Conception",
+      "Réhabilitation et amélioration des performances environnementales des bâtiments",
+      "Travaux bâtiment",
+      "Travaux publics"
+    ]
+  },
+  {
+    "nom_iut": "IUT Rennes",
+    "specialite": "Génie mécanique et productique",
+    "parcours": [
+      "Management des process industriel",
+      "Simulation numérique et réalité virtuelle",
+      "Conception et production durable"
+    ]
+  },
+  {
+    "nom_iut": "IUT Rennes",
+    "specialite": "Génie électrique et informatique industrielle",
+    "parcours": [
+      "Automatisme et Informatique industrielle",
+      "Electricité et maîtrise de l’énergie",
+      "Electronique et systèmes embarqués"
+    ]
+  },
+  {
+    "nom_iut": "IUT Roanne",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion et pilotage des ressources humaines",
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités"
+    ]
+  },
+  {
+    "nom_iut": "IUT Roanne",
+    "specialite": "Génie industriel et maintenance",
+    "parcours": [
+      "Ingénierie des systèmes pluritechniques",
+      "Management, méthodes, maintenance innovante"
+    ]
+  },
+  {
+    "nom_iut": "IUT Roanne",
+    "specialite": "Qualité, logistique industrielle et organisation",
+    "parcours": [
+      "Qualité et management intégré",
+      "Organisation et supply chain"
+    ]
+  },
+  {
+    "nom_iut": "IUT Roanne",
+    "specialite": "Réseaux et télécommunications",
+    "parcours": [
+      "Cybersécurité",
+      "Réseaux Opérateurs et Multimédia"
+    ]
+  },
+  {
+    "nom_iut": "IUT Reims-Châlons-Charleville",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion et pilotage des ressources humaines",
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités"
+    ]
+  },
+  {
+    "nom_iut": "IUT Reims-Châlons-Charleville",
+    "specialite": "Management de la Logistique et des Transports",
+    "parcours": [
+      "Mobilité et Supply Chain Durables"
+    ]
+  },
+  {
+    "nom_iut": "IUT Reims-Châlons-Charleville",
+    "specialite": "Génie civil – Construction durable",
+    "parcours": [
+      "Bureaux d’études Conception",
+      "Réhabilitation et amélioration des performances environnementales des bâtiments",
+      "Travaux bâtiment",
+      "Travaux publics"
+    ]
+  },
+  {
+    "nom_iut": "IUT Reims-Châlons-Charleville",
+    "specialite": "Génie mécanique et productique",
+    "parcours": [
+      "Innovation pour l’industrie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Reims-Châlons-Charleville",
+    "specialite": "Informatique",
+    "parcours": [
+      "Réalisation d’applications : conception, développement, validation",
+      "Administration, gestion et exploitation des données"
+    ]
+  },
+  {
+    "nom_iut": "IUT Reims-Châlons-Charleville",
+    "specialite": "Mesures physiques",
+    "parcours": [
+      "Matériaux et contrôles physico-chimiques",
+      "Techniques d’instrumentation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Reims-Châlons-Charleville",
+    "specialite": "Packaging, emballage et conditionnement",
+    "parcours": [
+      "Eco-conception homologation supply chain",
+      "Eco-conception et industrialisation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Reims-Châlons-Charleville",
+    "specialite": "Techniques de commercialisation",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Marketing digital, e-business et entrepreneuriat",
+      "Marketing et management du point de vente"
+    ]
+  },
+  {
+    "nom_iut": "IUT Reims-Châlons-Charleville",
+    "specialite": "Carrières sociales",
+    "parcours": [
+      "Animation sociale et socioculturelle",
+      "Villes et territoires durables"
+    ]
+  },
+  {
+    "nom_iut": "IUT Reims-Châlons-Charleville",
+    "specialite": "Génie industriel et maintenance",
+    "parcours": [
+      "Ingénierie des systèmes pluritechniques"
+    ]
+  },
+  {
+    "nom_iut": "IUT Reims-Châlons-Charleville",
+    "specialite": "Réseaux et télécommunications",
+    "parcours": [
+      "Cybersécurité",
+      "Développement Système et Cloud"
+    ]
+  },
+  {
+    "nom_iut": "IUT Quimper",
+    "specialite": "BUT Génie Biologique",
+    "parcours": [
+      "Biologie médicale et biotechnologie",
+      "Sciences de l'aliment et biotechnologie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Quimper",
+    "specialite": "BUT Gestion des Entreprises et des Administrations",
+    "parcours": [
+      "Gestion et pilotage des ressources humaines",
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités"
+    ]
+  },
+  {
+    "nom_iut": "IUT Quimper",
+    "specialite": "BUT Techniques de Commercialisation",
+    "parcours": [
+      "Business, développement et management de la relation client",
+      "Business international : achats et vente",
+      "Marketing digital, e-business et entrepreneuriat"
+    ]
+  },
+  {
+    "nom_iut": "IUT Rodez",
+    "specialite": "Carrières Juridiques",
+    "parcours": [
+      "Patrimoine et finance",
+      "Entreprise et association"
+    ]
+  },
+  {
+    "nom_iut": "IUT Rodez",
+    "specialite": "Gestion des entreprises et des administrations (GEA)",
+    "parcours": [
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités"
+    ]
+  },
+  {
+    "nom_iut": "IUT Rodez",
+    "specialite": "Information-Communication",
+    "parcours": [
+      "Communication des organisations"
+    ]
+  },
+  {
+    "nom_iut": "IUT Rodez",
+    "specialite": "Informatique",
+    "parcours": [
+      "Réalisation d’applications : conception, développement, validation",
+      "Intégration d’applications et management du système d’information"
+    ]
+  },
+  {
+    "nom_iut": "IUT Rodez",
+    "specialite": "Qualité, logistique industrielle et organisation (QLIO)",
+    "parcours": [
+      "Organisation et Supply Chain"
+    ]
+  },
+  {
+    "nom_iut": "IUT Orléans",
+    "specialite": "Chimie",
+    "parcours": [
+      "Analyse, contrôle-qualité, environnement",
+      "Chimie industrielle",
+      "Matériaux et produits formulés",
+      "Synthèse"
+    ]
+  },
+  {
+    "nom_iut": "IUT Orléans",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion et pilotage des ressources humaines",
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités",
+      "Contrôle de gestion et pilotage de la performance"
+    ]
+  },
+  {
+    "nom_iut": "IUT Orléans",
+    "specialite": "Génie mécanique et productique",
+    "parcours": [
+      "Innovation pour l’industrie",
+      "Management des process industriel",
+      "Simulation numérique et réalité virtuelle"
+    ]
+  },
+  {
+    "nom_iut": "IUT Orléans",
+    "specialite": "Informatique",
+    "parcours": [
+      "Réalisation d’applications : conception, développement, validation",
+      "Administration, gestion et exploitation des données"
+    ]
+  },
+  {
+    "nom_iut": "IUT Orléans",
+    "specialite": "Métiers de la Transition et de l'Efficacité Energétiques",
+    "parcours": [
+      "Optimisation énergétique pour le bâtiment et l’industrie",
+      "Réalisation des installations énergétiques pour le bâtiment et l’industrie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Orléans",
+    "specialite": "Qualité, Logistique Industrielle et Organisation",
+    "parcours": [
+      "Organisation et Supply Chain",
+      "Management de la transformation digitale"
+    ]
+  },
+  {
+    "nom_iut": "IUT Perpignan",
+    "specialite": "Gestion des Entreprises et des Administrations",
+    "parcours": [
+      "Gestion et Pilotage des Ressources Humaines",
+      "Gestion comptable, Fiscale et Financière",
+      "Gestion Entrepreneuriat et Management d’Activités"
+    ]
+  },
+  {
+    "nom_iut": "IUT Perpignan",
+    "specialite": "Management de la Logistique et des Transports",
+    "parcours": [
+      "Mobilité et Supply Chain Connectées",
+      "Mobilité et Supply Chain Durables"
+    ]
+  },
+  {
+    "nom_iut": "IUT Perpignan",
+    "specialite": "Génie Biologique",
+    "parcours": [
+      "Agronomie",
+      "Sciences de l’Environnement et Ecotechnologie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Perpignan",
+    "specialite": "Génie Industriel et Maintenance",
+    "parcours": [
+      "Ingénierie des Systèmes Pluritechniques",
+      "Management, Méthodes, Maintenance Innovante"
+    ]
+  },
+  {
+    "nom_iut": "IUT Perpignan",
+    "specialite": "Carrières Juridiques",
+    "parcours": [
+      "Patrimoine et Finance",
+      "Entreprise et Association"
+    ]
+  },
+  {
+    "nom_iut": "IUT Perpignan",
+    "specialite": "Génie chimique et génie des procédés",
+    "parcours": [
+      "Conception des Procédés et Innovation Technologique"
+    ]
+  },
+  {
+    "nom_iut": "IUT Perpignan",
+    "specialite": "Techniques de Commercialisation",
+    "parcours": [
+      "Marketing Digital, E-business et Entrepreneuriat",
+      "Marketing et Management du Point de Vente"
+    ]
+  },
+  {
+    "nom_iut": "IUT Perpignan",
+    "specialite": "Scicence des Données",
+    "parcours": [
+      "Exploration et Modélisation Statistique",
+      "Visualisation et Conception d'Outils Décisionnels"
+    ]
+  },
+  {
+    "nom_iut": "IUT Paris – Rives de Seine",
+    "specialite": "Carrières Sociales",
+    "parcours": [
+      "Animation sociale et socioculturelle",
+      "Assistance sociale",
+      "Coordination et gestion des établissements et services sanitaires et sociaux",
+      "Ingénierie des Services d’Aide à Domicile"
+    ]
+  },
+  {
+    "nom_iut": "IUT Paris – Rives de Seine",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités",
+      "Contrôle de gestion et pilotage de la performance",
+      "Licence Professionnelle Gestion et contrôle des opérations et flux en back et middle office",
+      "Comptabilité Contrôle Audit"
+    ]
+  },
+  {
+    "nom_iut": "IUT Paris – Rives de Seine",
+    "specialite": "Information-Communication",
+    "parcours": [
+      "Communication des organisations",
+      "Métiers du livre et du patrimoine",
+      "Publicité",
+      "Responsable de contenu éditorial web"
+    ]
+  },
+  {
+    "nom_iut": "IUT Paris – Rives de Seine",
+    "specialite": "Informatique",
+    "parcours": [
+      "Réalisation d’applications : conception, développement, validation",
+      "MIAGE (Méthodes Informatiques Appliquées à la Gestion des Entreprises)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Paris – Rives de Seine",
+    "specialite": "Science des Données",
+    "parcours": [
+      "Exploration et modélisation statistique",
+      "Visualisation, conception d'outils décisionnels"
+    ]
+  },
+  {
+    "nom_iut": "IUT Paris – Rives de Seine",
+    "specialite": "Techniques de Commercialisation",
+    "parcours": [
+      "Marketing digital, e-business et entrepreneuriat",
+      "Business International : achat et vente",
+      "Marketing et management du point de vente",
+      "Business développement et management de la relation client",
+      "Chargé-e de clientèle",
+      "Conseiller clientèle expert"
+    ]
+  },
+  {
+    "nom_iut": "IUT Paris Pajol",
+    "specialite": "Mesures physiques",
+    "parcours": [
+      "Matériaux et contrôles physico-chimiques",
+      "Mesures et analyses environnementales",
+      "Techniques d’instrumentation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Orsay",
+    "specialite": "Chimie",
+    "parcours": [
+      "Analyse, contrôle-qualité, environnement",
+      "Chimie industrielle",
+      "Synthèse",
+      "Matériaux et produits formulés"
+    ]
+  },
+  {
+    "nom_iut": "IUT Orsay",
+    "specialite": "Informatique",
+    "parcours": [
+      "Réalisation d’applications : conception, développement, validation",
+      "Administration, gestion et exploitation des données"
+    ]
+  },
+  {
+    "nom_iut": "IUT Orsay",
+    "specialite": "Mesures physiques",
+    "parcours": [
+      "Matériaux et contrôles physico-chimiques",
+      "Mesures et analyses environnementales",
+      "Techniques d’instrumentation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nantes",
+    "specialite": "Génie Mécanique et Productique (GMP)",
+    "parcours": [
+      "Innovation pour l’industrie",
+      "Management des process industriel",
+      "Simulation numérique et réalité virtuelle",
+      "Conception et production durables et citoyennes"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nantes",
+    "specialite": "Métiers de la Transition et de l'Efficacité Energétiques (MT2E)",
+    "parcours": [
+      "Optimisation énergétique pour le bâtiment et l’industrie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nantes",
+    "specialite": "Génie Électrique et Informatique Industrielle (GEII)",
+    "parcours": [
+      "Automatisme et Informatique industrielle",
+      "Électricité et maîtrise de l’énergie",
+      "Electronique et systèmes embarqués"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nantes",
+    "specialite": "Qualité, Logistique Industrielle et Organisation (QLIO)",
+    "parcours": [
+      "Management de la production",
+      "Qualité et management intégré",
+      "Organisation et supply chain",
+      "Management de la transformation digitale"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nantes",
+    "specialite": "Science et Génie des Matériaux (SGM)",
+    "parcours": [
+      "Métiers de la caractérisation et de l’expertise des matériaux et des produits",
+      "Métiers de l’ingénierie des matériaux et des produits",
+      "Métiers du recyclage et de la valorisation des matériaux"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nantes",
+    "specialite": "Gestion des Entreprises et des Administrations (GEA)",
+    "parcours": [
+      "Gestion et pilotage des ressources humaines",
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités",
+      "Contrôle de gestion et pilotage de la performance"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nantes",
+    "specialite": "Informatique (INFO)",
+    "parcours": [
+      "Réalisation d’applications : conception, développement, validation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nantes",
+    "specialite": "Gestion Administrative et Commerciale des Organisations (GACO)",
+    "parcours": [
+      "Management responsable de projet et entrepreneuriat",
+      "Management des activités culturelles, artisitiques, sportives et de tourisme"
+    ]
+  },
+  {
+    "nom_iut": "IUT Oise",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion, entrepreneuriat et management d’activités",
+      "Gestion et pilotage des ressources humaines",
+      "Gestion comptable, fiscale et financière",
+      "Contrôle de gestion et pilotage de la performance"
+    ]
+  },
+  {
+    "nom_iut": "IUT Oise",
+    "specialite": "Techniques de commercialisation",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Marketing digital, e-business et entrepreneuriat",
+      "Marketing et management du point de vente"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nancy-Charlemagne",
+    "specialite": "Gestion des Entreprises et des Administrations",
+    "parcours": [
+      "Gestion et pilotage des ressources humaines",
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nancy-Charlemagne",
+    "specialite": "Information-Communication",
+    "parcours": [
+      "Communication des organisations",
+      "Information numérique dans les organisations",
+      "Métiers du livre et du patrimoine",
+      "Publicité"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nancy-Charlemagne",
+    "specialite": "Informatique",
+    "parcours": [
+      "Réalisation d’applications : conception, développement, validation",
+      "Déploiement d’applications communicantes et sécurisées"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nancy-Charlemagne",
+    "specialite": "Métiers du Multimédia et de l'Internet",
+    "parcours": [
+      "Création numérique",
+      "Développement web et dispositifs interactifs",
+      "Stratégie de communication numérique et design d’expérience"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nancy-Charlemagne",
+    "specialite": "Techniques de Commercialisation",
+    "parcours": [
+      "Business Développement et Management de la Relation Client",
+      "Marketing et Management du Point de Vente",
+      "Stratégie de Marque et Événementiel",
+      "Marketing Digital E-business et Entrepreneuriat",
+      "Business International Achat et Vente"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nice Côte d’Azur",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion et pilotage des ressources humaines",
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités",
+      "Contrôle de gestion et pilotage de la performance"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nice Côte d’Azur",
+    "specialite": "Génie électrique et informatique industrielle",
+    "parcours": [
+      "Marketing digital, e-business et entrepreneuriat",
+      "Stratégie de marque et événementiel",
+      "Automatisme et Informatique industrielle",
+      "Electricité et maîtrise de l’énergie",
+      "Electronique et systèmes embarqués",
+      "Cybersécurité",
+      "Réseaux Mobiles et Internet des Objets"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nice Côte d’Azur",
+    "specialite": "Informatique",
+    "parcours": [
+      "Réalisation d’applications : conception, développement, validation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nice Côte d’Azur",
+    "specialite": "Techniques de commercialisation",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Marketing digital, e-business et entrepreneuriat",
+      "Business international : achat et vente",
+      "Stratégie de marque et événementiel"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nice Côte d’Azur",
+    "specialite": "Information-Communication",
+    "parcours": [
+      "Communication des organisations",
+      "Journalisme"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nice Côte d’Azur",
+    "specialite": "Carrières sociales",
+    "parcours": [
+      "Animation sociale et socioculturelle",
+      "Education spécialisée"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nouvelle-Calédonie",
+    "specialite": "DEPARTEMENT GEA – Gestion des Entreprises et des Administrations",
+    "parcours": [
+      "Gestion comptable, fiscale et financière (GC2F)",
+      "Gestion, entrepreneuriat et management d’activités (GEMA)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nouvelle-Calédonie",
+    "specialite": "DEPARTEMENT MMI – Métiers du Multimédia et de l’Internet",
+    "parcours": [
+      "Développement web et dispositifs interactifs (DWEB-DI)",
+      "Stratégie de communication numérique et design d’expérience (STRAT-UX)",
+      "Licence professionnelle Métiers de la communication : chargé de communication spécialité communication et arts numériques (CAN)",
+      "Licence professionnelle Métiers de l’informatique : applications web (MIAW)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nîmes",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion, entrepreneuriat et management d’activités",
+      "Contrôle de gestion et pilotage de la performance"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nîmes",
+    "specialite": "Génie civil – Construction durable",
+    "parcours": [
+      "Bureaux d’études Conception",
+      "Réhabilitation et amélioration des performances environnementales des bâtiments",
+      "Travaux bâtiment",
+      "Travaux publics"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nîmes",
+    "specialite": "Génie mécanique et productique",
+    "parcours": [
+      "Innovation pour l’industrie",
+      "Management des process industriel"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nîmes",
+    "specialite": "Génie électrique et informatique industrielle",
+    "parcours": [
+      "Automatisme et Informatique industrielle",
+      "Electricité et maîtrise de l’énergie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nîmes",
+    "specialite": "Science et Génie des Matériaux",
+    "parcours": [
+      "Métiers du recyclage et de la valorisation des matériaux",
+      "Métiers de l’ingénierie des matériaux et des produits",
+      "Métiers de la caractérisation et de l’expertise des matériaux et des produits"
+    ]
+  },
+  {
+    "nom_iut": "IUT Mulhouse",
+    "specialite": "Gestion des Entreprises et des Administrations",
+    "parcours": [
+      "Gestion et pilotage des ressources humaines",
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités",
+      "Contrôle de gestion et pilotage de la performance"
+    ]
+  },
+  {
+    "nom_iut": "IUT Mulhouse",
+    "specialite": "Management de la Logistique et des Transports",
+    "parcours": [
+      "Mobilité et Supply Chain Durables"
+    ]
+  },
+  {
+    "nom_iut": "IUT Mulhouse",
+    "specialite": "Génie Mécanique et Productique",
+    "parcours": [
+      "Management des process industriel",
+      "Simulation numérique et réalité virtuelle"
+    ]
+  },
+  {
+    "nom_iut": "IUT Mulhouse",
+    "specialite": "Génie Electrique et Informatique Industrielle",
+    "parcours": [
+      "Automatisme et Informatique industrielle",
+      "Electricité et maîtrise de l’énergie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Mulhouse",
+    "specialite": "Métiers du Multimédia et de l'Internet",
+    "parcours": [
+      "Création numérique",
+      "Développement web et dispositifs interactifs"
+    ]
+  },
+  {
+    "nom_iut": "IUT Mulhouse",
+    "specialite": "Science et Génie des Matériaux",
+    "parcours": [
+      "Métiers de la caractérisation et de l’expertise des matériaux et des produits"
+    ]
+  },
+  {
+    "nom_iut": "IUT Moselle-Est",
+    "specialite": "Gestion administrative et commerciale des organisations",
+    "parcours": [
+      "Management commercial et marketing omnicanal",
+      "Management responsable de projet",
+      "Management des fonctions supports"
+    ]
+  },
+  {
+    "nom_iut": "IUT Moselle-Est",
+    "specialite": "Management de la Logistique et des Transports",
+    "parcours": [
+      "Mobilité et Supply Chain Connectées",
+      "Mobilité et Supply Chain Durables"
+    ]
+  },
+  {
+    "nom_iut": "IUT Moselle-Est",
+    "specialite": "Science et génie des matériaux",
+    "parcours": [
+      "Métiers de la caractérisation et de l’expertise des matériaux et des produits",
+      "Métiers de l’ingénierie des matériaux et des produits"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nancy-Brabois",
+    "specialite": "Génie Biologique Agro-Alimentaire",
+    "parcours": [
+      "Agronomie",
+      "Sciences de l’aliment et biotechnologie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nancy-Brabois",
+    "specialite": "Génie Chimique et Génie des Procédés",
+    "parcours": [
+      "Contrôle, pilotage et optimisation des procédés",
+      "Contrôle-Qualité, environnement et sécurité des procédés"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nancy-Brabois",
+    "specialite": "Génie Civil – Construction Durable",
+    "parcours": [
+      "Bureaux d’études Conception",
+      "Réhabilitation et amélioration des performances environnementales des bâtiments",
+      "Travaux bâtiment",
+      "Travaux publics"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nancy-Brabois",
+    "specialite": "Génie mécanique et productique",
+    "parcours": [
+      "Innovation pour l’industrie",
+      "Management des process industriel",
+      "Simulation numérique et réalité virtuelle"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nancy-Brabois",
+    "specialite": "Génie Electrique et Informatique Industrielle",
+    "parcours": [
+      "Automatisme et Informatique industrielle",
+      "Electricité et maîtrise de l’énergie",
+      "Electronique et systèmes embarqués"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nancy-Brabois",
+    "specialite": "Réseaux et Télécommunications",
+    "parcours": [
+      "Cybersécurité",
+      "Réseaux Opérateurs et Multimédia"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nancy-Brabois",
+    "specialite": "Génie Biologique Santé",
+    "parcours": [
+      "Diététique et nutrition",
+      "Biologie médicale et biotechnologie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Montreuil",
+    "specialite": "Gestion administrative et commerciale des organisations",
+    "parcours": [
+      "Management commercial et marketing omnicanal",
+      "Management des fonctions supports",
+      "Management responsable de projet"
+    ]
+  },
+  {
+    "nom_iut": "IUT Montreuil",
+    "specialite": "Information-Communication",
+    "parcours": [
+      "Communication des organisations"
+    ]
+  },
+  {
+    "nom_iut": "IUT Montreuil",
+    "specialite": "Informatique",
+    "parcours": [
+      "Réalisation d’applications : conception, développement, validation",
+      "Administration, gestion et exploitation des données"
+    ]
+  },
+  {
+    "nom_iut": "IUT  Lyon 3 Jean Moulin",
+    "specialite": "Carrières Juridiques",
+    "parcours": [
+      "Administration et justice",
+      "Patrimoine et finance",
+      "Entreprise et association"
+    ]
+  },
+  {
+    "nom_iut": "IUT  Lyon 3 Jean Moulin",
+    "specialite": "Gestion administrative et commerciale des organisations",
+    "parcours": [
+      "Management commercial et marketing omnicanal",
+      "Management des activités culturelles, artistiques, sportives et de tourisme",
+      "Management responsable de projet"
+    ]
+  },
+  {
+    "nom_iut": "IUT Mantes en Yvelines",
+    "specialite": "Génie mécanique et productique",
+    "parcours": [
+      "Innovation pour l’industrie",
+      "Simulation numérique et réalité virtuelle"
+    ]
+  },
+  {
+    "nom_iut": "IUT Mantes en Yvelines",
+    "specialite": "Hygiène, sécurité, environnement",
+    "parcours": [
+      "Science du danger et management des risques professionnels technologiques et environnementaux"
+    ]
+  },
+  {
+    "nom_iut": "IUT Martinique",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion, entrepreneuriat et management d’activités"
+    ]
+  },
+  {
+    "nom_iut": "IUT Martinique",
+    "specialite": "Management de la Logistique et des Transports",
+    "parcours": [
+      "Mobilité et Supply Chain Connectées"
+    ]
+  },
+  {
+    "nom_iut": "IUT Martinique",
+    "specialite": "Hygiène Sécurité environnement",
+    "parcours": [
+      "Science du danger et management des risques professionnels technologiques et environnementaux"
+    ]
+  },
+  {
+    "nom_iut": "IUT Martinique",
+    "specialite": "Techniques de Commercialisation",
+    "parcours": [
+      "Marketing digital, e-business et entrepreneuriat",
+      "Marketing et management du point de vente"
+    ]
+  },
+  {
+    "nom_iut": "IUT Martinique",
+    "specialite": "Informatique",
+    "parcours": [
+      "Marketing digital, e-business et entrepreneuriat",
+      "Marketing et management du point de vente"
+    ]
+  },
+  {
+    "nom_iut": "IUT Montpellier-Sète",
+    "specialite": "Chimie Montpellier",
+    "parcours": [
+      "Analyse, contrôle-qualité, environnement",
+      "Matériaux et produits formulés",
+      "Synthèse"
+    ]
+  },
+  {
+    "nom_iut": "IUT Montpellier-Sète",
+    "specialite": "Génie Biologique",
+    "parcours": [
+      "Biologie médicale et biotechnologie",
+      "Diététique et nutrition",
+      "Sciences de l’aliment et biotechnologie",
+      "Nutrition et Alimentation Humaine (NAH)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Montpellier-Sète",
+    "specialite": "Mesures Physiques",
+    "parcours": [
+      "Matériaux et contrôles physico-chimiques",
+      "Techniques d’instrumentation",
+      "Maintenance des Systèmes Avioniques"
+    ]
+  },
+  {
+    "nom_iut": "IUT Montpellier-Sète",
+    "specialite": "Génie électrique et informatique industrielle",
+    "parcours": [
+      "Automatisme et Informatique industrielle",
+      "Electricité et maîtrise de l’énergie",
+      "Electronique et systèmes embarqués",
+      "Chargé d'afffaire en ingénierie électrique et électronique",
+      "Gestion et efficacité énergétiqe du bâtiment (GEEB), BEPOS",
+      "Organisation et Sûreté des Systèmes Industriels (OSSI)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Montpellier-Sète",
+    "specialite": "Informatique",
+    "parcours": [
+      "Réalisation d’applications : conception, développement, validation",
+      "Déploiement d’applications communicantes et sécurisées",
+      "Intégration d’applications et management du système d’information",
+      "Réalisation d'applications : conception, développement, validation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Montpellier-Sète",
+    "specialite": "Techniques de commercialisation",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Marketing digital, e-business et entrepreneuriat",
+      "Business international : achat et vente",
+      "Conseiller commercial sur le marché des particuliers – Option Assurance",
+      "Conseiller commerciale sur le marché des particuliers – Option Banque",
+      "Développement durable et achats publics"
+    ]
+  },
+  {
+    "nom_iut": "IUT Montpellier-Sète",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion comptable, fiscale et financière (GC2F)",
+      "Gestion, entrepreneuriat et management d’activités (GEMA)",
+      "Gestion et pilotage des ressources humaines (GPRH)",
+      "Gestion, entrepreneuriat et management d’activités"
+    ]
+  },
+  {
+    "nom_iut": "IUT Montpellier-Sète",
+    "specialite": "Chimie Sète",
+    "parcours": [
+      "Analyse, contrôle-qualité, environnement",
+      "Synthèse",
+      "Génie de l'assainissement et des systèmes de traitement des eaux (GASTE)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Metz",
+    "specialite": "GEA – Gestion des Entreprises et des Administrations",
+    "parcours": [
+      "GEMA : GESTION ENTREPRENEURIAT ET MANAGEMENT D'ACTIVITÉS",
+      "GPRH : GESTION ET PILOTAGE DES RESSOURCES HUMAINES",
+      "GC2F : GESTION COMPTABLE, FISCALE ET FINANCIÈRE",
+      "CGPP : CONTRÔLE DE GESTION ET PILOTAGE DE LA PERFORMANCE",
+      "ASSISTANT DE MANAGER",
+      "BACK OFFICE METIERS TITRES"
+    ]
+  },
+  {
+    "nom_iut": "IUT Metz",
+    "specialite": "GMP – Génie Mécanique et Productique",
+    "parcours": [
+      "SIMULATION NUMÉRIQUE & RÉALITÉ VIRTUELLE (SNRV)",
+      "CONCEPTION ET PRODUCTION DURABLE (CPD)",
+      "INNOVATION POUR INDUSTRIE (2I)",
+      "ROBOTIQUE",
+      "FABRICATION ADDITIVE CONCEPTION DESIGN ET REALISATION"
+    ]
+  },
+  {
+    "nom_iut": "IUT Metz",
+    "specialite": "INFO – INFORMATIQUE",
+    "parcours": [
+      "DÉPLOIEMENT D’APPLICATIONS COMMUNICANTES ET SÉCURISÉES (DACS)",
+      "RÉALISATION D’APPLICATIONS : CONCEPTION, DÉVELOPPEMENT, VALIDATION (RA)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Metz",
+    "specialite": "SD – Science des Données",
+    "parcours": [
+      "EXPLORATION ET MODÉLISATION STATISTIQUE (EMS)",
+      "PARCOURS VISUALISATION ET CONCEPTION D’OUTIL DÉCISIONNEL (VCOD)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Metz",
+    "specialite": "TC – TECHNIQUES DE COMMERCIALISATION",
+    "parcours": [
+      "PARCOURS MARKETING DIGITAL, E-BUSINESS ET ENTREPRENEURIAT (MD2E)",
+      "PARCOURS BUSINESS INTERNATIONAL : ACHAT ET VENTE (BIAV)",
+      "PARCOURS MARKETING ET MANAGEMENT DU POINT DE VENTE (2MPV)",
+      "PARCOURS BUSINESS DÉVELOPPEMENT ET MANAGEMENT DE LA RELATION CLIENT (BDMRC)",
+      "PARCOURS STRATÉGIE DE MARQUE ET ÉVÉNEMENTIEL (SME)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Metz",
+    "specialite": "MP – MESURES PHYSIQUES",
+    "parcours": [
+      "TECHNIQUES D’INSTRUMENTATION (TI)",
+      "MATÉRIAUX ET CONTRÔLES PHYSICO-CHIMIQUES (MCPC)",
+      "MESURES ET ANALYSES ENVIRONNEMENTALES (MAE)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Marne-la-Vallée",
+    "specialite": "Génie Civil – Construction Durable",
+    "parcours": [
+      "Bureaux d’Etudes Conception",
+      "Travaux Bâtiment",
+      "Travaux Publics"
+    ]
+  },
+  {
+    "nom_iut": "IUT Marne-la-Vallée",
+    "specialite": "Méiers de la Transition et de l'Efficacité Energétiques",
+    "parcours": [
+      "Exploitation des installations énergétiques pour le bâtiment et l’industrie",
+      "Management de l’énergie pour le bâtiment et l’industrie",
+      "Optimisation énergétique pour le bâtiment et l’industrie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Marne-la-Vallée",
+    "specialite": "Informatique",
+    "parcours": [
+      "Réalisation d’applications : conception, développement, validation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Marne-la-Vallée",
+    "specialite": "Métiers du Multimédia et de l'Internet",
+    "parcours": [
+      "Création numérique",
+      "Développement web et dispositifs interactifs"
+    ]
+  },
+  {
+    "nom_iut": "IUT Marne-la-Vallée",
+    "specialite": "Techniques de Commercialisation",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Marketing digital, e-business et entrepreneuriat",
+      "Marketing et management du point de vente",
+      "Stratégie de marque et événementiel",
+      "Business international : achat et vente"
+    ]
+  },
+  {
+    "nom_iut": "IUT Marne-la-Vallée",
+    "specialite": "Gestion des Entreprises et des Administrations",
+    "parcours": [
+      "Gestion Comptable, Fiscale et Financière (CG2F)",
+      "Contrôle de gestion et Pilotage de la Performance (CG2P)",
+      "Gestion, Entreprenariat et Management des Activités (GEMA)",
+      "Gestion et Pilotage des Ressources Humaines (GPRH)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lyon 2 Lumière",
+    "specialite": "Gestion des Entreprises et des Administrations",
+    "parcours": [
+      "Gestion et pilotage des ressources humaines (GPRH)",
+      "Gestion comptable, fiscale et financière (GC2F)",
+      "Gestion, entrepreneuriat et management d’activités (GEMA)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lyon 2 Lumière",
+    "specialite": "Management de la Logistique et des Transports",
+    "parcours": [
+      "Mobilité et Supply Chain Connectées (MSCC)",
+      "Mobilité et Supply Chain Durables (MSCD)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lyon 2 Lumière",
+    "specialite": "Hygiéne, sécurité, environnement",
+    "parcours": [
+      "Science du danger et management des risques professionnels technologiques et environnementaux"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lyon 2 Lumière",
+    "specialite": "Qualité, logistique industrielle et organisation",
+    "parcours": [
+      "Qualité et management intégré",
+      "Organisation et supply chain",
+      "Management de la transformation digitale"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lyon 2 Lumière",
+    "specialite": "BUT Science des Données",
+    "parcours": [
+      "Exploration et modélisation statistique (EMS)",
+      "Visualisation, conception d'outils décisionnels (VCOD)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lyon 1",
+    "specialite": "Métiers de la Transition et de l'Efficacité Energétiques",
+    "parcours": [
+      "Optimisation énergétique pour le bâtiment et l’industrie",
+      "Réalisation des installations énergétiques pour le bâtiment et l’industrie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lyon 1",
+    "specialite": "Informatique",
+    "parcours": [
+      "Réalisation d’applications : conception, développement, validation",
+      "Administration, gestion et exploitation des données",
+      "Déploiement d’applications communicantes et sécurisées"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lyon 1",
+    "specialite": "Gestion des Entreprises et des Administrations",
+    "parcours": [
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités",
+      "Gestion et pilotage des ressources humaines"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lyon 1",
+    "specialite": "Génie biologique",
+    "parcours": [
+      "Sciences de l’aliment et biotechnologie",
+      "Agronomie",
+      "Biologie médicale et biotechnologie",
+      "Diététique et nutrition"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lyon 1",
+    "specialite": "Chimie",
+    "parcours": [
+      "Analyse, contrôle-qualité, environnement",
+      "Chimie industrielle",
+      "Synthèse",
+      "Matériaux et produits formulés"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lyon 1",
+    "specialite": "Génie chimique et génie des procédés",
+    "parcours": [
+      "Conception des procédés et innovation technologique",
+      "Contrôle, pilotage et optimisation des procédés"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lyon 1",
+    "specialite": "Génie civil – Construction durable",
+    "parcours": [
+      "Bureaux d’études Conception",
+      "Réhabilitation et amélioration des performances environnementales des bâtiments",
+      "Travaux bâtiment",
+      "Travaux publics"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lyon 1",
+    "specialite": "Génie Électrique et Informatique Industrielle",
+    "parcours": [
+      "Automatisme et Informatique Industrielle",
+      "Électricité et maitrise de l’énergie",
+      "Électronique et systèmes embarqués"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lyon 1",
+    "specialite": "Génie Industriel et Maintenance",
+    "parcours": [
+      "Ingénierie des systèmes pluritechniques"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lyon 1",
+    "specialite": "Génie Mécanique et Productique",
+    "parcours": [
+      "Chargé d’affaires industrielles",
+      "Conception et production durables",
+      "Innovation pour l’industrie",
+      "Management de process industriel",
+      "Simulation numérique et réalité virtuelle"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lyon 1",
+    "specialite": "Techniques de Commercialisation",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Business international : achat et vente",
+      "Marketing digital, e-business et entrepreneuriat",
+      "Stratégie de marque et événementiel"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lyon 1",
+    "specialite": "Techniques de Commercialisation, orientation Systèmes Industriels",
+    "parcours": [
+      "Business développement et management de la relation client"
+    ]
+  },
+  {
+    "nom_iut": "IUT Littoral Côte d’Opale",
+    "specialite": "BUT GEA : Gestion des Entreprises et des Administrations",
+    "parcours": [
+      "Gestion et Pilotage des Ressources Humaines",
+      "Gestion Comptable, Fiscale et Financière"
+    ]
+  },
+  {
+    "nom_iut": "IUT Littoral Côte d’Opale",
+    "specialite": "BUT GEII : Génie Electrique et Informatique Industrielle",
+    "parcours": [
+      "Automatisme et Informatique Industrielle",
+      "Electronique et Systèmes Embarqués"
+    ]
+  },
+  {
+    "nom_iut": "IUT Littoral Côte d’Opale",
+    "specialite": "BUT INFO : Informatique",
+    "parcours": [
+      "Réalisation d'Applications : Conception, Développement, Validation",
+      "Déploiement d'Applications Communicantes et Sécurisées"
+    ]
+  },
+  {
+    "nom_iut": "IUT Littoral Côte d’Opale",
+    "specialite": "BUT GB : Génie Biologique",
+    "parcours": [
+      "Sciences de l’Aliment et Biotechnologie",
+      "Sciences de l’Environnement et Ecotechnologie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Littoral Côte d’Opale",
+    "specialite": "BUT MT2E : Métiers de la Transition et de l'Efficacité Energétiques",
+    "parcours": [
+      "Management de l’Energie pour le Bâtiment et l’Industrie",
+      "Optimisation Energétique pour le Bâtiment et l’Industrie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Littoral Côte d’Opale",
+    "specialite": "BUT TC : Techniques de Commercialisation",
+    "parcours": [
+      "Business Développement et Management de la Relation Client",
+      "Marketing Digital, e-business et Entrepreneuriat",
+      "Marketing et Management du point de vente"
+    ]
+  },
+  {
+    "nom_iut": "IUT Littoral Côte d’Opale",
+    "specialite": "BUT MLT : Management de la Logistique et des Transports",
+    "parcours": [
+      "Parcours MSCC : Mobilité et Supply Chain Connectées",
+      "Parcours MSCD : Mobilité et Supply Chain Durables"
+    ]
+  },
+  {
+    "nom_iut": "IUT Littoral Côte d’Opale",
+    "specialite": "BUT GIM : Génie Industriel et Maintenance",
+    "parcours": [
+      "Ingénierie des Systèmes Pluritechniques",
+      "Management, Méthodes, Maintenance Innovantes"
+    ]
+  },
+  {
+    "nom_iut": "IUT Littoral Côte d’Opale",
+    "specialite": "BUT GACO : Gestion Administrative et Commerciale des Organisations",
+    "parcours": [
+      "MDFS : Management des Fonctions Support",
+      "MCMO : Management Commercial et Marketing Omnicanal",
+      "MACAST : Management des Activités Culturelles, Artistiques, Sportives ou de Tourisme"
+    ]
+  },
+  {
+    "nom_iut": "IUT Henri Poincaré Longwy",
+    "specialite": "Métiers de la Transition et de l'Efficacité Energétiques",
+    "parcours": [
+      "Exploitation des installations énergétiques pour le bâtiment et l’industrie",
+      "Management de l’énergie pour le bâtiment et l’industrie",
+      "Optimisation énergétique pour le bâtiment et l’industrie",
+      "Réalisation des installations énergétiques pour le bâtiment et l’industrie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Henri Poincaré Longwy",
+    "specialite": "Génie Electrique et Informatique Industrielle",
+    "parcours": [
+      "Automatisme et Informatique industrielle",
+      "Electricité et maîtrise de l’énergie",
+      "Electronique et systèmes embarqués"
+    ]
+  },
+  {
+    "nom_iut": "IUT Henri Poincaré Longwy",
+    "specialite": "Génie électrique et informatique industrielle",
+    "parcours": [
+      "Automatisme et Informatique industrielle",
+      "Electricité et maîtrise de l’énergie",
+      "Electronique et systèmes embarqués"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lorient – Pontivy",
+    "specialite": "Génie Industriel et Maintenance (GIM)",
+    "parcours": [
+      "Ingénierie des Système Pluritechniques (ISP)",
+      "Management Méthodes et Maintenance Innovante (3MI)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lorient – Pontivy",
+    "specialite": "Hygiène Sécurité Environnement (HSE)",
+    "parcours": [
+      "Science du danger et management des risques professionnels, technologiques et environnementaux"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lorient – Pontivy",
+    "specialite": "Métiers de la Transition et de l'Efficacité Energétiques (MT2E – ex GTE)",
+    "parcours": [
+      "Optimisation Energétique pour le Bâtiment et l'Industrie (OPTIM)",
+      "Réalisation des Installations Energétiques pour le Bâtiment et l'Industrie (REAL)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lorient – Pontivy",
+    "specialite": "Qualité, Logistique Industrielle et Organisation (QLIO)",
+    "parcours": [
+      "Management de la Production (MP)",
+      "Management de la Transformation Digitale (MTD)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lorient – Pontivy",
+    "specialite": "Génie Chimique Génie des Procédés (GCGP)",
+    "parcours": [
+      "Conception des Procédés et Innovation Technologique (CPIT)",
+      "Contrôle, Qualité, Environnement et Sécurité des Procédés (CQESP)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lorient – Pontivy",
+    "specialite": "Gestion Administrative et Commerciale des Organisations (GACO)",
+    "parcours": [
+      "Management des Fonctions Supports (MDFS)",
+      "Management Commercial et Marketing Omnicanal (MCMO)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Le Mans",
+    "specialite": "Chimie",
+    "parcours": [
+      "Analyse, contrôle-qualité, environnement",
+      "Matériaux et produits formulés",
+      "Synthèse"
+    ]
+  },
+  {
+    "nom_iut": "IUT Le Mans",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion et pilotage des ressources humaines",
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités",
+      "Banque"
+    ]
+  },
+  {
+    "nom_iut": "IUT Le Mans",
+    "specialite": "Génie mécanique et productique",
+    "parcours": [
+      "Innovation pour l’industrie",
+      "Simulation numérique et réalité virtuelle"
+    ]
+  },
+  {
+    "nom_iut": "IUT Le Mans",
+    "specialite": "Mesures physiques",
+    "parcours": [
+      "Matériaux et contrôles physico-chimiques",
+      "Mesures et analyses environnementales"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lens",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion et pilotage des ressources humaines",
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités",
+      "Contrôle de gestion et pilotage de la performance"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lens",
+    "specialite": "Informatique",
+    "parcours": [
+      "Réalisation d’applications : conception, développement, validation",
+      "Déploiement d’applications communicantes et sécurisées",
+      "Administration, gestion et exploitation des données"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lens",
+    "specialite": "Métiers du Multimédia et de l'Internet",
+    "parcours": [
+      "Création numérique",
+      "Développement web et dispositifs interactifs",
+      "Stratégie de communication numérique et design d’expérience"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lens",
+    "specialite": "Techniques de commercialisation",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Marketing digital, e-business et entrepreneuriat",
+      "Marketing et management du point de vente",
+      "Stratégie de marque et événementiel"
+    ]
+  },
+  {
+    "nom_iut": "IUT Limousin",
+    "specialite": "Gestion des Entreprises et des Administrations",
+    "parcours": [
+      "Gestion et pilotage des ressources humaines",
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités",
+      "Contrôle de gestion et pilotage de la performance"
+    ]
+  },
+  {
+    "nom_iut": "IUT Limousin",
+    "specialite": "Techniques de Commercialisation",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Marketing digital, e-business et entrepreneuriat",
+      "Marketing et management du point de vente"
+    ]
+  },
+  {
+    "nom_iut": "IUT Limousin",
+    "specialite": "Informatique",
+    "parcours": [
+      "Réalisation d’applications : conception, développement, validation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Limousin",
+    "specialite": "Métiers du Multimédia et de l'Internet",
+    "parcours": [
+      "Création numérique",
+      "Développement web et dispositifs interactifs"
+    ]
+  },
+  {
+    "nom_iut": "IUT Limousin",
+    "specialite": "Génie Biologique",
+    "parcours": [
+      "Sciences de l’aliment et biotechnologie",
+      "Biologie Médicale et Biotechnologie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Limousin",
+    "specialite": "Mesures Physiques",
+    "parcours": [
+      "Matériaux et contrôles physico-chimiques",
+      "Techniques d’instrumentation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Limousin",
+    "specialite": "Génie Mécanique et Productique",
+    "parcours": [
+      "Innovation pour l’industrie",
+      "Management des process industriel",
+      "Simulation numérique et réalité virtuelle"
+    ]
+  },
+  {
+    "nom_iut": "IUT Limousin",
+    "specialite": "Génie Électrique et Informatique Industrielle",
+    "parcours": [
+      "Electricité et maîtrise de l’énergie",
+      "Electronique et systèmes embarqués"
+    ]
+  },
+  {
+    "nom_iut": "IUT Limousin",
+    "specialite": "Génie civil – Construction durable",
+    "parcours": [
+      "Bureaux d’études Conception",
+      "Réhabilitation et amélioration des performances environnementales des bâtiments",
+      "Travaux bâtiment",
+      "Travaux publics"
+    ]
+  },
+  {
+    "nom_iut": "IUT Limousin",
+    "specialite": "Carrières sociales",
+    "parcours": [
+      "Animation sociale et socioculturelle"
+    ]
+  },
+  {
+    "nom_iut": "IUT Limousin",
+    "specialite": "Génie Industriel et Maintenance",
+    "parcours": [
+      "Ingéniérie des Systèmes Pluritechniques"
+    ]
+  },
+  {
+    "nom_iut": "IUT Limousin",
+    "specialite": "Hygiène, Sécurité, Environnement",
+    "parcours": [
+      "Science du Danger et Management des Risques Professionnels Technologiques et Environnementaux"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lille",
+    "specialite": "Chimie",
+    "parcours": [
+      "Chimie (1re année commune)",
+      "ACE – Analyse, contrôle-qualité, environnement (en 2e et 3e année)",
+      "MPF – Matériaux et produits formulés (en 2e et 3e année)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lille",
+    "specialite": "Génie Biologique (GB)",
+    "parcours": [
+      "BMB – Biologie médicale et biotechnologies (dès la 1re année)",
+      "DN – Diététique et nutrition (dès la 1re année)",
+      "SAB – Sciences des aliments et biotechnologies (dès la 1re année)",
+      "Sécurité et qualité dans l'alimentation (SQAL)",
+      "Systèmes de management intégrés dans les organisations industrielles"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lille",
+    "specialite": "Gestion des Entreprises et des Administrations (GEA)",
+    "parcours": [
+      "GEA – Gestion des Entreprises et des Administrations (1re année commune)",
+      "GC2F – Gestion comptable, fiscale et financière (en 2e et 3e année)",
+      "CG2P – Contrôle de gestion et pilotage de la performance (en 2e et 3e année)",
+      "GPRH – Gestion et pilotage des ressources humaines (en 2e et 3e année)",
+      "GEMA – Gestion, entrepreneuriat et management des activités (en 2e et 3e année)",
+      "GEA – Gestion des Entreprises et des Administrations (1re année)",
+      "Collaborateur social et paie (CSP)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lille",
+    "specialite": "Génie Electrique et Informatique Industrielle (GEII)",
+    "parcours": [
+      "GEII – Génie électrique et informatique industrielle (1re année commune)",
+      "ESE – Electronique et systèmes embarqués (en 2e et 3e année)",
+      "EME – Electricité et maîtrise de l’énergie (en 2e et 3e année)",
+      "A2I – Automatisme et informatique industrielle (en 2e et 3e année)",
+      "Maintenance des transports guidés (MTG)",
+      "Robotique collaborative et mobile (RoboCoM)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lille",
+    "specialite": "Génie Mécanique et Productique (GMP)",
+    "parcours": [
+      "GMP – Génie mécanique et productique (1re année commune)",
+      "CPD – Conception et production durables (en 2e et 3e année)",
+      "II – Innovation pour l’industrie (en 2e et 3e année)",
+      "MPI – Management de process industriels (en 2e et 3e année)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lille",
+    "specialite": "Informatique",
+    "parcours": [
+      "Informatique (1re année commune)",
+      "A – Réalisation d’application : conception, développement, validation (en 2e et 3e année)",
+      "B – Déploiement d’application communicantes et sécurisées (en 2e et 3e année)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lille",
+    "specialite": "Mesures Physiques (MP)",
+    "parcours": [
+      "MP – Mesures physiques (1re année commune)",
+      "TI – Techniques d’instrumentation (en 2e et 3e année)",
+      "MCPC – Matériaux et contrôles physico-chimiques (en 2e et 3e année)",
+      "MAE – Mesures et analyses environnementales (en 2e et 3e année, uniquement en apprentissage)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lille",
+    "specialite": "Carrières Sociales (CS)",
+    "parcours": [
+      "ES – Education spécialisée / DEES – Diplôme d’état d’éducateur spécialisé (dès la 1re année)",
+      "ASSC – Animation sociale et socio-culturelle (dès la 1re année)",
+      "VTD – Villes et territoires durables (dès la 1re année)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lille",
+    "specialite": "Information et Communication (Infocom)",
+    "parcours": [
+      "CDO – Communication des organisations (dès la 1re année)",
+      "MELI – Métiers du livre et du patrimoine – Filière édition-librairie (dès la 1re année)",
+      "Librairie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lille",
+    "specialite": "Management de la Logistique et des Transports (MLT)",
+    "parcours": [
+      "MLT – Management de la logistique et des transports (1re année commune)",
+      "MMSCC – Management de la mobilité et de la supply chain connectées (en 2e et 3e année)",
+      "MMSCD – Management de la logistique et des transports (en 2e et 3e année)",
+      "MLT – Management de la logistique et des transports (1re année)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lille",
+    "specialite": "Carrières Juridiques (CJ)",
+    "parcours": [
+      "CJ – Carrières juridiques (1re année commune)",
+      "AJ – Administration et justice (en 2e et 3e année)",
+      "PF – Patrimoine et finance (en 2e et 3e année)",
+      "AE – Associations et entreprises (en 2e et 3e année)",
+      "Contrôle de gestion",
+      "Gestion et admnistration de biens",
+      "Transaction et commercialisation de biens",
+      "Management de la sécurité publique et privée",
+      "Juriste à l'international"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lille",
+    "specialite": "Science des Données (SD)",
+    "parcours": [
+      "SD – Science des données (1re année commune)",
+      "EMS – Exploration et modélisation statistique (en 2e et 3e année)",
+      "VCOD – Visualisation, conception d’outils décisionnels (en 2e et 3e année)",
+      "Gestion de la qualité"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lille",
+    "specialite": "Techniques de Commercialisation (TC)",
+    "parcours": [
+      "TC – Techniques de commercialisation (1re année commune)",
+      "MD – Marketing digital e-commerce et entrepreneuriat (en 2e et 3e année, par apprentissage)",
+      "BI – International business achat et vente (en 2e et 3e année, par apprentissage)",
+      "MM – Retail et management du point de vente (en 2e et 3e année)",
+      "BD – Business development et gestion de la relation client (en 2e et 3e année)",
+      "SME – Stratégie de marque et évènementiel (en 2e et 3e année)",
+      "Business to business",
+      "E-commerce",
+      "Gestion des achats et des approvisionnements"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lannion",
+    "specialite": "Information-Communication",
+    "parcours": [
+      "Journalisme",
+      "Communication des organisations"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lannion",
+    "specialite": "Informatique",
+    "parcours": [
+      "Réalisation d’applications : conception, développement, validation",
+      "Administration, gestion et exploitation des données"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lannion",
+    "specialite": "Mesures physiques",
+    "parcours": [
+      "Matériaux et contrôles physico-chimiques",
+      "Techniques d’instrumentation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lannion",
+    "specialite": "Métiers du Multimédia et de l'Internet",
+    "parcours": [
+      "Développement web et dispositifs interactifs",
+      "Stratégie de communication numérique et design d’expérience"
+    ]
+  },
+  {
+    "nom_iut": "IUT Lannion",
+    "specialite": "Réseaux et télécommunications",
+    "parcours": [
+      "Cybersécurité",
+      "Développement Système et Cloud"
+    ]
+  },
+  {
+    "nom_iut": "IUT Le Creusot",
+    "specialite": "Génie mécanique et productique",
+    "parcours": [
+      "Chargé d’affaires industrielles",
+      "Innovation pour l’industrie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Le Creusot",
+    "specialite": "Génie électrique et informatique industrielle",
+    "parcours": [
+      "Automatisme et Informatique industrielle",
+      "Electricité et maîtrise de l’énergie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Le Creusot",
+    "specialite": "Mesures physiques",
+    "parcours": [
+      "Matériaux et contrôles physico-chimiques",
+      "Techniques d’instrumentation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Le Creusot",
+    "specialite": "Techniques de commercialisation",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Marketing digital, e-business et entrepreneuriat",
+      "Stratégie de marque et événementiel"
+    ]
+  },
+  {
+    "nom_iut": "IUT Laval",
+    "specialite": "Génie biologique",
+    "parcours": [
+      "Biologie médicale et biotechnologie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Laval",
+    "specialite": "Informatique",
+    "parcours": [
+      "Réalisation d’applications : conception, développement, validation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Laval",
+    "specialite": "Métiers du Multimédia et de l'Internet",
+    "parcours": [
+      "Création numérique",
+      "Développement web et dispositifs interactifs",
+      "Stratégie de communication numérique et design d’expérience"
+    ]
+  },
+  {
+    "nom_iut": "IUT Laval",
+    "specialite": "Techniques de commercialisation",
+    "parcours": [
+      "MARKETING DIGITAL, E-BUSINESS ET ENTREPRENEURIAT",
+      "BUSINESS INTERNATIONAL : ACHAT ET VENTE",
+      "MARKETING ET MANAGEMENT DU POINT DE VENTE"
+    ]
+  },
+  {
+    "nom_iut": "IUT La Roche-sur-Yon",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités"
+    ]
+  },
+  {
+    "nom_iut": "IUT La Roche-sur-Yon",
+    "specialite": "Génie Biologique",
+    "parcours": [
+      "Sciences de l’environnement et écotechnologie"
+    ]
+  },
+  {
+    "nom_iut": "IUT La Roche-sur-Yon",
+    "specialite": "Information-Communication",
+    "parcours": [
+      "Communication des organisations",
+      "Métiers du livre et du patrimoine"
+    ]
+  },
+  {
+    "nom_iut": "IUT La Roche-sur-Yon",
+    "specialite": "Réseaux et Télécommunications",
+    "parcours": [
+      "Cybersécurité",
+      "Réseaux Mobiles et Internet des Objets"
+    ]
+  },
+  {
+    "nom_iut": "IUT Kourou",
+    "specialite": "Génie civil – Construction durable",
+    "parcours": [
+      "BUT Travaux publics et bâtiments"
+    ]
+  },
+  {
+    "nom_iut": "IUT Kourou",
+    "specialite": "Génie électrique et informatique industrielle",
+    "parcours": [
+      "Electricité et maîtrise de l’énergie",
+      "Maintenance des Systèmes Industrielles"
+    ]
+  },
+  {
+    "nom_iut": "IUT Kourou",
+    "specialite": "Réseaux et télécommunications",
+    "parcours": [
+      "Cybersécurité"
+    ]
+  },
+  {
+    "nom_iut": "IUT Kourou",
+    "specialite": "Techniques de commercialisation",
+    "parcours": [
+      "Marketing Digital, E-Business et entreprenariat",
+      "Business développement et management de la relation client"
+    ]
+  },
+  {
+    "nom_iut": "IUT Kourou",
+    "specialite": "Carrières sociales",
+    "parcours": [
+      "Animation sociale et socioculturelle"
+    ]
+  },
+  {
+    "nom_iut": "IUT Grenoble II",
+    "specialite": "Carrières Juridiques",
+    "parcours": [
+      "Administration et justice",
+      "Patrimoine et finance",
+      "Entreprise et association"
+    ]
+  },
+  {
+    "nom_iut": "IUT Grenoble II",
+    "specialite": "Carrières sociales",
+    "parcours": [
+      "Animation sociale et socioculturelle",
+      "Assistance sociale",
+      "Education spécialisée"
+    ]
+  },
+  {
+    "nom_iut": "IUT Grenoble II",
+    "specialite": "Information-Communication",
+    "parcours": [
+      "Communication des organisations",
+      "Information numérique dans les organisations",
+      "Métiers du livre et du patrimoine"
+    ]
+  },
+  {
+    "nom_iut": "IUT Grenoble II",
+    "specialite": "Informatique",
+    "parcours": [
+      "Réalisation d’applications : conception, développement, validation",
+      "Déploiement d’applications communicantes et sécurisées"
+    ]
+  },
+  {
+    "nom_iut": "IUT Grenoble II",
+    "specialite": "Techniques de commercialisation",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Marketing digital, e-business et entrepreneuriat",
+      "Business international : achat et vente"
+    ]
+  },
+  {
+    "nom_iut": "IUT Grenoble II",
+    "specialite": "Science des Données",
+    "parcours": [
+      "Exploration et modélisation statistique",
+      "Visualisation, conception d'outils décisionnels"
+    ]
+  },
+  {
+    "nom_iut": "IUT Grenoble II",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités"
+    ]
+  },
+  {
+    "nom_iut": "IUT Haguenau",
+    "specialite": "Génie électrique et informatique industrielle",
+    "parcours": [
+      "Automatisme et Informatique Industrielle",
+      "Electricité et Maîtrise de l’Énergie",
+      "Electronique et Systèmes Embarqués",
+      "Automatisme et Informatique Industrielle 4.0 (formation continue)",
+      "Chargé d’Affaire Électrotechnique et Automatisme – CAEA (alternance)",
+      "Intégration Robotique Industrielle – IRI (alternance)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Haguenau",
+    "specialite": "Métiers du Multimédia et de l'Internet",
+    "parcours": [
+      "Création Numérique",
+      "Développement Web et Dispositifs Interactifs",
+      "Stratégie de Communication Numérique et Design d’Expérience"
+    ]
+  },
+  {
+    "nom_iut": "IUT Haguenau",
+    "specialite": "Qualité, Logistique Industrielle et Organisation",
+    "parcours": [
+      "Management de la Transformation Digitale",
+      "Organisation et Supply Chain",
+      "Management des Entreprises par la Qualité"
+    ]
+  },
+  {
+    "nom_iut": "IUT Grenoble I",
+    "specialite": "Génie civil – Construction durable",
+    "parcours": [
+      "Bureaux d’Etudes Conception (BEC)",
+      "Travaux Bâtiment (BAT)",
+      "Travaux Publics (TP)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Grenoble I",
+    "specialite": "Génie Mécanique et Productique (GMP)",
+    "parcours": [
+      "Innovation pour l’Industrie (II)",
+      "Simulation Numérique et Réalité Virtuelle (SNRV)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Grenoble I",
+    "specialite": "Génie Electrique et Informatique Industrielle (GEII)",
+    "parcours": [
+      "Automatisme et Informatique Industrielle (AII)",
+      "Electricité et Maîtrise de l’Energie (EME)",
+      "Electronique et Systèmes Embarqués (ESE)",
+      "Distribution Electrique et Automatismes (DEA)",
+      "Bâtiments Connectés et Gestion Intelligente de l'Energie (BCGIE)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Grenoble I",
+    "specialite": "Réseaux et Télécommunications (RT)",
+    "parcours": [
+      "Cybersécurité (CYBER)",
+      "Développement Système et Cloud (DEVCLOUD)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Grenoble I",
+    "specialite": "Chimie",
+    "parcours": [
+      "Analyse, Contrôle Qualité, Environnement (ACQE)",
+      "Matériaux et Produits Formulés (MPF)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Grenoble I",
+    "specialite": "Métiers de la Transition et de l'Efficacité Energétiques (MT2E)",
+    "parcours": [
+      "Optimisation énergétique pour le bâtiment et l'industrie (OPTIM)",
+      "Réalisation des installations énergétiques pour le bâtiment et l'industrie (REAL)",
+      "Exploitation des installations énergétiques pour le bâtiment et l'industrie (EXPLOIT)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Grenoble I",
+    "specialite": "Mesures Physiques (MP)",
+    "parcours": [
+      "Matériaux et Contrôles Physico-Chimiques (MCPC)",
+      "Techniques d’Instrumentation (TI)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Grenoble I",
+    "specialite": "Métiers du Multimédia et de l'Internet (MMI)",
+    "parcours": [
+      "Création numérique (CREA)",
+      "Développement Web et dispositifs interactifs (DWEB)",
+      "Stratégie de communication numérique et design d’expérience (STRAT)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Indre",
+    "specialite": "Gestion des Entreprises et des Administrations",
+    "parcours": [
+      "Gestion comptable, fiscale et financiere",
+      "Gestion et pilotage des ressources humaines"
+    ]
+  },
+  {
+    "nom_iut": "IUT Indre",
+    "specialite": "Génie Electrique et Informatique Industrielle",
+    "parcours": [
+      "Automatisme et Informatique Industrielle",
+      "Electricité et Maîtrise de l'Energie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Indre",
+    "specialite": "Management de la Logistique et des Transports",
+    "parcours": [
+      "Mobilité et supply chain connectées"
+    ]
+  },
+  {
+    "nom_iut": "IUT Indre",
+    "specialite": "Techniques de Commercialisation",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Stratégie de marque et événementiel"
+    ]
+  },
+  {
+    "nom_iut": "IUT Evreux",
+    "specialite": "Carrières sociales",
+    "parcours": [
+      "Education spécialisée"
+    ]
+  },
+  {
+    "nom_iut": "IUT Evreux",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion et pilotage des ressources humaines",
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités"
+    ]
+  },
+  {
+    "nom_iut": "IUT Evreux",
+    "specialite": "Génie biologique",
+    "parcours": [
+      "Biologie médicale et biotechnologie",
+      "Diététique et nutrition",
+      "Sciences de l’aliment et biotechnologie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Evreux",
+    "specialite": "Mesures physiques",
+    "parcours": [
+      "Techniques d’instrumentation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Evreux",
+    "specialite": "Packaging, emballage et conditionnement",
+    "parcours": [
+      "Eco-conception et industrialisation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Grand Ouest Normandie",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion et pilotage des ressources humaines",
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités",
+      "Contrôle de gestion et pilotage de la performance"
+    ]
+  },
+  {
+    "nom_iut": "IUT Grand Ouest Normandie",
+    "specialite": "Génie Biologique",
+    "parcours": [
+      "Biologie médicale et biotechnologie",
+      "Sciences de l’aliment et biotechnologie",
+      "Sciences de l’environnement et écotechnologie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Grand Ouest Normandie",
+    "specialite": "Génie chimique et génie des procédés",
+    "parcours": [
+      "Contrôle, pilotage et optimisation des procédés"
+    ]
+  },
+  {
+    "nom_iut": "IUT Grand Ouest Normandie",
+    "specialite": "Mesures physiques",
+    "parcours": [
+      "Matériaux et contrôles physico-chimiques",
+      "Mesures et analyses environnementales",
+      "Techniques d’instrumentation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Grand Ouest Normandie",
+    "specialite": "Techniques de commercialisation",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Marketing digital, e-business et entrepreneuriat",
+      "Stratégie de marque et événementiel",
+      "Marketing et management du point de vente",
+      "Business international : achat et vente"
+    ]
+  },
+  {
+    "nom_iut": "IUT Grand Ouest Normandie",
+    "specialite": "Génie industriel et maintenance",
+    "parcours": [
+      "Ingénierie des systèmes pluritechniques"
+    ]
+  },
+  {
+    "nom_iut": "IUT Grand Ouest Normandie",
+    "specialite": "Génie électrique et informatique industrielle",
+    "parcours": [
+      "Automatisme et Informatique industrielle"
+    ]
+  },
+  {
+    "nom_iut": "IUT Grand Ouest Normandie",
+    "specialite": "Métiers de la Transition et de l'Efficacité Energétiques",
+    "parcours": [
+      "Optimisation énergétique pour le bâtiment et l’industrie",
+      "Réalisation des installations énergétiques pour le bâtiment et l’industrie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Grand Ouest Normandie",
+    "specialite": "Métiers du Multimédia et de l'Internet",
+    "parcours": [
+      "Création numérique",
+      "Développement web et dispositifs interactifs"
+    ]
+  },
+  {
+    "nom_iut": "IUT Grand Ouest Normandie",
+    "specialite": "Hygiène, sécurité, environnement",
+    "parcours": [
+      "Science du danger et management des risques professionnels technologiques et environnementaux"
+    ]
+  },
+  {
+    "nom_iut": "IUT Grand Ouest Normandie",
+    "specialite": "Carrières sociales",
+    "parcours": [
+      "Coordination et gestion des établissements et services sanitaires et sociaux",
+      "Villes et territoires durables"
+    ]
+  },
+  {
+    "nom_iut": "IUT Grand Ouest Normandie",
+    "specialite": "Management de la Logistique et des Transports",
+    "parcours": [
+      "Mobilité et Supply Chain Connectées",
+      "Mobilité et Supply Chain Durables"
+    ]
+  },
+  {
+    "nom_iut": "IUT Grand Ouest Normandie",
+    "specialite": "Génie mécanique et productique",
+    "parcours": [
+      "Innovation pour l’industrie",
+      "Conception et production durable"
+    ]
+  },
+  {
+    "nom_iut": "IUT Grand Ouest Normandie",
+    "specialite": "Qualité, logistique industrielle et organisation",
+    "parcours": [
+      "Management de la production"
+    ]
+  },
+  {
+    "nom_iut": "IUT Grand Ouest Normandie",
+    "specialite": "Science des Données",
+    "parcours": [
+      "Exploration et modélisation statistique",
+      "Visualisation, conception d'outils décisionnels"
+    ]
+  },
+  {
+    "nom_iut": "IUT Evry Val d’Essonne",
+    "specialite": "Génie électrique et informatique industrielle",
+    "parcours": [
+      "Automatisme et Informatique industrielle",
+      "Electricité et maîtrise de l’énergie",
+      "Electronique et systèmes embarqués"
+    ]
+  },
+  {
+    "nom_iut": "IUT Evry Val d’Essonne",
+    "specialite": "Génie mécanique et productique",
+    "parcours": [
+      "Simulation numérique et réalité virtuelle",
+      "Conception et production durable"
+    ]
+  },
+  {
+    "nom_iut": "IUT Evry Val d’Essonne",
+    "specialite": "Management de la Logistique et des Transports",
+    "parcours": [
+      "Mobilité et Supply Chain Connectées",
+      "Mobilité et Supply Chain Durables"
+    ]
+  },
+  {
+    "nom_iut": "IUT Evry Val d’Essonne",
+    "specialite": "Qualité, logistique industrielle et organisation",
+    "parcours": [
+      "Qualité et management intégré",
+      "Organisation et supply chain",
+      "Management de la transformation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Evry Val d’Essonne",
+    "specialite": "Science et génie des matériaux",
+    "parcours": [
+      "Métiers de la caractérisation et de l’expertise des matériaux et des produits",
+      "Métiers de l’ingénierie des matériaux et des produits"
+    ]
+  },
+  {
+    "nom_iut": "IUT Evry Val d’Essonne",
+    "specialite": "Techniques de commercialisation",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Marketing digital, e-business et entrepreneuriat",
+      "Business International : achat et vente",
+      "Stratégie de marque et événementiel"
+    ]
+  },
+  {
+    "nom_iut": "IUT Evry Val d’Essonne",
+    "specialite": "Gestion des Entreprises et des administrations",
+    "parcours": [
+      "Gestion comptable fiscale et financière (GC2F)",
+      "Contrôle de gestion et pilotage de la performance (CG2P)",
+      "Gestion et pilotage des ressources humaines (GPRH)",
+      "Gestion, entrepreneuriat et management d’activités (GEMA)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Evry Val d’Essonne",
+    "specialite": "Métiers de la transition et de l'efficacité énergétiques",
+    "parcours": [
+      "Optimisation énergétique pour le bâtiment et l’industrie (OPTIM)",
+      "Management de l’énergie pour le bâtiment et l’industrie (MANé)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Épinal – Hubert Curien",
+    "specialite": "Génie industriel et maintenance",
+    "parcours": [
+      "Ingénierie des systèmes pluritechniques",
+      "Management, méthodes, maintenance innovante",
+      "Éco-Construction – Éco-Conception"
+    ]
+  },
+  {
+    "nom_iut": "IUT Épinal – Hubert Curien",
+    "specialite": "Qualité, Logistique Industrielle et Organisation",
+    "parcours": [
+      "Management de la production",
+      "Management de la Production Industrielle et Gestion des Flux (MPIGF)",
+      "Logistique, Bois et Énergie (LBE)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Épinal – Hubert Curien",
+    "specialite": "TECHNIQUES DE COMMERCIALISATION",
+    "parcours": [
+      "Marketing Digital, E-business et Entrepreneuriat (MDEE)",
+      "Business International : Achat et Vente (BIAV)",
+      "Business Développement et Management de la Relation Client (BDMRC)",
+      "Parcours Agro-équipement (AE)",
+      "Marketing et communication appliqués au digital"
+    ]
+  },
+  {
+    "nom_iut": "IUT Créteil-Vitry",
+    "specialite": "Génie biologique",
+    "parcours": [
+      "Diététique et nutrition",
+      "Sciences de l’aliment et biotechnologie",
+      "Biologie médicale et biotechnologie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Créteil-Vitry",
+    "specialite": "Génie électrique et informatique industrielle",
+    "parcours": [
+      "Electricité et maîtrise de l’énergie",
+      "Electronique et systèmes embarqués"
+    ]
+  },
+  {
+    "nom_iut": "IUT Créteil-Vitry",
+    "specialite": "Mesures physiques",
+    "parcours": [
+      "Matériaux et contrôles physico-chimiques",
+      "Mesures et analyses environnementales",
+      "Techniques d’instrumentation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Créteil-Vitry",
+    "specialite": "Techniques de commercialisation",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Marketing digital, e-business et entrepreneuriat",
+      "Marketing et management du point de vente"
+    ]
+  },
+  {
+    "nom_iut": "IUT Créteil-Vitry",
+    "specialite": "Chimie",
+    "parcours": [
+      "Analyse, contrôle-qualité, environnement",
+      "Matériaux et produits formulés"
+    ]
+  },
+  {
+    "nom_iut": "IUT Créteil-Vitry",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités",
+      "Gestion et pilotage des ressources humaines"
+    ]
+  },
+  {
+    "nom_iut": "IUT Créteil-Vitry",
+    "specialite": "Informatique",
+    "parcours": [
+      "Réalisation d'applications : conception, développement, validation",
+      "Administration, gestion et exploitation des données"
+    ]
+  },
+  {
+    "nom_iut": "IUT Créteil-Vitry",
+    "specialite": "Réseaux et télécommunications",
+    "parcours": [
+      "Cybersécurité",
+      "Réseaux opérateurs et multimédia"
+    ]
+  },
+  {
+    "nom_iut": "IUT Colmar",
+    "specialite": "Carrières Juridiques",
+    "parcours": [
+      "Administration et justice",
+      "Patrimoine et finance",
+      "Entreprise et association"
+    ]
+  },
+  {
+    "nom_iut": "IUT Colmar",
+    "specialite": "Métiers de la Transition et de l'Efficacité Energétiques",
+    "parcours": [
+      "Management de l’énergie pour le bâtiment et l’industrie",
+      "Optimisation énergétique pour le bâtiment et l’industrie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Colmar",
+    "specialite": "Hygiène, sécurité, environnement",
+    "parcours": [
+      "Science du danger et management des risques professionnels technologiques et environnementaux"
+    ]
+  },
+  {
+    "nom_iut": "IUT Colmar",
+    "specialite": "Réseaux et télécommunications",
+    "parcours": [
+      "Cybersécurité",
+      "Réseaux Opérateurs et Multimédia",
+      "Développement Système et Cloud"
+    ]
+  },
+  {
+    "nom_iut": "IUT Colmar",
+    "specialite": "Techniques de commercialisation",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Marketing digital, e-business et entrepreneuriat",
+      "Marketing et management du point de vente"
+    ]
+  },
+  {
+    "nom_iut": "IUT Dijon-Auxerre-Nevers",
+    "specialite": "Gestion administrative et commerciale des organisations",
+    "parcours": [
+      "Management commercial et marketing omnicanal",
+      "Management responsable de projet"
+    ]
+  },
+  {
+    "nom_iut": "IUT Dijon-Auxerre-Nevers",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion et pilotage des ressources humaines",
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités"
+    ]
+  },
+  {
+    "nom_iut": "IUT Dijon-Auxerre-Nevers",
+    "specialite": "Génie biologique",
+    "parcours": [
+      "Biologie médicale et biotechnologie",
+      "Sciences de l’aliment et biotechnologie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Dijon-Auxerre-Nevers",
+    "specialite": "Génie mécanique et productique",
+    "parcours": [
+      "Innovation pour l’industrie",
+      "Management des process industriel",
+      "Simulation numérique et réalité virtuelle"
+    ]
+  },
+  {
+    "nom_iut": "IUT Dijon-Auxerre-Nevers",
+    "specialite": "Information-Communication",
+    "parcours": [
+      "Communication des organisations",
+      "Métiers du livre et du patrimoine"
+    ]
+  },
+  {
+    "nom_iut": "IUT Dijon-Auxerre-Nevers",
+    "specialite": "Informatique",
+    "parcours": [
+      "Réalisation d’applications : conception, développement, validation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Dijon-Auxerre-Nevers",
+    "specialite": "Métiers du Multimédia et de l'Internet",
+    "parcours": [
+      "Création numérique",
+      "Développement web et dispositifs interactifs",
+      "Stratégie de communication numérique et design d’expérience"
+    ]
+  },
+  {
+    "nom_iut": "IUT Dijon-Auxerre-Nevers",
+    "specialite": "Génie civil-Construction durable",
+    "parcours": [
+      "Bureaux d’études Conception",
+      "Travaux bâtiment",
+      "Travaux publics"
+    ]
+  },
+  {
+    "nom_iut": "IUT Dijon-Auxerre-Nevers",
+    "specialite": "Réseaux et télécommunications",
+    "parcours": [
+      "Cybersécurité",
+      "Réseaux Mobiles et Internet des Objets"
+    ]
+  },
+  {
+    "nom_iut": "IUT Dijon-Auxerre-Nevers",
+    "specialite": "Techniques de commercialisation",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Marketing digital, e-business et entrepreneuriat",
+      "Business international : achat et vente"
+    ]
+  },
+  {
+    "nom_iut": "IUT Chartres",
+    "specialite": "Management de la Logistique et des Transports",
+    "parcours": [
+      "Mobilité et Supply Chain Connectées",
+      "Mobilité et Supply Chain Durables"
+    ]
+  },
+  {
+    "nom_iut": "IUT Chartres",
+    "specialite": "Génie industriel et maintenance",
+    "parcours": [
+      "Ingénierie des systèmes pluritechniques",
+      "Management, méthodes, maintenance innovante"
+    ]
+  },
+  {
+    "nom_iut": "IUT Chartres",
+    "specialite": "Génie Électrique et Informatique Industrielle",
+    "parcours": [
+      "Electricité et maîtrise de l’énergie",
+      "Management, méthodes, maintenance innovante"
+    ]
+  },
+  {
+    "nom_iut": "IUT Corte",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités"
+    ]
+  },
+  {
+    "nom_iut": "IUT Corte",
+    "specialite": "Génie civil – Construction durable",
+    "parcours": [
+      "Bureaux d’études Conception"
+    ]
+  },
+  {
+    "nom_iut": "IUT Corte",
+    "specialite": "Génie-Biologique",
+    "parcours": [
+      "Sciences de l’aliment et biotechnologie",
+      "Sciences de l’environnement et écotechnologie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Corte",
+    "specialite": "Hygiène, sécurité, environnement",
+    "parcours": [
+      "Science du danger et management des risques professionnels technologiques et environnementaux"
+    ]
+  },
+  {
+    "nom_iut": "IUT Corte",
+    "specialite": "Métiers du Multimédia et de l'Internet",
+    "parcours": [
+      "Création numérique",
+      "Stratégie de communication numérique et design d’expérience"
+    ]
+  },
+  {
+    "nom_iut": "IUT Clermont Auvergne",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités",
+      "Gestion et Pilotage des Ressources Humaines",
+      "Gestion Comptable, Fiscale et Financière",
+      "Gestion, Entrepreneuriat et Management d’Activités"
+    ]
+  },
+  {
+    "nom_iut": "IUT Clermont Auvergne",
+    "specialite": "Génie biologique",
+    "parcours": [
+      "Biologie Médicale et Biotechnologie",
+      "Diététique et Nutrition",
+      "Agronomie",
+      "Sciences de l’Environnement et Ecotechnologie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Clermont Auvergne",
+    "specialite": "Génie industriel et maintenance",
+    "parcours": [
+      "Ingénierie des Systèmes Pluritechniques",
+      "Management, Méthodes, Maintenance Innovante"
+    ]
+  },
+  {
+    "nom_iut": "IUT Clermont Auvergne",
+    "specialite": "Informatique",
+    "parcours": [
+      "Réalisation d’applications : conception, développement, validation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Clermont Auvergne",
+    "specialite": "Mesures physiques",
+    "parcours": [
+      "Mesures et Analyses Environnementales",
+      "Techniques d’Instrumentation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Clermont Auvergne",
+    "specialite": "Réseaux et télécommunications",
+    "parcours": [
+      "Cybersécurité"
+    ]
+  },
+  {
+    "nom_iut": "IUT Clermont Auvergne",
+    "specialite": "Science des Données",
+    "parcours": [
+      "Exploration et Modélisation Statistique",
+      "Visualisation, Conception d'Outils Décisionnels"
+    ]
+  },
+  {
+    "nom_iut": "IUT Clermont Auvergne",
+    "specialite": "Management de la logistique et des transports",
+    "parcours": [
+      "Mobilité et Supply Chain Connectées",
+      "Mobilité et Supply Chain Durables"
+    ]
+  },
+  {
+    "nom_iut": "IUT Clermont Auvergne",
+    "specialite": "Génie mécanique et productique",
+    "parcours": [
+      "Innovation pour l’Industrie",
+      "Management des Process Industriel"
+    ]
+  },
+  {
+    "nom_iut": "IUT Clermont Auvergne",
+    "specialite": "BUT Métiers de la Transition et de l'Efficacité Energétiques",
+    "parcours": [
+      "Optimisation Energétique pour le Bâtiment et l’Industrie",
+      "Réalisation des Installations Energétiques pour le Bâtiment et l’Industrie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Clermont Auvergne",
+    "specialite": "Techniques de commercialisation",
+    "parcours": [
+      "Business Developpement et Management de la Relation",
+      "Marketing et Management du Point de Vente",
+      "Stratégie de Marque Evenementiel",
+      "Business Développement et Management de la Relation Client",
+      "Marketing digital, E-business et Entrepreneuriat",
+      "Business International : Achat et Vente"
+    ]
+  },
+  {
+    "nom_iut": "IUT Clermont Auvergne",
+    "specialite": "Chimie",
+    "parcours": [
+      "Analyse, Contrôle-Qualité, Environnement",
+      "Matériaux et Produits Formulés"
+    ]
+  },
+  {
+    "nom_iut": "IUT Clermont Auvergne",
+    "specialite": "Métiers du Multimédia et de l'Internet",
+    "parcours": [
+      "Création Numérique",
+      "Développement Web et Dispositifs Interactifs"
+    ]
+  },
+  {
+    "nom_iut": "IUT Clermont Auvergne",
+    "specialite": "Métiers du multimédia et de l’internet",
+    "parcours": [
+      "Développement Web et Dispositif Intéractifs",
+      "Création Numérique",
+      "Stratégie de Communication Numérique et Design d'Expérience"
+    ]
+  },
+  {
+    "nom_iut": "IUT Clermont Auvergne",
+    "specialite": "Information – Communication",
+    "parcours": [
+      "Journalisme"
+    ]
+  },
+  {
+    "nom_iut": "IUT Cergy-Pontoise",
+    "specialite": "Génie civil – Construction durable – Site de Neuville",
+    "parcours": [
+      "Réhabilitation et amélioration des performances environnementales des bâtiments",
+      "Travaux bâtiment",
+      "Travaux publics",
+      "Infrastructures ferroviaires"
+    ]
+  },
+  {
+    "nom_iut": "IUT Cergy-Pontoise",
+    "specialite": "Génie électrique et informatique industrielle –  Site de Neuville",
+    "parcours": [
+      "Automatisme et Informatique industrielle",
+      "Electronique et systèmes embarqués"
+    ]
+  },
+  {
+    "nom_iut": "IUT Cergy-Pontoise",
+    "specialite": "Management de la Logistique et des Transports – Site d'Argenteuil",
+    "parcours": [
+      "Mobilité et Supply Chain Connectées",
+      "Mobilité et Supply Chain Durables"
+    ]
+  },
+  {
+    "nom_iut": "IUT Cergy-Pontoise",
+    "specialite": "Qualité, logistique industrielle et organisation – Site d'Argenteuil",
+    "parcours": [
+      "Qualité et management intégré",
+      "Organisation et supply chain",
+      "Système de management intégré"
+    ]
+  },
+  {
+    "nom_iut": "IUT Cergy-Pontoise",
+    "specialite": "Génie électrique et informatique industrielle – Site de Sarcelles",
+    "parcours": [
+      "Electronique et systèmes embarqués"
+    ]
+  },
+  {
+    "nom_iut": "IUT Cergy-Pontoise",
+    "specialite": "Métiers du Multimédia et de l'Internet – Site de Sarcelles",
+    "parcours": [
+      "Création numérique",
+      "Développement web et dispositifs interactifs",
+      "Stratégie de communication numérique et design d’expérience"
+    ]
+  },
+  {
+    "nom_iut": "IUT Cergy-Pontoise",
+    "specialite": "Techniques de commercialisation – Site de Sarcelles",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Marketing digital, e-business et entrepreneuriat",
+      "Stratégie de marque et événementiel",
+      "Responsable de portefeuille clients en cabinet d’expertise"
+    ]
+  },
+  {
+    "nom_iut": "IUT Cergy-Pontoise",
+    "specialite": "Métiers de la Transition et de l'Efficacité Energétiques – Site de Sarcelles",
+    "parcours": [
+      "Exploitation des installations énergétiques pour le bâtiment et l’industrie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Cergy-Pontoise",
+    "specialite": "Techniques de commercialisation – Site de Pontoise",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Marketing digital, e-business et entrepreneuriat",
+      "Business international : achat et vente"
+    ]
+  },
+  {
+    "nom_iut": "IUT Cergy-Pontoise",
+    "specialite": "Génie biologique – Site de Pontoise",
+    "parcours": [
+      "Biologie médicale et biotechnologies",
+      "Sciences de l'environnement et écotechnologies"
+    ]
+  },
+  {
+    "nom_iut": "IUT Chalon sur Saône",
+    "specialite": "Carrières Juridiques",
+    "parcours": [
+      "Entreprise et association"
+    ]
+  },
+  {
+    "nom_iut": "IUT Chalon sur Saône",
+    "specialite": "Management de la Logistique et des Transports",
+    "parcours": [
+      "Mobilité et Supply Chain Connectées",
+      "Mobilité et Supply Chain Durables"
+    ]
+  },
+  {
+    "nom_iut": "IUT Chalon sur Saône",
+    "specialite": "Génie Industriel et Maintenance",
+    "parcours": [
+      "Management, méthodes, maintenance innovante"
+    ]
+  },
+  {
+    "nom_iut": "IUT Chalon sur Saône",
+    "specialite": "Science et Génie des Matériaux",
+    "parcours": [
+      "Métiers de la caractérisation et de l’expertise des matériaux et des produits"
+    ]
+  },
+  {
+    "nom_iut": "IUT Brest – Morlaix",
+    "specialite": "Gestion des Entreprises et des Administrations",
+    "parcours": [
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités",
+      "Contrôle de gestion et pilotage de la performance"
+    ]
+  },
+  {
+    "nom_iut": "IUT Brest – Morlaix",
+    "specialite": "Génie Biologique",
+    "parcours": [
+      "Agronomie",
+      "Biologie médicale et biotechnologie",
+      "Sciences de l’environnement et écotechnologie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Brest – Morlaix",
+    "specialite": "Génie mécanique et productique",
+    "parcours": [
+      "Innovation pour l’industrie",
+      "Simulation numérique et réalité virtuelle",
+      "Conception et production durable"
+    ]
+  },
+  {
+    "nom_iut": "IUT Brest – Morlaix",
+    "specialite": "Génie électrique et informatique industrielle",
+    "parcours": [
+      "Automatisme et Informatique industrielle",
+      "Electricité et maîtrise de l’énergie",
+      "Electronique et systèmes embarqués"
+    ]
+  },
+  {
+    "nom_iut": "IUT Brest – Morlaix",
+    "specialite": "Gestion Administrative et Commerciale des organisations",
+    "parcours": [
+      "Management responsable de projet et entrepreneuriat",
+      "Management commercial et marketing omnicanal",
+      "Management des activités culturelles et artistiques"
+    ]
+  },
+  {
+    "nom_iut": "IUT Brest – Morlaix",
+    "specialite": "Génie Civil – Construction Durable",
+    "parcours": [
+      "Travaux Bâtiment",
+      "Travaux Publics"
+    ]
+  },
+  {
+    "nom_iut": "IUT Cachan",
+    "specialite": "Génie mécanique et productique",
+    "parcours": [
+      "Innovation pour l’industrie",
+      "Management des process industriel",
+      "Simulation numérique et réalité virtuelle"
+    ]
+  },
+  {
+    "nom_iut": "IUT Cachan",
+    "specialite": "Génie électrique et informatique industrielle 2",
+    "parcours": [
+      "Automatisme et Informatique industrielle",
+      "Electricité et maîtrise de l’énergie",
+      "Electronique et systèmes embarqués"
+    ]
+  },
+  {
+    "nom_iut": "IUT Bourges",
+    "specialite": "Carrières sociales",
+    "parcours": [
+      "Villes et territoires durables"
+    ]
+  },
+  {
+    "nom_iut": "IUT Bourges",
+    "specialite": "Gestion des entreprises et des administrations – GEA",
+    "parcours": [
+      "Gestion et pilotage des ressources humaines",
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités"
+    ]
+  },
+  {
+    "nom_iut": "IUT Bourges",
+    "specialite": "Génie civil – Construction durable – GCCD",
+    "parcours": [
+      "Bureaux d’études Conception",
+      "Réhabilitation et amélioration des performances environnementales des bâtiments",
+      "Travaux bâtiment",
+      "Travaux publics"
+    ]
+  },
+  {
+    "nom_iut": "IUT Bourges",
+    "specialite": "Génie mécanique et productique",
+    "parcours": [
+      "Innovation pour l’industrie",
+      "Simulation numérique et réalité virtuelle"
+    ]
+  },
+  {
+    "nom_iut": "IUT Bourges",
+    "specialite": "Mesures physiques – MP",
+    "parcours": [
+      "Matériaux et contrôles physico-chimiques",
+      "Techniques d’instrumentation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Bourges",
+    "specialite": "Qualité, Logistique Industrielle et Organisation – QLIO",
+    "parcours": [
+      "Organisation et Supply Chain"
+    ]
+  },
+  {
+    "nom_iut": "IUT Béthune",
+    "specialite": "Chimie",
+    "parcours": [
+      "Analyse, contrôle-qualité, environnement",
+      "Chimie industrielle",
+      "Matériaux et produits formulés",
+      "Analyse et prévention des risques en industrie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Béthune",
+    "specialite": "Génie civil – Construction durable",
+    "parcours": [
+      "Bureaux d’études Conception",
+      "Travaux bâtiment",
+      "Travaux publics"
+    ]
+  },
+  {
+    "nom_iut": "IUT Béthune",
+    "specialite": "Génie électrique et informatique industrielle",
+    "parcours": [
+      "Automatisme et Informatique industrielle",
+      "Electricité et maîtrise de l’énergie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Béthune",
+    "specialite": "Génie mécanique et productique",
+    "parcours": [
+      "Innovation pour l’industrie",
+      "Management des process industriel",
+      "Agroéquipement",
+      "Hydraulique industrielle"
+    ]
+  },
+  {
+    "nom_iut": "IUT Béthune",
+    "specialite": "Qualité, logistique industrielle et organisation",
+    "parcours": [
+      "Management de la production"
+    ]
+  },
+  {
+    "nom_iut": "IUT Béthune",
+    "specialite": "Réseaux et Télécommunication",
+    "parcours": [
+      "Cybersécurité",
+      "Réseaux Opérateurs et Multimédia"
+    ]
+  },
+  {
+    "nom_iut": "IUT Bordeaux Montaigne",
+    "specialite": "Carrières sociales",
+    "parcours": [
+      "Animation sociale et socioculturelle",
+      "Villes et territoires durables"
+    ]
+  },
+  {
+    "nom_iut": "IUT Bordeaux Montaigne",
+    "specialite": "Information – Communication",
+    "parcours": [
+      "Communication des organisations",
+      "Information numérique dans les organisations",
+      "Métiers du livre et du patrimoine",
+      "Publicité"
+    ]
+  },
+  {
+    "nom_iut": "IUT Bordeaux Montaigne",
+    "specialite": "Métiers du Multimédia et de l'Internet",
+    "parcours": [
+      "Stratégie de communication numérique et design d'expérience",
+      "Création numérique",
+      "Développement web et dispositifs interactifs"
+    ]
+  },
+  {
+    "nom_iut": "IUT Béziers",
+    "specialite": "Métiers du Multimédia et de l'Internet",
+    "parcours": [
+      "Création numérique",
+      "Développement web et dispositifs interactifs"
+    ]
+  },
+  {
+    "nom_iut": "IUT Béziers",
+    "specialite": "Réseaux et Télécommunications",
+    "parcours": [
+      "Cybersécurité",
+      "Développement Système et Cloud"
+    ]
+  },
+  {
+    "nom_iut": "IUT Béziers",
+    "specialite": "Techniques de Commercialisation",
+    "parcours": [
+      "Marketing digital, e-business et entrepreneuriat",
+      "Marketing et management du point de vente",
+      "Business international : achat et vente"
+    ]
+  },
+  {
+    "nom_iut": "IUT Bobigny",
+    "specialite": "Carrières sociales",
+    "parcours": [
+      "Assistance sociale",
+      "Animation sociale et socioculturelle",
+      "Villes et territoires durables"
+    ]
+  },
+  {
+    "nom_iut": "IUT Bobigny",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités",
+      "Contrôle de gestion et pilotage de la performance"
+    ]
+  },
+  {
+    "nom_iut": "IUT Bobigny",
+    "specialite": "Génie Biologique",
+    "parcours": [
+      "Biologie médicale et biotechnologie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Blagnac",
+    "specialite": "Carrières Sociales",
+    "parcours": [
+      "Coordination et gestion des établissements et services sanitaires et sociaux"
+    ]
+  },
+  {
+    "nom_iut": "IUT Blagnac",
+    "specialite": "Génie industriel et maintenance",
+    "parcours": [
+      "Ingénierie des systèmes pluritechniques",
+      "Management, méthodes, maintenance innovante"
+    ]
+  },
+  {
+    "nom_iut": "IUT Blagnac",
+    "specialite": "Informatique",
+    "parcours": [
+      "Réalisation d’applications : conception, développement, validation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Blagnac",
+    "specialite": "Réseaux et télécommunications",
+    "parcours": [
+      "Cybersécurité"
+    ]
+  },
+  {
+    "nom_iut": "IUT Bordeaux",
+    "specialite": "Gestion administrative et commerciale des organisations (GACO)",
+    "parcours": [
+      "Management des fonctions supports (comptabilité, droit, RH, management, RSE, entrepreneuriat)",
+      "Management commercial et marketing omnicanal (marketing digital, e-commerce, stratégie commerciale, négociation, merchandising, CRM)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Bordeaux",
+    "specialite": "Qualité, logistique industrielle et organisation (QLIO)",
+    "parcours": [
+      "Management de la production"
+    ]
+  },
+  {
+    "nom_iut": "IUT Bordeaux",
+    "specialite": "Gestion des entreprises et des administrations (GEA)",
+    "parcours": [
+      "Gestion comptable, fiscale et financière",
+      "Gestion et pilotage des ressources humaines",
+      "Gestion, entrepreneuriat et management d’activités",
+      "Contrôle de gestion et pilotage de la performance"
+    ]
+  },
+  {
+    "nom_iut": "IUT Bordeaux",
+    "specialite": "Management de la logistique et des transports (MLT)",
+    "parcours": [
+      "Mobilité et supply chain connectées",
+      "Mobilité et supply chain durables"
+    ]
+  },
+  {
+    "nom_iut": "IUT Bordeaux",
+    "specialite": "Techniques de commercialisation (TC-B)",
+    "parcours": [
+      "Marketing digital, e-business et entrepreneuriat",
+      "Business international : achat et vente",
+      "Marketing et management du point de vente",
+      "Business développement et management de la relation client"
+    ]
+  },
+  {
+    "nom_iut": "IUT Bordeaux",
+    "specialite": "Génie civil – Construction durable (GCCD)",
+    "parcours": [
+      "Travaux publics",
+      "Travaux bâtiment",
+      "Réhabilitation et amélioration des performances environnementales des bâtiments",
+      "Bureaux d’études, conception"
+    ]
+  },
+  {
+    "nom_iut": "IUT Bordeaux",
+    "specialite": "Génie électrique et informatique industrielle (GEII)",
+    "parcours": [
+      "Électricité et maîtrise de l’énergie",
+      "Automatisme et informatique industrielle",
+      "Électronique et systèmes embarqués"
+    ]
+  },
+  {
+    "nom_iut": "IUT Bordeaux",
+    "specialite": "Génie mécanique et productique (GMP)",
+    "parcours": [
+      "Conception et production durables",
+      "Innovation pour l’industrie",
+      "Simulation numérique et réalité virtuelle"
+    ]
+  },
+  {
+    "nom_iut": "IUT Bordeaux",
+    "specialite": "Hygiène, sécurité, environnement (HSE)",
+    "parcours": [
+      "Science du danger et management des risques professionnels technologiques et environnementaux"
+    ]
+  },
+  {
+    "nom_iut": "IUT Bordeaux",
+    "specialite": "Informatique (INFO)",
+    "parcours": [
+      "Réalisation d’applications : conception, développement, validation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Bordeaux",
+    "specialite": "Mesures physiques (MP)",
+    "parcours": [
+      "Techniques d’instrumentation",
+      "Matériaux et contrôles physico-chimiques",
+      "Mesures et analyses environnementales"
+    ]
+  },
+  {
+    "nom_iut": "IUT Bordeaux",
+    "specialite": "Science et génie des matériaux (SGM)",
+    "parcours": [
+      "Métiers de l’ingénierie des matériaux et des produits"
+    ]
+  },
+  {
+    "nom_iut": "IUT Bordeaux",
+    "specialite": "Carrières sociales (CS)",
+    "parcours": [
+      "Animation sociale et socio‑culturelle",
+      "Villes et territoires durables"
+    ]
+  },
+  {
+    "nom_iut": "IUT Bordeaux",
+    "specialite": "Génie biologique (GB)",
+    "parcours": [
+      "Agronomie",
+      "Diététique et nutrition",
+      "Sciences de l'aliment et biotechnologie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Bordeaux",
+    "specialite": "Génie chimique – Génie des procédés (GCGP)",
+    "parcours": [
+      "Contrôle, qualité, environnement et sécurité des procédés",
+      "Contrôle, pilotage et optimisation des procédés"
+    ]
+  },
+  {
+    "nom_iut": "IUT Bordeaux",
+    "specialite": "Techniques de commercialisation (TC-P)",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Stratégie de marque et événementiel"
+    ]
+  },
+  {
+    "nom_iut": "IUT Besançon-Vesoul-Dole",
+    "specialite": "Chimie",
+    "parcours": [
+      "Analyse, contrôle-qualité, environnement",
+      "Matériaux et produits formulés"
+    ]
+  },
+  {
+    "nom_iut": "IUT Besançon-Vesoul-Dole",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion et pilotage des ressources humaines",
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités",
+      "Contrôle de gestion et pilotage de la performance"
+    ]
+  },
+  {
+    "nom_iut": "IUT Besançon-Vesoul-Dole",
+    "specialite": "Génie Mécanique et Productique",
+    "parcours": [
+      "Innovation pour l’industrie",
+      "Management des process industriel",
+      "Simulation numérique et réalité virtuelle"
+    ]
+  },
+  {
+    "nom_iut": "IUT Besançon-Vesoul-Dole",
+    "specialite": "Information-Communication",
+    "parcours": [
+      "Communication des organisations",
+      "Publicité"
+    ]
+  },
+  {
+    "nom_iut": "IUT Besançon-Vesoul-Dole",
+    "specialite": "Génie industriel et maintenance",
+    "parcours": [
+      "Management, méthodes, maintenance innovante"
+    ]
+  },
+  {
+    "nom_iut": "IUT Besançon-Vesoul-Dole",
+    "specialite": "Hygiène, sécurité, environnement",
+    "parcours": [
+      "Science du danger et management des risques professionnels technologiques et environnementaux"
+    ]
+  },
+  {
+    "nom_iut": "IUT Besançon-Vesoul-Dole",
+    "specialite": "Management de la Logistique et des Transports",
+    "parcours": [
+      "Mobilité et Supply Chain Connectées",
+      "Mobilité et Supply Chain Durables"
+    ]
+  },
+  {
+    "nom_iut": "IUT Besançon-Vesoul-Dole",
+    "specialite": "Packaging Emballage et Conditionnement",
+    "parcours": [
+      "Eco-Conception et Industrialisation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Besançon-Vesoul-Dole",
+    "specialite": "Science des Données",
+    "parcours": [
+      "Visualisation et conception d'outils décisionnels"
+    ]
+  },
+  {
+    "nom_iut": "IUT Blois",
+    "specialite": "Mesures Physiques",
+    "parcours": [
+      "Parcours Matériaux et Contrôles PhysicoChimiques (MCPC)",
+      "Parcours Techniques d'Instrumentation (TIN)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Blois",
+    "specialite": "Métiers du Multimédia et de l'Internet",
+    "parcours": [
+      "Parcours Stratégie de communication et design d'expérience (Strat Com)",
+      "Parcours Développement Web et dispositifs interactifs (Dev Web)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Blois",
+    "specialite": "Réseaux et télécommunications",
+    "parcours": [
+      "Parcours Internet des Objets et Mobilité (IOM)",
+      "Parcours Cybersécurité (CYBER)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Blois",
+    "specialite": "Science et Génie des Matériaux",
+    "parcours": [
+      "Parcours Métiers de la caractérisation et de l’expertise des matériaux et des produits (caractérisation)",
+      "Parcours Métiers de l’ingénierie des matériaux et des produits (ingénierie)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Blois",
+    "specialite": "Licences Professionnelles",
+    "parcours": [
+      "Amélioration Continue de la Production Industrielle (ACPI)",
+      "Réfraction, Contactologie, Basse-Vision (RCBV)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Avignon Université",
+    "specialite": "Génie biologique",
+    "parcours": [
+      "Agronomie",
+      "Sciences de l’aliment et biotechnologie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Avignon Université",
+    "specialite": "Packaging, emballage et conditionnement",
+    "parcours": [
+      "Eco-conception homologation supply chain",
+      "Eco-conception et industrialisation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Avignon Université",
+    "specialite": "Science des Données",
+    "parcours": [
+      "Exploration et modélisation statistique",
+      "Visualisation, conception d'outils décisionnels"
+    ]
+  },
+  {
+    "nom_iut": "IUT Avignon Université",
+    "specialite": "Techniques de commercialisation",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Marketing digital, e-business et entrepreneuriat"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nord Franche-Comté",
+    "specialite": "Carrières sociales",
+    "parcours": [
+      "Animation sociale et socioculturelle",
+      "Coordination et gestion des établissements et services sanitaires et sociaux",
+      "Villes et territoires durables"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nord Franche-Comté",
+    "specialite": "Génie civil – Construction durable",
+    "parcours": [
+      "Réhabilitation et amélioration des performances environnementales des bâtiments",
+      "Travaux bâtiment",
+      "Travaux publics"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nord Franche-Comté",
+    "specialite": "Génie électrique et informatique industrielle",
+    "parcours": [
+      "Electricité et maîtrise de l’énergie",
+      "Electronique et systèmes embarqués"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nord Franche-Comté",
+    "specialite": "Informatique",
+    "parcours": [
+      "Réalisation d’applications : conception, développement, validation",
+      "Administration, gestion et exploitation des données"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nord Franche-Comté",
+    "specialite": "Gestion administrative et commerciale des organisations",
+    "parcours": [
+      "Management commercial et marketing omnicanal",
+      "Management des activités culturelles, artistiques, sportives et de tourisme",
+      "Management des fonctions supports"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nord Franche-Comté",
+    "specialite": "Mesures physiques",
+    "parcours": [
+      "Matériaux et contrôles physico-chimiques",
+      "Techniques d’instrumentation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nord Franche-Comté",
+    "specialite": "Métiers du Multimédia et de l'Internet",
+    "parcours": [
+      "Création numérique",
+      "Développement web et dispositifs interactifs",
+      "Stratégie de communication numérique et design d’expérience"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nord Franche-Comté",
+    "specialite": "Réseaux et télécommunications",
+    "parcours": [
+      "Cybersécurité",
+      "Réseaux Mobiles et Internet des Objets",
+      "Pilotage de Projets Réseaux"
+    ]
+  },
+  {
+    "nom_iut": "IUT Nord Franche-Comté",
+    "specialite": "Techniques de Commercialisation",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Marketing digital, e-business et entrepreneuriat",
+      "Business international : achat et vente"
+    ]
+  },
+  {
+    "nom_iut": "IUT Angoulême",
+    "specialite": "Génie mécanique et productique",
+    "parcours": [
+      "Innovation pour l’industrie",
+      "Simulation numérique et réalité virtuelle"
+    ]
+  },
+  {
+    "nom_iut": "IUT Angoulême",
+    "specialite": "Génie électrique et informatique industrielle",
+    "parcours": [
+      "Automatisme et Informatique industrielle",
+      "Electronique et systèmes embarqués"
+    ]
+  },
+  {
+    "nom_iut": "IUT Angoulême",
+    "specialite": "Métiers du Multimédia et de l'Internet",
+    "parcours": [
+      "Création numérique",
+      "Développement web et dispositifs interactifs",
+      "Stratégie de communication numérique et design d’expérience"
+    ]
+  },
+  {
+    "nom_iut": "IUT Angoulême",
+    "specialite": "Qualité, logistique industrielle et organisation",
+    "parcours": [
+      "Management de la production"
+    ]
+  },
+  {
+    "nom_iut": "IUT Angoulême",
+    "specialite": "Techniques de commercialisation",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Stratégie de marque et événementiel",
+      "Business international : achat et vente"
+    ]
+  },
+  {
+    "nom_iut": "IUT Angers-Cholet",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion et pilotage des ressources humaines",
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités",
+      "Contrôle de gestion et pilotage de la performance"
+    ]
+  },
+  {
+    "nom_iut": "IUT Angers-Cholet",
+    "specialite": "Génie électrique et informatique industrielle",
+    "parcours": [
+      "Automatisme et Informatique industrielle",
+      "Electricité et maîtrise de l’énergie",
+      "Electronique et systèmes embarqués"
+    ]
+  },
+  {
+    "nom_iut": "IUT Angers-Cholet",
+    "specialite": "Génie biologique",
+    "parcours": [
+      "Agronomie",
+      "Biologie médicale et biotechnologie",
+      "Sciences de l’aliment et biotechnologie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Angers-Cholet",
+    "specialite": "Techniques de commercialisation",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Marketing digital, e-business et entrepreneuriat",
+      "Stratégie de marque et événementiel",
+      "Business international : achat et vente"
+    ]
+  },
+  {
+    "nom_iut": "IUT Angers-Cholet",
+    "specialite": "Génie mécanique et productique",
+    "parcours": [
+      "Chargé d’affaires industrielles",
+      "Simulation numérique et réalité virtuelle"
+    ]
+  },
+  {
+    "nom_iut": "IUT Angers-Cholet",
+    "specialite": "Carrières Sociales",
+    "parcours": [
+      "Assitance sociale",
+      "Animation sociale et socioculturelle"
+    ]
+  },
+  {
+    "nom_iut": "IUT Angers-Cholet",
+    "specialite": "Gestion administrative et commerciale des organisations",
+    "parcours": [
+      "Management des fonctions supports",
+      "Management commercial et marketing omnicanal"
+    ]
+  },
+  {
+    "nom_iut": "IUT Avignon Université",
+    "specialite": "Génie biologique",
+    "parcours": [
+      "Agronomie",
+      "Sciences de l’aliment et biotechnologie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Avignon Université",
+    "specialite": "Packaging, emballage et conditionnement",
+    "parcours": [
+      "Eco-conception homologation supply chain",
+      "Eco-conception et industrialisation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Avignon Université",
+    "specialite": "Science des Données",
+    "parcours": [
+      "Exploration et modélisation statistique",
+      "Visualisation, conception d'outils décisionnels"
+    ]
+  },
+  {
+    "nom_iut": "IUT Avignon Université",
+    "specialite": "Techniques de commercialisation",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Marketing digital, e-business et entrepreneuriat"
+    ]
+  },
+  {
+    "nom_iut": "IUT Bayonne et du Pays Basque",
+    "specialite": "GENIE INDUSTRIEL ET MAINTENANCE",
+    "parcours": [
+      "Ingénierie des systèmes pluritechniques"
+    ]
+  },
+  {
+    "nom_iut": "IUT Bayonne et du Pays Basque",
+    "specialite": "INFORMATIQUE",
+    "parcours": [
+      "Réalisation d’applications : conception, développement, validation",
+      "Intégration d’applications et management du système d’information"
+    ]
+  },
+  {
+    "nom_iut": "IUT Bayonne et du Pays Basque",
+    "specialite": "Gestion des Entreprises et de Administrations",
+    "parcours": [
+      "Gestion, Entrepreneuriat et Management d'Activités (GEMA)",
+      "Gestion Comptable Fiscale et Financière (GC2F)",
+      "Gestion et Pilotage des ressources humaines (GPRH)"
+    ]
+  },
+  {
+    "nom_iut": "IUT Bayonne et du Pays Basque",
+    "specialite": "Techniques de Commercialisation",
+    "parcours": [
+      "Marketing digital, e-business et entrepreneuriat",
+      "Business international : achat et vente",
+      "Business développement et management de la relation client",
+      "Stratégie de marque et événementiel"
+    ]
+  },
+  {
+    "nom_iut": "IUT Amiens",
+    "specialite": "Génie biologique",
+    "parcours": [
+      "Agronomie",
+      "Sciences de l’aliment et biotechnologie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Amiens",
+    "specialite": "Génie civil – Construction durable",
+    "parcours": [
+      "Réhabilitation et amélioration des performances environnementales des bâtiments",
+      "Travaux bâtiment",
+      "Travaux publics"
+    ]
+  },
+  {
+    "nom_iut": "IUT Amiens",
+    "specialite": "Génie mécanique et productique",
+    "parcours": [
+      "Innovation pour l’industrie",
+      "Management des process industriel",
+      "Simulation numérique et réalité virtuelle",
+      "Conception et production durable"
+    ]
+  },
+  {
+    "nom_iut": "IUT Amiens",
+    "specialite": "Informatique",
+    "parcours": [
+      "Réalisation d’applications : conception, développement, validation",
+      "Déploiement d’applications communicantes et sécurisées",
+      "Administration, gestion et exploitation des données"
+    ]
+  },
+  {
+    "nom_iut": "IUT Amiens",
+    "specialite": "Gestion des Entreprises et des Administrations",
+    "parcours": [
+      "Gestion et pilotage des ressources humaines",
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités",
+      "Contrôle de gestion et pilotage de la performance"
+    ]
+  },
+  {
+    "nom_iut": "IUT Amiens",
+    "specialite": "Techniques de Commerciaisation",
+    "parcours": [
+      "Marketing digital, e-business et entrepreneuriat",
+      "Business international : achat et vente",
+      "Business développement et management de la relation client",
+      "Business développement et management de la relation client : Banque, Assurance, Finance",
+      "Stratégie de marque et événementiel",
+      "s Business développement et management de la relation client : Banque, Assurance, Finance"
+    ]
+  },
+  {
+    "nom_iut": "IUT Aisne",
+    "specialite": "Carrières Juridiques",
+    "parcours": [
+      "Administration et justice",
+      "Patrimoine et finance",
+      "Entreprise et association"
+    ]
+  },
+  {
+    "nom_iut": "IUT Aisne",
+    "specialite": "Techniques de commercialisation",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Business international : achat et vente"
+    ]
+  },
+  {
+    "nom_iut": "IUT Aisne",
+    "specialite": "Génie chimique et génie des procédés",
+    "parcours": [
+      "Conception des procédés et innovation technologique",
+      "Contrôle-Qualité, environnement et sécurité des procédés"
+    ]
+  },
+  {
+    "nom_iut": "IUT Aisne",
+    "specialite": "Génie mécanique et productique",
+    "parcours": [
+      "Innovation pour l’industrie",
+      "Simulation numérique et réalité virtuelle"
+    ]
+  },
+  {
+    "nom_iut": "IUT Aix-Marseille",
+    "specialite": "Gestion des entreprises et des administrations",
+    "parcours": [
+      "Gestion et pilotage des ressources humaines",
+      "Gestion comptable, fiscale et financière",
+      "Gestion, entrepreneuriat et management d’activités",
+      "Contrôle de gestion et pilotage de la performance"
+    ]
+  },
+  {
+    "nom_iut": "IUT Aix-Marseille",
+    "specialite": "Management de la Logistique et des Transports",
+    "parcours": [
+      "Mobilité et Supply Chain Connectées",
+      "Mobilité et Supply Chain Durables"
+    ]
+  },
+  {
+    "nom_iut": "IUT Aix-Marseille",
+    "specialite": "Génie mécanique et productique",
+    "parcours": [
+      "Innovation pour l’industrie",
+      "Simulation numérique et réalité virtuelle",
+      "Conception et production durable"
+    ]
+  },
+  {
+    "nom_iut": "IUT Aix-Marseille",
+    "specialite": "Informatique",
+    "parcours": [
+      "Réalisation d’applications : conception, développement, validation",
+      "Déploiement d’applications communicantes et sécurisées"
+    ]
+  },
+  {
+    "nom_iut": "IUT Aix-Marseille",
+    "specialite": "Techniques de commercialisation",
+    "parcours": [
+      "Business développement et management de la relation client",
+      "Marketing digital, e-business et entrepreneuriat",
+      "Business international : achat et vente",
+      "Marketing et management du point de vente"
+    ]
+  },
+  {
+    "nom_iut": "IUT Aix-Marseille",
+    "specialite": "Carrières sociales",
+    "parcours": [
+      "Villes et territoires durables"
+    ]
+  },
+  {
+    "nom_iut": "IUT Aix-Marseille",
+    "specialite": "Information-communication",
+    "parcours": [
+      "Métiers du Livre et du Patrimoine",
+      "Métiers du livre et du patrimoine"
+    ]
+  },
+  {
+    "nom_iut": "IUT Aix-Marseille",
+    "specialite": "Métiers du Multimédia et de l'Internet",
+    "parcours": [
+      "Création numérique"
+    ]
+  },
+  {
+    "nom_iut": "IUT Aix-Marseille",
+    "specialite": "Gestion administrative et commerciale des organisations",
+    "parcours": [
+      "Management responsable de projet"
+    ]
+  },
+  {
+    "nom_iut": "IUT Aix-Marseille",
+    "specialite": "Génie biologique",
+    "parcours": [
+      "Agronomie",
+      "Sciences de l’environnement et écotechnologie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Aix-Marseille",
+    "specialite": "Hygiène, sécurité, environnement",
+    "parcours": [
+      "Science du danger et management des risques professionnels technologiques et environnementaux"
+    ]
+  },
+  {
+    "nom_iut": "IUT Aix-Marseille",
+    "specialite": "Génie civil – Construction durable",
+    "parcours": [
+      "Travaux bâtiment"
+    ]
+  },
+  {
+    "nom_iut": "IUT Aix-Marseille",
+    "specialite": "Chimie",
+    "parcours": [
+      "Analyse, contrôle-qualité, environnement"
+    ]
+  },
+  {
+    "nom_iut": "IUT Aix-Marseille",
+    "specialite": "Génie chimique et génie des procédés",
+    "parcours": [
+      "Conception des procédés et innovation technologique",
+      "Contrôle, pilotage et optimisation des procédés"
+    ]
+  },
+  {
+    "nom_iut": "IUT Aix-Marseille",
+    "specialite": "Génie électrique et informatique industrielle",
+    "parcours": [
+      "Electronique et systèmes embarqués"
+    ]
+  },
+  {
+    "nom_iut": "IUT Aix-Marseille",
+    "specialite": "Mesures physiques",
+    "parcours": [
+      "Matériaux et contrôles physico-chimiques",
+      "Techniques d’instrumentation"
+    ]
+  },
+  {
+    "nom_iut": "IUT Aix-Marseille",
+    "specialite": "Métiers de la Transition et de l'Efficacité Energétiques",
+    "parcours": [
+      "Exploitation des installations énergétiques pour le bâtiment et l’industrie",
+      "Optimisation énergétique pour le bâtiment et l’industrie"
+    ]
+  },
+  {
+    "nom_iut": "IUT Aix-Marseille",
+    "specialite": "Réseaux et télécommunications",
+    "parcours": [
+      "Cybersécurité"
+    ]
+  }
+]
