@@ -52,26 +52,17 @@
 
   /* ── HEADER ── */
   header {
-    background: var(--navy);
+    background: var(--white);
     padding: 0;
     position: relative;
     overflow: hidden;
-    border-bottom: 1px solid rgba(255,255,255,0.08);
-    box-shadow: 0 2px 12px rgba(0,0,0,0.3);
-  }
-  header::before {
-    content: '';
-    position: absolute; inset: 0;
-    background: repeating-linear-gradient(
-      -55deg,
-      transparent, transparent 40px,
-      rgba(255,255,255,0.02) 40px, rgba(255,255,255,0.02) 41px
-    );
+    border-bottom: 1px solid var(--gray-200);
+    box-shadow: 0 2px 8px rgba(27,28,38,0.1);
   }
   .header-inner {
     max-width: 1600px;
     margin: 0 auto;
-    padding: 2rem 2rem 1.8rem;
+    padding: 1.6rem 2rem 1.4rem;
     display: flex;
     align-items: flex-end;
     gap: 2rem;
@@ -79,27 +70,11 @@
     position: relative;
   }
   .header-title-block { flex: 1; min-width: 280px; }
-  .brand-logo {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    margin-bottom: 0.7rem;
-  }
-  .brand-iut {
-    background: var(--accent);
-    color: var(--white);
-    font-family: 'Arvo', serif;
-    font-weight: 700;
-    font-size: 15px;
-    padding: 3px 8px;
-    border-radius: 2px;
-    letter-spacing: 0.5px;
-  }
-  .brand-france {
-    color: var(--white);
-    font-family: 'Arvo', serif;
-    font-weight: 700;
-    font-size: 16px;
+  .brand-logo-img {
+    height: 52px;
+    width: auto;
+    display: block;
+    margin-bottom: 0.8rem;
   }
   .header-eyebrow {
     font-size: 0.68rem;
@@ -113,13 +88,13 @@
     font-family: 'Arvo', serif;
     font-size: clamp(1.5rem, 3vw, 2.4rem);
     font-weight: 700;
-    color: var(--white);
+    color: var(--navy);
     line-height: 1.15;
   }
   header h1 span { color: var(--accent); }
   .header-sub {
     font-size: 0.82rem;
-    color: rgba(255,255,255,0.5);
+    color: var(--gray-400);
     margin-top: 0.5rem;
   }
   .header-stats {
@@ -129,8 +104,8 @@
     align-items: flex-end;
   }
   .stat-box {
-    background: rgba(255,255,255,0.07);
-    border: 1px solid rgba(255,255,255,0.12);
+    background: var(--gray-100);
+    border: 1px solid var(--gray-200);
     border-radius: var(--radius-sm);
     padding: 0.6rem 1rem;
     text-align: center;
@@ -139,7 +114,7 @@
   .stat-box .val {
     font-size: 1.6rem;
     font-weight: 700;
-    color: var(--accent-soft);
+    color: var(--accent);
     line-height: 1;
   }
   .stat-box .lbl {
@@ -319,8 +294,9 @@
     border-bottom: 1px solid var(--gray-100);
     transition: background 0.15s;
   }
+  tbody tr:nth-child(even) { background: #f0f1f4; }
   tbody tr:last-child { border-bottom: none; }
-  tbody tr:hover { background: var(--gray-50); }
+  tbody tr:hover { background: #dde3ec; }
 
   td {
     padding: 0.75rem 1rem;
@@ -349,6 +325,11 @@
     border-radius: 4px;
     font-size: 11px;
     color: var(--gray-600);
+    max-width: 160px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: bottom;
   }
 
   .region-badge {
@@ -558,6 +539,30 @@
   .r-pdl  { background: #e8f0f8; color: #1a4a7a; }
   .r-pac  { background: #ffe8f4; color: #8a1a4a; }
 
+  /* ── PARCOURS COLUMN ── */
+  .parcours-col { display: flex; flex-direction: column; gap: 5px; }
+  .parcours-spec-row { display: flex; align-items: flex-start; gap: 6px; }
+  .parcours-spec-lbl {
+    font-size: 0.60rem;
+    font-weight: 700;
+    color: var(--navy-mid);
+    min-width: 38px;
+    padding-top: 2px;
+    white-space: nowrap;
+  }
+  .parcours-pills { display: flex; flex-wrap: wrap; gap: 3px; }
+  .parcours-pill {
+    font-size: 0.60rem;
+    font-weight: 600;
+    padding: 1px 5px;
+    border-radius: 3px;
+    background: var(--gray-100);
+    border: 1px solid var(--gray-200);
+    color: var(--gray-600);
+    cursor: default;
+    white-space: nowrap;
+  }
+
   @media (max-width: 900px) {
     .header-inner { padding: 1.5rem 1rem 1rem; }
     .toolbar-inner { padding: 0.75rem 1rem; gap: 6px; }
@@ -602,10 +607,7 @@
 <header>
   <div class="header-inner">
     <div class="header-title-block">
-      <div class="brand-logo">
-        <span class="brand-iut">ADIUT</span>
-        <span class="brand-france">France</span>
-      </div>
+      <img src="logo-les-iut-single-couleur.svg" alt="Les IUT" class="brand-logo-img">
       <div class="header-eyebrow">Réseau national — Source : ADIUT / iut.fr</div>
       <h1>Annuaire des <span>IUT</span> de France</h1>
       <p class="header-sub">Tableau comparatif interactif • BUT 2024–2026 • Filtres région &amp; spécialité</p>
@@ -666,14 +668,24 @@
   <div id="table-view">
     <div class="table-wrap">
       <table>
+        <colgroup>
+          <col style="width:18%">  <!-- IUT -->
+          <col style="width:11%">  <!-- Ville -->
+          <col style="width:11%">  <!-- Région -->
+          <col style="width:4%">   <!-- Sites -->
+          <col style="width:16%">  <!-- Spécialités BUT -->
+          <col style="width:4%">   <!-- Nb -->
+          <col style="width:36%">  <!-- Parcours -->
+        </colgroup>
         <thead>
           <tr>
             <th data-col="nom">IUT <span class="sort-arrow">↕</span></th>
-            <th data-col="ville">Ville principale <span class="sort-arrow">↕</span></th>
+            <th data-col="ville">Ville <span class="sort-arrow">↕</span></th>
             <th data-col="region">Région <span class="sort-arrow">↕</span></th>
             <th data-col="sites" style="text-align:center">Sites <span class="sort-arrow">↕</span></th>
             <th data-col="but">Spécialités BUT</th>
             <th data-col="nbBut" style="text-align:center">Nb <span class="sort-arrow">↕</span></th>
+            <th data-col="parcours">Parcours</th>
           </tr>
         </thead>
         <tbody id="table-body"></tbody>
@@ -813,6 +825,7 @@ function transformData(iuts) {
         region: REGION_CODES[site.region] || 'IDF',
         sites: 0,
         but: new Set(),
+        parcours: {},
         url: iutPageUrl(base),
       };
     }
@@ -820,6 +833,12 @@ function transformData(iuts) {
     g.villes.add(site.ville);
     g.sites++;
     for (const s of site.specialite) g.but.add(s);
+    if (site.parcours) {
+      for (const [spec, codes] of Object.entries(site.parcours)) {
+        if (!g.parcours[spec]) g.parcours[spec] = new Set();
+        for (const code of codes) g.parcours[spec].add(code);
+      }
+    }
   }
   return Object.values(groups).map(g => ({
     nom: g.nom,
@@ -827,11 +846,13 @@ function transformData(iuts) {
     region: g.region,
     sites: g.sites,
     but: [...g.but],
+    parcours: Object.fromEntries(Object.entries(g.parcours).map(([k,v])=>[k,[...v]])),
     url: g.url,
   }));
 }
 
 let IUT_DATA = [];
+let intituleParcours = {};
 
 // ────────────────────────────────────────────────────────────────────────────
 // INIT
@@ -845,6 +866,7 @@ let sortKey = 'nom';
 
 (async () => {
   const json = await fetch('data.json').then(r => r.json());
+  intituleParcours = json.intitule_parcours || {};
   IUT_DATA = transformData(json.iuts);
 
   // Total stats
@@ -911,6 +933,23 @@ function renderBadge(regionKey) {
   return `<span class="region-badge ${r.cls}">${r.label}</span>`;
 }
 
+function renderParcoursCol(d) {
+  const entries = Object.entries(d.parcours || {});
+  if (!entries.length) return '<span style="color:var(--gray-400);font-size:11px">—</span>';
+  return `<div class="parcours-col">${
+    entries.map(([spec, codes]) => {
+      const pills = codes.map(code => {
+        const def = intituleParcours[code]?.definition ?? code;
+        return `<span class="parcours-pill" title="${def}">${code}</span>`;
+      }).join('');
+      return `<div class="parcours-spec-row">
+        <span class="parcours-spec-lbl" title="${BUT_LABELS[spec]||spec}">${spec}</span>
+        <div class="parcours-pills">${pills}</div>
+      </div>`;
+    }).join('')
+  }</div>`;
+}
+
 function renderButTags(butList, highlight='') {
   return butList.map(b=>{
     const title = BUT_LABELS[b]||b;
@@ -937,6 +976,7 @@ function renderTable(data) {
       <td><div class="sites-num">${d.sites}</div></td>
       <td><div class="but-tags">${renderButTags(d.but, filterBut)}</div></td>
       <td style="text-align:center; font-weight:600; color:var(--gray-400)">${d.but.length}</td>
+      <td>${renderParcoursCol(d)}</td>
     </tr>
   `).join('');
 }
