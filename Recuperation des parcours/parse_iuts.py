@@ -20,7 +20,7 @@ from bs4 import BeautifulSoup
 
 # ── Configuration ────────────────────────────────────────────────────────────
 
-INPUT_DIR  = Path("cache_iuts_html")   # dossier contenant les fichiers HTML
+INPUT_DIR  = Path(__file__).parent / "cache_iuts_html"   # dossier contenant les fichiers HTML
 OUTPUT_FILE = Path("recup_parcours.json")  # fichier JSON de sortie
 
 # ── Fonctions ────────────────────────────────────────────────────────────────

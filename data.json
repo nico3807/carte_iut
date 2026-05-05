@@ -193,9 +193,6 @@
         "TC": [
           "BDMRC",
           "BIAV"
-        ],
-        "GMP": [
-          "SNRV"
         ]
       }
     },
@@ -215,19 +212,11 @@
       ],
       "parcours": {
         "GCGP": [
-          "CPOP",
-          "CMOB"
-        ],
-        "CJ": [
-          "AJ",
-          "PF",
-          "EA"
-        ],
-        "TC": [
-          "BDMRC",
-          "BIAV"
+          "CPIT",
+          "CQESP"
         ],
         "GMP": [
+          "IPI",
           "SNRV"
         ]
       }
@@ -296,63 +285,23 @@
           "GEMA",
           "CG2P"
         ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "BIAV",
-          "MMPV"
-        ],
         "MLT": [
           "MSCC",
           "MSCD"
         ],
-        "CS": [
-          "VTD"
+        "GMP": [
+          "IPI",
+          "SNRV",
+          "CPD"
         ],
         "INFO": [
           "RACDV",
           "DACS"
         ],
-        "GMP": [
-          "SNRV",
-          "CPD"
-        ],
-        "INFOCOM": [
-          "MLP",
-          "MLP"
-        ],
-        "MMI": [
-          "CN"
-        ],
-        "GB": [
-          "AGRO",
-          "SEE"
-        ],
-        "HSE": [
-          "SDMR"
-        ],
-        "GCCD": [
-          "TB"
-        ],
-        "CHIMIE": [
-          "ACQE"
-        ],
-        "GCGP": [
-          "CPOP"
-        ],
-        "GEII": [
-          "ESE"
-        ],
-        "MP": [
-          "MCPC",
-          "TI"
-        ],
-        "MTEE": [
-          "EXPLOIT",
-          "OPTIM"
-        ],
-        "RT": [
-          "CYBER"
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "BIAV"
         ]
       }
     },
@@ -371,69 +320,11 @@
         "MMI"
       ],
       "parcours": {
+        "INFO": [
+          "RACDV"
+        ],
         "MMI": [
           "CN"
-        ],
-        "INFO": [
-          "RACDV",
-          "DACS"
-        ],
-        "GEA": [
-          "GPRH",
-          "GC2F",
-          "GEMA",
-          "CG2P"
-        ],
-        "MLT": [
-          "MSCC",
-          "MSCD"
-        ],
-        "GMP": [
-          "SNRV",
-          "CPD"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "BIAV",
-          "MMPV"
-        ],
-        "CS": [
-          "VTD"
-        ],
-        "INFOCOM": [
-          "MLP",
-          "MLP"
-        ],
-        "GB": [
-          "AGRO",
-          "SEE"
-        ],
-        "HSE": [
-          "SDMR"
-        ],
-        "GCCD": [
-          "TB"
-        ],
-        "CHIMIE": [
-          "ACQE"
-        ],
-        "GCGP": [
-          "CPOP"
-        ],
-        "GEII": [
-          "ESE"
-        ],
-        "MP": [
-          "MCPC",
-          "TI"
-        ],
-        "MTEE": [
-          "EXPLOIT",
-          "OPTIM"
-        ],
-        "RT": [
-          "CYBER"
         ]
       }
     },
@@ -453,73 +344,11 @@
       ],
       "parcours": {
         "GACO": [
-          "MDFS",
-          "MCMO",
           "MRPE"
         ],
         "GB": [
           "AGRO",
           "SEE"
-        ],
-        "GEA": [
-          "GPRH",
-          "GC2F",
-          "GEMA",
-          "CG2P"
-        ],
-        "MLT": [
-          "MSCC",
-          "MSCD"
-        ],
-        "GMP": [
-          "SNRV",
-          "CPD"
-        ],
-        "INFO": [
-          "RACDV",
-          "DACS"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "BIAV",
-          "MMPV"
-        ],
-        "CS": [
-          "VTD"
-        ],
-        "INFOCOM": [
-          "MLP",
-          "MLP"
-        ],
-        "MMI": [
-          "CN"
-        ],
-        "HSE": [
-          "SDMR"
-        ],
-        "GCCD": [
-          "TB"
-        ],
-        "CHIMIE": [
-          "ACQE"
-        ],
-        "GCGP": [
-          "CPOP"
-        ],
-        "GEII": [
-          "ESE"
-        ],
-        "MP": [
-          "MCPC",
-          "TI"
-        ],
-        "MTEE": [
-          "EXPLOIT",
-          "OPTIM"
-        ],
-        "RT": [
-          "CYBER"
         ]
       }
     },
@@ -538,68 +367,8 @@
       ],
       "parcours": {
         "GEA": [
-          "GPRH",
           "GC2F",
-          "GEMA",
-          "CG2P"
-        ],
-        "MLT": [
-          "MSCC",
-          "MSCD"
-        ],
-        "GMP": [
-          "SNRV",
-          "CPD"
-        ],
-        "INFO": [
-          "RACDV",
-          "DACS"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "BIAV",
-          "MMPV"
-        ],
-        "CS": [
-          "VTD"
-        ],
-        "INFOCOM": [
-          "MLP",
-          "MLP"
-        ],
-        "MMI": [
-          "CN"
-        ],
-        "GB": [
-          "AGRO",
-          "SEE"
-        ],
-        "HSE": [
-          "SDMR"
-        ],
-        "GCCD": [
-          "TB"
-        ],
-        "CHIMIE": [
-          "ACQE"
-        ],
-        "GCGP": [
-          "CPOP"
-        ],
-        "GEII": [
-          "ESE"
-        ],
-        "MP": [
-          "MCPC",
-          "TI"
-        ],
-        "MTEE": [
-          "EXPLOIT",
-          "OPTIM"
-        ],
-        "RT": [
-          "CYBER"
+          "GEMA"
         ]
       }
     },
@@ -619,67 +388,6 @@
       "parcours": {
         "HSE": [
           "SDMR"
-        ],
-        "GEA": [
-          "GPRH",
-          "GC2F",
-          "GEMA",
-          "CG2P"
-        ],
-        "MLT": [
-          "MSCC",
-          "MSCD"
-        ],
-        "GMP": [
-          "SNRV",
-          "CPD"
-        ],
-        "INFO": [
-          "RACDV",
-          "DACS"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "BIAV",
-          "MMPV"
-        ],
-        "CS": [
-          "VTD"
-        ],
-        "INFOCOM": [
-          "MLP",
-          "MLP"
-        ],
-        "MMI": [
-          "CN"
-        ],
-        "GB": [
-          "AGRO",
-          "SEE"
-        ],
-        "GCCD": [
-          "TB"
-        ],
-        "CHIMIE": [
-          "ACQE"
-        ],
-        "GCGP": [
-          "CPOP"
-        ],
-        "GEII": [
-          "ESE"
-        ],
-        "MP": [
-          "MCPC",
-          "TI"
-        ],
-        "MTEE": [
-          "EXPLOIT",
-          "OPTIM"
-        ],
-        "RT": [
-          "CYBER"
         ]
       }
     },
@@ -699,67 +407,6 @@
       "parcours": {
         "GCCD": [
           "TB"
-        ],
-        "GEA": [
-          "GPRH",
-          "GC2F",
-          "GEMA",
-          "CG2P"
-        ],
-        "MLT": [
-          "MSCC",
-          "MSCD"
-        ],
-        "GMP": [
-          "SNRV",
-          "CPD"
-        ],
-        "INFO": [
-          "RACDV",
-          "DACS"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "BIAV",
-          "MMPV"
-        ],
-        "CS": [
-          "VTD"
-        ],
-        "INFOCOM": [
-          "MLP",
-          "MLP"
-        ],
-        "MMI": [
-          "CN"
-        ],
-        "GB": [
-          "AGRO",
-          "SEE"
-        ],
-        "HSE": [
-          "SDMR"
-        ],
-        "CHIMIE": [
-          "ACQE"
-        ],
-        "GCGP": [
-          "CPOP"
-        ],
-        "GEII": [
-          "ESE"
-        ],
-        "MP": [
-          "MCPC",
-          "TI"
-        ],
-        "MTEE": [
-          "EXPLOIT",
-          "OPTIM"
-        ],
-        "RT": [
-          "CYBER"
         ]
       }
     },
@@ -779,67 +426,6 @@
       "parcours": {
         "RT": [
           "CYBER"
-        ],
-        "GEA": [
-          "GPRH",
-          "GC2F",
-          "GEMA",
-          "CG2P"
-        ],
-        "MLT": [
-          "MSCC",
-          "MSCD"
-        ],
-        "GMP": [
-          "SNRV",
-          "CPD"
-        ],
-        "INFO": [
-          "RACDV",
-          "DACS"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "BIAV",
-          "MMPV"
-        ],
-        "CS": [
-          "VTD"
-        ],
-        "INFOCOM": [
-          "MLP",
-          "MLP"
-        ],
-        "MMI": [
-          "CN"
-        ],
-        "GB": [
-          "AGRO",
-          "SEE"
-        ],
-        "HSE": [
-          "SDMR"
-        ],
-        "GCCD": [
-          "TB"
-        ],
-        "CHIMIE": [
-          "ACQE"
-        ],
-        "GCGP": [
-          "CPOP"
-        ],
-        "GEII": [
-          "ESE"
-        ],
-        "MP": [
-          "MCPC",
-          "TI"
-        ],
-        "MTEE": [
-          "EXPLOIT",
-          "OPTIM"
         ]
       }
     },
@@ -863,17 +449,17 @@
         "TC"
       ],
       "parcours": {
+        "CHIMIE": [
+          "ACQE"
+        ],
         "GEA": [
-          "GPRH",
           "GC2F",
           "GEMA",
           "CG2P"
         ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "BIAV",
-          "MMPV"
+        "GCGP": [
+          "CPIT",
+          "CPOP"
         ],
         "GEII": [
           "ESE"
@@ -882,50 +468,13 @@
           "MCPC",
           "TI"
         ],
-        "CHIMIE": [
-          "ACQE"
-        ],
-        "GCGP": [
-          "CPOP"
-        ],
         "MTEE": [
           "EXPLOIT",
           "OPTIM"
         ],
-        "MLT": [
-          "MSCC",
-          "MSCD"
-        ],
-        "GMP": [
-          "SNRV",
-          "CPD"
-        ],
-        "INFO": [
-          "RACDV",
-          "DACS"
-        ],
-        "CS": [
-          "VTD"
-        ],
-        "INFOCOM": [
-          "MLP",
-          "MLP"
-        ],
-        "MMI": [
-          "CN"
-        ],
-        "GB": [
-          "AGRO",
-          "SEE"
-        ],
-        "HSE": [
-          "SDMR"
-        ],
-        "GCCD": [
-          "TB"
-        ],
-        "RT": [
-          "CYBER"
+        "TC": [
+          "BDMRC",
+          "MMPV"
         ]
       }
     },
@@ -1028,37 +577,6 @@
         "TC"
       ],
       "parcours": {
-        "GEA": [
-          "GPRH",
-          "GC2F",
-          "GEMA",
-          "CG2P"
-        ],
-        "TC": [
-          "MDEE",
-          "BIAV",
-          "BDMRC",
-          "SME"
-        ],
-        "MMI": [
-          "DEV",
-          "STRAT"
-        ],
-        "GEII": [
-          "AII",
-          "ESE",
-          "EME"
-        ],
-        "INFO": [
-          "RACDV",
-          "DACS",
-          "AGED"
-        ],
-        "GMP": [
-          "MPI",
-          "SNRV",
-          "CPD"
-        ],
         "GB": [
           "AGRO",
           "SAB"
@@ -1068,10 +586,22 @@
           "TB",
           "TP"
         ],
-        "MTEE": [
-          "OPTIM",
-          "EXPLOIT",
-          "MANÉ"
+        "GMP": [
+          "IPI",
+          "MPI",
+          "SNRV",
+          "CPD"
+        ],
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED"
+        ],
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "GEMA",
+          "CG2P"
         ]
       }
     },
@@ -1099,35 +629,21 @@
           "GEMA",
           "CG2P"
         ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "SME",
-          "BIAV"
-        ],
         "GEII": [
           "AII",
           "EME",
           "ESE"
-        ],
-        "GMP": [
-          "CAI",
-          "SNRV"
-        ],
-        "QLIO": [
-          "MPBS",
-          "QPSMI"
         ],
         "GB": [
           "AGRO",
           "BMB",
           "SAB"
         ],
-        "CS": [
-          "ASSC"
-        ],
-        "GACO": [
-          "MCMO"
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "SME",
+          "BIAV"
         ]
       }
     },
@@ -1202,22 +718,26 @@
         "TC"
       ],
       "parcours": {
-        "TC": [
-          "BDMRC",
-          "SME",
-          "BIAV"
+        "GMP": [
+          "IPI",
+          "SNRV"
+        ],
+        "GEII": [
+          "AII",
+          "ESE"
         ],
         "MMI": [
           "CN",
           "DEV",
           "STRAT"
         ],
-        "GEII": [
-          "AII",
-          "ESE"
+        "QLIO": [
+          "MPI"
         ],
-        "GMP": [
-          "SNRV"
+        "TC": [
+          "BDMRC",
+          "SME",
+          "BIAV"
         ]
       }
     },
@@ -1310,17 +830,17 @@
         "TC"
       ],
       "parcours": {
-        "SD": [
-          "EMS",
-          "VCOD"
+        "GB": [
+          "AGRO",
+          "SAB"
         ],
         "PEC": [
           "EHSC",
           "EI"
         ],
-        "GB": [
-          "AGRO",
-          "SAB"
+        "SD": [
+          "EMS",
+          "VCOD"
         ],
         "TC": [
           "BDMRC",
@@ -1415,47 +935,24 @@
         "INFOCOM"
       ],
       "parcours": {
+        "CHIMIE": [
+          "ACQE",
+          "MPF"
+        ],
         "GEA": [
           "GPRH",
           "GC2F",
           "GEMA",
           "CG2P"
         ],
-        "TC": [
-          "MDEE",
-          "BDMRC",
-          "BIAV"
+        "GMP": [
+          "IPI",
+          "MPI",
+          "SNRV"
         ],
         "INFOCOM": [
           "CO",
           "PUB"
-        ],
-        "GMP": [
-          "MPI",
-          "SNRV"
-        ],
-        "CHIMIE": [
-          "ACQE",
-          "MPF"
-        ],
-        "GB": [
-          "BMB"
-        ],
-        "GIM": [
-          "3MI"
-        ],
-        "HSE": [
-          "SDMR"
-        ],
-        "MLT": [
-          "MSCC",
-          "MSCD"
-        ],
-        "PEC": [
-          "EI"
-        ],
-        "SD": [
-          "VCOD"
         ]
       }
     },
@@ -1474,47 +971,11 @@
         "SD"
       ],
       "parcours": {
-        "TC": [
-          "MDEE",
-          "BDMRC",
-          "BIAV"
-        ],
-        "SD": [
-          "VCOD"
-        ],
         "PEC": [
           "EI"
         ],
-        "GB": [
-          "BMB"
-        ],
-        "CHIMIE": [
-          "ACQE",
-          "MPF"
-        ],
-        "GEA": [
-          "GPRH",
-          "GC2F",
-          "GEMA",
-          "CG2P"
-        ],
-        "GMP": [
-          "MPI",
-          "SNRV"
-        ],
-        "INFOCOM": [
-          "CO",
-          "PUB"
-        ],
-        "GIM": [
-          "3MI"
-        ],
-        "HSE": [
-          "SDMR"
-        ],
-        "MLT": [
-          "MSCC",
-          "MSCD"
+        "SD": [
+          "VCOD"
         ]
       }
     },
@@ -1534,51 +995,15 @@
         "MLT"
       ],
       "parcours": {
-        "TC": [
-          "MDEE",
-          "BDMRC",
-          "BIAV"
-        ],
-        "MLT": [
-          "MSCC",
-          "MSCD"
-        ],
         "GIM": [
           "3MI"
-        ],
-        "QLIO": [
-          "MPBS",
-          "QPSMI"
-        ],
-        "GB": [
-          "BMB"
         ],
         "HSE": [
           "SDMR"
         ],
-        "CHIMIE": [
-          "ACQE",
-          "MPF"
-        ],
-        "GEA": [
-          "GPRH",
-          "GC2F",
-          "GEMA",
-          "CG2P"
-        ],
-        "GMP": [
-          "MPI",
-          "SNRV"
-        ],
-        "INFOCOM": [
-          "CO",
-          "PUB"
-        ],
-        "PEC": [
-          "EI"
-        ],
-        "SD": [
-          "VCOD"
+        "MLT": [
+          "MSCC",
+          "MSCD"
         ]
       }
     },
@@ -1601,13 +1026,6 @@
         "RT"
       ],
       "parcours": {
-        "GEII": [
-          "AII",
-          "EME"
-        ],
-        "GMP": [
-          "MPI"
-        ],
         "CHIMIE": [
           "ACQE",
           "CI",
@@ -1617,6 +1035,17 @@
           "BEC",
           "TB",
           "TP"
+        ],
+        "GEII": [
+          "AII",
+          "EME"
+        ],
+        "GMP": [
+          "IPI",
+          "MPI"
+        ],
+        "QLIO": [
+          "MPI"
         ],
         "RT": [
           "CYBER",
@@ -1675,15 +1104,15 @@
         "CS": [
           "CGE3S"
         ],
-        "RT": [
-          "CYBER"
-        ],
         "GIM": [
           "ISP",
           "3MI"
         ],
         "INFO": [
           "RACDV"
+        ],
+        "RT": [
+          "CYBER"
         ]
       }
     },
@@ -1739,19 +1168,11 @@
         "MMI"
       ],
       "parcours": {
-        "GEA": [
-          "GC2F",
-          "GEMA",
-          "CG2P"
-        ],
         "CS": [
-          "ASS",
-          "ASSC",
           "VTD"
         ],
-        "MMI": [
-          "CN",
-          "STRAT"
+        "GEA": [
+          "CG2P"
         ],
         "GB": [
           "BMB"
@@ -1774,65 +1195,11 @@
       ],
       "parcours": {
         "GACO": [
+          "MDFS",
           "MCMO"
         ],
         "QLIO": [
-          "MPBS",
-          "QPSMI"
-        ],
-        "GEA": [
-          "GC2F",
-          "GPRH",
-          "GEMA",
-          "CG2P"
-        ],
-        "MLT": [
-          "MSCC",
-          "MSCD"
-        ],
-        "TC": [
-          "BDMRC",
-          "SME"
-        ],
-        "GCCD": [
-          "TP",
-          "TB",
-          "REHAB",
-          "BEC"
-        ],
-        "GEII": [
-          "EME",
-          "AII",
-          "ESE"
-        ],
-        "GMP": [
-          "CPD",
-          "SNRV"
-        ],
-        "HSE": [
-          "SDMR"
-        ],
-        "INFO": [
-          "RACDV"
-        ],
-        "MP": [
-          "TI",
-          "MCPC",
-          "MAE"
-        ],
-        "CS": [
-          "VTD"
-        ],
-        "GB": [
-          "AGRO",
-          "DIET",
-          "SAB"
-        ],
-        "GCGP": [
-          "CPOP"
-        ],
-        "SGM": [
-          "MIMP"
+          "MPI"
         ]
       }
     },
@@ -1932,56 +1299,15 @@
           "GEMA",
           "CG2P"
         ],
-        "TC": [
-          "BDMRC",
-          "SME"
-        ],
         "MLT": [
           "MSCC",
           "MSCD"
         ],
-        "GACO": [
-          "MCMO"
-        ],
-        "GCCD": [
-          "TP",
-          "TB",
-          "REHAB",
-          "BEC"
-        ],
-        "GEII": [
-          "EME",
-          "AII",
-          "ESE"
-        ],
-        "GMP": [
-          "CPD",
-          "SNRV"
-        ],
-        "HSE": [
-          "SDMR"
-        ],
-        "INFO": [
-          "RACDV"
-        ],
-        "MP": [
-          "TI",
-          "MCPC",
-          "MAE"
-        ],
-        "CS": [
-          "VTD"
-        ],
-        "GB": [
-          "AGRO",
-          "DIET",
-          "SAB"
-        ],
-        "GCGP": [
-          "CPOP"
-        ],
-        "SGM": [
-          "MIMP"
+        "TC": [
+          "MDEE",
+          "BIAV",
+          "MMPV",
+          "BDMRC"
         ]
       }
     },
@@ -2005,22 +1331,27 @@
         "SGM"
       ],
       "parcours": {
+        "GCCD": [
+          "TP",
+          "TB",
+          "REHAB",
+          "BEC"
+        ],
         "GEII": [
           "EME",
           "AII",
           "ESE"
         ],
-        "RT": [
-          "CYBER",
-          "DEVCLOUD",
-          "ROM"
+        "GMP": [
+          "CPD",
+          "IPI",
+          "SNRV"
+        ],
+        "HSE": [
+          "SDMR"
         ],
         "INFO": [
           "RACDV"
-        ],
-        "GMP": [
-          "CPD",
-          "SNRV"
         ],
         "MP": [
           "TI",
@@ -2029,49 +1360,6 @@
         ],
         "SGM": [
           "MIMP"
-        ],
-        "GCCD": [
-          "TP",
-          "TB",
-          "REHAB",
-          "BEC"
-        ],
-        "MTEE": [
-          "OPTIM",
-          "EXPLOIT",
-          "MANÉ",
-          "REAL"
-        ],
-        "HSE": [
-          "SDMR"
-        ],
-        "GACO": [
-          "MCMO"
-        ],
-        "GEA": [
-          "GC2F",
-          "GPRH",
-          "GEMA",
-          "CG2P"
-        ],
-        "MLT": [
-          "MSCC",
-          "MSCD"
-        ],
-        "TC": [
-          "BDMRC",
-          "SME"
-        ],
-        "CS": [
-          "VTD"
-        ],
-        "GB": [
-          "AGRO",
-          "DIET",
-          "SAB"
-        ],
-        "GCGP": [
-          "CPOP"
         ]
       }
     },
@@ -2093,62 +1381,22 @@
         "GEA"
       ],
       "parcours": {
-        "TC": [
-          "BDMRC",
-          "SME"
-        ],
         "CS": [
+          "ASSC",
           "VTD"
-        ],
-        "GCGP": [
-          "CPOP"
         ],
         "GB": [
           "AGRO",
           "DIET",
           "SAB"
         ],
-        "GEA": [
-          "GC2F",
-          "GPRH",
-          "GEMA",
-          "CG2P"
+        "GCGP": [
+          "CQESP",
+          "CPOP"
         ],
-        "GACO": [
-          "MCMO"
-        ],
-        "MLT": [
-          "MSCC",
-          "MSCD"
-        ],
-        "GCCD": [
-          "TP",
-          "TB",
-          "REHAB",
-          "BEC"
-        ],
-        "GEII": [
-          "EME",
-          "AII",
-          "ESE"
-        ],
-        "GMP": [
-          "CPD",
-          "SNRV"
-        ],
-        "HSE": [
-          "SDMR"
-        ],
-        "INFO": [
-          "RACDV"
-        ],
-        "MP": [
-          "TI",
-          "MCPC",
-          "MAE"
-        ],
-        "SGM": [
-          "MIMP"
+        "TC": [
+          "BDMRC",
+          "SME"
         ]
       }
     },
@@ -2169,6 +1417,7 @@
       ],
       "parcours": {
         "CS": [
+          "ASSC",
           "VTD"
         ],
         "INFOCOM": [
@@ -2176,65 +1425,6 @@
           "INO",
           "MLP",
           "PUB"
-        ],
-        "MMI": [
-          "STRAT",
-          "CN",
-          "DEV"
-        ],
-        "GACO": [
-          "MCMO"
-        ],
-        "GEA": [
-          "GC2F",
-          "GPRH",
-          "GEMA",
-          "CG2P"
-        ],
-        "MLT": [
-          "MSCC",
-          "MSCD"
-        ],
-        "TC": [
-          "BDMRC",
-          "SME"
-        ],
-        "GCCD": [
-          "TP",
-          "TB",
-          "REHAB",
-          "BEC"
-        ],
-        "GEII": [
-          "EME",
-          "AII",
-          "ESE"
-        ],
-        "GMP": [
-          "CPD",
-          "SNRV"
-        ],
-        "HSE": [
-          "SDMR"
-        ],
-        "INFO": [
-          "RACDV"
-        ],
-        "MP": [
-          "TI",
-          "MCPC",
-          "MAE"
-        ],
-        "GB": [
-          "AGRO",
-          "DIET",
-          "SAB"
-        ],
-        "GCGP": [
-          "CPOP"
-        ],
-        "SGM": [
-          "MIMP"
         ]
       }
     },
@@ -2257,17 +1447,13 @@
         "QLIO"
       ],
       "parcours": {
+        "CS": [
+          "VTD"
+        ],
         "GEA": [
           "GPRH",
           "GC2F",
           "GEMA"
-        ],
-        "TC": [
-          "MDEE",
-          "BDMRC"
-        ],
-        "GMP": [
-          "SNRV"
         ],
         "GCCD": [
           "BEC",
@@ -2275,12 +1461,16 @@
           "TB",
           "TP"
         ],
-        "CS": [
-          "VTD"
+        "GMP": [
+          "IPI",
+          "SNRV"
         ],
         "MP": [
           "MCPC",
           "TI"
+        ],
+        "QLIO": [
+          "MPBS"
         ]
       }
     },
@@ -2306,31 +1496,20 @@
           "GEMA",
           "CG2P"
         ],
-        "GEII": [
-          "AII",
-          "EME",
-          "ESE"
-        ],
-        "GMP": [
-          "SNRV",
-          "CPD"
-        ],
         "GB": [
           "AGRO",
           "BMB",
           "SEE"
         ],
-        "MTEE": [
-          "OPTIM",
-          "EXPLOIT"
+        "GMP": [
+          "IPI",
+          "SNRV",
+          "CPD"
         ],
-        "GACO": [
-          "MRPE",
-          "MCMO"
-        ],
-        "GCCD": [
-          "TB",
-          "TP"
+        "GEII": [
+          "AII",
+          "EME",
+          "ESE"
         ]
       }
     },
@@ -2397,14 +1576,15 @@
         "GMP"
       ],
       "parcours": {
+        "GMP": [
+          "IPI",
+          "MPI",
+          "SNRV"
+        ],
         "GEII": [
           "AII",
           "EME",
           "ESE"
-        ],
-        "GMP": [
-          "MPI",
-          "SNRV"
         ]
       }
     },
@@ -2422,14 +1602,15 @@
         "GEII"
       ],
       "parcours": {
+        "GMP": [
+          "IPI",
+          "MPI",
+          "SNRV"
+        ],
         "GEII": [
           "AII",
           "EME",
           "ESE"
-        ],
-        "GMP": [
-          "MPI",
-          "SNRV"
         ]
       }
     },
@@ -2452,30 +1633,9 @@
           "MSCC",
           "MSCD"
         ],
-        "GCCD": [
-          "REHAB",
-          "TB",
-          "TP"
-        ],
-        "GEII": [
-          "ESE"
-        ],
-        "MMI": [
-          "CN",
-          "DEV",
-          "STRAT"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "BIAV"
-        ],
-        "MTEE": [
-          "EXPLOIT"
-        ],
-        "GB": [
-          "BMB",
-          "SEE"
+        "QLIO": [
+          "QPSMI",
+          "MPBS"
         ]
       }
     },
@@ -2494,34 +1654,14 @@
         "GEII"
       ],
       "parcours": {
-        "GEII": [
-          "ESE"
-        ],
         "GCCD": [
           "REHAB",
           "TB",
           "TP"
         ],
-        "MLT": [
-          "MSCC",
-          "MSCD"
-        ],
-        "MMI": [
-          "CN",
-          "DEV",
-          "STRAT"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "BIAV"
-        ],
-        "MTEE": [
-          "EXPLOIT"
-        ],
-        "GB": [
-          "BMB",
-          "SEE"
+        "GEII": [
+          "AII",
+          "ESE"
         ]
       }
     },
@@ -2548,26 +1688,6 @@
         "GB": [
           "BMB",
           "SEE"
-        ],
-        "GCCD": [
-          "REHAB",
-          "TB",
-          "TP"
-        ],
-        "GEII": [
-          "ESE"
-        ],
-        "MLT": [
-          "MSCC",
-          "MSCD"
-        ],
-        "MMI": [
-          "CN",
-          "DEV",
-          "STRAT"
-        ],
-        "MTEE": [
-          "EXPLOIT"
         ]
       }
     },
@@ -2588,34 +1708,18 @@
         "TC"
       ],
       "parcours": {
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "BIAV"
+        "GEII": [
+          "ESE"
         ],
         "MMI": [
           "CN",
           "DEV",
           "STRAT"
         ],
-        "GEII": [
-          "ESE"
-        ],
-        "GCCD": [
-          "REHAB",
-          "TB",
-          "TP"
-        ],
-        "MLT": [
-          "MSCC",
-          "MSCD"
-        ],
-        "MTEE": [
-          "EXPLOIT"
-        ],
-        "GB": [
-          "BMB",
-          "SEE"
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "SME"
         ]
       }
     },
@@ -2640,18 +1744,11 @@
           "MSCC",
           "MSCD"
         ],
-        "GEII": [
-          "AII",
-          "ESE"
-        ],
         "GIM": [
           "3MI"
         ],
         "SGM": [
           "MCEMP"
-        ],
-        "CJ": [
-          "EA"
         ]
       }
     },
@@ -2674,7 +1771,11 @@
       ],
       "parcours": {
         "GACO": [
-          "MCMO"
+          "MDFS"
+        ],
+        "GCCD": [
+          "TP",
+          "TB"
         ],
         "MMI": [
           "CN",
@@ -2682,15 +1783,6 @@
         ],
         "PEC": [
           "EI"
-        ],
-        "SGM": [
-          "MIMP",
-          "MCEMP",
-          "MRVM"
-        ],
-        "GCCD": [
-          "TP",
-          "TB"
         ]
       }
     },
@@ -3234,32 +2326,10 @@
         "TC"
       ],
       "parcours": {
-        "GEA": [
-          "GC2F",
-          "GEMA",
-          "GPRH"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "MMPV"
-        ],
         "CJ": [
           "AJ",
           "PF",
           "EA"
-        ],
-        "GEII": [
-          "AII",
-          "EME"
-        ],
-        "RT": [
-          "CYBER",
-          "ROM",
-          "DEVCLOUD"
-        ],
-        "GB": [
-          "AGRO"
         ],
         "MTEE": [
           "MANÉ",
@@ -3267,6 +2337,16 @@
         ],
         "HSE": [
           "SDMR"
+        ],
+        "RT": [
+          "CYBER",
+          "ROM",
+          "DEVCLOUD"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV"
         ]
       }
     },
@@ -3290,17 +2370,6 @@
         "GEII"
       ],
       "parcours": {
-        "MMI": [
-          "CN",
-          "STRAT"
-        ],
-        "HSE": [
-          "SDMR"
-        ],
-        "GEII": [
-          "AII",
-          "EME"
-        ],
         "GEA": [
           "GC2F",
           "GEMA"
@@ -3311,6 +2380,13 @@
         "GB": [
           "SAB",
           "SEE"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "MMI": [
+          "CN",
+          "STRAT"
         ]
       }
     },
@@ -3331,10 +2407,10 @@
         "TC"
       ],
       "parcours": {
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "MMPV"
+        "GB": [
+          "DIET",
+          "SAB",
+          "BMB"
         ],
         "GEII": [
           "EME",
@@ -3345,27 +2421,10 @@
           "MAE",
           "TI"
         ],
-        "GB": [
-          "DIET",
-          "SAB",
-          "BMB"
-        ],
-        "CHIMIE": [
-          "ACQE",
-          "MPF"
-        ],
-        "GEA": [
-          "GC2F",
-          "GEMA",
-          "GPRH"
-        ],
-        "INFO": [
-          "RACDV",
-          "AGED"
-        ],
-        "RT": [
-          "CYBER",
-          "ROM"
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV"
         ]
       }
     },
@@ -3386,41 +2445,22 @@
         "RT"
       ],
       "parcours": {
+        "CHIMIE": [
+          "ACQE",
+          "MPF"
+        ],
         "GEA": [
           "GC2F",
           "GEMA",
           "GPRH"
         ],
-        "RT": [
-          "CYBER",
-          "ROM"
-        ],
-        "CHIMIE": [
-          "ACQE",
-          "MPF"
-        ],
-        "GB": [
-          "DIET",
-          "SAB",
-          "BMB"
-        ],
-        "GEII": [
-          "EME",
-          "ESE"
-        ],
-        "MP": [
-          "MCPC",
-          "MAE",
-          "TI"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "MMPV"
-        ],
         "INFO": [
           "RACDV",
           "AGED"
+        ],
+        "RT": [
+          "CYBER",
+          "ROM"
         ]
       }
     },
@@ -3440,51 +2480,19 @@
         "TC"
       ],
       "parcours": {
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "BIAV"
-        ],
-        "GEII": [
-          "AII",
-          "ESE",
-          "EME"
-        ],
-        "RT": [
-          "CYBER"
-        ],
-        "GACO": [
-          "MCMO"
-        ],
-        "GEA": [
-          "GPRH",
-          "GC2F",
-          "GEMA"
-        ],
-        "GB": [
-          "BMB",
-          "SAB"
-        ],
-        "GMP": [
-          "MPI",
-          "SNRV"
-        ],
-        "INFOCOM": [
-          "CO",
-          "MLP"
-        ],
-        "INFO": [
-          "RACDV"
-        ],
-        "MMI": [
-          "CN",
-          "DEV",
-          "STRAT"
-        ],
         "GCCD": [
           "BEC",
           "TB",
           "TP"
+        ],
+        "RT": [
+          "CYBER",
+          "IOM"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "BIAV"
         ]
       }
     },
@@ -3508,51 +2516,35 @@
         "MMI"
       ],
       "parcours": {
+        "GACO": [
+          "MCMO",
+          "MRPE"
+        ],
         "GEA": [
           "GPRH",
           "GC2F",
           "GEMA"
         ],
-        "GACO": [
-          "MCMO"
+        "GB": [
+          "BMB",
+          "SAB"
+        ],
+        "GMP": [
+          "IPI",
+          "MPI",
+          "SNRV"
         ],
         "INFOCOM": [
           "CO",
           "MLP"
         ],
+        "INFO": [
+          "RACDV"
+        ],
         "MMI": [
           "CN",
           "DEV",
           "STRAT"
-        ],
-        "GEII": [
-          "AII",
-          "ESE",
-          "EME"
-        ],
-        "INFO": [
-          "RACDV"
-        ],
-        "GMP": [
-          "MPI",
-          "SNRV"
-        ],
-        "GB": [
-          "BMB",
-          "SAB"
-        ],
-        "GCCD": [
-          "BEC",
-          "TB",
-          "TP"
-        ],
-        "RT": [
-          "CYBER"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "BIAV"
         ]
       }
     },
@@ -3570,51 +2562,8 @@
         "INFO"
       ],
       "parcours": {
-        "GEII": [
-          "AII",
-          "ESE",
-          "EME"
-        ],
         "INFO": [
           "RACDV"
-        ],
-        "GACO": [
-          "MCMO"
-        ],
-        "GEA": [
-          "GPRH",
-          "GC2F",
-          "GEMA"
-        ],
-        "GB": [
-          "BMB",
-          "SAB"
-        ],
-        "GMP": [
-          "MPI",
-          "SNRV"
-        ],
-        "INFOCOM": [
-          "CO",
-          "MLP"
-        ],
-        "MMI": [
-          "CN",
-          "DEV",
-          "STRAT"
-        ],
-        "GCCD": [
-          "BEC",
-          "TB",
-          "TP"
-        ],
-        "RT": [
-          "CYBER"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "BIAV"
         ]
       }
     },
@@ -3639,8 +2588,7 @@
           "3MI"
         ],
         "QLIO": [
-          "MPBS",
-          "QPSMI"
+          "MPI"
         ],
         "TC": [
           "MDEE",
@@ -3668,29 +2616,24 @@
         "TC"
       ],
       "parcours": {
-        "TC": [
-          "MDEE",
-          "BDMRC",
-          "MMPV"
-        ],
         "CS": [
           "ES"
         ],
-        "MP": [
-          "TI"
-        ],
-        "PEC": [
-          "EI"
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "GEMA"
         ],
         "GB": [
           "BMB",
           "DIET",
           "SAB"
         ],
-        "GEA": [
-          "GPRH",
-          "GC2F",
-          "GEMA"
+        "MP": [
+          "TI"
+        ],
+        "PEC": [
+          "EI"
         ]
       }
     },
@@ -3763,10 +2706,6 @@
         "TC"
       ],
       "parcours": {
-        "MLT": [
-          "MSCC",
-          "MSCD"
-        ],
         "GEII": [
           "AII",
           "EME",
@@ -3776,9 +2715,13 @@
           "SNRV",
           "CPD"
         ],
+        "MLT": [
+          "MSCC",
+          "MSCD"
+        ],
         "QLIO": [
-          "MPBS",
-          "QPSMI"
+          "QPSMI",
+          "MPBS"
         ],
         "SGM": [
           "MCEMP",
@@ -3786,19 +2729,7 @@
         ],
         "TC": [
           "BDMRC",
-          "MDEE",
-          "BIAV",
-          "SME"
-        ],
-        "GEA": [
-          "GC2F",
-          "CG2P",
-          "GPRH",
-          "GEMA"
-        ],
-        "MTEE": [
-          "OPTIM",
-          "MANÉ"
+          "MDEE"
         ]
       }
     },
@@ -3817,37 +2748,8 @@
       ],
       "parcours": {
         "TC": [
-          "BDMRC",
-          "MDEE",
           "BIAV",
           "SME"
-        ],
-        "GEII": [
-          "AII",
-          "EME",
-          "ESE"
-        ],
-        "GMP": [
-          "SNRV",
-          "CPD"
-        ],
-        "MLT": [
-          "MSCC",
-          "MSCD"
-        ],
-        "SGM": [
-          "MCEMP",
-          "MIMP"
-        ],
-        "GEA": [
-          "GC2F",
-          "CG2P",
-          "GPRH",
-          "GEMA"
-        ],
-        "MTEE": [
-          "OPTIM",
-          "MANÉ"
         ]
       }
     },
@@ -3900,67 +2802,19 @@
         "TC"
       ],
       "parcours": {
+        "CS": [
+          "VTD"
+        ],
         "MLT": [
           "MSCC",
           "MSCD"
         ],
-        "CS": [
-          "CGE3S",
-          "VTD"
-        ],
         "GMP": [
+          "IPI",
           "CPD"
         ],
         "QLIO": [
-          "MPBS",
-          "QPSMI"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "SME",
-          "MMPV",
-          "BIAV"
-        ],
-        "GEA": [
-          "GPRH",
-          "GC2F",
-          "GEMA",
-          "CG2P"
-        ],
-        "GB": [
-          "BMB",
-          "SAB",
-          "SEE"
-        ],
-        "GCGP": [
-          "CPOP"
-        ],
-        "MP": [
-          "MCPC",
-          "MAE",
-          "TI"
-        ],
-        "GIM": [
-          "ISP"
-        ],
-        "GEII": [
-          "AII"
-        ],
-        "MTEE": [
-          "OPTIM",
-          "REAL"
-        ],
-        "MMI": [
-          "CN",
-          "DEV"
-        ],
-        "HSE": [
-          "SDMR"
-        ],
-        "SD": [
-          "EMS",
-          "VCOD"
+          "MPI"
         ]
       }
     },
@@ -3988,18 +2842,6 @@
           "GEMA",
           "CG2P"
         ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "SME",
-          "MMPV",
-          "BIAV"
-        ],
-        "MP": [
-          "MCPC",
-          "MAE",
-          "TI"
-        ],
         "GB": [
           "BMB",
           "SAB",
@@ -4008,37 +2850,15 @@
         "GCGP": [
           "CPOP"
         ],
-        "GIM": [
-          "ISP"
+        "MP": [
+          "MCPC",
+          "MAE",
+          "TI"
         ],
-        "GEII": [
-          "AII"
-        ],
-        "MTEE": [
-          "OPTIM",
-          "REAL"
-        ],
-        "MMI": [
-          "CN",
-          "DEV"
-        ],
-        "HSE": [
-          "SDMR"
-        ],
-        "CS": [
-          "CGE3S",
-          "VTD"
-        ],
-        "MLT": [
-          "MSCC",
-          "MSCD"
-        ],
-        "GMP": [
-          "CPD"
-        ],
-        "SD": [
-          "EMS",
-          "VCOD"
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "SME"
         ]
       }
     },
@@ -4151,59 +2971,9 @@
           "EMS",
           "VCOD"
         ],
-        "GEA": [
-          "GPRH",
-          "GC2F",
-          "GEMA",
-          "CG2P"
-        ],
-        "GB": [
-          "BMB",
-          "SAB",
-          "SEE"
-        ],
-        "GCGP": [
-          "CPOP"
-        ],
-        "MP": [
-          "MCPC",
-          "MAE",
-          "TI"
-        ],
         "TC": [
           "BDMRC",
-          "MDEE",
-          "SME",
-          "MMPV",
-          "BIAV"
-        ],
-        "GIM": [
-          "ISP"
-        ],
-        "GEII": [
-          "AII"
-        ],
-        "MTEE": [
-          "OPTIM",
-          "REAL"
-        ],
-        "MMI": [
-          "CN",
-          "DEV"
-        ],
-        "HSE": [
-          "SDMR"
-        ],
-        "CS": [
-          "CGE3S",
-          "VTD"
-        ],
-        "MLT": [
-          "MSCC",
-          "MSCD"
-        ],
-        "GMP": [
-          "CPD"
+          "MDEE"
         ]
       }
     },
@@ -4223,61 +2993,6 @@
       "parcours": {
         "HSE": [
           "SDMR"
-        ],
-        "GEA": [
-          "GPRH",
-          "GC2F",
-          "GEMA",
-          "CG2P"
-        ],
-        "GB": [
-          "BMB",
-          "SAB",
-          "SEE"
-        ],
-        "GCGP": [
-          "CPOP"
-        ],
-        "MP": [
-          "MCPC",
-          "MAE",
-          "TI"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "SME",
-          "MMPV",
-          "BIAV"
-        ],
-        "GIM": [
-          "ISP"
-        ],
-        "GEII": [
-          "AII"
-        ],
-        "MTEE": [
-          "OPTIM",
-          "REAL"
-        ],
-        "MMI": [
-          "CN",
-          "DEV"
-        ],
-        "CS": [
-          "CGE3S",
-          "VTD"
-        ],
-        "MLT": [
-          "MSCC",
-          "MSCD"
-        ],
-        "GMP": [
-          "CPD"
-        ],
-        "SD": [
-          "EMS",
-          "VCOD"
         ]
       }
     },
@@ -4298,63 +3013,21 @@
         "TC"
       ],
       "parcours": {
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "SME",
-          "MMPV",
-          "BIAV"
-        ],
-        "GEII": [
-          "AII"
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "CG2P"
         ],
         "GIM": [
           "ISP"
         ],
-        "GEA": [
-          "GPRH",
-          "GC2F",
-          "GEMA",
-          "CG2P"
+        "GEII": [
+          "AII"
         ],
-        "GB": [
-          "BMB",
-          "SAB",
-          "SEE"
-        ],
-        "GCGP": [
-          "CPOP"
-        ],
-        "MP": [
-          "MCPC",
-          "MAE",
-          "TI"
-        ],
-        "MTEE": [
-          "OPTIM",
-          "REAL"
-        ],
-        "MMI": [
-          "CN",
-          "DEV"
-        ],
-        "HSE": [
-          "SDMR"
-        ],
-        "CS": [
-          "CGE3S",
-          "VTD"
-        ],
-        "MLT": [
-          "MSCC",
-          "MSCD"
-        ],
-        "GMP": [
-          "CPD"
-        ],
-        "SD": [
-          "EMS",
-          "VCOD"
+        "TC": [
+          "MDEE",
+          "MMPV",
+          "BIAV"
         ]
       }
     },
@@ -4373,63 +3046,13 @@
         "MTEE"
       ],
       "parcours": {
-        "MMI": [
-          "CN",
-          "DEV"
-        ],
         "MTEE": [
           "OPTIM",
           "REAL"
         ],
-        "GEA": [
-          "GPRH",
-          "GC2F",
-          "GEMA",
-          "CG2P"
-        ],
-        "GB": [
-          "BMB",
-          "SAB",
-          "SEE"
-        ],
-        "GCGP": [
-          "CPOP"
-        ],
-        "MP": [
-          "MCPC",
-          "MAE",
-          "TI"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "SME",
-          "MMPV",
-          "BIAV"
-        ],
-        "GIM": [
-          "ISP"
-        ],
-        "GEII": [
-          "AII"
-        ],
-        "HSE": [
-          "SDMR"
-        ],
-        "CS": [
-          "CGE3S",
-          "VTD"
-        ],
-        "MLT": [
-          "MSCC",
-          "MSCD"
-        ],
-        "GMP": [
-          "CPD"
-        ],
-        "SD": [
-          "EMS",
-          "VCOD"
+        "MMI": [
+          "CN",
+          "DEV"
         ]
       }
     },
@@ -4456,32 +3079,6 @@
           "OPTIM",
           "REAL",
           "EXPLOIT"
-        ],
-        "GCCD": [
-          "BEC",
-          "TB",
-          "TP"
-        ],
-        "GMP": [
-          "SNRV"
-        ],
-        "GEII": [
-          "AII",
-          "EME",
-          "ESE"
-        ],
-        "RT": [
-          "CYBER",
-          "DEVCLOUD"
-        ],
-        "MP": [
-          "MCPC",
-          "TI"
-        ],
-        "MMI": [
-          "CN",
-          "DEV",
-          "STRAT"
         ]
       }
     },
@@ -4503,32 +3100,6 @@
         "MP": [
           "MCPC",
           "TI"
-        ],
-        "GCCD": [
-          "BEC",
-          "TB",
-          "TP"
-        ],
-        "GMP": [
-          "SNRV"
-        ],
-        "GEII": [
-          "AII",
-          "EME",
-          "ESE"
-        ],
-        "RT": [
-          "CYBER",
-          "DEVCLOUD"
-        ],
-        "CHIMIE": [
-          "ACQE",
-          "MPF"
-        ],
-        "MTEE": [
-          "OPTIM",
-          "REAL",
-          "EXPLOIT"
         ],
         "MMI": [
           "CN",
@@ -4554,6 +3125,15 @@
         "RT"
       ],
       "parcours": {
+        "GCCD": [
+          "BEC",
+          "TB",
+          "TP"
+        ],
+        "GMP": [
+          "IPI",
+          "SNRV"
+        ],
         "GEII": [
           "AII",
           "EME",
@@ -4562,32 +3142,6 @@
         "RT": [
           "CYBER",
           "DEVCLOUD"
-        ],
-        "GMP": [
-          "SNRV"
-        ],
-        "GCCD": [
-          "BEC",
-          "TB",
-          "TP"
-        ],
-        "CHIMIE": [
-          "ACQE",
-          "MPF"
-        ],
-        "MTEE": [
-          "OPTIM",
-          "REAL",
-          "EXPLOIT"
-        ],
-        "MP": [
-          "MCPC",
-          "TI"
-        ],
-        "MMI": [
-          "CN",
-          "DEV",
-          "STRAT"
         ]
       }
     },
@@ -4611,15 +3165,6 @@
         "TC"
       ],
       "parcours": {
-        "GEA": [
-          "GC2F",
-          "GEMA"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "BIAV"
-        ],
         "CJ": [
           "AJ",
           "PF",
@@ -4639,9 +3184,10 @@
           "RACDV",
           "DACS"
         ],
-        "SD": [
-          "EMS",
-          "VCOD"
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "BIAV"
         ]
       }
     },
@@ -4662,34 +3208,6 @@
         "GEA": [
           "GC2F",
           "GEMA"
-        ],
-        "CJ": [
-          "AJ",
-          "PF",
-          "EA"
-        ],
-        "CS": [
-          "ASSC",
-          "ASS",
-          "ES"
-        ],
-        "INFOCOM": [
-          "CO",
-          "INO",
-          "MLP"
-        ],
-        "INFO": [
-          "RACDV",
-          "DACS"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "BIAV"
-        ],
-        "SD": [
-          "EMS",
-          "VCOD"
         ]
       }
     },
@@ -4709,20 +3227,18 @@
         "QLIO"
       ],
       "parcours": {
+        "GEII": [
+          "AII",
+          "EME",
+          "ESE"
+        ],
         "MMI": [
           "CN",
           "DEV",
           "STRAT"
         ],
-        "GEII": [
-          "AII",
-          "EME",
-          "ESE",
-          "AII"
-        ],
         "QLIO": [
-          "MPBS",
-          "QPSMI"
+          "MPBS"
         ]
       }
     },
@@ -4837,22 +3353,11 @@
         "RT"
       ],
       "parcours": {
-        "GCCD": [
-          "TP",
-          "TB"
-        ],
         "GEII": [
           "EME"
         ],
         "RT": [
           "CYBER"
-        ],
-        "TC": [
-          "MDEE",
-          "BDMRC"
-        ],
-        "CS": [
-          "ASSC"
         ]
       }
     },
@@ -4892,22 +3397,11 @@
         "TC"
       ],
       "parcours": {
-        "HSE": [
-          "SDMR"
-        ],
         "MLT": [
           "MSCC"
         ],
-        "TC": [
-          "MDEE",
-          "MMPV"
-        ],
-        "INFO": [
-          "MDEE",
-          "MMPV"
-        ],
-        "GEA": [
-          "GEMA"
+        "HSE": [
+          "SDMR"
         ]
       }
     },
@@ -4931,9 +3425,6 @@
         "TC"
       ],
       "parcours": {
-        "HSE": [
-          "SDMR"
-        ],
         "GEA": [
           "GPRH",
           "GC2F",
@@ -4943,6 +3434,10 @@
           "BEC",
           "TB"
         ],
+        "GB": [
+          "SAB",
+          "SEE"
+        ],
         "RT": [
           "CYBER",
           "ROM"
@@ -4951,13 +3446,12 @@
           "ASS",
           "ES"
         ],
+        "HSE": [
+          "SDMR"
+        ],
         "TC": [
           "MDEE",
           "MMPV"
-        ],
-        "GB": [
-          "SAB",
-          "SEE"
         ]
       }
     },
@@ -4979,21 +3473,6 @@
         "TC"
       ],
       "parcours": {
-        "GEA": [
-          "GC2F",
-          "GEMA"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE"
-        ],
-        "RT": [
-          "CYBER"
-        ],
-        "INFO": [
-          "RACDV",
-          "AGED"
-        ],
         "GB": [
           "BMB",
           "SAB"
@@ -5003,6 +3482,13 @@
           "REHAB",
           "TB",
           "TP"
+        ],
+        "INFO": [
+          "RACDV",
+          "AGED"
+        ],
+        "RT": [
+          "CYBER"
         ]
       }
     },
@@ -5023,19 +3509,20 @@
         "RT"
       ],
       "parcours": {
-        "INFOCOM": [
-          "CO",
-          "MLP"
-        ],
-        "RT": [
-          "CYBER"
-        ],
         "GEA": [
           "GC2F",
           "GEMA"
         ],
         "GB": [
           "SEE"
+        ],
+        "INFOCOM": [
+          "CO",
+          "MLP"
+        ],
+        "RT": [
+          "CYBER",
+          "IOM"
         ]
       }
     },
@@ -5058,16 +3545,7 @@
       ],
       "parcours": {
         "INFOCOM": [
-          "J",
           "CO"
-        ],
-        "MMI": [
-          "DEV",
-          "STRAT"
-        ],
-        "RT": [
-          "CYBER",
-          "DEVCLOUD"
         ],
         "INFO": [
           "RACDV",
@@ -5076,6 +3554,14 @@
         "MP": [
           "MCPC",
           "TI"
+        ],
+        "MMI": [
+          "DEV",
+          "STRAT"
+        ],
+        "RT": [
+          "CYBER",
+          "DEVCLOUD"
         ]
       }
     },
@@ -5096,21 +3582,21 @@
         "TC"
       ],
       "parcours": {
-        "TC": [
-          "MDEE",
-          "BIAV",
-          "MMPV"
+        "GB": [
+          "BMB"
+        ],
+        "INFO": [
+          "RACDV"
         ],
         "MMI": [
           "CN",
           "DEV",
           "STRAT"
         ],
-        "INFO": [
-          "RACDV"
-        ],
-        "GB": [
-          "BMB"
+        "TC": [
+          "MDEE",
+          "BIAV",
+          "MMPV"
         ]
       }
     },
@@ -5132,15 +3618,16 @@
       ],
       "parcours": {
         "GMP": [
-          "CAI"
-        ],
-        "MP": [
-          "MCPC",
-          "TI"
+          "CAI",
+          "IPI"
         ],
         "GEII": [
           "AII",
           "EME"
+        ],
+        "MP": [
+          "MCPC",
+          "TI"
         ],
         "TC": [
           "BDMRC",
@@ -5169,24 +3656,22 @@
         "TC"
       ],
       "parcours": {
+        "CS": [
+          "ASSC",
+          "ASS"
+        ],
         "GEA": [
           "GPRH",
           "GC2F",
           "GEMA",
           "CG2P"
         ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "MMPV"
-        ],
         "MLT": [
           "MSCC",
           "MSCD"
         ],
-        "CS": [
-          "ASSC",
-          "ASS"
+        "GMP": [
+          "SNRV"
         ],
         "GEII": [
           "AII",
@@ -5195,22 +3680,10 @@
         "INFO": [
           "RACDV"
         ],
-        "GMP": [
-          "SNRV"
-        ],
-        "GCCD": [
-          "TB",
-          "BEC",
-          "REHAB",
-          "TP"
-        ],
-        "INFOCOM": [
-          "PUB",
-          "MLP",
-          "INO"
-        ],
-        "HSE": [
-          "SDMR"
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV"
         ]
       }
     },
@@ -5292,13 +3765,6 @@
         "MP"
       ],
       "parcours": {
-        "GMP": [
-          "SNRV"
-        ],
-        "MP": [
-          "MCPC",
-          "MAE"
-        ],
         "CHIMIE": [
           "ACQE",
           "MPF",
@@ -5308,6 +3774,14 @@
           "GPRH",
           "GC2F",
           "GEMA"
+        ],
+        "GMP": [
+          "IPI",
+          "SNRV"
+        ],
+        "MP": [
+          "MCPC",
+          "MAE"
         ]
       }
     },
@@ -5334,21 +3808,21 @@
           "GEMA",
           "CG2P"
         ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "MMPV",
-          "SME"
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED"
         ],
         "MMI": [
           "CN",
           "DEV",
           "STRAT"
         ],
-        "INFO": [
-          "RACDV",
-          "DACS",
-          "AGED"
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV",
+          "SME"
         ]
       }
     },
@@ -5592,59 +4066,14 @@
         "GEII"
       ],
       "parcours": {
-        "GEII": [
-          "EME",
-          "ESE"
-        ],
-        "RT": [
-          "CYBER",
-          "IOM",
-          "ROM"
-        ],
         "GEA": [
           "GPRH",
-          "GC2F",
           "GEMA",
           "CG2P"
         ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "MMPV"
-        ],
-        "INFO": [
-          "RACDV"
-        ],
-        "MMI": [
-          "CN",
-          "DEV"
-        ],
-        "GB": [
-          "SAB",
-          "BMB"
-        ],
-        "MP": [
-          "MCPC",
-          "TI"
-        ],
-        "GMP": [
-          "MPI",
-          "SNRV"
-        ],
-        "GCCD": [
-          "BEC",
-          "REHAB",
-          "TB",
-          "TP"
-        ],
-        "CS": [
-          "ASSC"
-        ],
-        "GIM": [
-          "ISP"
-        ],
-        "HSE": [
-          "SDMR"
+        "GEII": [
+          "EME",
+          "ESE"
         ]
       }
     },
@@ -5667,49 +4096,6 @@
           "REHAB",
           "TB",
           "TP"
-        ],
-        "GEA": [
-          "GPRH",
-          "GC2F",
-          "GEMA",
-          "CG2P"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "MMPV"
-        ],
-        "INFO": [
-          "RACDV"
-        ],
-        "MMI": [
-          "CN",
-          "DEV"
-        ],
-        "GB": [
-          "SAB",
-          "BMB"
-        ],
-        "MP": [
-          "MCPC",
-          "TI"
-        ],
-        "GMP": [
-          "MPI",
-          "SNRV"
-        ],
-        "GEII": [
-          "EME",
-          "ESE"
-        ],
-        "CS": [
-          "ASSC"
-        ],
-        "GIM": [
-          "ISP"
-        ],
-        "HSE": [
-          "SDMR"
         ]
       }
     },
@@ -5729,52 +4115,6 @@
       "parcours": {
         "CS": [
           "ASSC"
-        ],
-        "GEA": [
-          "GPRH",
-          "GC2F",
-          "GEMA",
-          "CG2P"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "MMPV"
-        ],
-        "INFO": [
-          "RACDV"
-        ],
-        "MMI": [
-          "CN",
-          "DEV"
-        ],
-        "GB": [
-          "SAB",
-          "BMB"
-        ],
-        "MP": [
-          "MCPC",
-          "TI"
-        ],
-        "GMP": [
-          "MPI",
-          "SNRV"
-        ],
-        "GEII": [
-          "EME",
-          "ESE"
-        ],
-        "GCCD": [
-          "BEC",
-          "REHAB",
-          "TB",
-          "TP"
-        ],
-        "GIM": [
-          "ISP"
-        ],
-        "HSE": [
-          "SDMR"
         ]
       }
     },
@@ -5801,51 +4141,32 @@
         "GEA": [
           "GPRH",
           "GC2F",
-          "GEMA",
-          "CG2P"
+          "GEMA"
         ],
         "TC": [
           "BDMRC",
           "MDEE",
           "MMPV"
         ],
-        "MMI": [
-          "CN",
-          "DEV"
-        ],
         "INFO": [
           "RACDV"
         ],
-        "GMP": [
-          "MPI",
-          "SNRV"
-        ],
-        "MP": [
-          "MCPC",
-          "TI"
+        "MMI": [
+          "CN",
+          "DEV"
         ],
         "GB": [
           "SAB",
           "BMB"
         ],
-        "GEII": [
-          "EME",
-          "ESE"
+        "MP": [
+          "MCPC",
+          "TI"
         ],
-        "GCCD": [
-          "BEC",
-          "REHAB",
-          "TB",
-          "TP"
-        ],
-        "CS": [
-          "ASSC"
-        ],
-        "GIM": [
-          "ISP"
-        ],
-        "HSE": [
-          "SDMR"
+        "GMP": [
+          "IPI",
+          "MPI",
+          "SNRV"
         ]
       }
     },
@@ -5869,49 +4190,6 @@
         ],
         "HSE": [
           "SDMR"
-        ],
-        "GEA": [
-          "GPRH",
-          "GC2F",
-          "GEMA",
-          "CG2P"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "MMPV"
-        ],
-        "INFO": [
-          "RACDV"
-        ],
-        "MMI": [
-          "CN",
-          "DEV"
-        ],
-        "GB": [
-          "SAB",
-          "BMB"
-        ],
-        "MP": [
-          "MCPC",
-          "TI"
-        ],
-        "GMP": [
-          "MPI",
-          "SNRV"
-        ],
-        "GEII": [
-          "EME",
-          "ESE"
-        ],
-        "GCCD": [
-          "BEC",
-          "REHAB",
-          "TB",
-          "TP"
-        ],
-        "CS": [
-          "ASSC"
         ]
       }
     },
@@ -5932,40 +4210,6 @@
         "GB": [
           "SAB",
           "SEE"
-        ],
-        "GEA": [
-          "GPRH",
-          "GC2F"
-        ],
-        "GEII": [
-          "AII",
-          "ESE"
-        ],
-        "INFO": [
-          "RACDV",
-          "DACS"
-        ],
-        "MTEE": [
-          "MANÉ",
-          "OPTIM"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "MMPV"
-        ],
-        "MLT": [
-          "MSCC",
-          "MSCD"
-        ],
-        "GIM": [
-          "ISP",
-          "3MI"
-        ],
-        "GACO": [
-          "MDFS",
-          "MCMO",
-          "MACAST"
         ]
       }
     },
@@ -5985,43 +4229,13 @@
         "INFO"
       ],
       "parcours": {
-        "GEII": [
-          "AII",
-          "ESE"
-        ],
         "GEA": [
           "GPRH",
           "GC2F"
         ],
-        "INFO": [
-          "RACDV",
-          "DACS"
-        ],
-        "GB": [
-          "SAB",
-          "SEE"
-        ],
-        "MTEE": [
-          "MANÉ",
-          "OPTIM"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "MMPV"
-        ],
-        "MLT": [
-          "MSCC",
-          "MSCD"
-        ],
-        "GIM": [
-          "ISP",
-          "3MI"
-        ],
-        "GACO": [
-          "MDFS",
-          "MCMO",
-          "MACAST"
+        "GEII": [
+          "AII",
+          "ESE"
         ]
       }
     },
@@ -6042,43 +4256,14 @@
         "TC"
       ],
       "parcours": {
-        "MLT": [
-          "MSCC",
-          "MSCD"
-        ],
         "MTEE": [
           "MANÉ",
           "OPTIM"
-        ],
-        "GEA": [
-          "GPRH",
-          "GC2F"
-        ],
-        "GEII": [
-          "AII",
-          "ESE"
-        ],
-        "INFO": [
-          "RACDV",
-          "DACS"
-        ],
-        "GB": [
-          "SAB",
-          "SEE"
         ],
         "TC": [
           "BDMRC",
           "MDEE",
           "MMPV"
-        ],
-        "GIM": [
-          "ISP",
-          "3MI"
-        ],
-        "GACO": [
-          "MDFS",
-          "MCMO",
-          "MACAST"
         ]
       }
     },
@@ -6097,43 +4282,14 @@
         "GIM"
       ],
       "parcours": {
-        "GACO": [
-          "MDFS",
-          "MCMO",
-          "MACAST"
-        ],
         "GIM": [
           "ISP",
           "3MI"
         ],
-        "GEA": [
-          "GPRH",
-          "GC2F"
-        ],
-        "GEII": [
-          "AII",
-          "ESE"
-        ],
-        "INFO": [
-          "RACDV",
-          "DACS"
-        ],
-        "GB": [
-          "SAB",
-          "SEE"
-        ],
-        "MTEE": [
-          "MANÉ",
-          "OPTIM"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "MMPV"
-        ],
-        "MLT": [
-          "MSCC",
-          "MSCD"
+        "GACO": [
+          "MDFS",
+          "MCMO",
+          "MACAST"
         ]
       }
     },
@@ -6153,16 +4309,16 @@
         "MTEE"
       ],
       "parcours": {
-        "GEII": [
-          "AII",
-          "EME",
-          "ESE"
-        ],
         "MTEE": [
           "EXPLOIT",
           "MANÉ",
           "OPTIM",
           "REAL"
+        ],
+        "GEII": [
+          "AII",
+          "EME",
+          "ESE"
         ]
       }
     },
@@ -6183,29 +4339,12 @@
         "QLIO"
       ],
       "parcours": {
-        "GEII": [
-          "AII",
-          "ESE",
-          "EME"
-        ],
-        "GIM": [
-          "ISP",
-          "3MI"
-        ],
-        "QLIO": [
-          "MPBS",
-          "QPSMI"
+        "HSE": [
+          "SDMR"
         ],
         "MTEE": [
           "OPTIM",
           "REAL"
-        ],
-        "HSE": [
-          "SDMR"
-        ],
-        "GACO": [
-          "MDFS",
-          "MCMO"
         ]
       }
     },
@@ -6224,29 +4363,9 @@
         "GCGP"
       ],
       "parcours": {
-        "GACO": [
-          "MDFS",
-          "MCMO"
-        ],
-        "GEII": [
-          "AII",
-          "ESE",
-          "EME"
-        ],
         "GCGP": [
-          "CPOP",
-          "CMOB"
-        ],
-        "GIM": [
-          "ISP",
-          "3MI"
-        ],
-        "HSE": [
-          "SDMR"
-        ],
-        "MTEE": [
-          "OPTIM",
-          "REAL"
+          "CPIT",
+          "CQESP"
         ]
       }
     },
@@ -6268,69 +4387,16 @@
         "MTEE"
       ],
       "parcours": {
-        "GEA": [
-          "GC2F",
-          "GEMA",
-          "GPRH"
-        ],
-        "CJ": [
-          "EA",
-          "PF"
-        ],
-        "MMI": [
-          "CN",
-          "DEV",
-          "STRAT"
-        ],
-        "INFO": [
-          "RACDV",
-          "AGED",
-          "DACS"
-        ],
         "MTEE": [
           "OPTIM",
           "REAL"
         ],
-        "GB": [
-          "SAB",
-          "AGRO",
-          "BMB",
-          "DIET"
+        "INFO": [
+          "RACDV"
         ],
-        "CHIMIE": [
-          "ACQE",
-          "CI",
-          "SYN",
-          "MPF"
-        ],
-        "GCGP": [
-          "CPOP"
-        ],
-        "GCCD": [
-          "BEC",
-          "REHAB",
-          "TB",
-          "TP"
-        ],
-        "GEII": [
-          "AII",
-          "EME",
-          "ESE"
-        ],
-        "GIM": [
-          "ISP"
-        ],
-        "GMP": [
-          "CAI",
-          "CPD",
-          "MPI",
-          "SNRV"
-        ],
-        "TC": [
-          "BDMRC",
-          "BIAV",
-          "MDEE",
-          "SME"
+        "GEA": [
+          "GC2F",
+          "GEMA"
         ]
       }
     },
@@ -6353,30 +4419,24 @@
         "INFO"
       ],
       "parcours": {
-        "GEA": [
-          "GC2F",
-          "GEMA",
-          "GPRH"
-        ],
-        "INFO": [
-          "RACDV",
-          "AGED",
-          "DACS"
-        ],
         "CHIMIE": [
           "ACQE",
           "CI",
           "SYN",
           "MPF"
         ],
-        "GCGP": [
-          "CPOP"
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "GEMA"
         ],
         "GB": [
-          "SAB",
           "AGRO",
           "BMB",
           "DIET"
+        ],
+        "GCGP": [
+          "CPOP"
         ],
         "GCCD": [
           "BEC",
@@ -6384,29 +4444,8 @@
           "TB",
           "TP"
         ],
-        "MTEE": [
-          "OPTIM",
-          "REAL"
-        ],
-        "GEII": [
-          "AII",
-          "EME",
-          "ESE"
-        ],
-        "GIM": [
-          "ISP"
-        ],
-        "GMP": [
-          "CAI",
-          "CPD",
-          "MPI",
-          "SNRV"
-        ],
-        "TC": [
-          "BDMRC",
-          "BIAV",
-          "MDEE",
-          "SME"
+        "INFO": [
+          "DACS"
         ]
       }
     },
@@ -6427,12 +4466,6 @@
         "TC"
       ],
       "parcours": {
-        "TC": [
-          "BDMRC",
-          "BIAV",
-          "MDEE",
-          "SME"
-        ],
         "GEII": [
           "AII",
           "EME",
@@ -6444,43 +4477,12 @@
         "GMP": [
           "CAI",
           "CPD",
+          "IPI",
           "MPI",
           "SNRV"
         ],
-        "MTEE": [
-          "OPTIM",
-          "REAL"
-        ],
-        "INFO": [
-          "RACDV",
-          "AGED",
-          "DACS"
-        ],
-        "GEA": [
-          "GC2F",
-          "GEMA",
-          "GPRH"
-        ],
-        "GB": [
-          "SAB",
-          "AGRO",
-          "BMB",
-          "DIET"
-        ],
-        "CHIMIE": [
-          "ACQE",
-          "CI",
-          "SYN",
-          "MPF"
-        ],
-        "GCGP": [
-          "CPOP"
-        ],
-        "GCCD": [
-          "BEC",
-          "REHAB",
-          "TB",
-          "TP"
+        "TC": [
+          "BDMRC"
         ]
       }
     },
@@ -6502,25 +4504,17 @@
         "SD"
       ],
       "parcours": {
-        "MLT": [
-          "MSCC",
-          "MSCD"
-        ],
-        "SD": [
-          "EMS",
-          "VCOD"
-        ],
-        "QLIO": [
-          "MPBS",
-          "QPSMI"
-        ],
-        "HSE": [
-          "SDMR"
-        ],
         "GEA": [
           "GPRH",
           "GC2F",
           "GEMA"
+        ],
+        "HSE": [
+          "SDMR"
+        ],
+        "QLIO": [
+          "QPSMI",
+          "MPBS"
         ]
       }
     },
@@ -6540,18 +4534,15 @@
         "INFOCOM"
       ],
       "parcours": {
-        "GACO": [
-          "MCMO",
-          "MACAST"
-        ],
         "CJ": [
           "AJ",
           "PF",
           "EA"
         ],
-        "INFOCOM": [
-          "CO",
-          "INO"
+        "GACO": [
+          "MCMO",
+          "MACAST",
+          "MRPE"
         ]
       }
     },
@@ -6598,19 +4589,8 @@
         "TC"
       ],
       "parcours": {
-        "TC": [
-          "MDEE",
-          "BDMRC"
-        ],
-        "GEII": [
-          "AII",
-          "EME"
-        ],
-        "GIM": [
-          "ISP",
-          "3MI"
-        ],
         "GMP": [
+          "IPI",
           "SNRV"
         ],
         "HSE": [
@@ -6636,14 +4616,6 @@
         "TC"
       ],
       "parcours": {
-        "RT": [
-          "CYBER",
-          "IOM",
-          "ROM"
-        ],
-        "INFO": [
-          "RACDV"
-        ],
         "GCCD": [
           "BEC",
           "TB",
@@ -6654,22 +4626,12 @@
           "MANÉ",
           "OPTIM"
         ],
+        "INFO": [
+          "RACDV"
+        ],
         "MMI": [
           "CN",
           "DEV"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "MMPV",
-          "SME",
-          "BIAV"
-        ],
-        "GEA": [
-          "GC2F",
-          "CG2P",
-          "GEMA",
-          "GPRH"
         ]
       }
     },
@@ -6689,35 +4651,9 @@
         "TC"
       ],
       "parcours": {
-        "GEA": [
-          "GC2F",
-          "CG2P",
-          "GEMA",
-          "GPRH"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "MMPV",
-          "SME",
-          "BIAV"
-        ],
         "MMI": [
           "CN",
           "DEV"
-        ],
-        "GCCD": [
-          "BEC",
-          "TB",
-          "TP"
-        ],
-        "MTEE": [
-          "EXPLOIT",
-          "MANÉ",
-          "OPTIM"
-        ],
-        "INFO": [
-          "RACDV"
         ]
       }
     },
@@ -6847,16 +4783,14 @@
         "TC"
       ],
       "parcours": {
-        "GEA": [
-          "GC2F",
-          "GEMA",
-          "GPRH",
-          "GEMA"
+        "GB": [
+          "BMB",
+          "DIET",
+          "SAB"
         ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "BIAV"
+        "MP": [
+          "MCPC",
+          "TI"
         ],
         "GEII": [
           "AII",
@@ -6864,19 +4798,15 @@
           "ESE"
         ],
         "INFO": [
-          "RACDV",
-          "DACS",
-          "IAMSI",
           "RACDV"
         ],
-        "MP": [
-          "MCPC",
-          "TI"
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "BIAV"
         ],
-        "GB": [
-          "BMB",
-          "DIET",
-          "SAB"
+        "GEA": [
+          "GEMA"
         ]
       }
     },
@@ -6896,41 +4826,9 @@
         "INFO"
       ],
       "parcours": {
-        "GEA": [
-          "GC2F",
-          "GEMA",
-          "GPRH",
-          "GEMA"
-        ],
-        "INFO": [
-          "RACDV",
-          "DACS",
-          "IAMSI",
-          "RACDV"
-        ],
         "CHIMIE": [
           "ACQE",
-          "SYN",
-          "CI"
-        ],
-        "GB": [
-          "BMB",
-          "DIET",
-          "SAB"
-        ],
-        "MP": [
-          "MCPC",
-          "TI"
-        ],
-        "GEII": [
-          "AII",
-          "EME",
-          "ESE"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "BIAV"
+          "SYN"
         ]
       }
     },
@@ -6952,11 +4850,7 @@
       ],
       "parcours": {
         "GACO": [
-          "MCMO"
-        ],
-        "MMI": [
-          "DEV",
-          "STRAT"
+          "MDFS"
         ],
         "INFOCOM": [
           "CO"
@@ -6984,13 +4878,6 @@
         "SGM": [
           "MCEMP",
           "MIMP"
-        ],
-        "GACO": [
-          "MCMO"
-        ],
-        "MLT": [
-          "MSCC",
-          "MSCD"
         ]
       }
     },
@@ -7042,15 +4929,12 @@
       ],
       "parcours": {
         "GACO": [
-          "MCMO"
+          "MCMO",
+          "MRPE"
         ],
         "MLT": [
           "MSCC",
           "MSCD"
-        ],
-        "SGM": [
-          "MCEMP",
-          "MIMP"
         ]
       }
     },
@@ -7073,33 +4957,29 @@
         "SGM"
       ],
       "parcours": {
-        "MLT": [
-          "MSCD"
-        ],
-        "MMI": [
-          "CN",
-          "DEV"
-        ],
-        "GEII": [
-          "AII",
-          "EME"
-        ],
-        "QLIO": [
-          "MPBS",
-          "QPSMI"
-        ],
-        "SGM": [
-          "MCEMP"
-        ],
         "GEA": [
           "GPRH",
           "GC2F",
           "GEMA",
           "CG2P"
         ],
+        "MLT": [
+          "MSCD"
+        ],
         "GMP": [
           "MPI",
           "SNRV"
+        ],
+        "GEII": [
+          "AII",
+          "EME"
+        ],
+        "MMI": [
+          "CN",
+          "DEV"
+        ],
+        "SGM": [
+          "MCEMP"
         ]
       }
     },
@@ -7164,6 +5044,24 @@
         "RT"
       ],
       "parcours": {
+        "GB": [
+          "SAB"
+        ],
+        "GCGP": [
+          "CPOP",
+          "CQESP"
+        ],
+        "GCCD": [
+          "BEC",
+          "REHAB",
+          "TB",
+          "TP"
+        ],
+        "GMP": [
+          "IPI",
+          "MPI",
+          "SNRV"
+        ],
         "GEII": [
           "AII",
           "EME",
@@ -7172,25 +5070,6 @@
         "RT": [
           "CYBER",
           "ROM"
-        ],
-        "GMP": [
-          "MPI",
-          "SNRV"
-        ],
-        "GCGP": [
-          "CPOP"
-        ],
-        "GB": [
-          "AGRO",
-          "BMB",
-          "SAB",
-          "SEE"
-        ],
-        "GCCD": [
-          "BEC",
-          "REHAB",
-          "TB",
-          "TP"
         ]
       }
     },
@@ -7217,13 +5096,6 @@
           "GC2F",
           "GEMA"
         ],
-        "TC": [
-          "BDMRC",
-          "MMPV",
-          "SME",
-          "MDEE",
-          "BIAV"
-        ],
         "INFOCOM": [
           "CO",
           "INO",
@@ -7238,6 +5110,13 @@
           "CN",
           "DEV",
           "STRAT"
+        ],
+        "TC": [
+          "BDMRC",
+          "MMPV",
+          "SME",
+          "MDEE",
+          "BIAV"
         ]
       }
     },
@@ -7259,50 +5138,23 @@
         "SGM"
       ],
       "parcours": {
-        "TC": [
-          "MDEE",
-          "BDMRC",
-          "BIAV",
-          "SME",
-          "MMPV"
-        ],
-        "MLT": [
-          "MSCC",
-          "MSCD"
+        "MTEE": [
+          "OPTIM"
         ],
         "GEII": [
           "AII",
           "EME",
           "ESE"
         ],
-        "GMP": [
-          "MPI",
-          "SNRV"
-        ],
         "QLIO": [
-          "MPBS",
-          "QPSMI"
+          "MPI",
+          "QPSMI",
+          "MPBS"
         ],
         "SGM": [
           "MCEMP",
           "MIMP",
           "MRVM"
-        ],
-        "MTEE": [
-          "OPTIM"
-        ],
-        "GEA": [
-          "GPRH",
-          "GC2F",
-          "GEMA",
-          "CG2P"
-        ],
-        "INFO": [
-          "RACDV"
-        ],
-        "GACO": [
-          "MRPE",
-          "MACAST"
         ]
       }
     },
@@ -7323,43 +5175,6 @@
         "GACO": [
           "MRPE",
           "MACAST"
-        ],
-        "TC": [
-          "MDEE",
-          "BDMRC",
-          "BIAV",
-          "SME",
-          "MMPV"
-        ],
-        "MLT": [
-          "MSCC",
-          "MSCD"
-        ],
-        "GMP": [
-          "MPI",
-          "SNRV"
-        ],
-        "MTEE": [
-          "OPTIM"
-        ],
-        "GEII": [
-          "AII",
-          "EME",
-          "ESE"
-        ],
-        "SGM": [
-          "MCEMP",
-          "MIMP",
-          "MRVM"
-        ],
-        "GEA": [
-          "GPRH",
-          "GC2F",
-          "GEMA",
-          "CG2P"
-        ],
-        "INFO": [
-          "RACDV"
         ]
       }
     },
@@ -7436,40 +5251,9 @@
         "TC"
       ],
       "parcours": {
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "BIAV",
-          "SME"
-        ],
         "INFOCOM": [
           "CO",
           "J"
-        ],
-        "MMI": [
-          "CN",
-          "STRAT"
-        ],
-        "GEA": [
-          "GPRH",
-          "GC2F",
-          "GEMA",
-          "CG2P"
-        ],
-        "GEII": [
-          "MDEE",
-          "SME",
-          "AII",
-          "EME",
-          "ESE",
-          "CYBER"
-        ],
-        "INFO": [
-          "RACDV"
-        ],
-        "CS": [
-          "ASSC",
-          "ES"
         ]
       }
     },
@@ -7490,33 +5274,6 @@
         "CS": [
           "ASSC",
           "ES"
-        ],
-        "GEA": [
-          "GPRH",
-          "GC2F",
-          "GEMA",
-          "CG2P"
-        ],
-        "GEII": [
-          "MDEE",
-          "SME",
-          "AII",
-          "EME",
-          "ESE",
-          "CYBER"
-        ],
-        "INFO": [
-          "RACDV"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "BIAV",
-          "SME"
-        ],
-        "INFOCOM": [
-          "CO",
-          "J"
         ]
       }
     },
@@ -7546,27 +5303,19 @@
         "TC": [
           "BDMRC",
           "MDEE",
-          "BIAV",
-          "SME"
+          "BIAV"
         ],
         "GEII": [
-          "MDEE",
-          "SME",
           "AII",
           "EME",
-          "ESE",
-          "CYBER"
+          "ESE"
+        ],
+        "RT": [
+          "CYBER",
+          "IOM"
         ],
         "INFO": [
           "RACDV"
-        ],
-        "INFOCOM": [
-          "CO",
-          "J"
-        ],
-        "CS": [
-          "ASSC",
-          "ES"
         ]
       }
     },
@@ -7655,27 +5404,24 @@
           "GEMA",
           "CG2P"
         ],
-        "TC": [
-          "MDEE",
-          "BDMRC"
-        ],
-        "GEII": [
-          "AII",
-          "EME"
-        ],
-        "GMP": [
-          "MPI"
-        ],
-        "SGM": [
-          "MRVM",
-          "MIMP",
-          "MCEMP"
-        ],
         "GCCD": [
           "BEC",
           "REHAB",
           "TB",
           "TP"
+        ],
+        "GMP": [
+          "IPI",
+          "MPI"
+        ],
+        "GEII": [
+          "AII",
+          "EME"
+        ],
+        "SGM": [
+          "MRVM",
+          "MIMP",
+          "MCEMP"
         ]
       }
     },
@@ -7702,46 +5448,6 @@
           "BDMRC",
           "MDEE",
           "BIAV"
-        ],
-        "CS": [
-          "ASSC",
-          "CGE3S",
-          "VTD"
-        ],
-        "GEII": [
-          "EME",
-          "ESE"
-        ],
-        "INFO": [
-          "RACDV",
-          "AGED"
-        ],
-        "GCCD": [
-          "REHAB",
-          "TB",
-          "TP"
-        ],
-        "MTEE": [
-          "OPTIM",
-          "REAL",
-          "EXPLOIT"
-        ],
-        "GACO": [
-          "MCMO",
-          "MACAST"
-        ],
-        "MP": [
-          "MCPC",
-          "TI"
-        ],
-        "MMI": [
-          "CN",
-          "DEV",
-          "STRAT"
-        ],
-        "RT": [
-          "CYBER",
-          "PILPRO"
         ]
       }
     },
@@ -7763,8 +5469,11 @@
       ],
       "parcours": {
         "GACO": [
-          "MCMO",
-          "MACAST"
+          "MDFS"
+        ],
+        "MP": [
+          "MCPC",
+          "TI"
         ],
         "MMI": [
           "CN",
@@ -7773,34 +5482,8 @@
         ],
         "RT": [
           "CYBER",
+          "IOM",
           "PILPRO"
-        ],
-        "CS": [
-          "ASSC",
-          "CGE3S",
-          "VTD"
-        ],
-        "GCCD": [
-          "REHAB",
-          "TB",
-          "TP"
-        ],
-        "GEII": [
-          "EME",
-          "ESE"
-        ],
-        "INFO": [
-          "RACDV",
-          "AGED"
-        ],
-        "MP": [
-          "MCPC",
-          "TI"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "BIAV"
         ]
       }
     },
@@ -7822,10 +5505,6 @@
         "GEA": [
           "GC2F",
           "GEMA"
-        ],
-        "MMI": [
-          "DEV",
-          "STRAT"
         ]
       }
     },
@@ -7845,10 +5524,7 @@
       ],
       "parcours": {
         "GEA": [
-          "GEMA",
-          "GPRH",
-          "GC2F",
-          "CG2P"
+          "GEMA"
         ],
         "TC": [
           "BDMRC",
@@ -7916,38 +5592,33 @@
         "QLIO"
       ],
       "parcours": {
-        "GEA": [
-          "GPRH",
-          "GC2F",
-          "GEMA",
-          "CG2P"
-        ],
-        "TC": [
-          "MDEE",
-          "BDMRC",
-          "SME"
-        ],
-        "INFO": [
-          "RACDV",
-          "AGED"
-        ],
-        "GMP": [
-          "MPI",
-          "SNRV"
-        ],
-        "QLIO": [
-          "MPBS",
-          "QPSMI"
-        ],
         "CHIMIE": [
           "ACQE",
           "CI",
           "MPF",
           "SYN"
         ],
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "GEMA",
+          "CG2P"
+        ],
+        "GMP": [
+          "IPI",
+          "MPI",
+          "SNRV"
+        ],
+        "INFO": [
+          "RACDV",
+          "AGED"
+        ],
         "MTEE": [
           "OPTIM",
           "REAL"
+        ],
+        "QLIO": [
+          "MPBS"
         ]
       }
     },
@@ -8024,21 +5695,15 @@
         "TC"
       ],
       "parcours": {
-        "GEA": [
-          "GC2F",
-          "GEMA",
-          "CG2P"
-        ],
-        "TC": [
-          "MDEE",
-          "BIAV",
-          "MMPV",
-          "BDMRC"
-        ],
         "CS": [
           "ASSC",
           "ASS",
           "CGE3S"
+        ],
+        "GEA": [
+          "GC2F",
+          "GEMA",
+          "CG2P"
         ],
         "INFOCOM": [
           "CO",
@@ -8109,17 +5774,13 @@
         "SD"
       ],
       "parcours": {
-        "GEII": [
-          "AII",
-          "EME"
+        "MTEE": [
+          "OPTIM",
+          "REAL"
         ],
         "SD": [
           "EMS",
           "VCOD"
-        ],
-        "MTEE": [
-          "OPTIM",
-          "REAL"
         ]
       }
     },
@@ -8145,31 +5806,6 @@
         "SD": [
           "EMS",
           "VCOD"
-        ],
-        "MTEE": [
-          "OPTIM",
-          "EXPLOIT"
-        ],
-        "GEA": [
-          "GPRH",
-          "GC2F",
-          "GEMA"
-        ],
-        "MLT": [
-          "MSCC",
-          "MSCD"
-        ],
-        "GB": [
-          "AGRO",
-          "SEE"
-        ],
-        "GIM": [
-          "ISP",
-          "3MI"
-        ],
-        "CJ": [
-          "PF",
-          "EA"
         ]
       }
     },
@@ -8188,38 +5824,8 @@
         "GCGP"
       ],
       "parcours": {
-        "CJ": [
-          "PF",
-          "EA"
-        ],
         "GCGP": [
-          "CPOP",
-          "CMOB"
-        ],
-        "MTEE": [
-          "OPTIM",
-          "EXPLOIT"
-        ],
-        "GEA": [
-          "GPRH",
-          "GC2F",
-          "GEMA"
-        ],
-        "MLT": [
-          "MSCC",
-          "MSCD"
-        ],
-        "GB": [
-          "AGRO",
-          "SEE"
-        ],
-        "GIM": [
-          "ISP",
-          "3MI"
-        ],
-        "TC": [
-          "MDEE",
-          "MMPV"
+          "CPIT"
         ]
       }
     },
@@ -8245,29 +5851,17 @@
           "GC2F",
           "GEMA"
         ],
-        "GIM": [
-          "ISP",
-          "3MI"
+        "MLT": [
+          "MSCC",
+          "MSCD"
         ],
         "GB": [
           "AGRO",
           "SEE"
         ],
-        "MTEE": [
-          "OPTIM",
-          "EXPLOIT"
-        ],
-        "MLT": [
-          "MSCC",
-          "MSCD"
-        ],
-        "CJ": [
-          "PF",
-          "EA"
-        ],
-        "TC": [
-          "MDEE",
-          "MMPV"
+        "GIM": [
+          "ISP",
+          "3MI"
         ]
       }
     },
@@ -8490,23 +6084,38 @@
       ],
       "parcours": {
         "GEA": [
+          "GPRH",
           "GC2F",
-          "GEMA",
-          "GPRH"
+          "GEMA"
+        ],
+        "MLT": [
+          "MSCD"
+        ],
+        "GCCD": [
+          "BEC",
+          "REHAB",
+          "TB",
+          "TP"
+        ],
+        "GMP": [
+          "IPI"
+        ],
+        "INFO": [
+          "RACDV",
+          "AGED"
+        ],
+        "MP": [
+          "MCPC",
+          "TI"
+        ],
+        "PEC": [
+          "EHSC",
+          "EI"
         ],
         "TC": [
-          "MDEE",
           "BDMRC",
-          "BIAV"
-        ],
-        "GEII": [
-          "AII",
-          "ESE",
-          "EME"
-        ],
-        "MTEE": [
-          "OPTIM",
-          "EXPLOIT"
+          "MDEE",
+          "MMPV"
         ]
       }
     },
@@ -8526,61 +6135,16 @@
         "RT"
       ],
       "parcours": {
-        "MMI": [
-          "CN",
-          "DEV",
-          "STRAT"
-        ],
-        "GEII": [
-          "AII",
-          "ESE",
-          "EME"
-        ],
-        "RT": [
-          "CYBER",
-          "DEVCLOUD"
+        "CS": [
+          "ASSC",
+          "VTD"
         ],
         "GIM": [
           "ISP"
         ],
-        "MTEE": [
-          "OPTIM",
-          "EXPLOIT"
-        ],
-        "GEA": [
-          "GPRH",
-          "GC2F",
-          "GEMA"
-        ],
-        "MLT": [
-          "MSCD"
-        ],
-        "GCCD": [
-          "BEC",
-          "REHAB",
-          "TB",
-          "TP"
-        ],
-        "INFO": [
-          "RACDV",
-          "AGED"
-        ],
-        "MP": [
-          "MCPC",
-          "TI"
-        ],
-        "PEC": [
-          "EHSC",
-          "EI"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "MMPV"
-        ],
-        "CS": [
-          "ASSC",
-          "VTD"
+        "RT": [
+          "CYBER",
+          "DEVCLOUD"
         ]
       }
     },
@@ -8686,27 +6250,21 @@
           "GC2F",
           "GEMA"
         ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "MMPV"
-        ],
         "MLT": [
           "MSCD"
         ],
-        "GEII": [
-          "AII",
-          "ESE",
-          "EME"
+        "GCCD": [
+          "BEC",
+          "REHAB",
+          "TB",
+          "TP"
+        ],
+        "GMP": [
+          "IPI"
         ],
         "INFO": [
           "RACDV",
           "AGED"
-        ],
-        "GMP": [
-          "CAI",
-          "MPI",
-          "SNRV"
         ],
         "MP": [
           "MCPC",
@@ -8716,26 +6274,10 @@
           "EHSC",
           "EI"
         ],
-        "GCCD": [
-          "BEC",
-          "REHAB",
-          "TB",
-          "TP"
-        ],
-        "MTEE": [
-          "OPTIM",
-          "EXPLOIT"
-        ],
-        "CS": [
-          "ASSC",
-          "VTD"
-        ],
-        "GIM": [
-          "ISP"
-        ],
-        "RT": [
-          "CYBER",
-          "DEVCLOUD"
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV"
         ]
       }
     },
@@ -8865,16 +6407,16 @@
           "PF",
           "EA"
         ],
+        "GEA": [
+          "GC2F",
+          "GEMA"
+        ],
         "INFOCOM": [
           "CO"
         ],
         "INFO": [
           "RACDV",
           "IAMSI"
-        ],
-        "GEA": [
-          "GC2F",
-          "GEMA"
         ]
       }
     },
@@ -8893,62 +6435,12 @@
         "RT"
       ],
       "parcours": {
-        "GEA": [
-          "GC2F",
-          "GEMA",
-          "GPRH",
-          "CG2P"
-        ],
         "MMI": [
           "CN",
           "DEV"
         ],
         "RT": [
           "DEVCLOUD"
-        ],
-        "INFO": [
-          "RACDV",
-          "DACS"
-        ],
-        "GIM": [
-          "ISP",
-          "3MI"
-        ],
-        "GMP": [
-          "CAI",
-          "CPD",
-          "IPI",
-          "MPI",
-          "SNRV"
-        ],
-        "QLIO": [
-          "MPBS",
-          "QPSMI"
-        ],
-        "CHIMIE": [
-          "ACQE",
-          "SYN"
-        ],
-        "MTEE": [
-          "OPTIM"
-        ],
-        "GEII": [
-          "AII",
-          "ESE"
-        ],
-        "MP": [
-          "MCPC",
-          "MAE"
-        ],
-        "CJ": [
-          "AJ",
-          "PF",
-          "EA"
-        ],
-        "TC": [
-          "BDMRC",
-          "MMPV",
-          "BIAV"
         ]
       }
     },
@@ -8970,68 +6462,23 @@
         "MTEE"
       ],
       "parcours": {
-        "GEA": [
-          "GC2F",
-          "GEMA",
-          "GPRH",
-          "CG2P"
-        ],
-        "GEII": [
-          "AII",
-          "ESE"
-        ],
-        "GIM": [
-          "ISP",
-          "3MI"
-        ],
-        "GMP": [
-          "CAI",
-          "CPD",
-          "IPI",
-          "MPI",
-          "SNRV"
-        ],
-        "QLIO": [
-          "MPBS",
-          "QPSMI"
-        ],
-        "MP": [
-          "MCPC",
-          "MAE"
-        ],
         "CHIMIE": [
           "ACQE",
           "SYN"
         ],
         "GCGP": [
-          "CPOP",
-          "CMOB"
-        ],
-        "GCCD": [
-          "TB",
-          "TP",
-          "REHAB",
-          "BEC"
+          "CQESP"
         ],
         "MTEE": [
           "OPTIM"
         ],
-        "CJ": [
-          "AJ",
-          "PF",
-          "EA"
+        "GEII": [
+          "AII",
+          "ESE"
         ],
-        "TC": [
-          "BDMRC",
-          "MMPV",
-          "BIAV"
-        ],
-        "MMI": [
-          "CN",
-          "DEV"
-        ],
-        "RT": [
-          "DEVCLOUD"
+        "MP": [
+          "MCPC",
+          "MAE"
         ]
       }
     },
@@ -9050,58 +6497,15 @@
         "TC"
       ],
       "parcours": {
-        "GEA": [
-          "GC2F",
-          "GEMA",
-          "GPRH",
-          "CG2P"
-        ],
-        "TC": [
-          "BDMRC",
-          "MMPV",
-          "BIAV"
-        ],
         "CJ": [
           "AJ",
           "PF",
           "EA"
         ],
-        "GIM": [
-          "ISP",
-          "3MI"
-        ],
-        "GMP": [
-          "CAI",
-          "CPD",
-          "IPI",
-          "MPI",
-          "SNRV"
-        ],
-        "QLIO": [
-          "MPBS",
-          "QPSMI"
-        ],
-        "CHIMIE": [
-          "ACQE",
-          "SYN"
-        ],
-        "MTEE": [
-          "OPTIM"
-        ],
-        "GEII": [
-          "AII",
-          "ESE"
-        ],
-        "MP": [
-          "MCPC",
-          "MAE"
-        ],
-        "MMI": [
-          "CN",
-          "DEV"
-        ],
-        "RT": [
-          "DEVCLOUD"
+        "TC": [
+          "BDMRC",
+          "MMPV",
+          "BIAV"
         ]
       }
     },
@@ -9121,16 +6525,16 @@
         "TC"
       ],
       "parcours": {
-        "TC": [
-          "MMPV",
-          "BDMRC"
+        "GB": [
+          "SAB"
         ],
         "SGM": [
           "MCEMP",
           "MIMP"
         ],
-        "GB": [
-          "SAB"
+        "TC": [
+          "MMPV",
+          "BDMRC"
         ]
       }
     },
@@ -9160,32 +6564,29 @@
           "GEMA",
           "CG2P"
         ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "MMPV",
-          "SME",
-          "BIAV"
-        ],
         "GIM": [
           "ISP",
           "3MI"
         ],
         "GMP": [
           "CAI",
+          "IPI",
           "MPI",
           "SNRV",
           "CPD"
-        ],
-        "SGM": [
-          "MIMP",
-          "MCEMP"
         ],
         "HSE": [
           "SDMR"
         ],
         "MP": [
           "TI"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV",
+          "SME",
+          "BIAV"
         ]
       }
     },
@@ -9205,15 +6606,15 @@
         "MMI"
       ],
       "parcours": {
-        "MMI": [
-          "CN",
-          "DEV"
-        ],
         "GEII": [
           "AII"
         ],
         "INFO": [
           "RACDV"
+        ],
+        "MMI": [
+          "CN",
+          "DEV"
         ]
       }
     },
@@ -9237,39 +6638,26 @@
         "TC"
       ],
       "parcours": {
-        "GEA": [
-          "GEMA",
-          "GPRH",
-          "GC2F",
-          "CG2P"
-        ],
         "GACO": [
-          "MDFS",
-          "MCMO",
           "MRPE"
         ],
-        "TC": [
-          "MDEE",
-          "BDMRC",
-          "MMPV",
-          "BIAV"
-        ],
-        "GEII": [
-          "ESE",
-          "AII"
-        ],
-        "GMP": [
-          "SNRV",
-          "MPI",
-          "CPD"
-        ],
-        "MP": [
-          "TI",
-          "MCPC",
-          "MAE"
+        "GEA": [
+          "GEMA"
         ],
         "GB": [
           "SEE"
+        ],
+        "GMP": [
+          "SNRV"
+        ],
+        "GEII": [
+          "ESE"
+        ],
+        "MP": [
+          "TI"
+        ],
+        "TC": [
+          "MDEE"
         ]
       }
     },
@@ -9290,22 +6678,23 @@
         "RT"
       ],
       "parcours": {
-        "GEA": [
-          "GC2F",
-          "CG2P"
-        ],
         "CJ": [
           "AJ",
           "EA"
+        ],
+        "GEA": [
+          "GC2F",
+          "CG2P",
+          "GEMA"
+        ],
+        "GIM": [
+          "ISP",
+          "3MI"
         ],
         "RT": [
           "CYBER",
           "DEVCLOUD",
           "PILPRO"
-        ],
-        "GIM": [
-          "ISP",
-          "3MI"
         ]
       }
     },
@@ -9328,20 +6717,8 @@
         "TC"
       ],
       "parcours": {
-        "TC": [
-          "BDMRC",
-          "BIAV",
-          "MDEE"
-        ],
-        "GIM": [
-          "ISP"
-        ],
-        "MP": [
-          "MCPC",
-          "MAE",
-          "TI"
-        ],
         "GCGP": [
+          "CPIT",
           "CPOP"
         ],
         "GCCD": [
@@ -9350,9 +6727,22 @@
           "TB",
           "TP"
         ],
+        "GIM": [
+          "ISP"
+        ],
         "MLT": [
           "MSCC",
           "MSCD"
+        ],
+        "MP": [
+          "MCPC",
+          "MAE",
+          "TI"
+        ],
+        "TC": [
+          "BDMRC",
+          "BIAV",
+          "MDEE"
         ]
       }
     },
@@ -9403,18 +6793,21 @@
         "MP"
       ],
       "parcours": {
+        "GEA": [
+          "GC2F",
+          "GEMA"
+        ],
+        "GB": [
+          "SAB",
+          "SEE"
+        ],
         "GIM": [
           "ISP",
           "3MI"
         ],
         "MP": [
-          "TI",
           "MCPC",
-          "MAE"
-        ],
-        "GB": [
-          "SAB",
-          "SEE"
+          "TI"
         ]
       }
     },
@@ -9449,30 +6842,14 @@
         "TC"
       ],
       "parcours": {
+        "CS": [
+          "ASSC",
+          "VTD"
+        ],
         "GEA": [
           "GPRH",
           "GC2F",
           "GEMA"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "MMPV",
-          "SME",
-          "BIAV"
-        ],
-        "INFO": [
-          "RACDV",
-          "DACS",
-          "AGED"
-        ],
-        "MTEE": [
-          "OPTIM",
-          "REAL"
-        ],
-        "CS": [
-          "ASSC",
-          "VTD"
         ],
         "GB": [
           "DIET",
@@ -9492,6 +6869,13 @@
         "MMI": [
           "CN",
           "STRAT"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV",
+          "SME",
+          "BIAV"
         ]
       }
     },
@@ -9517,34 +6901,14 @@
         "TC"
       ],
       "parcours": {
-        "GEA": [
-          "GPRH",
-          "GC2F",
-          "GEMA"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "MMPV",
-          "SME",
-          "BIAV"
-        ],
         "CS": [
           "ASSC",
           "VTD"
         ],
-        "MMI": [
-          "CN",
-          "STRAT"
-        ],
-        "GEII": [
-          "AII",
-          "EME",
-          "ESE"
-        ],
-        "GIM": [
-          "ISP",
-          "3MI"
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "GEMA"
         ],
         "GB": [
           "DIET",
@@ -9556,9 +6920,21 @@
           "TB",
           "TP"
         ],
-        "MTEE": [
-          "OPTIM",
-          "REAL"
+        "GEII": [
+          "AII",
+          "EME",
+          "ESE"
+        ],
+        "MMI": [
+          "CN",
+          "STRAT"
+        ],
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV",
+          "SME",
+          "BIAV"
         ]
       }
     },
@@ -9580,10 +6956,15 @@
         "TC"
       ],
       "parcours": {
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "BIAV"
+        "CHIMIE": [
+          "ACQE",
+          "CI"
+        ],
+        "GCCD": [
+          "BEC",
+          "REHAB",
+          "TB",
+          "TP"
         ],
         "INFOCOM": [
           "CO",
@@ -9594,15 +6975,10 @@
           "RACDV",
           "IAMSI"
         ],
-        "CHIMIE": [
-          "ACQE",
-          "CI"
-        ],
-        "GCCD": [
-          "BEC",
-          "REHAB",
-          "TB",
-          "TP"
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "BIAV"
         ]
       }
     },
@@ -9631,32 +7007,28 @@
           "CG2P",
           "GPRH"
         ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "BIAV"
+        "GCCD": [
+          "REHAB",
+          "TB",
+          "TP"
+        ],
+        "GMP": [
+          "IPI",
+          "CPD"
+        ],
+        "GEII": [
+          "EME",
+          "ESE"
         ],
         "MMI": [
           "CN",
           "DEV",
           "STRAT"
         ],
-        "GEII": [
-          "EME",
-          "ESE"
-        ],
-        "GMP": [
-          "CPD",
-          "CPD"
-        ],
-        "GCCD": [
-          "REHAB",
-          "TB",
-          "TP"
-        ],
-        "MTEE": [
-          "OPTIM",
-          "EXPLOIT"
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "BIAV"
         ]
       }
     },
@@ -9677,17 +7049,17 @@
         "TC"
       ],
       "parcours": {
+        "GB": [
+          "BMB",
+          "SAB",
+          "SEE"
+        ],
         "GIM": [
           "ISP",
           "3MI"
         ],
         "HSE": [
           "SDMR"
-        ],
-        "GB": [
-          "BMB",
-          "SAB",
-          "SEE"
         ],
         "TC": [
           "MDEE",
@@ -9766,39 +7138,10 @@
         "TC"
       ],
       "parcours": {
-        "GEA": [
-          "GPRH",
-          "GC2F",
-          "GEMA",
-          "CG2P"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "MMPV",
-          "SME"
-        ],
         "MMI": [
           "CN",
           "DEV",
           "STRAT"
-        ],
-        "GEII": [
-          "AII",
-          "EME",
-          "ESE"
-        ],
-        "GIM": [
-          "ISP"
-        ],
-        "GMP": [
-          "MPI",
-          "SNRV"
-        ],
-        "GB": [
-          "BMB",
-          "DIET",
-          "SEE"
         ]
       }
     },
@@ -9828,49 +7171,6 @@
         ],
         "HSE": [
           "SDMR"
-        ],
-        "GEII": [
-          "AII",
-          "ESE"
-        ],
-        "INFOCOM": [
-          "CO",
-          "INO",
-          "MLP"
-        ],
-        "MP": [
-          "MCPC",
-          "TI"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE"
-        ],
-        "GCGP": [
-          "CPOP"
-        ],
-        "GCCD": [
-          "TB",
-          "TP",
-          "REHAB",
-          "BEC"
-        ],
-        "INFO": [
-          "RACDV",
-          "AGED"
-        ],
-        "CHIMIE": [
-          "ACQE",
-          "SYN",
-          "MPF"
-        ],
-        "MMI": [
-          "DEV",
-          "STRAT",
-          "CN"
-        ],
-        "PEC": [
-          "EHSC"
         ]
       }
     },
@@ -9892,9 +7192,14 @@
         "TC"
       ],
       "parcours": {
-        "TC": [
-          "BDMRC",
-          "MDEE"
+        "CHIMIE": [
+          "ACQE",
+          "SYN",
+          "MPF"
+        ],
+        "INFO": [
+          "RACDV",
+          "AGED"
         ],
         "MMI": [
           "DEV",
@@ -9904,47 +7209,9 @@
         "PEC": [
           "EHSC"
         ],
-        "CHIMIE": [
-          "ACQE",
-          "SYN",
-          "MPF"
-        ],
-        "GEII": [
-          "AII",
-          "ESE"
-        ],
-        "GEA": [
-          "GEMA",
-          "CG2P"
-        ],
-        "INFOCOM": [
-          "CO",
-          "INO",
-          "MLP"
-        ],
-        "MP": [
-          "MCPC",
-          "TI"
-        ],
-        "GCGP": [
-          "CPOP"
-        ],
-        "GCCD": [
-          "TB",
-          "TP",
-          "REHAB",
-          "BEC"
-        ],
-        "INFO": [
-          "RACDV",
-          "AGED"
-        ],
-        "GB": [
-          "AGRO",
-          "SAB"
-        ],
-        "HSE": [
-          "SDMR"
+        "TC": [
+          "BDMRC",
+          "MDEE"
         ]
       }
     },
@@ -9963,74 +7230,7 @@
       ],
       "parcours": {
         "GMP": [
-          "CAI",
-          "CPD",
-          "IPI",
-          "MPI",
-          "SNRV"
-        ],
-        "QLIO": [
-          "MPBS",
-          "QPSMI"
-        ],
-        "MTEE": [
-          "OPTIM",
-          "REAL",
-          "EXPLOIT"
-        ],
-        "GEII": [
-          "AII",
-          "ESE"
-        ],
-        "GEA": [
-          "GEMA",
-          "CG2P"
-        ],
-        "INFOCOM": [
-          "CO",
-          "INO",
-          "MLP"
-        ],
-        "MP": [
-          "MCPC",
-          "TI"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE"
-        ],
-        "GCGP": [
-          "CPOP"
-        ],
-        "GCCD": [
-          "TB",
-          "TP",
-          "REHAB",
-          "BEC"
-        ],
-        "INFO": [
-          "RACDV",
-          "AGED"
-        ],
-        "GB": [
-          "AGRO",
-          "SAB"
-        ],
-        "HSE": [
-          "SDMR"
-        ],
-        "CHIMIE": [
-          "ACQE",
-          "SYN",
-          "MPF"
-        ],
-        "MMI": [
-          "DEV",
-          "STRAT",
-          "CN"
-        ],
-        "PEC": [
-          "EHSC"
+          "IPI"
         ]
       }
     },
@@ -10052,68 +7252,29 @@
         "TC"
       ],
       "parcours": {
+        "GEII": [
+          "AII",
+          "ESE"
+        ],
         "GEA": [
+          "GC2F",
+          "GPRH",
           "GEMA",
           "CG2P"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE"
         ],
         "INFOCOM": [
           "CO",
           "INO",
           "MLP"
         ],
-        "GEII": [
-          "AII",
-          "ESE"
-        ],
-        "QLIO": [
-          "MPBS",
-          "QPSMI"
-        ],
         "MP": [
           "MCPC",
           "TI"
         ],
-        "MTEE": [
-          "OPTIM",
-          "REAL",
-          "EXPLOIT"
-        ],
-        "GCGP": [
-          "CPOP"
-        ],
-        "GCCD": [
-          "TB",
-          "TP",
-          "REHAB",
-          "BEC"
-        ],
-        "INFO": [
-          "RACDV",
-          "AGED"
-        ],
-        "GB": [
-          "AGRO",
-          "SAB"
-        ],
-        "HSE": [
-          "SDMR"
-        ],
-        "CHIMIE": [
-          "ACQE",
-          "SYN",
-          "MPF"
-        ],
-        "MMI": [
-          "DEV",
-          "STRAT",
-          "CN"
-        ],
-        "PEC": [
-          "EHSC"
+        "TC": [
+          "MDEE",
+          "MMPV",
+          "BDMRC"
         ]
       }
     },
@@ -10135,19 +7296,14 @@
       ],
       "parcours": {
         "GEA": [
+          "GC2F",
+          "GPRH",
           "GEMA",
           "CG2P"
         ],
-        "INFO": [
-          "RACDV",
-          "AGED"
-        ],
-        "QLIO": [
-          "MPBS",
-          "QPSMI"
-        ],
         "GCGP": [
-          "CPOP"
+          "CPOP",
+          "CPIT"
         ],
         "GCCD": [
           "TB",
@@ -10155,47 +7311,10 @@
           "REHAB",
           "BEC"
         ],
-        "MTEE": [
-          "OPTIM",
-          "REAL",
-          "EXPLOIT"
-        ],
-        "GEII": [
-          "AII",
-          "ESE"
-        ],
-        "INFOCOM": [
-          "CO",
-          "INO",
-          "MLP"
-        ],
-        "MP": [
-          "MCPC",
-          "TI"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE"
-        ],
-        "GB": [
-          "AGRO",
-          "SAB"
-        ],
-        "HSE": [
-          "SDMR"
-        ],
-        "CHIMIE": [
-          "ACQE",
-          "SYN",
-          "MPF"
-        ],
-        "MMI": [
-          "DEV",
-          "STRAT",
-          "CN"
-        ],
-        "PEC": [
-          "EHSC"
+        "INFO": [
+          "RACDV",
+          "DACS",
+          "AGED"
         ]
       }
     },
@@ -10218,18 +7337,6 @@
         "TC"
       ],
       "parcours": {
-        "GEA": [
-          "GPRH",
-          "GEMA",
-          "GC2F",
-          "CG2P"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "MMPV",
-          "SME"
-        ],
         "CS": [
           "ASSC"
         ],
@@ -10237,15 +7344,11 @@
           "CO",
           "INO"
         ],
-        "GEII": [
-          "AII",
-          "EME",
-          "ESE"
-        ],
-        "GB": [
-          "DIET",
-          "BMB",
-          "SEE"
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV",
+          "SME"
         ]
       }
     },
@@ -10265,9 +7368,10 @@
         "MLT"
       ],
       "parcours": {
-        "TC": [
-          "BDMRC",
-          "MMPV"
+        "GEA": [
+          "GC2F",
+          "GPRH",
+          "GEMA"
         ],
         "MLT": [
           "MSCC",
@@ -10276,11 +7380,6 @@
         "GIM": [
           "ISP",
           "3MI"
-        ],
-        "GEA": [
-          "GC2F",
-          "GPRH",
-          "GEMA"
         ]
       }
     },
@@ -10303,32 +7402,33 @@
         "TC"
       ],
       "parcours": {
+        "CJ": [
+          "AJ",
+          "EA"
+        ],
         "GEA": [
           "GPRH",
           "GC2F",
           "GEMA"
         ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "MMPV",
-          "BIAV"
+        "GMP": [
+          "IPI",
+          "SNRV"
         ],
-        "CJ": [
-          "AJ",
-          "EA"
+        "GEII": [
+          "AII",
+          "ESE"
         ],
         "MMI": [
           "CN",
           "DEV",
           "STRAT"
         ],
-        "GEII": [
-          "AII",
-          "ESE"
-        ],
-        "GMP": [
-          "SNRV"
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "MMPV",
+          "BIAV"
         ]
       }
     },
@@ -10354,16 +7454,16 @@
           "GEMA",
           "CG2P"
         ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "BIAV"
+        "INFO": [
+          "RACDV"
         ],
         "RT": [
           "CYBER"
         ],
-        "INFO": [
-          "RACDV"
+        "TC": [
+          "BDMRC",
+          "MDEE",
+          "BIAV"
         ]
       }
     },
@@ -10382,41 +7482,15 @@
         "TC"
       ],
       "parcours": {
+        "QLIO": [
+          "MPBS",
+          "QPSMI"
+        ],
         "TC": [
           "BDMRC",
           "MDEE",
           "SME",
-          "BIAV",
-          "SME"
-        ],
-        "MTEE": [
-          "OPTIM",
-          "REAL"
-        ],
-        "GIM": [
-          "ISP",
-          "3MI"
-        ],
-        "GMP": [
-          "CAI",
-          "MPI",
-          "CPD"
-        ],
-        "GEII": [
-          "AII",
-          "EME"
-        ],
-        "INFO": [
-          "RACDV",
-          "DACS"
-        ],
-        "MP": [
-          "MCPC"
-        ],
-        "GEA": [
-          "GC2F",
-          "GPRH",
-          "GEMA"
+          "BIAV"
         ]
       }
     },
@@ -10435,45 +7509,12 @@
         "MP"
       ],
       "parcours": {
-        "RT": [
-          "CYBER",
-          "IOM"
-        ],
-        "MP": [
-          "MCPC"
-        ],
-        "MTEE": [
-          "OPTIM",
-          "REAL"
-        ],
-        "GIM": [
-          "ISP",
-          "3MI"
-        ],
-        "GMP": [
-          "CAI",
-          "MPI",
-          "CPD"
-        ],
-        "GEII": [
-          "AII",
-          "EME"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "SME",
-          "BIAV",
-          "SME"
-        ],
         "INFO": [
           "RACDV",
           "DACS"
         ],
-        "GEA": [
-          "GC2F",
-          "GPRH",
-          "GEMA"
+        "MP": [
+          "MCPC"
         ]
       }
     },
@@ -10495,41 +7536,19 @@
         "TC"
       ],
       "parcours": {
-        "GEA": [
-          "GC2F",
-          "GPRH",
-          "GEMA"
-        ],
-        "TC": [
-          "BDMRC",
-          "MDEE",
-          "SME",
-          "BIAV",
-          "SME"
-        ],
-        "GEII": [
-          "AII",
-          "EME"
-        ],
-        "GMP": [
-          "CAI",
-          "MPI",
-          "CPD"
-        ],
-        "MTEE": [
-          "OPTIM",
-          "REAL"
-        ],
         "GIM": [
           "ISP",
           "3MI"
         ],
-        "INFO": [
-          "RACDV",
-          "DACS"
+        "GMP": [
+          "CAI",
+          "IPI",
+          "MPI",
+          "CPD"
         ],
-        "MP": [
-          "MCPC"
+        "GEII": [
+          "AII",
+          "EME"
         ]
       }
     },
@@ -10553,14 +7572,7 @@
         "GEA": [
           "GC2F",
           "GEMA",
-          "CG2P",
-          "GPRH"
-        ],
-        "TC": [
-          "MDEE",
-          "BDMRC",
-          "BIAV",
-          "SME"
+          "CG2P"
         ],
         "INFO": [
           "RACDV",
@@ -10588,32 +7600,18 @@
         "TC"
       ],
       "parcours": {
+        "GCGP": [
+          "CPIT",
+          "CQESP"
+        ],
         "GACO": [
           "MRPE",
           "MACAST"
         ],
         "TC": [
+          "MDEE",
           "BIAV",
-          "SME",
-          "BDMRC"
-        ],
-        "GCGP": [
-          "CPOP",
-          "CMOB"
-        ],
-        "GEII": [
-          "AII",
-          "ESE"
-        ],
-        "INFO": [
-          "RACDV"
-        ],
-        "MMI": [
-          "CN",
-          "DEV"
-        ],
-        "RT": [
-          "CYBER"
+          "SME"
         ]
       }
     },
@@ -10634,21 +7632,19 @@
         "RT"
       ],
       "parcours": {
-        "MMI": [
-          "CN",
-          "DEV",
-          "STRAT"
-        ],
-        "RT": [
-          "CYBER",
-          "DEVCLOUD",
-          "IOM",
-          "PILPRO"
+        "GEII": [
+          "AII",
+          "ESE"
         ],
         "INFO": [
-          "RACDV",
-          "DACS",
-          "AGED"
+          "RACDV"
+        ],
+        "MMI": [
+          "CN",
+          "DEV"
+        ],
+        "RT": [
+          "CYBER"
         ]
       }
     },
@@ -10667,18 +7663,6 @@
         "TC"
       ],
       "parcours": {
-        "GMP": [
-          "SNRV"
-        ],
-        "MTEE": [
-          "MANÉ",
-          "OPTIM"
-        ],
-        "GEII": [
-          "AII",
-          "EME",
-          "ESE"
-        ],
         "GEA": [
           "GPRH",
           "GC2F"
@@ -10741,25 +7725,18 @@
         "MTEE"
       ],
       "parcours": {
-        "GEII": [
-          "AII",
-          "EME",
-          "ESE"
-        ],
         "GMP": [
+          "IPI",
           "SNRV"
         ],
         "MTEE": [
           "MANÉ",
           "OPTIM"
         ],
-        "GEA": [
-          "GPRH",
-          "GC2F"
-        ],
-        "TC": [
-          "MDEE",
-          "SME"
+        "GEII": [
+          "AII",
+          "EME",
+          "ESE"
         ]
       }
     },
@@ -10782,27 +7759,27 @@
         "SD"
       ],
       "parcours": {
-        "GEA": [
-          "GPRH",
-          "GC2F",
-          "GEMA"
-        ],
         "CJ": [
           "AJ",
           "PF",
           "EA"
         ],
+        "GEA": [
+          "GPRH",
+          "GC2F",
+          "GEMA"
+        ],
         "GEII": [
           "EME",
           "ESE"
         ],
-        "RT": [
-          "CYBER",
-          "ROM"
-        ],
         "INFO": [
           "RACDV",
           "IAMSI"
+        ],
+        "RT": [
+          "CYBER",
+          "ROM"
         ],
         "SD": [
           "EMS"
