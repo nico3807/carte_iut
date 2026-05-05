@@ -701,17 +701,7 @@ const REGION_CODES = {
   "Provence-Alpes-Côte d'Azur": "PAC",
 };
 
-function iutPageUrl(nomIut) {
-  const slug = nomIut
-    .replace(/ [-–].+$/, '')
-    .normalize('NFD').replace(/[̀-ͯ]/g, '')
-    .toLowerCase()
-    .replace(/^iut\s+/i, '')
-    .replace(/^(d[e']?|l[ae']?|les?)\s+/i, '')
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '');
-  return `https://www.iut.fr/iut/iut-${slug}/`;
-}
+let liensIUT = {};
 
 function transformData(iuts) {
   const groups = {};
@@ -725,7 +715,7 @@ function transformData(iuts) {
         sites: 0,
         but: new Set(),
         parcours: {},
-        url: iutPageUrl(base),
+        url: liensIUT[site.nom_iut] || null,
       };
     }
     const g = groups[base];
@@ -765,7 +755,11 @@ let filterSearch = '';
 let sortKey = 'nom';
 
 (async () => {
-  const json = await fetch('data.json').then(r => r.json());
+  const [json, liens] = await Promise.all([
+    fetch('data.json').then(r => r.json()),
+    fetch('liens_pages_iut.json').then(r => r.json()),
+  ]);
+  liensIUT = liens;
   intituleParcours = json.intitule_parcours || {};
   (json.specialites || []).forEach(s => { specialiteColors[s.code] = s.couleur; });
   IUT_DATA = transformData(json.iuts);
@@ -882,7 +876,7 @@ function renderTable(data) {
     <tr>
       <td class="iut-name-cell">
         <strong>${d.nom}</strong>
-        <a href="${d.url}" target="_blank" rel="noopener" class="iut-link-tag">↗ Lien vers l'IUT</a>
+        ${d.url ? `<a href="${d.url}" target="_blank" rel="noopener" class="iut-link-tag">↗ Lien vers l'IUT</a>` : ''}
         <a href="index.html?iut=${encodeURIComponent(d.nom)}" class="map-link-tag">⊙ Voir sur la carte</a>
       </td>
       <td><span class="ville-tag">${d.ville}</span></td>
@@ -915,7 +909,7 @@ function renderCards(data) {
       <div class="card-but-list">${renderButTags(d.but, filterBut)}</div>
       <div style="margin-top:.8rem; display:flex; justify-content:space-between; align-items:center">
         <span style="font-size:.7rem; color:var(--gray-400)">${d.but.length} spécialité${d.but.length>1?'s':''} BUT</span>
-        <a href="${d.url}" target="_blank" rel="noopener" class="iut-link-tag">↗ Lien vers l'IUT</a>
+        ${d.url ? `<a href="${d.url}" target="_blank" rel="noopener" class="iut-link-tag">↗ Lien vers l'IUT</a>` : ''}
         <a href="index.html?iut=${encodeURIComponent(d.nom)}" class="map-link-tag">⊙ Voir sur la carte</a>
       </div>
     </div>`;

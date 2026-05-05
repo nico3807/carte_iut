@@ -40,18 +40,7 @@ const BUT_URLS = {
   'MTEE':     'https://www.iut.fr/les-but/metiers-de-la-transition-et-de-l-efficacite-energetiques/',
 };
 
-/* ── Génère l'URL iut.fr d'un IUT à partir de son nom ── */
-function iutPageUrl(nomIut) {
-  const slug = nomIut
-    .replace(/ [-–].+$/, '')
-    .normalize('NFD').replace(/[̀-ͯ]/g, '')
-    .toLowerCase()
-    .replace(/^iut\s+/i, '')
-    .replace(/^(d[e']?|l[ae']?|les?)\s+/i, '')
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '');
-  return `https://www.iut.fr/iut/iut-${slug}/`;
-}
+let liensIUT = {};
 
 let map, clusterGroup, allMarkers = [], specialites = [], iuts = [], intituleParcours = {};
 let activeMarkerEl = null;
@@ -99,11 +88,15 @@ function initMap() {
 
 /* ── Load JSON ── */
 async function loadData() {
-  const res = await fetch('data.json');
-  const json = await res.json();
-  specialites     = json.specialites;
-  iuts            = json.iuts;
+  const [dataRes, liensRes] = await Promise.all([
+    fetch('data.json'),
+    fetch('liens_pages_iut.json'),
+  ]);
+  const json = await dataRes.json();
+  specialites      = json.specialites;
+  iuts             = json.iuts;
   intituleParcours = json.intitule_parcours || {};
+  liensIUT         = await liensRes.json();
 }
 
 /* ── Create Markers ── */
@@ -252,7 +245,7 @@ function renderPanel(iut) {
       <div class="panel-section-title">Université</div>
       <div class="panel-uni-name">${iut.universite}</div>
       <div class="panel-iut-name">${iut.nom_iut}</div>
-      <a href="${iutPageUrl(iut.nom_iut)}" target="_blank" rel="noopener" class="iut-link-tag">↗ Lien vers l'IUT</a>
+      ${liensIUT[iut.nom_iut] ? `<a href="${liensIUT[iut.nom_iut]}" target="_blank" rel="noopener" class="iut-link-tag">↗ Lien vers l'IUT</a>` : ''}
     </div>
 
     <div class="panel-section">
