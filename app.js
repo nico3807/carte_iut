@@ -333,13 +333,51 @@ function norm(s) {
   return s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
 }
 
+/* ── Parcours detail dropdown ── */
+function updateParcoursDropdown(specCode) {
+  const group = document.getElementById('parcours-detail-group');
+  const sel   = document.getElementById('parcours-detail-filter');
+
+  sel.innerHTML = '<option value="">Tous les parcours</option>';
+
+  if (!specCode) {
+    group.style.display = 'none';
+    return;
+  }
+
+  const seen = new Set();
+  iuts.forEach(iut => {
+    if (!iut.specialite.includes(specCode)) return;
+    (iut.parcours?.[specCode] ?? []).forEach(c => seen.add(c));
+  });
+
+  if (seen.size === 0) {
+    group.style.display = 'none';
+    return;
+  }
+
+  [...seen].sort().forEach(code => {
+    const def = intituleParcours[code]?.definition ?? code;
+    const opt = document.createElement('option');
+    opt.value = code;
+    opt.textContent = `${code} – ${def}`;
+    sel.appendChild(opt);
+  });
+
+  group.style.display = '';
+}
+
 /* ── Filter Logic ── */
 function applyFilters() {
-  const parcours = document.getElementById('parcours-filter').value;
-  const search   = norm(document.getElementById('search-input').value.trim());
+  const specCode     = document.getElementById('parcours-filter').value;
+  const parcoursCode = document.getElementById('parcours-detail-filter').value;
+  const search       = norm(document.getElementById('search-input').value.trim());
 
   const filtered = iuts.filter(iut => {
-    if (parcours && !iut.specialite.includes(parcours)) return false;
+    if (specCode && !iut.specialite.includes(specCode)) return false;
+    if (parcoursCode) {
+      if (!(iut.parcours?.[specCode] ?? []).includes(parcoursCode)) return false;
+    }
     if (search) {
       const hay = norm([iut.ville, iut.departement_nom, iut.universite, iut.nom_iut, iut.region].join(' '));
       if (!hay.includes(search)) return false;
@@ -347,8 +385,7 @@ function applyFilters() {
     return true;
   });
 
-  // Passer le code actif pour colorier les marqueurs avec la couleur de la spécialité
-  createMarkers(filtered, parcours || null);
+  createMarkers(filtered, specCode || null);
   document.getElementById('stats-count').textContent = filtered.length;
 
   if (filtered.length === 0) {
@@ -393,7 +430,14 @@ function updateCounter(n) {
 
 /* ── UI events ── */
 function bindUIEvents() {
-  document.getElementById('parcours-filter').addEventListener('change', applyFilters);
+  document.getElementById('parcours-filter').addEventListener('change', () => {
+    const specCode = document.getElementById('parcours-filter').value;
+    updateParcoursDropdown(specCode);
+    document.getElementById('parcours-detail-filter').value = '';
+    applyFilters();
+  });
+
+  document.getElementById('parcours-detail-filter').addEventListener('change', applyFilters);
 
   let searchTimeout;
   document.getElementById('search-input').addEventListener('input', () => {
@@ -429,6 +473,7 @@ function handleUrlParams() {
 function resetFilters() {
   document.getElementById('parcours-filter').value = '';
   document.getElementById('search-input').value    = '';
+  updateParcoursDropdown('');
   createMarkers(iuts);
   document.getElementById('stats-count').textContent = iuts.length;
   map.setView([46.6, 2.3], 6);
